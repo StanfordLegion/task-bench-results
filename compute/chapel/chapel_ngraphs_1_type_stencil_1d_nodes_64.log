@@ -1,0 +1,16 @@
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 2048
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 67108864
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 2048000
+Total Dependencies 6142000

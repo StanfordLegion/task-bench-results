@@ -1,0 +1,869 @@
+2019-03-02 06:49:12 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-03-02 06:49:13 INFO  SparkContext:54 - Running Spark version 2.3.0
+2019-03-02 06:49:13 INFO  SparkContext:54 - Submitted application: SimpleApplication
+2019-03-02 06:49:13 INFO  SecurityManager:54 - Changing view acls to: slaughte
+2019-03-02 06:49:13 INFO  SecurityManager:54 - Changing modify acls to: slaughte
+2019-03-02 06:49:13 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-03-02 06:49:13 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-03-02 06:49:13 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
+2019-03-02 06:49:14 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 43605.
+2019-03-02 06:49:14 INFO  SparkEnv:54 - Registering MapOutputTracker
+2019-03-02 06:49:14 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2019-03-02 06:49:14 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-03-02 06:49:14 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2019-03-02 06:49:14 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-d17e91d5-5bf8-4403-aedb-a7a0f09b885b
+2019-03-02 06:49:14 INFO  MemoryStore:54 - MemoryStore started with capacity 68.1 GB
+2019-03-02 06:49:14 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2019-03-02 06:49:14 INFO  log:192 - Logging initialized @5127ms
+2019-03-02 06:49:15 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2019-03-02 06:49:15 INFO  Server:414 - Started @5239ms
+2019-03-02 06:49:15 INFO  AbstractConnector:278 - Started ServerConnector@13a9ac13{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-03-02 06:49:15 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@127d7908{/jobs,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4c060c8f{/jobs/json,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@40620d8e{/jobs/job,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@49b07ee3{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/stages,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65f00478{/stages/json,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2424686b{/stages/stage,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d7e7435{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/stages/pool,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/storage,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage/json,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/storage/rdd,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/environment,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/environment/json,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/executors,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors/json,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bc9e6ab{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5488b5c5{/static,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@433e536f{/,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@89c65d5{/api,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@62515a47{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3c5a54b7{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-03-02 06:49:15 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid01141:4040
+2019-03-02 06:49:15 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid01141:43605/jars/Taskbench-assembly-1.0.jar with timestamp 1551538155324
+2019-03-02 06:49:15 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid01141:43605/files/libcore_c.so with timestamp 1551538155328
+2019-03-02 06:49:15 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-9c47cc97-e22f-45db-b121-66d7784cb013/userFiles-54d85aba-2a1d-4030-b475-f7e05547eba3/libcore_c.so
+2019-03-02 06:49:15 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid01141:7077...
+2019-03-02 06:49:15 INFO  TransportClientFactory:267 - Successfully created connection to nid01141/10.128.4.126:7077 after 49 ms (0 ms spent in bootstraps)
+2019-03-02 06:49:16 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190302064916-0000
+2019-03-02 06:49:16 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 42302.
+2019-03-02 06:49:16 INFO  NettyBlockTransferService:54 - Server created on nid01141:42302
+2019-03-02 06:49:16 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-03-02 06:49:16 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid01141, 42302, None)
+2019-03-02 06:49:16 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid01141:42302 with 68.1 GB RAM, BlockManagerId(driver, nid01141, 42302, None)
+2019-03-02 06:49:16 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid01141, 42302, None)
+2019-03-02 06:49:16 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid01141, 42302, None)
+2019-03-02 06:49:16 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@58294867{/metrics/json,null,AVAILABLE,@Spark}
+2019-03-02 06:49:16 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 67108864
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 190000
+Total FLOPs 549755817984000
+Total Bytes 0
+Elapsed Time 6.504334e+02 seconds
+FLOP/s 8.452146e+11
+B/s 0.000000e+00
+2019-03-02 07:11:11 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-03-02 07:11:11 INFO  SparkContext:54 - Running Spark version 2.3.0
+2019-03-02 07:11:11 INFO  SparkContext:54 - Submitted application: SimpleApplication
+2019-03-02 07:11:11 INFO  SecurityManager:54 - Changing view acls to: slaughte
+2019-03-02 07:11:11 INFO  SecurityManager:54 - Changing modify acls to: slaughte
+2019-03-02 07:11:11 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-03-02 07:11:11 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-03-02 07:11:11 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
+2019-03-02 07:11:12 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 35179.
+2019-03-02 07:11:12 INFO  SparkEnv:54 - Registering MapOutputTracker
+2019-03-02 07:11:12 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2019-03-02 07:11:12 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-03-02 07:11:12 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2019-03-02 07:11:12 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-ac8e1ba8-f63e-4c9f-897a-9a002680078c
+2019-03-02 07:11:12 INFO  MemoryStore:54 - MemoryStore started with capacity 68.1 GB
+2019-03-02 07:11:12 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2019-03-02 07:11:12 INFO  log:192 - Logging initialized @3944ms
+2019-03-02 07:11:12 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2019-03-02 07:11:12 INFO  Server:414 - Started @4039ms
+2019-03-02 07:11:12 INFO  AbstractConnector:278 - Started ServerConnector@1a597384{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-03-02 07:11:12 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@58faa93b{/jobs,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@27cbfddf{/jobs/json,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@27ead29e{/jobs/job,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@40620d8e{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@383f3558{/stages,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@49b07ee3{/stages/json,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/stages/stage,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6ea94d6a{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@28486680{/stages/pool,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d7e7435{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/storage,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/storage/json,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/storage/rdd,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/environment,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/environment/json,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/executors,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/executors/json,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/static,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3c2772d1{/,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@37d00a23{/api,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@381cad29{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@988246e{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-03-02 07:11:12 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid01141:4040
+2019-03-02 07:11:12 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid01141:35179/jars/Taskbench-assembly-1.0.jar with timestamp 1551539472538
+2019-03-02 07:11:12 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid01141:35179/files/libcore_c.so with timestamp 1551539472541
+2019-03-02 07:11:12 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-deb1681e-d5fb-4a78-bf39-f384f7f79619/userFiles-022f5716-c064-4256-915b-135e339a6045/libcore_c.so
+2019-03-02 07:11:12 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid01141:7077...
+2019-03-02 07:11:12 INFO  TransportClientFactory:267 - Successfully created connection to nid01141/10.128.4.126:7077 after 48 ms (0 ms spent in bootstraps)
+2019-03-02 07:11:12 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190302071112-0001
+2019-03-02 07:11:12 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302071112-0001/0 on worker-20190302064926-10.128.7.101-40755 (10.128.7.101:40755) with 16 core(s)
+2019-03-02 07:11:12 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302071112-0001/0 on hostPort 10.128.7.101:40755 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:11:12 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302071112-0001/1 on worker-20190302064926-10.128.4.216-36496 (10.128.4.216:36496) with 16 core(s)
+2019-03-02 07:11:12 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302071112-0001/1 on hostPort 10.128.4.216:36496 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:11:12 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302071112-0001/2 on worker-20190302064926-10.128.7.101-36150 (10.128.7.101:36150) with 16 core(s)
+2019-03-02 07:11:12 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302071112-0001/2 on hostPort 10.128.7.101:36150 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:11:12 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302071112-0001/3 on worker-20190302064926-10.128.4.216-39152 (10.128.4.216:39152) with 16 core(s)
+2019-03-02 07:11:12 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302071112-0001/3 on hostPort 10.128.4.216:39152 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:11:12 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 33310.
+2019-03-02 07:11:12 INFO  NettyBlockTransferService:54 - Server created on nid01141:33310
+2019-03-02 07:11:12 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-03-02 07:11:12 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid01141, 33310, None)
+2019-03-02 07:11:12 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid01141:33310 with 68.1 GB RAM, BlockManagerId(driver, nid01141, 33310, None)
+2019-03-02 07:11:12 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid01141, 33310, None)
+2019-03-02 07:11:12 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid01141, 33310, None)
+2019-03-02 07:11:12 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302071112-0001/0 is now RUNNING
+2019-03-02 07:11:12 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302071112-0001/1 is now RUNNING
+2019-03-02 07:11:12 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302071112-0001/2 is now RUNNING
+2019-03-02 07:11:12 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302071112-0001/3 is now RUNNING
+2019-03-02 07:11:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f52eb6f{/metrics/json,null,AVAILABLE,@Spark}
+2019-03-02 07:11:13 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 33554432
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 190000
+Total FLOPs 274877911040000
+Total Bytes 0
+Elapsed Time 2.555409e+02 seconds
+FLOP/s 1.075671e+12
+B/s 0.000000e+00
+2019-03-02 07:19:58 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-03-02 07:19:59 INFO  SparkContext:54 - Running Spark version 2.3.0
+2019-03-02 07:19:59 INFO  SparkContext:54 - Submitted application: SimpleApplication
+2019-03-02 07:19:59 INFO  SecurityManager:54 - Changing view acls to: slaughte
+2019-03-02 07:19:59 INFO  SecurityManager:54 - Changing modify acls to: slaughte
+2019-03-02 07:19:59 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-03-02 07:19:59 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-03-02 07:19:59 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
+2019-03-02 07:19:59 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 35651.
+2019-03-02 07:19:59 INFO  SparkEnv:54 - Registering MapOutputTracker
+2019-03-02 07:19:59 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2019-03-02 07:19:59 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-03-02 07:19:59 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2019-03-02 07:19:59 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-9f430ba6-1540-4097-84de-5c392a0e5e76
+2019-03-02 07:19:59 INFO  MemoryStore:54 - MemoryStore started with capacity 68.1 GB
+2019-03-02 07:19:59 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2019-03-02 07:20:00 INFO  log:192 - Logging initialized @3727ms
+2019-03-02 07:20:00 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2019-03-02 07:20:00 INFO  Server:414 - Started @3830ms
+2019-03-02 07:20:00 INFO  AbstractConnector:278 - Started ServerConnector@1144a55a{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-03-02 07:20:00 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6b9c69a9{/jobs,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@40620d8e{/jobs/json,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@383f3558{/jobs/job,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65f00478{/stages,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2424686b{/stages/json,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6ea94d6a{/stages/stage,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/stages/pool,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/storage/json,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/storage/rdd,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/environment,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/environment/json,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/executors/json,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bc9e6ab{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5488b5c5{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4248ed58{/static,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@89c65d5{/,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@faa3fed{/api,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3c5a54b7{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@61f2c3f0{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid01141:4040
+2019-03-02 07:20:00 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid01141:35651/jars/Taskbench-assembly-1.0.jar with timestamp 1551540000354
+2019-03-02 07:20:00 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid01141:35651/files/libcore_c.so with timestamp 1551540000357
+2019-03-02 07:20:00 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-0c78e091-fa48-4e1a-b990-99b8edf99e65/userFiles-a7d60252-760e-4dbb-8575-62f6c4f6fb94/libcore_c.so
+2019-03-02 07:20:00 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid01141:7077...
+2019-03-02 07:20:00 INFO  TransportClientFactory:267 - Successfully created connection to nid01141/10.128.4.126:7077 after 46 ms (0 ms spent in bootstraps)
+2019-03-02 07:20:00 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190302072000-0002
+2019-03-02 07:20:00 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302072000-0002/0 on worker-20190302064926-10.128.7.101-40755 (10.128.7.101:40755) with 16 core(s)
+2019-03-02 07:20:00 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302072000-0002/0 on hostPort 10.128.7.101:40755 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:20:00 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302072000-0002/1 on worker-20190302064926-10.128.4.216-36496 (10.128.4.216:36496) with 16 core(s)
+2019-03-02 07:20:00 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302072000-0002/1 on hostPort 10.128.4.216:36496 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:20:00 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302072000-0002/2 on worker-20190302064926-10.128.7.101-36150 (10.128.7.101:36150) with 16 core(s)
+2019-03-02 07:20:00 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302072000-0002/2 on hostPort 10.128.7.101:36150 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:20:00 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302072000-0002/3 on worker-20190302064926-10.128.4.216-39152 (10.128.4.216:39152) with 16 core(s)
+2019-03-02 07:20:00 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302072000-0002/3 on hostPort 10.128.4.216:39152 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:20:00 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 41924.
+2019-03-02 07:20:00 INFO  NettyBlockTransferService:54 - Server created on nid01141:41924
+2019-03-02 07:20:00 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-03-02 07:20:00 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid01141, 41924, None)
+2019-03-02 07:20:00 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid01141:41924 with 68.1 GB RAM, BlockManagerId(driver, nid01141, 41924, None)
+2019-03-02 07:20:00 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid01141, 41924, None)
+2019-03-02 07:20:00 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid01141, 41924, None)
+2019-03-02 07:20:00 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302072000-0002/2 is now RUNNING
+2019-03-02 07:20:00 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302072000-0002/0 is now RUNNING
+2019-03-02 07:20:00 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302072000-0002/1 is now RUNNING
+2019-03-02 07:20:00 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302072000-0002/3 is now RUNNING
+2019-03-02 07:20:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@67c277a0{/metrics/json,null,AVAILABLE,@Spark}
+2019-03-02 07:20:00 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 33554432
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 190000
+Total FLOPs 274877911040000
+Total Bytes 0
+Elapsed Time 2.572047e+02 seconds
+FLOP/s 1.068713e+12
+B/s 0.000000e+00
+2019-03-02 07:28:44 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-03-02 07:28:44 INFO  SparkContext:54 - Running Spark version 2.3.0
+2019-03-02 07:28:44 INFO  SparkContext:54 - Submitted application: SimpleApplication
+2019-03-02 07:28:44 INFO  SecurityManager:54 - Changing view acls to: slaughte
+2019-03-02 07:28:44 INFO  SecurityManager:54 - Changing modify acls to: slaughte
+2019-03-02 07:28:44 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-03-02 07:28:44 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-03-02 07:28:44 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
+2019-03-02 07:28:45 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 36374.
+2019-03-02 07:28:45 INFO  SparkEnv:54 - Registering MapOutputTracker
+2019-03-02 07:28:45 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2019-03-02 07:28:45 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-03-02 07:28:45 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2019-03-02 07:28:45 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-3607d9db-acec-4ac3-9c82-eae2a4d3c867
+2019-03-02 07:28:45 INFO  MemoryStore:54 - MemoryStore started with capacity 68.1 GB
+2019-03-02 07:28:45 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2019-03-02 07:28:45 INFO  log:192 - Logging initialized @3773ms
+2019-03-02 07:28:45 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2019-03-02 07:28:45 INFO  Server:414 - Started @3871ms
+2019-03-02 07:28:45 INFO  AbstractConnector:278 - Started ServerConnector@1144a55a{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-03-02 07:28:45 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6b9c69a9{/jobs,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@40620d8e{/jobs/json,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@383f3558{/jobs/job,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65f00478{/stages,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2424686b{/stages/json,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6ea94d6a{/stages/stage,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/stages/pool,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/storage/json,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/storage/rdd,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/environment,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/environment/json,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/executors/json,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bc9e6ab{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5488b5c5{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4248ed58{/static,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@89c65d5{/,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@faa3fed{/api,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3c5a54b7{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@61f2c3f0{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-03-02 07:28:45 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid01141:4040
+2019-03-02 07:28:45 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid01141:36374/jars/Taskbench-assembly-1.0.jar with timestamp 1551540525572
+2019-03-02 07:28:45 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid01141:36374/files/libcore_c.so with timestamp 1551540525575
+2019-03-02 07:28:45 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-60c90771-8bbf-44eb-8b33-0a9ad06b6d69/userFiles-1e274b6a-b1e3-45d0-9a12-264030bb9353/libcore_c.so
+2019-03-02 07:28:45 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid01141:7077...
+2019-03-02 07:28:45 INFO  TransportClientFactory:267 - Successfully created connection to nid01141/10.128.4.126:7077 after 45 ms (0 ms spent in bootstraps)
+2019-03-02 07:28:45 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190302072845-0003
+2019-03-02 07:28:45 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302072845-0003/0 on worker-20190302064926-10.128.7.101-40755 (10.128.7.101:40755) with 16 core(s)
+2019-03-02 07:28:45 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302072845-0003/0 on hostPort 10.128.7.101:40755 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:28:45 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302072845-0003/1 on worker-20190302064926-10.128.4.216-36496 (10.128.4.216:36496) with 16 core(s)
+2019-03-02 07:28:45 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302072845-0003/1 on hostPort 10.128.4.216:36496 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:28:45 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302072845-0003/2 on worker-20190302064926-10.128.7.101-36150 (10.128.7.101:36150) with 16 core(s)
+2019-03-02 07:28:45 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302072845-0003/2 on hostPort 10.128.7.101:36150 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:28:45 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302072845-0003/3 on worker-20190302064926-10.128.4.216-39152 (10.128.4.216:39152) with 16 core(s)
+2019-03-02 07:28:45 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302072845-0003/3 on hostPort 10.128.4.216:39152 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:28:45 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44586.
+2019-03-02 07:28:45 INFO  NettyBlockTransferService:54 - Server created on nid01141:44586
+2019-03-02 07:28:45 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-03-02 07:28:45 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid01141, 44586, None)
+2019-03-02 07:28:45 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid01141:44586 with 68.1 GB RAM, BlockManagerId(driver, nid01141, 44586, None)
+2019-03-02 07:28:45 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302072845-0003/0 is now RUNNING
+2019-03-02 07:28:45 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302072845-0003/1 is now RUNNING
+2019-03-02 07:28:45 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid01141, 44586, None)
+2019-03-02 07:28:45 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302072845-0003/2 is now RUNNING
+2019-03-02 07:28:45 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid01141, 44586, None)
+2019-03-02 07:28:45 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302072845-0003/3 is now RUNNING
+2019-03-02 07:28:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@67c277a0{/metrics/json,null,AVAILABLE,@Spark}
+2019-03-02 07:28:46 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 190000
+Total FLOPs 137438957568000
+Total Bytes 0
+Elapsed Time 1.649248e+02 seconds
+FLOP/s 8.333433e+11
+B/s 0.000000e+00
+2019-03-02 07:34:26 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-03-02 07:34:27 INFO  SparkContext:54 - Running Spark version 2.3.0
+2019-03-02 07:34:27 INFO  SparkContext:54 - Submitted application: SimpleApplication
+2019-03-02 07:34:27 INFO  SecurityManager:54 - Changing view acls to: slaughte
+2019-03-02 07:34:27 INFO  SecurityManager:54 - Changing modify acls to: slaughte
+2019-03-02 07:34:27 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-03-02 07:34:27 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-03-02 07:34:27 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
+2019-03-02 07:34:27 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 33671.
+2019-03-02 07:34:27 INFO  SparkEnv:54 - Registering MapOutputTracker
+2019-03-02 07:34:27 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2019-03-02 07:34:27 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-03-02 07:34:27 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2019-03-02 07:34:27 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-a485dcdf-4346-46ec-bff1-de555c3cc462
+2019-03-02 07:34:28 INFO  MemoryStore:54 - MemoryStore started with capacity 68.1 GB
+2019-03-02 07:34:28 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2019-03-02 07:34:28 INFO  log:192 - Logging initialized @4107ms
+2019-03-02 07:34:28 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2019-03-02 07:34:28 INFO  Server:414 - Started @4228ms
+2019-03-02 07:34:28 INFO  AbstractConnector:278 - Started ServerConnector@779dfe55{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-03-02 07:34:28 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5f212d84{/jobs,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@27ead29e{/jobs/json,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4c060c8f{/jobs/job,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@383f3558{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@49b07ee3{/stages,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/stages/json,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65f00478{/stages/stage,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@28486680{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d7e7435{/stages/pool,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/storage,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/storage/json,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage/rdd,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/environment,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/environment/json,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/executors,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/executors/json,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bc9e6ab{/static,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@37d00a23{/,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@433e536f{/api,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@988246e{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@62515a47{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-03-02 07:34:28 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid01141:4040
+2019-03-02 07:34:28 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid01141:33671/jars/Taskbench-assembly-1.0.jar with timestamp 1551540868532
+2019-03-02 07:34:28 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid01141:33671/files/libcore_c.so with timestamp 1551540868538
+2019-03-02 07:34:28 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-b7549d83-694b-4849-819a-f8f6267b212d/userFiles-42d8c3e9-b8a1-421a-953e-ea6e6b3dbfa4/libcore_c.so
+2019-03-02 07:34:29 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid01141:7077...
+2019-03-02 07:34:29 INFO  TransportClientFactory:267 - Successfully created connection to nid01141/10.128.4.126:7077 after 81 ms (0 ms spent in bootstraps)
+2019-03-02 07:34:29 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190302073429-0004
+2019-03-02 07:34:29 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302073429-0004/0 on worker-20190302064926-10.128.7.101-40755 (10.128.7.101:40755) with 16 core(s)
+2019-03-02 07:34:29 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302073429-0004/0 on hostPort 10.128.7.101:40755 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:34:29 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302073429-0004/1 on worker-20190302064926-10.128.4.216-36496 (10.128.4.216:36496) with 16 core(s)
+2019-03-02 07:34:29 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302073429-0004/1 on hostPort 10.128.4.216:36496 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:34:29 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302073429-0004/2 on worker-20190302064926-10.128.7.101-36150 (10.128.7.101:36150) with 16 core(s)
+2019-03-02 07:34:29 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302073429-0004/2 on hostPort 10.128.7.101:36150 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:34:29 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302073429-0004/3 on worker-20190302064926-10.128.4.216-39152 (10.128.4.216:39152) with 16 core(s)
+2019-03-02 07:34:29 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302073429-0004/3 on hostPort 10.128.4.216:39152 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:34:29 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44558.
+2019-03-02 07:34:29 INFO  NettyBlockTransferService:54 - Server created on nid01141:44558
+2019-03-02 07:34:29 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-03-02 07:34:29 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid01141, 44558, None)
+2019-03-02 07:34:29 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid01141:44558 with 68.1 GB RAM, BlockManagerId(driver, nid01141, 44558, None)
+2019-03-02 07:34:29 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302073429-0004/0 is now RUNNING
+2019-03-02 07:34:29 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302073429-0004/3 is now RUNNING
+2019-03-02 07:34:29 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302073429-0004/2 is now RUNNING
+2019-03-02 07:34:29 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid01141, 44558, None)
+2019-03-02 07:34:29 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302073429-0004/1 is now RUNNING
+2019-03-02 07:34:29 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid01141, 44558, None)
+2019-03-02 07:34:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@57d0fc89{/metrics/json,null,AVAILABLE,@Spark}
+2019-03-02 07:34:29 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 190000
+Total FLOPs 137438957568000
+Total Bytes 0
+Elapsed Time 1.673146e+02 seconds
+FLOP/s 8.214404e+11
+B/s 0.000000e+00
+2019-03-02 07:40:12 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-03-02 07:40:13 INFO  SparkContext:54 - Running Spark version 2.3.0
+2019-03-02 07:40:13 INFO  SparkContext:54 - Submitted application: SimpleApplication
+2019-03-02 07:40:13 INFO  SecurityManager:54 - Changing view acls to: slaughte
+2019-03-02 07:40:13 INFO  SecurityManager:54 - Changing modify acls to: slaughte
+2019-03-02 07:40:13 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-03-02 07:40:13 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-03-02 07:40:13 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
+2019-03-02 07:40:13 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 38754.
+2019-03-02 07:40:13 INFO  SparkEnv:54 - Registering MapOutputTracker
+2019-03-02 07:40:13 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2019-03-02 07:40:13 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-03-02 07:40:13 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2019-03-02 07:40:13 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-e60fb275-5994-44f4-a6c2-9b936280e409
+2019-03-02 07:40:13 INFO  MemoryStore:54 - MemoryStore started with capacity 68.1 GB
+2019-03-02 07:40:14 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2019-03-02 07:40:14 INFO  log:192 - Logging initialized @3914ms
+2019-03-02 07:40:14 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2019-03-02 07:40:14 INFO  Server:414 - Started @4021ms
+2019-03-02 07:40:14 INFO  AbstractConnector:278 - Started ServerConnector@1144a55a{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-03-02 07:40:14 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6b9c69a9{/jobs,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@40620d8e{/jobs/json,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@383f3558{/jobs/job,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65f00478{/stages,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2424686b{/stages/json,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6ea94d6a{/stages/stage,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/stages/pool,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/storage/json,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/storage/rdd,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/environment,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/environment/json,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/executors/json,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bc9e6ab{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5488b5c5{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4248ed58{/static,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@89c65d5{/,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@faa3fed{/api,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3c5a54b7{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@61f2c3f0{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-03-02 07:40:14 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid01141:4040
+2019-03-02 07:40:14 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid01141:38754/jars/Taskbench-assembly-1.0.jar with timestamp 1551541214453
+2019-03-02 07:40:14 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid01141:38754/files/libcore_c.so with timestamp 1551541214456
+2019-03-02 07:40:14 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-a53f3987-2559-4fe3-aa1f-b27c37f0572a/userFiles-eac50e68-9f68-4070-9e78-a5aa74735377/libcore_c.so
+2019-03-02 07:40:14 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid01141:7077...
+2019-03-02 07:40:14 INFO  TransportClientFactory:267 - Successfully created connection to nid01141/10.128.4.126:7077 after 50 ms (0 ms spent in bootstraps)
+2019-03-02 07:40:14 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190302074014-0005
+2019-03-02 07:40:14 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302074014-0005/0 on worker-20190302064926-10.128.7.101-40755 (10.128.7.101:40755) with 16 core(s)
+2019-03-02 07:40:14 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302074014-0005/0 on hostPort 10.128.7.101:40755 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:40:14 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302074014-0005/1 on worker-20190302064926-10.128.4.216-36496 (10.128.4.216:36496) with 16 core(s)
+2019-03-02 07:40:14 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302074014-0005/1 on hostPort 10.128.4.216:36496 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:40:14 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302074014-0005/2 on worker-20190302064926-10.128.7.101-36150 (10.128.7.101:36150) with 16 core(s)
+2019-03-02 07:40:14 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302074014-0005/2 on hostPort 10.128.7.101:36150 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:40:14 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302074014-0005/3 on worker-20190302064926-10.128.4.216-39152 (10.128.4.216:39152) with 16 core(s)
+2019-03-02 07:40:14 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302074014-0005/3 on hostPort 10.128.4.216:39152 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:40:14 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44756.
+2019-03-02 07:40:14 INFO  NettyBlockTransferService:54 - Server created on nid01141:44756
+2019-03-02 07:40:14 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-03-02 07:40:14 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid01141, 44756, None)
+2019-03-02 07:40:14 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid01141:44756 with 68.1 GB RAM, BlockManagerId(driver, nid01141, 44756, None)
+2019-03-02 07:40:14 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid01141, 44756, None)
+2019-03-02 07:40:14 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid01141, 44756, None)
+2019-03-02 07:40:14 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302074014-0005/1 is now RUNNING
+2019-03-02 07:40:14 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302074014-0005/2 is now RUNNING
+2019-03-02 07:40:14 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302074014-0005/0 is now RUNNING
+2019-03-02 07:40:14 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302074014-0005/3 is now RUNNING
+2019-03-02 07:40:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@67c277a0{/metrics/json,null,AVAILABLE,@Spark}
+2019-03-02 07:40:15 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 190000
+Total FLOPs 137438957568000
+Total Bytes 0
+Elapsed Time 2.087735e+02 seconds
+FLOP/s 6.583162e+11
+B/s 0.000000e+00
+2019-03-02 07:47:21 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-03-02 07:47:21 INFO  SparkContext:54 - Running Spark version 2.3.0
+2019-03-02 07:47:21 INFO  SparkContext:54 - Submitted application: SimpleApplication
+2019-03-02 07:47:21 INFO  SecurityManager:54 - Changing view acls to: slaughte
+2019-03-02 07:47:21 INFO  SecurityManager:54 - Changing modify acls to: slaughte
+2019-03-02 07:47:21 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-03-02 07:47:21 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-03-02 07:47:21 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
+2019-03-02 07:47:22 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 45509.
+2019-03-02 07:47:22 INFO  SparkEnv:54 - Registering MapOutputTracker
+2019-03-02 07:47:22 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2019-03-02 07:47:22 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-03-02 07:47:22 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2019-03-02 07:47:22 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-1bd82f80-4e44-43d9-aeee-4a13eb9feeb9
+2019-03-02 07:47:22 INFO  MemoryStore:54 - MemoryStore started with capacity 68.1 GB
+2019-03-02 07:47:22 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2019-03-02 07:47:22 INFO  log:192 - Logging initialized @3963ms
+2019-03-02 07:47:22 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2019-03-02 07:47:22 INFO  Server:414 - Started @4066ms
+2019-03-02 07:47:22 INFO  AbstractConnector:278 - Started ServerConnector@1144a55a{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-03-02 07:47:22 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6b9c69a9{/jobs,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@40620d8e{/jobs/json,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@383f3558{/jobs/job,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65f00478{/stages,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2424686b{/stages/json,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6ea94d6a{/stages/stage,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/stages/pool,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/storage/json,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/storage/rdd,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/environment,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/environment/json,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/executors/json,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bc9e6ab{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5488b5c5{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4248ed58{/static,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@89c65d5{/,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@faa3fed{/api,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3c5a54b7{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@61f2c3f0{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-03-02 07:47:22 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid01141:4040
+2019-03-02 07:47:22 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid01141:45509/jars/Taskbench-assembly-1.0.jar with timestamp 1551541642696
+2019-03-02 07:47:22 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid01141:45509/files/libcore_c.so with timestamp 1551541642699
+2019-03-02 07:47:22 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-ceb8b739-0c12-4d07-9f73-5bc80ce8806a/userFiles-e6b5056e-b496-4730-950f-28203dfaa66a/libcore_c.so
+2019-03-02 07:47:22 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid01141:7077...
+2019-03-02 07:47:22 INFO  TransportClientFactory:267 - Successfully created connection to nid01141/10.128.4.126:7077 after 43 ms (0 ms spent in bootstraps)
+2019-03-02 07:47:23 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190302074723-0006
+2019-03-02 07:47:23 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302074723-0006/0 on worker-20190302064926-10.128.7.101-40755 (10.128.7.101:40755) with 16 core(s)
+2019-03-02 07:47:23 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302074723-0006/0 on hostPort 10.128.7.101:40755 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:47:23 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302074723-0006/1 on worker-20190302064926-10.128.4.216-36496 (10.128.4.216:36496) with 16 core(s)
+2019-03-02 07:47:23 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302074723-0006/1 on hostPort 10.128.4.216:36496 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:47:23 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302074723-0006/2 on worker-20190302064926-10.128.7.101-36150 (10.128.7.101:36150) with 16 core(s)
+2019-03-02 07:47:23 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302074723-0006/2 on hostPort 10.128.7.101:36150 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:47:23 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190302074723-0006/3 on worker-20190302064926-10.128.4.216-39152 (10.128.4.216:39152) with 16 core(s)
+2019-03-02 07:47:23 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190302074723-0006/3 on hostPort 10.128.4.216:39152 with 16 core(s), 128.0 GB RAM
+2019-03-02 07:47:23 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 42751.
+2019-03-02 07:47:23 INFO  NettyBlockTransferService:54 - Server created on nid01141:42751
+2019-03-02 07:47:23 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-03-02 07:47:23 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid01141, 42751, None)
+2019-03-02 07:47:23 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid01141:42751 with 68.1 GB RAM, BlockManagerId(driver, nid01141, 42751, None)
+2019-03-02 07:47:23 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid01141, 42751, None)
+2019-03-02 07:47:23 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid01141, 42751, None)
+2019-03-02 07:47:23 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302074723-0006/2 is now RUNNING
+2019-03-02 07:47:23 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302074723-0006/1 is now RUNNING
+2019-03-02 07:47:23 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302074723-0006/0 is now RUNNING
+2019-03-02 07:47:23 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190302074723-0006/3 is now RUNNING
+2019-03-02 07:47:23 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@67c277a0{/metrics/json,null,AVAILABLE,@Spark}
+2019-03-02 07:47:23 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+2019-03-02 07:48:18 ERROR TransportRequestHandler:210 - Error while invoking RpcHandler#receive() for one-way message.
+org.apache.spark.SparkException: Could not find CoarseGrainedScheduler.
+	at org.apache.spark.rpc.netty.Dispatcher.postMessage(Dispatcher.scala:160)
+	at org.apache.spark.rpc.netty.Dispatcher.postOneWayMessage(Dispatcher.scala:140)
+	at org.apache.spark.rpc.netty.NettyRpcHandler.receive(NettyRpcEnv.scala:655)
+	at org.apache.spark.network.server.TransportRequestHandler.processOneWayMessage(TransportRequestHandler.java:208)
+	at org.apache.spark.network.server.TransportRequestHandler.handle(TransportRequestHandler.java:113)
+	at org.apache.spark.network.server.TransportChannelHandler.channelRead(TransportChannelHandler.java:118)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at org.apache.spark.network.util.TransportFrameDecoder.channelRead(TransportFrameDecoder.java:85)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:138)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-02 07:48:18 ERROR TransportRequestHandler:210 - Error while invoking RpcHandler#receive() for one-way message.
+org.apache.spark.SparkException: Could not find CoarseGrainedScheduler.
+	at org.apache.spark.rpc.netty.Dispatcher.postMessage(Dispatcher.scala:160)
+	at org.apache.spark.rpc.netty.Dispatcher.postOneWayMessage(Dispatcher.scala:140)
+	at org.apache.spark.rpc.netty.NettyRpcHandler.receive(NettyRpcEnv.scala:655)
+	at org.apache.spark.network.server.TransportRequestHandler.processOneWayMessage(TransportRequestHandler.java:208)
+	at org.apache.spark.network.server.TransportRequestHandler.handle(TransportRequestHandler.java:113)
+	at org.apache.spark.network.server.TransportChannelHandler.channelRead(TransportChannelHandler.java:118)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at org.apache.spark.network.util.TransportFrameDecoder.channelRead(TransportFrameDecoder.java:85)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:138)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-02 07:48:18 ERROR TransportRequestHandler:210 - Error while invoking RpcHandler#receive() for one-way message.
+org.apache.spark.SparkException: Could not find CoarseGrainedScheduler.
+	at org.apache.spark.rpc.netty.Dispatcher.postMessage(Dispatcher.scala:160)
+	at org.apache.spark.rpc.netty.Dispatcher.postOneWayMessage(Dispatcher.scala:140)
+	at org.apache.spark.rpc.netty.NettyRpcHandler.receive(NettyRpcEnv.scala:655)
+	at org.apache.spark.network.server.TransportRequestHandler.processOneWayMessage(TransportRequestHandler.java:208)
+	at org.apache.spark.network.server.TransportRequestHandler.handle(TransportRequestHandler.java:113)
+	at org.apache.spark.network.server.TransportChannelHandler.channelRead(TransportChannelHandler.java:118)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at org.apache.spark.network.util.TransportFrameDecoder.channelRead(TransportFrameDecoder.java:85)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:138)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-02 07:48:18 ERROR TransportRequestHandler:210 - Error while invoking RpcHandler#receive() for one-way message.
+org.apache.spark.SparkException: Could not find CoarseGrainedScheduler.
+	at org.apache.spark.rpc.netty.Dispatcher.postMessage(Dispatcher.scala:160)
+	at org.apache.spark.rpc.netty.Dispatcher.postOneWayMessage(Dispatcher.scala:140)
+	at org.apache.spark.rpc.netty.NettyRpcHandler.receive(NettyRpcEnv.scala:655)
+	at org.apache.spark.network.server.TransportRequestHandler.processOneWayMessage(TransportRequestHandler.java:208)
+	at org.apache.spark.network.server.TransportRequestHandler.handle(TransportRequestHandler.java:113)
+	at org.apache.spark.network.server.TransportChannelHandler.channelRead(TransportChannelHandler.java:118)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at org.apache.spark.network.util.TransportFrameDecoder.channelRead(TransportFrameDecoder.java:85)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:138)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-02 07:48:18 ERROR TransportRequestHandler:210 - Error while invoking RpcHandler#receive() for one-way message.
+org.apache.spark.SparkException: Could not find CoarseGrainedScheduler.
+	at org.apache.spark.rpc.netty.Dispatcher.postMessage(Dispatcher.scala:160)
+	at org.apache.spark.rpc.netty.Dispatcher.postOneWayMessage(Dispatcher.scala:140)
+	at org.apache.spark.rpc.netty.NettyRpcHandler.receive(NettyRpcEnv.scala:655)
+	at org.apache.spark.network.server.TransportRequestHandler.processOneWayMessage(TransportRequestHandler.java:208)
+	at org.apache.spark.network.server.TransportRequestHandler.handle(TransportRequestHandler.java:113)
+	at org.apache.spark.network.server.TransportChannelHandler.channelRead(TransportChannelHandler.java:118)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at org.apache.spark.network.util.TransportFrameDecoder.channelRead(TransportFrameDecoder.java:85)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:138)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-02 07:48:18 ERROR TransportRequestHandler:210 - Error while invoking RpcHandler#receive() for one-way message.
+org.apache.spark.SparkException: Could not find CoarseGrainedScheduler.
+	at org.apache.spark.rpc.netty.Dispatcher.postMessage(Dispatcher.scala:160)
+	at org.apache.spark.rpc.netty.Dispatcher.postOneWayMessage(Dispatcher.scala:140)
+	at org.apache.spark.rpc.netty.NettyRpcHandler.receive(NettyRpcEnv.scala:655)
+	at org.apache.spark.network.server.TransportRequestHandler.processOneWayMessage(TransportRequestHandler.java:208)
+	at org.apache.spark.network.server.TransportRequestHandler.handle(TransportRequestHandler.java:113)
+	at org.apache.spark.network.server.TransportChannelHandler.channelRead(TransportChannelHandler.java:118)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at org.apache.spark.network.util.TransportFrameDecoder.channelRead(TransportFrameDecoder.java:85)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:138)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)

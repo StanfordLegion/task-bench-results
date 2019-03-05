@@ -1,65 +1,3 @@
-2019-03-03 17:08:05 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2019-03-03 17:08:06 INFO  SparkContext:54 - Running Spark version 2.3.0
-2019-03-03 17:08:06 INFO  SparkContext:54 - Submitted application: SimpleApplication
-2019-03-03 17:08:06 INFO  SecurityManager:54 - Changing view acls to: slaughte
-2019-03-03 17:08:06 INFO  SecurityManager:54 - Changing modify acls to: slaughte
-2019-03-03 17:08:06 INFO  SecurityManager:54 - Changing view acls groups to: 
-2019-03-03 17:08:06 INFO  SecurityManager:54 - Changing modify acls groups to: 
-2019-03-03 17:08:06 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
-2019-03-03 17:08:06 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 46217.
-2019-03-03 17:08:06 INFO  SparkEnv:54 - Registering MapOutputTracker
-2019-03-03 17:08:06 INFO  SparkEnv:54 - Registering BlockManagerMaster
-2019-03-03 17:08:06 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
-2019-03-03 17:08:06 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
-2019-03-03 17:08:06 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-54e48c9a-3417-4210-98b3-d7578a5ed01c
-2019-03-03 17:08:06 INFO  MemoryStore:54 - MemoryStore started with capacity 34.0 GB
-2019-03-03 17:08:06 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
-2019-03-03 17:08:06 INFO  log:192 - Logging initialized @4859ms
-2019-03-03 17:08:06 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
-2019-03-03 17:08:06 INFO  Server:414 - Started @4959ms
-2019-03-03 17:08:07 INFO  AbstractConnector:278 - Started ServerConnector@1144a55a{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
-2019-03-03 17:08:07 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6b9c69a9{/jobs,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@40620d8e{/jobs/json,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@383f3558{/jobs/job,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/jobs/job/json,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65f00478{/stages,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2424686b{/stages/json,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6ea94d6a{/stages/stage,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/stages/stage/json,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/stages/pool,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/stages/pool/json,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/storage/json,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/storage/rdd,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/storage/rdd/json,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/environment,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/environment/json,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/executors/json,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bc9e6ab{/executors/threadDump,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5488b5c5{/executors/threadDump/json,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4248ed58{/static,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@89c65d5{/,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@faa3fed{/api,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3c5a54b7{/jobs/job/kill,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@61f2c3f0{/stages/stage/kill,null,AVAILABLE,@Spark}
-2019-03-03 17:08:07 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid00776:4040
-2019-03-03 17:08:07 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid00776:46217/jars/Taskbench-assembly-1.0.jar with timestamp 1551661687213
-2019-03-03 17:08:07 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid00776:46217/files/libcore_c.so with timestamp 1551661687216
-2019-03-03 17:08:07 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-3c6fc407-996f-41f7-a893-04341983090a/userFiles-9d68213e-d804-4aff-9c3c-a276d7885912/libcore_c.so
-2019-03-03 17:08:07 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid00776:7077...
-2019-03-03 17:08:07 INFO  TransportClientFactory:267 - Successfully created connection to nid00776/10.128.3.15:7077 after 48 ms (0 ms spent in bootstraps)
-2019-03-03 17:08:07 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190303170807-0000
-2019-03-03 17:08:07 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 35866.
-2019-03-03 17:08:07 INFO  NettyBlockTransferService:54 - Server created on nid00776:35866
-2019-03-03 17:08:07 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
-2019-03-03 17:08:07 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid00776, 35866, None)
-2019-03-03 17:08:07 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid00776:35866 with 34.0 GB RAM, BlockManagerId(driver, nid00776, 35866, None)
-2019-03-03 17:08:07 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid00776, 35866, None)
-2019-03-03 17:08:07 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid00776, 35866, None)
-2019-03-03 17:08:08 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@67c277a0{/metrics/json,null,AVAILABLE,@Spark}
-2019-03-03 17:08:08 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
 Num partitions: 60
 Starting preprocessing
 Starting warmup
@@ -82,79 +20,9 @@ Total Tasks 64000
 Total Dependencies 64000
 Total FLOPs 2199023259648000
 Total Bytes 0
-Elapsed Time 1.559521e+03 seconds
-FLOP/s 1.410064e+12
+Elapsed Time 1.552032e+03 seconds
+FLOP/s 1.416868e+12
 B/s 0.000000e+00
-2019-03-03 18:01:17 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2019-03-03 18:01:17 INFO  SparkContext:54 - Running Spark version 2.3.0
-2019-03-03 18:01:17 INFO  SparkContext:54 - Submitted application: SimpleApplication
-2019-03-03 18:01:17 INFO  SecurityManager:54 - Changing view acls to: slaughte
-2019-03-03 18:01:17 INFO  SecurityManager:54 - Changing modify acls to: slaughte
-2019-03-03 18:01:17 INFO  SecurityManager:54 - Changing view acls groups to: 
-2019-03-03 18:01:17 INFO  SecurityManager:54 - Changing modify acls groups to: 
-2019-03-03 18:01:17 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
-2019-03-03 18:01:18 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 40058.
-2019-03-03 18:01:18 INFO  SparkEnv:54 - Registering MapOutputTracker
-2019-03-03 18:01:18 INFO  SparkEnv:54 - Registering BlockManagerMaster
-2019-03-03 18:01:18 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
-2019-03-03 18:01:18 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
-2019-03-03 18:01:18 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-a6ea6435-462c-4049-800c-15b980770fac
-2019-03-03 18:01:18 INFO  MemoryStore:54 - MemoryStore started with capacity 34.0 GB
-2019-03-03 18:01:18 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
-2019-03-03 18:01:18 INFO  log:192 - Logging initialized @6176ms
-2019-03-03 18:01:18 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
-2019-03-03 18:01:18 INFO  Server:414 - Started @6274ms
-2019-03-03 18:01:18 INFO  AbstractConnector:278 - Started ServerConnector@779dfe55{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
-2019-03-03 18:01:18 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5f212d84{/jobs,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@27ead29e{/jobs/json,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4c060c8f{/jobs/job,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@383f3558{/jobs/job/json,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@49b07ee3{/stages,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/stages/json,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65f00478{/stages/stage,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@28486680{/stages/stage/json,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d7e7435{/stages/pool,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/stages/pool/json,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/storage,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/storage/json,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage/rdd,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/storage/rdd/json,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/environment,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/environment/json,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/executors,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/executors/json,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors/threadDump,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/executors/threadDump/json,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bc9e6ab{/static,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@37d00a23{/,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@433e536f{/api,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@988246e{/jobs/job/kill,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@62515a47{/stages/stage/kill,null,AVAILABLE,@Spark}
-2019-03-03 18:01:18 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid00776:4040
-2019-03-03 18:01:18 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid00776:40058/jars/Taskbench-assembly-1.0.jar with timestamp 1551664878604
-2019-03-03 18:01:18 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid00776:40058/files/libcore_c.so with timestamp 1551664878607
-2019-03-03 18:01:18 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-a8707d84-b863-4db2-ac65-e4457840dee0/userFiles-39c6c72d-b51e-45e7-8aa3-87b4e41ee0e5/libcore_c.so
-2019-03-03 18:01:18 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid00776:7077...
-2019-03-03 18:01:18 INFO  TransportClientFactory:267 - Successfully created connection to nid00776/10.128.3.15:7077 after 53 ms (0 ms spent in bootstraps)
-2019-03-03 18:01:18 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190303180118-0001
-2019-03-03 18:01:18 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303180118-0001/0 on worker-20190303170842-10.128.3.16-38775 (10.128.3.16:38775) with 16 core(s)
-2019-03-03 18:01:18 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303180118-0001/0 on hostPort 10.128.3.16:38775 with 16 core(s), 64.0 GB RAM
-2019-03-03 18:01:18 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303180118-0001/1 on worker-20190303170842-10.128.3.35-34996 (10.128.3.35:34996) with 16 core(s)
-2019-03-03 18:01:18 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303180118-0001/1 on hostPort 10.128.3.35:34996 with 16 core(s), 64.0 GB RAM
-2019-03-03 18:01:18 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303180118-0001/2 on worker-20190303170842-10.128.3.16-42580 (10.128.3.16:42580) with 16 core(s)
-2019-03-03 18:01:18 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303180118-0001/2 on hostPort 10.128.3.16:42580 with 16 core(s), 64.0 GB RAM
-2019-03-03 18:01:18 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303180118-0001/3 on worker-20190303170842-10.128.3.35-35735 (10.128.3.35:35735) with 16 core(s)
-2019-03-03 18:01:18 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 42806.
-2019-03-03 18:01:18 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303180118-0001/3 on hostPort 10.128.3.35:35735 with 16 core(s), 64.0 GB RAM
-2019-03-03 18:01:18 INFO  NettyBlockTransferService:54 - Server created on nid00776:42806
-2019-03-03 18:01:18 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
-2019-03-03 18:01:18 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid00776, 42806, None)
-2019-03-03 18:01:19 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid00776:42806 with 34.0 GB RAM, BlockManagerId(driver, nid00776, 42806, None)
-2019-03-03 18:01:19 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid00776, 42806, None)
-2019-03-03 18:01:19 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid00776, 42806, None)
-2019-03-03 18:01:19 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@57d0fc89{/metrics/json,null,AVAILABLE,@Spark}
-2019-03-03 18:01:19 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
 Num partitions: 60
 Starting preprocessing
 Starting warmup
@@ -177,83 +45,9 @@ Total Tasks 64000
 Total Dependencies 64000
 Total FLOPs 1099511631872000
 Total Bytes 0
-Elapsed Time 7.843119e+02 seconds
-FLOP/s 1.401881e+12
+Elapsed Time 7.786279e+02 seconds
+FLOP/s 1.412114e+12
 B/s 0.000000e+00
-2019-03-03 18:28:01 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2019-03-03 18:28:01 INFO  SparkContext:54 - Running Spark version 2.3.0
-2019-03-03 18:28:01 INFO  SparkContext:54 - Submitted application: SimpleApplication
-2019-03-03 18:28:02 INFO  SecurityManager:54 - Changing view acls to: slaughte
-2019-03-03 18:28:02 INFO  SecurityManager:54 - Changing modify acls to: slaughte
-2019-03-03 18:28:02 INFO  SecurityManager:54 - Changing view acls groups to: 
-2019-03-03 18:28:02 INFO  SecurityManager:54 - Changing modify acls groups to: 
-2019-03-03 18:28:02 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
-2019-03-03 18:28:02 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 34383.
-2019-03-03 18:28:02 INFO  SparkEnv:54 - Registering MapOutputTracker
-2019-03-03 18:28:02 INFO  SparkEnv:54 - Registering BlockManagerMaster
-2019-03-03 18:28:02 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
-2019-03-03 18:28:02 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
-2019-03-03 18:28:02 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-5934beda-6165-4b2e-b07f-d9f9e49f2f3b
-2019-03-03 18:28:02 INFO  MemoryStore:54 - MemoryStore started with capacity 34.0 GB
-2019-03-03 18:28:02 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
-2019-03-03 18:28:02 INFO  log:192 - Logging initialized @5401ms
-2019-03-03 18:28:02 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
-2019-03-03 18:28:02 INFO  Server:414 - Started @5500ms
-2019-03-03 18:28:02 INFO  AbstractConnector:278 - Started ServerConnector@779dfe55{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
-2019-03-03 18:28:02 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5f212d84{/jobs,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@27ead29e{/jobs/json,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4c060c8f{/jobs/job,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@383f3558{/jobs/job/json,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@49b07ee3{/stages,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/stages/json,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65f00478{/stages/stage,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@28486680{/stages/stage/json,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d7e7435{/stages/pool,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/stages/pool/json,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/storage,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/storage/json,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage/rdd,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/storage/rdd/json,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/environment,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/environment/json,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/executors,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/executors/json,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors/threadDump,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/executors/threadDump/json,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bc9e6ab{/static,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@37d00a23{/,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@433e536f{/api,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@988246e{/jobs/job/kill,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@62515a47{/stages/stage/kill,null,AVAILABLE,@Spark}
-2019-03-03 18:28:02 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid00776:4040
-2019-03-03 18:28:03 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid00776:34383/jars/Taskbench-assembly-1.0.jar with timestamp 1551666483008
-2019-03-03 18:28:03 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid00776:34383/files/libcore_c.so with timestamp 1551666483025
-2019-03-03 18:28:03 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-852f1eb2-77c5-4548-8e0d-b806f45a2cf4/userFiles-b3e8f0d0-3e2c-4768-9a3d-49192c926591/libcore_c.so
-2019-03-03 18:28:03 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid00776:7077...
-2019-03-03 18:28:03 INFO  TransportClientFactory:267 - Successfully created connection to nid00776/10.128.3.15:7077 after 48 ms (0 ms spent in bootstraps)
-2019-03-03 18:28:03 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190303182803-0002
-2019-03-03 18:28:03 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303182803-0002/0 on worker-20190303170842-10.128.3.16-38775 (10.128.3.16:38775) with 16 core(s)
-2019-03-03 18:28:03 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303182803-0002/0 on hostPort 10.128.3.16:38775 with 16 core(s), 64.0 GB RAM
-2019-03-03 18:28:03 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303182803-0002/1 on worker-20190303170842-10.128.3.35-34996 (10.128.3.35:34996) with 16 core(s)
-2019-03-03 18:28:03 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303182803-0002/1 on hostPort 10.128.3.35:34996 with 16 core(s), 64.0 GB RAM
-2019-03-03 18:28:03 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303182803-0002/2 on worker-20190303170842-10.128.3.16-42580 (10.128.3.16:42580) with 16 core(s)
-2019-03-03 18:28:03 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303182803-0002/2 on hostPort 10.128.3.16:42580 with 16 core(s), 64.0 GB RAM
-2019-03-03 18:28:03 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303182803-0002/3 on worker-20190303170842-10.128.3.35-35735 (10.128.3.35:35735) with 16 core(s)
-2019-03-03 18:28:03 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303182803-0002/3 on hostPort 10.128.3.35:35735 with 16 core(s), 64.0 GB RAM
-2019-03-03 18:28:03 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 43805.
-2019-03-03 18:28:03 INFO  NettyBlockTransferService:54 - Server created on nid00776:43805
-2019-03-03 18:28:03 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
-2019-03-03 18:28:03 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid00776, 43805, None)
-2019-03-03 18:28:03 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid00776:43805 with 34.0 GB RAM, BlockManagerId(driver, nid00776, 43805, None)
-2019-03-03 18:28:03 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid00776, 43805, None)
-2019-03-03 18:28:03 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid00776, 43805, None)
-2019-03-03 18:28:03 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@57d0fc89{/metrics/json,null,AVAILABLE,@Spark}
-2019-03-03 18:28:03 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190303182803-0002/0 is now RUNNING
-2019-03-03 18:28:03 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190303182803-0002/1 is now RUNNING
-2019-03-03 18:28:03 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190303182803-0002/2 is now RUNNING
-2019-03-03 18:28:03 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190303182803-0002/3 is now RUNNING
-2019-03-03 18:28:03 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
 Num partitions: 60
 Starting preprocessing
 Starting warmup
@@ -276,79 +70,9 @@ Total Tasks 64000
 Total Dependencies 64000
 Total FLOPs 1099511631872000
 Total Bytes 0
-Elapsed Time 7.792883e+02 seconds
-FLOP/s 1.410918e+12
+Elapsed Time 7.780589e+02 seconds
+FLOP/s 1.413147e+12
 B/s 0.000000e+00
-2019-03-03 18:54:36 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2019-03-03 18:54:36 INFO  SparkContext:54 - Running Spark version 2.3.0
-2019-03-03 18:54:36 INFO  SparkContext:54 - Submitted application: SimpleApplication
-2019-03-03 18:54:37 INFO  SecurityManager:54 - Changing view acls to: slaughte
-2019-03-03 18:54:37 INFO  SecurityManager:54 - Changing modify acls to: slaughte
-2019-03-03 18:54:37 INFO  SecurityManager:54 - Changing view acls groups to: 
-2019-03-03 18:54:37 INFO  SecurityManager:54 - Changing modify acls groups to: 
-2019-03-03 18:54:37 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
-2019-03-03 18:54:37 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 35171.
-2019-03-03 18:54:37 INFO  SparkEnv:54 - Registering MapOutputTracker
-2019-03-03 18:54:37 INFO  SparkEnv:54 - Registering BlockManagerMaster
-2019-03-03 18:54:37 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
-2019-03-03 18:54:37 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
-2019-03-03 18:54:37 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-98efc62d-b13d-4583-a96a-b56cf2a950d9
-2019-03-03 18:54:37 INFO  MemoryStore:54 - MemoryStore started with capacity 34.0 GB
-2019-03-03 18:54:37 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
-2019-03-03 18:54:37 INFO  log:192 - Logging initialized @4370ms
-2019-03-03 18:54:37 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
-2019-03-03 18:54:37 INFO  Server:414 - Started @4465ms
-2019-03-03 18:54:37 INFO  AbstractConnector:278 - Started ServerConnector@779dfe55{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
-2019-03-03 18:54:37 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5f212d84{/jobs,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@27ead29e{/jobs/json,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4c060c8f{/jobs/job,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@383f3558{/jobs/job/json,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@49b07ee3{/stages,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/stages/json,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65f00478{/stages/stage,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@28486680{/stages/stage/json,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d7e7435{/stages/pool,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/stages/pool/json,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/storage,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/storage/json,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage/rdd,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/storage/rdd/json,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/environment,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/environment/json,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/executors,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/executors/json,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors/threadDump,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/executors/threadDump/json,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bc9e6ab{/static,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@37d00a23{/,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@433e536f{/api,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@988246e{/jobs/job/kill,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@62515a47{/stages/stage/kill,null,AVAILABLE,@Spark}
-2019-03-03 18:54:37 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid00776:4040
-2019-03-03 18:54:37 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid00776:35171/jars/Taskbench-assembly-1.0.jar with timestamp 1551668077989
-2019-03-03 18:54:37 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid00776:35171/files/libcore_c.so with timestamp 1551668077992
-2019-03-03 18:54:37 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-dfafa13e-974d-4116-820f-d45ee7d48faf/userFiles-0eba5338-1a33-424a-866e-e9de91510063/libcore_c.so
-2019-03-03 18:54:38 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid00776:7077...
-2019-03-03 18:54:38 INFO  TransportClientFactory:267 - Successfully created connection to nid00776/10.128.3.15:7077 after 44 ms (0 ms spent in bootstraps)
-2019-03-03 18:54:38 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190303185438-0003
-2019-03-03 18:54:38 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303185438-0003/0 on worker-20190303170842-10.128.3.16-38775 (10.128.3.16:38775) with 16 core(s)
-2019-03-03 18:54:38 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303185438-0003/0 on hostPort 10.128.3.16:38775 with 16 core(s), 64.0 GB RAM
-2019-03-03 18:54:38 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303185438-0003/1 on worker-20190303170842-10.128.3.35-34996 (10.128.3.35:34996) with 16 core(s)
-2019-03-03 18:54:38 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303185438-0003/1 on hostPort 10.128.3.35:34996 with 16 core(s), 64.0 GB RAM
-2019-03-03 18:54:38 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303185438-0003/2 on worker-20190303170842-10.128.3.16-42580 (10.128.3.16:42580) with 16 core(s)
-2019-03-03 18:54:38 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303185438-0003/2 on hostPort 10.128.3.16:42580 with 16 core(s), 64.0 GB RAM
-2019-03-03 18:54:38 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303185438-0003/3 on worker-20190303170842-10.128.3.35-35735 (10.128.3.35:35735) with 16 core(s)
-2019-03-03 18:54:38 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303185438-0003/3 on hostPort 10.128.3.35:35735 with 16 core(s), 64.0 GB RAM
-2019-03-03 18:54:38 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 33302.
-2019-03-03 18:54:38 INFO  NettyBlockTransferService:54 - Server created on nid00776:33302
-2019-03-03 18:54:38 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
-2019-03-03 18:54:38 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid00776, 33302, None)
-2019-03-03 18:54:38 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid00776:33302 with 34.0 GB RAM, BlockManagerId(driver, nid00776, 33302, None)
-2019-03-03 18:54:38 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid00776, 33302, None)
-2019-03-03 18:54:38 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid00776, 33302, None)
-2019-03-03 18:54:38 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@57d0fc89{/metrics/json,null,AVAILABLE,@Spark}
-2019-03-03 18:54:38 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
 Num partitions: 60
 Starting preprocessing
 Starting warmup
@@ -371,79 +95,9 @@ Total Tasks 64000
 Total Dependencies 64000
 Total FLOPs 549755817984000
 Total Bytes 0
-Elapsed Time 3.954466e+02 seconds
-FLOP/s 1.390215e+12
+Elapsed Time 3.919320e+02 seconds
+FLOP/s 1.402681e+12
 B/s 0.000000e+00
-2019-03-03 19:08:25 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2019-03-03 19:08:25 INFO  SparkContext:54 - Running Spark version 2.3.0
-2019-03-03 19:08:25 INFO  SparkContext:54 - Submitted application: SimpleApplication
-2019-03-03 19:08:25 INFO  SecurityManager:54 - Changing view acls to: slaughte
-2019-03-03 19:08:25 INFO  SecurityManager:54 - Changing modify acls to: slaughte
-2019-03-03 19:08:25 INFO  SecurityManager:54 - Changing view acls groups to: 
-2019-03-03 19:08:25 INFO  SecurityManager:54 - Changing modify acls groups to: 
-2019-03-03 19:08:25 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
-2019-03-03 19:08:26 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 36086.
-2019-03-03 19:08:26 INFO  SparkEnv:54 - Registering MapOutputTracker
-2019-03-03 19:08:26 INFO  SparkEnv:54 - Registering BlockManagerMaster
-2019-03-03 19:08:26 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
-2019-03-03 19:08:26 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
-2019-03-03 19:08:26 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-cf956abc-70a9-4185-984c-cba377f9b5fb
-2019-03-03 19:08:26 INFO  MemoryStore:54 - MemoryStore started with capacity 34.0 GB
-2019-03-03 19:08:26 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
-2019-03-03 19:08:26 INFO  log:192 - Logging initialized @3811ms
-2019-03-03 19:08:26 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
-2019-03-03 19:08:26 INFO  Server:414 - Started @3913ms
-2019-03-03 19:08:26 INFO  AbstractConnector:278 - Started ServerConnector@779dfe55{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
-2019-03-03 19:08:26 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5f212d84{/jobs,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@27ead29e{/jobs/json,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4c060c8f{/jobs/job,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@383f3558{/jobs/job/json,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@49b07ee3{/stages,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/stages/json,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65f00478{/stages/stage,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@28486680{/stages/stage/json,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d7e7435{/stages/pool,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/stages/pool/json,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/storage,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/storage/json,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage/rdd,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/storage/rdd/json,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/environment,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/environment/json,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/executors,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/executors/json,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors/threadDump,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/executors/threadDump/json,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bc9e6ab{/static,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@37d00a23{/,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@433e536f{/api,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@988246e{/jobs/job/kill,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@62515a47{/stages/stage/kill,null,AVAILABLE,@Spark}
-2019-03-03 19:08:26 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid00776:4040
-2019-03-03 19:08:26 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid00776:36086/jars/Taskbench-assembly-1.0.jar with timestamp 1551668906724
-2019-03-03 19:08:26 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid00776:36086/files/libcore_c.so with timestamp 1551668906727
-2019-03-03 19:08:26 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-15bbc4e3-ce42-4a92-ae44-b175ea532dab/userFiles-a34ded6a-a80c-4030-9628-50a41c027022/libcore_c.so
-2019-03-03 19:08:26 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid00776:7077...
-2019-03-03 19:08:26 INFO  TransportClientFactory:267 - Successfully created connection to nid00776/10.128.3.15:7077 after 47 ms (0 ms spent in bootstraps)
-2019-03-03 19:08:27 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190303190827-0004
-2019-03-03 19:08:27 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303190827-0004/0 on worker-20190303170842-10.128.3.16-38775 (10.128.3.16:38775) with 16 core(s)
-2019-03-03 19:08:27 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303190827-0004/0 on hostPort 10.128.3.16:38775 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:08:27 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303190827-0004/1 on worker-20190303170842-10.128.3.35-34996 (10.128.3.35:34996) with 16 core(s)
-2019-03-03 19:08:27 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303190827-0004/1 on hostPort 10.128.3.35:34996 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:08:27 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303190827-0004/2 on worker-20190303170842-10.128.3.16-42580 (10.128.3.16:42580) with 16 core(s)
-2019-03-03 19:08:27 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303190827-0004/2 on hostPort 10.128.3.16:42580 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:08:27 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303190827-0004/3 on worker-20190303170842-10.128.3.35-35735 (10.128.3.35:35735) with 16 core(s)
-2019-03-03 19:08:27 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303190827-0004/3 on hostPort 10.128.3.35:35735 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:08:27 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 35831.
-2019-03-03 19:08:27 INFO  NettyBlockTransferService:54 - Server created on nid00776:35831
-2019-03-03 19:08:27 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
-2019-03-03 19:08:27 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid00776, 35831, None)
-2019-03-03 19:08:27 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid00776:35831 with 34.0 GB RAM, BlockManagerId(driver, nid00776, 35831, None)
-2019-03-03 19:08:27 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid00776, 35831, None)
-2019-03-03 19:08:27 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid00776, 35831, None)
-2019-03-03 19:08:27 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@57d0fc89{/metrics/json,null,AVAILABLE,@Spark}
-2019-03-03 19:08:27 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
 Num partitions: 60
 Starting preprocessing
 Starting warmup
@@ -466,79 +120,9 @@ Total Tasks 64000
 Total Dependencies 64000
 Total FLOPs 549755817984000
 Total Bytes 0
-Elapsed Time 3.947311e+02 seconds
-FLOP/s 1.392735e+12
+Elapsed Time 3.926014e+02 seconds
+FLOP/s 1.400290e+12
 B/s 0.000000e+00
-2019-03-03 19:22:11 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2019-03-03 19:22:12 INFO  SparkContext:54 - Running Spark version 2.3.0
-2019-03-03 19:22:12 INFO  SparkContext:54 - Submitted application: SimpleApplication
-2019-03-03 19:22:12 INFO  SecurityManager:54 - Changing view acls to: slaughte
-2019-03-03 19:22:12 INFO  SecurityManager:54 - Changing modify acls to: slaughte
-2019-03-03 19:22:12 INFO  SecurityManager:54 - Changing view acls groups to: 
-2019-03-03 19:22:12 INFO  SecurityManager:54 - Changing modify acls groups to: 
-2019-03-03 19:22:12 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
-2019-03-03 19:22:12 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 39849.
-2019-03-03 19:22:12 INFO  SparkEnv:54 - Registering MapOutputTracker
-2019-03-03 19:22:12 INFO  SparkEnv:54 - Registering BlockManagerMaster
-2019-03-03 19:22:12 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
-2019-03-03 19:22:12 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
-2019-03-03 19:22:12 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-c31259b4-5f26-402c-9020-44b7b8395b26
-2019-03-03 19:22:12 INFO  MemoryStore:54 - MemoryStore started with capacity 34.0 GB
-2019-03-03 19:22:12 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
-2019-03-03 19:22:12 INFO  log:192 - Logging initialized @4001ms
-2019-03-03 19:22:12 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
-2019-03-03 19:22:13 INFO  Server:414 - Started @4117ms
-2019-03-03 19:22:13 INFO  AbstractConnector:278 - Started ServerConnector@1144a55a{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
-2019-03-03 19:22:13 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6b9c69a9{/jobs,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@40620d8e{/jobs/json,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@383f3558{/jobs/job,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/jobs/job/json,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65f00478{/stages,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2424686b{/stages/json,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6ea94d6a{/stages/stage,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/stages/stage/json,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/stages/pool,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/stages/pool/json,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/storage/json,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/storage/rdd,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/storage/rdd/json,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/environment,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/environment/json,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/executors/json,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bc9e6ab{/executors/threadDump,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5488b5c5{/executors/threadDump/json,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4248ed58{/static,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@89c65d5{/,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@faa3fed{/api,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3c5a54b7{/jobs/job/kill,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@61f2c3f0{/stages/stage/kill,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid00776:4040
-2019-03-03 19:22:13 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid00776:39849/jars/Taskbench-assembly-1.0.jar with timestamp 1551669733184
-2019-03-03 19:22:13 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid00776:39849/files/libcore_c.so with timestamp 1551669733187
-2019-03-03 19:22:13 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-a70cd324-e1c8-4605-94d9-e9b66a603caf/userFiles-23bfd791-4158-4cf9-a841-7437a7a21caa/libcore_c.so
-2019-03-03 19:22:13 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid00776:7077...
-2019-03-03 19:22:13 INFO  TransportClientFactory:267 - Successfully created connection to nid00776/10.128.3.15:7077 after 47 ms (0 ms spent in bootstraps)
-2019-03-03 19:22:13 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190303192213-0005
-2019-03-03 19:22:13 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303192213-0005/0 on worker-20190303170842-10.128.3.16-38775 (10.128.3.16:38775) with 16 core(s)
-2019-03-03 19:22:13 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303192213-0005/0 on hostPort 10.128.3.16:38775 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:22:13 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303192213-0005/1 on worker-20190303170842-10.128.3.35-34996 (10.128.3.35:34996) with 16 core(s)
-2019-03-03 19:22:13 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303192213-0005/1 on hostPort 10.128.3.35:34996 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:22:13 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303192213-0005/2 on worker-20190303170842-10.128.3.16-42580 (10.128.3.16:42580) with 16 core(s)
-2019-03-03 19:22:13 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303192213-0005/2 on hostPort 10.128.3.16:42580 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:22:13 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303192213-0005/3 on worker-20190303170842-10.128.3.35-35735 (10.128.3.35:35735) with 16 core(s)
-2019-03-03 19:22:13 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303192213-0005/3 on hostPort 10.128.3.35:35735 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:22:13 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 34515.
-2019-03-03 19:22:13 INFO  NettyBlockTransferService:54 - Server created on nid00776:34515
-2019-03-03 19:22:13 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
-2019-03-03 19:22:13 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid00776, 34515, None)
-2019-03-03 19:22:13 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid00776:34515 with 34.0 GB RAM, BlockManagerId(driver, nid00776, 34515, None)
-2019-03-03 19:22:13 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid00776, 34515, None)
-2019-03-03 19:22:13 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid00776, 34515, None)
-2019-03-03 19:22:13 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@67c277a0{/metrics/json,null,AVAILABLE,@Spark}
-2019-03-03 19:22:13 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
 Num partitions: 60
 Starting preprocessing
 Starting warmup
@@ -561,79 +145,9 @@ Total Tasks 64000
 Total Dependencies 64000
 Total FLOPs 549755817984000
 Total Bytes 0
-Elapsed Time 3.978584e+02 seconds
-FLOP/s 1.381788e+12
+Elapsed Time 3.921414e+02 seconds
+FLOP/s 1.401933e+12
 B/s 0.000000e+00
-2019-03-03 19:36:19 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2019-03-03 19:36:19 INFO  SparkContext:54 - Running Spark version 2.3.0
-2019-03-03 19:36:19 INFO  SparkContext:54 - Submitted application: SimpleApplication
-2019-03-03 19:36:20 INFO  SecurityManager:54 - Changing view acls to: slaughte
-2019-03-03 19:36:20 INFO  SecurityManager:54 - Changing modify acls to: slaughte
-2019-03-03 19:36:20 INFO  SecurityManager:54 - Changing view acls groups to: 
-2019-03-03 19:36:20 INFO  SecurityManager:54 - Changing modify acls groups to: 
-2019-03-03 19:36:20 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
-2019-03-03 19:36:20 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 41982.
-2019-03-03 19:36:20 INFO  SparkEnv:54 - Registering MapOutputTracker
-2019-03-03 19:36:20 INFO  SparkEnv:54 - Registering BlockManagerMaster
-2019-03-03 19:36:20 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
-2019-03-03 19:36:20 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
-2019-03-03 19:36:20 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-41aea03d-afba-40d0-9086-b30ef5b665a0
-2019-03-03 19:36:20 INFO  MemoryStore:54 - MemoryStore started with capacity 34.0 GB
-2019-03-03 19:36:20 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
-2019-03-03 19:36:20 INFO  log:192 - Logging initialized @6468ms
-2019-03-03 19:36:20 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
-2019-03-03 19:36:20 INFO  Server:414 - Started @6566ms
-2019-03-03 19:36:20 INFO  AbstractConnector:278 - Started ServerConnector@7f7d9eea{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
-2019-03-03 19:36:20 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@58faa93b{/jobs,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@27cbfddf{/jobs/json,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@27ead29e{/jobs/job,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@40620d8e{/jobs/job/json,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@383f3558{/stages,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@49b07ee3{/stages/json,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/stages/stage,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6ea94d6a{/stages/stage/json,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@28486680{/stages/pool,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d7e7435{/stages/pool/json,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/storage,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/storage/json,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/storage/rdd,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage/rdd/json,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/environment,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/environment/json,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/executors,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/executors/json,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/executors/threadDump,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors/threadDump/json,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/static,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3c2772d1{/,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@37d00a23{/api,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@381cad29{/jobs/job/kill,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@988246e{/stages/stage/kill,null,AVAILABLE,@Spark}
-2019-03-03 19:36:20 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid00776:4040
-2019-03-03 19:36:20 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid00776:41982/jars/Taskbench-assembly-1.0.jar with timestamp 1551670580965
-2019-03-03 19:36:20 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid00776:41982/files/libcore_c.so with timestamp 1551670580969
-2019-03-03 19:36:20 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-bddd1c86-f1d8-4ac9-afb4-4312c77cf614/userFiles-e62f2888-a4e5-4a3a-b987-4df09aa220c8/libcore_c.so
-2019-03-03 19:36:21 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid00776:7077...
-2019-03-03 19:36:21 INFO  TransportClientFactory:267 - Successfully created connection to nid00776/10.128.3.15:7077 after 52 ms (0 ms spent in bootstraps)
-2019-03-03 19:36:21 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190303193621-0006
-2019-03-03 19:36:21 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303193621-0006/0 on worker-20190303170842-10.128.3.16-38775 (10.128.3.16:38775) with 16 core(s)
-2019-03-03 19:36:21 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303193621-0006/0 on hostPort 10.128.3.16:38775 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:36:21 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303193621-0006/1 on worker-20190303170842-10.128.3.35-34996 (10.128.3.35:34996) with 16 core(s)
-2019-03-03 19:36:21 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303193621-0006/1 on hostPort 10.128.3.35:34996 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:36:21 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303193621-0006/2 on worker-20190303170842-10.128.3.16-42580 (10.128.3.16:42580) with 16 core(s)
-2019-03-03 19:36:21 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303193621-0006/2 on hostPort 10.128.3.16:42580 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:36:21 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303193621-0006/3 on worker-20190303170842-10.128.3.35-35735 (10.128.3.35:35735) with 16 core(s)
-2019-03-03 19:36:21 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303193621-0006/3 on hostPort 10.128.3.35:35735 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:36:21 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 46418.
-2019-03-03 19:36:21 INFO  NettyBlockTransferService:54 - Server created on nid00776:46418
-2019-03-03 19:36:21 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
-2019-03-03 19:36:21 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid00776, 46418, None)
-2019-03-03 19:36:21 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid00776:46418 with 34.0 GB RAM, BlockManagerId(driver, nid00776, 46418, None)
-2019-03-03 19:36:21 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid00776, 46418, None)
-2019-03-03 19:36:21 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid00776, 46418, None)
-2019-03-03 19:36:21 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f52eb6f{/metrics/json,null,AVAILABLE,@Spark}
-2019-03-03 19:36:21 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
 Num partitions: 60
 Starting preprocessing
 Starting warmup
@@ -656,79 +170,9 @@ Total Tasks 64000
 Total Dependencies 64000
 Total FLOPs 274877911040000
 Total Bytes 0
-Elapsed Time 2.047143e+02 seconds
-FLOP/s 1.342739e+12
+Elapsed Time 2.002838e+02 seconds
+FLOP/s 1.372442e+12
 B/s 0.000000e+00
-2019-03-03 19:43:53 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2019-03-03 19:43:53 INFO  SparkContext:54 - Running Spark version 2.3.0
-2019-03-03 19:43:54 INFO  SparkContext:54 - Submitted application: SimpleApplication
-2019-03-03 19:43:54 INFO  SecurityManager:54 - Changing view acls to: slaughte
-2019-03-03 19:43:54 INFO  SecurityManager:54 - Changing modify acls to: slaughte
-2019-03-03 19:43:54 INFO  SecurityManager:54 - Changing view acls groups to: 
-2019-03-03 19:43:54 INFO  SecurityManager:54 - Changing modify acls groups to: 
-2019-03-03 19:43:54 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
-2019-03-03 19:43:54 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 43406.
-2019-03-03 19:43:54 INFO  SparkEnv:54 - Registering MapOutputTracker
-2019-03-03 19:43:54 INFO  SparkEnv:54 - Registering BlockManagerMaster
-2019-03-03 19:43:54 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
-2019-03-03 19:43:54 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
-2019-03-03 19:43:54 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-16d8df1f-40b2-4465-8b3e-0bc200b86871
-2019-03-03 19:43:54 INFO  MemoryStore:54 - MemoryStore started with capacity 34.0 GB
-2019-03-03 19:43:54 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
-2019-03-03 19:43:54 INFO  log:192 - Logging initialized @5696ms
-2019-03-03 19:43:54 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
-2019-03-03 19:43:54 INFO  Server:414 - Started @5791ms
-2019-03-03 19:43:54 INFO  AbstractConnector:278 - Started ServerConnector@779dfe55{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
-2019-03-03 19:43:54 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5f212d84{/jobs,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@27ead29e{/jobs/json,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4c060c8f{/jobs/job,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@383f3558{/jobs/job/json,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@49b07ee3{/stages,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/stages/json,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65f00478{/stages/stage,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@28486680{/stages/stage/json,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d7e7435{/stages/pool,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/stages/pool/json,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/storage,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/storage/json,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage/rdd,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/storage/rdd/json,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/environment,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/environment/json,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/executors,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/executors/json,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors/threadDump,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/executors/threadDump/json,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bc9e6ab{/static,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@37d00a23{/,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@433e536f{/api,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@988246e{/jobs/job/kill,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@62515a47{/stages/stage/kill,null,AVAILABLE,@Spark}
-2019-03-03 19:43:54 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid00776:4040
-2019-03-03 19:43:55 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid00776:43406/jars/Taskbench-assembly-1.0.jar with timestamp 1551671035011
-2019-03-03 19:43:55 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid00776:43406/files/libcore_c.so with timestamp 1551671035014
-2019-03-03 19:43:55 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-98a7bd09-733b-465d-ab7f-7607fbdec5f2/userFiles-98ecefbf-0cf0-4a2d-8041-aeecfe4feecd/libcore_c.so
-2019-03-03 19:43:55 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid00776:7077...
-2019-03-03 19:43:55 INFO  TransportClientFactory:267 - Successfully created connection to nid00776/10.128.3.15:7077 after 49 ms (0 ms spent in bootstraps)
-2019-03-03 19:43:55 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190303194355-0007
-2019-03-03 19:43:55 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303194355-0007/0 on worker-20190303170842-10.128.3.16-38775 (10.128.3.16:38775) with 16 core(s)
-2019-03-03 19:43:55 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303194355-0007/0 on hostPort 10.128.3.16:38775 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:43:55 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303194355-0007/1 on worker-20190303170842-10.128.3.35-34996 (10.128.3.35:34996) with 16 core(s)
-2019-03-03 19:43:55 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303194355-0007/1 on hostPort 10.128.3.35:34996 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:43:55 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303194355-0007/2 on worker-20190303170842-10.128.3.16-42580 (10.128.3.16:42580) with 16 core(s)
-2019-03-03 19:43:55 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303194355-0007/2 on hostPort 10.128.3.16:42580 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:43:55 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303194355-0007/3 on worker-20190303170842-10.128.3.35-35735 (10.128.3.35:35735) with 16 core(s)
-2019-03-03 19:43:55 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303194355-0007/3 on hostPort 10.128.3.35:35735 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:43:55 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 46310.
-2019-03-03 19:43:55 INFO  NettyBlockTransferService:54 - Server created on nid00776:46310
-2019-03-03 19:43:55 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
-2019-03-03 19:43:55 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid00776, 46310, None)
-2019-03-03 19:43:55 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid00776:46310 with 34.0 GB RAM, BlockManagerId(driver, nid00776, 46310, None)
-2019-03-03 19:43:55 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid00776, 46310, None)
-2019-03-03 19:43:55 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid00776, 46310, None)
-2019-03-03 19:43:55 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@57d0fc89{/metrics/json,null,AVAILABLE,@Spark}
-2019-03-03 19:43:55 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
 Num partitions: 60
 Starting preprocessing
 Starting warmup
@@ -751,79 +195,9 @@ Total Tasks 64000
 Total Dependencies 64000
 Total FLOPs 274877911040000
 Total Bytes 0
-Elapsed Time 2.011410e+02 seconds
-FLOP/s 1.366593e+12
+Elapsed Time 2.014798e+02 seconds
+FLOP/s 1.364295e+12
 B/s 0.000000e+00
-2019-03-03 19:51:32 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2019-03-03 19:51:32 INFO  SparkContext:54 - Running Spark version 2.3.0
-2019-03-03 19:51:32 INFO  SparkContext:54 - Submitted application: SimpleApplication
-2019-03-03 19:51:33 INFO  SecurityManager:54 - Changing view acls to: slaughte
-2019-03-03 19:51:33 INFO  SecurityManager:54 - Changing modify acls to: slaughte
-2019-03-03 19:51:33 INFO  SecurityManager:54 - Changing view acls groups to: 
-2019-03-03 19:51:33 INFO  SecurityManager:54 - Changing modify acls groups to: 
-2019-03-03 19:51:33 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
-2019-03-03 19:51:33 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 35276.
-2019-03-03 19:51:33 INFO  SparkEnv:54 - Registering MapOutputTracker
-2019-03-03 19:51:33 INFO  SparkEnv:54 - Registering BlockManagerMaster
-2019-03-03 19:51:33 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
-2019-03-03 19:51:33 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
-2019-03-03 19:51:33 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-afc32a1f-30f0-4e60-9535-b8e3e38015e1
-2019-03-03 19:51:33 INFO  MemoryStore:54 - MemoryStore started with capacity 34.0 GB
-2019-03-03 19:51:33 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
-2019-03-03 19:51:33 INFO  log:192 - Logging initialized @5502ms
-2019-03-03 19:51:33 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
-2019-03-03 19:51:33 INFO  Server:414 - Started @5601ms
-2019-03-03 19:51:33 INFO  AbstractConnector:278 - Started ServerConnector@1144a55a{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
-2019-03-03 19:51:33 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6b9c69a9{/jobs,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@40620d8e{/jobs/json,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@383f3558{/jobs/job,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/jobs/job/json,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65f00478{/stages,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2424686b{/stages/json,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6ea94d6a{/stages/stage,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/stages/stage/json,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/stages/pool,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/stages/pool/json,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/storage/json,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/storage/rdd,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/storage/rdd/json,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/environment,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/environment/json,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/executors/json,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bc9e6ab{/executors/threadDump,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5488b5c5{/executors/threadDump/json,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4248ed58{/static,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@89c65d5{/,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@faa3fed{/api,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3c5a54b7{/jobs/job/kill,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@61f2c3f0{/stages/stage/kill,null,AVAILABLE,@Spark}
-2019-03-03 19:51:33 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid00776:4040
-2019-03-03 19:51:33 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid00776:35276/jars/Taskbench-assembly-1.0.jar with timestamp 1551671493932
-2019-03-03 19:51:33 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid00776:35276/files/libcore_c.so with timestamp 1551671493935
-2019-03-03 19:51:33 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-d0f68762-65ef-4f2a-991a-7f7939447826/userFiles-b74d8eb0-376d-432e-8603-56bde7432c36/libcore_c.so
-2019-03-03 19:51:34 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid00776:7077...
-2019-03-03 19:51:34 INFO  TransportClientFactory:267 - Successfully created connection to nid00776/10.128.3.15:7077 after 50 ms (0 ms spent in bootstraps)
-2019-03-03 19:51:34 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190303195134-0008
-2019-03-03 19:51:34 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303195134-0008/0 on worker-20190303170842-10.128.3.16-38775 (10.128.3.16:38775) with 16 core(s)
-2019-03-03 19:51:34 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303195134-0008/0 on hostPort 10.128.3.16:38775 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:51:34 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303195134-0008/1 on worker-20190303170842-10.128.3.35-34996 (10.128.3.35:34996) with 16 core(s)
-2019-03-03 19:51:34 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303195134-0008/1 on hostPort 10.128.3.35:34996 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:51:34 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303195134-0008/2 on worker-20190303170842-10.128.3.16-42580 (10.128.3.16:42580) with 16 core(s)
-2019-03-03 19:51:34 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303195134-0008/2 on hostPort 10.128.3.16:42580 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:51:34 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303195134-0008/3 on worker-20190303170842-10.128.3.35-35735 (10.128.3.35:35735) with 16 core(s)
-2019-03-03 19:51:34 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 35998.
-2019-03-03 19:51:34 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303195134-0008/3 on hostPort 10.128.3.35:35735 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:51:34 INFO  NettyBlockTransferService:54 - Server created on nid00776:35998
-2019-03-03 19:51:34 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
-2019-03-03 19:51:34 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid00776, 35998, None)
-2019-03-03 19:51:34 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid00776:35998 with 34.0 GB RAM, BlockManagerId(driver, nid00776, 35998, None)
-2019-03-03 19:51:34 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid00776, 35998, None)
-2019-03-03 19:51:34 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid00776, 35998, None)
-2019-03-03 19:51:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@67c277a0{/metrics/json,null,AVAILABLE,@Spark}
-2019-03-03 19:51:34 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
 Num partitions: 60
 Starting preprocessing
 Starting warmup
@@ -846,79 +220,9 @@ Total Tasks 64000
 Total Dependencies 64000
 Total FLOPs 274877911040000
 Total Bytes 0
-Elapsed Time 2.016168e+02 seconds
-FLOP/s 1.363368e+12
+Elapsed Time 2.023659e+02 seconds
+FLOP/s 1.358321e+12
 B/s 0.000000e+00
-2019-03-03 19:59:11 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2019-03-03 19:59:12 INFO  SparkContext:54 - Running Spark version 2.3.0
-2019-03-03 19:59:12 INFO  SparkContext:54 - Submitted application: SimpleApplication
-2019-03-03 19:59:13 INFO  SecurityManager:54 - Changing view acls to: slaughte
-2019-03-03 19:59:13 INFO  SecurityManager:54 - Changing modify acls to: slaughte
-2019-03-03 19:59:13 INFO  SecurityManager:54 - Changing view acls groups to: 
-2019-03-03 19:59:13 INFO  SecurityManager:54 - Changing modify acls groups to: 
-2019-03-03 19:59:13 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
-2019-03-03 19:59:13 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 33423.
-2019-03-03 19:59:13 INFO  SparkEnv:54 - Registering MapOutputTracker
-2019-03-03 19:59:13 INFO  SparkEnv:54 - Registering BlockManagerMaster
-2019-03-03 19:59:13 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
-2019-03-03 19:59:13 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
-2019-03-03 19:59:13 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-d043d4eb-2b00-47b5-abf5-b40791108533
-2019-03-03 19:59:14 INFO  MemoryStore:54 - MemoryStore started with capacity 34.0 GB
-2019-03-03 19:59:14 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
-2019-03-03 19:59:14 INFO  log:192 - Logging initialized @5884ms
-2019-03-03 19:59:14 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
-2019-03-03 19:59:14 INFO  Server:414 - Started @5988ms
-2019-03-03 19:59:14 INFO  AbstractConnector:278 - Started ServerConnector@1144a55a{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
-2019-03-03 19:59:14 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6b9c69a9{/jobs,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@40620d8e{/jobs/json,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@383f3558{/jobs/job,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/jobs/job/json,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65f00478{/stages,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2424686b{/stages/json,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6ea94d6a{/stages/stage,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/stages/stage/json,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/stages/pool,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/stages/pool/json,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/storage/json,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/storage/rdd,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/storage/rdd/json,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/environment,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/environment/json,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/executors/json,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bc9e6ab{/executors/threadDump,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5488b5c5{/executors/threadDump/json,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4248ed58{/static,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@89c65d5{/,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@faa3fed{/api,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3c5a54b7{/jobs/job/kill,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@61f2c3f0{/stages/stage/kill,null,AVAILABLE,@Spark}
-2019-03-03 19:59:14 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid00776:4040
-2019-03-03 19:59:14 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid00776:33423/jars/Taskbench-assembly-1.0.jar with timestamp 1551671954414
-2019-03-03 19:59:14 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid00776:33423/files/libcore_c.so with timestamp 1551671954418
-2019-03-03 19:59:14 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-4cd5c648-ff23-4c98-bbe6-8045834f9ec2/userFiles-18cd573c-0036-4f39-be02-2ace0e13576f/libcore_c.so
-2019-03-03 19:59:14 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid00776:7077...
-2019-03-03 19:59:14 INFO  TransportClientFactory:267 - Successfully created connection to nid00776/10.128.3.15:7077 after 56 ms (0 ms spent in bootstraps)
-2019-03-03 19:59:14 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190303195914-0009
-2019-03-03 19:59:14 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303195914-0009/0 on worker-20190303170842-10.128.3.16-38775 (10.128.3.16:38775) with 16 core(s)
-2019-03-03 19:59:14 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303195914-0009/0 on hostPort 10.128.3.16:38775 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:59:14 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303195914-0009/1 on worker-20190303170842-10.128.3.35-34996 (10.128.3.35:34996) with 16 core(s)
-2019-03-03 19:59:14 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303195914-0009/1 on hostPort 10.128.3.35:34996 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:59:14 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303195914-0009/2 on worker-20190303170842-10.128.3.16-42580 (10.128.3.16:42580) with 16 core(s)
-2019-03-03 19:59:14 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303195914-0009/2 on hostPort 10.128.3.16:42580 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:59:14 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303195914-0009/3 on worker-20190303170842-10.128.3.35-35735 (10.128.3.35:35735) with 16 core(s)
-2019-03-03 19:59:14 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303195914-0009/3 on hostPort 10.128.3.35:35735 with 16 core(s), 64.0 GB RAM
-2019-03-03 19:59:14 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 36474.
-2019-03-03 19:59:14 INFO  NettyBlockTransferService:54 - Server created on nid00776:36474
-2019-03-03 19:59:14 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
-2019-03-03 19:59:14 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid00776, 36474, None)
-2019-03-03 19:59:14 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid00776:36474 with 34.0 GB RAM, BlockManagerId(driver, nid00776, 36474, None)
-2019-03-03 19:59:14 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid00776, 36474, None)
-2019-03-03 19:59:14 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid00776, 36474, None)
-2019-03-03 19:59:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@67c277a0{/metrics/json,null,AVAILABLE,@Spark}
-2019-03-03 19:59:15 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
 Num partitions: 60
 Starting preprocessing
 Starting warmup
@@ -941,79 +245,9 @@ Total Tasks 64000
 Total Dependencies 64000
 Total FLOPs 274877911040000
 Total Bytes 0
-Elapsed Time 2.011233e+02 seconds
-FLOP/s 1.366713e+12
+Elapsed Time 2.012451e+02 seconds
+FLOP/s 1.365886e+12
 B/s 0.000000e+00
-2019-03-03 20:06:58 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2019-03-03 20:06:59 INFO  SparkContext:54 - Running Spark version 2.3.0
-2019-03-03 20:06:59 INFO  SparkContext:54 - Submitted application: SimpleApplication
-2019-03-03 20:06:59 INFO  SecurityManager:54 - Changing view acls to: slaughte
-2019-03-03 20:06:59 INFO  SecurityManager:54 - Changing modify acls to: slaughte
-2019-03-03 20:06:59 INFO  SecurityManager:54 - Changing view acls groups to: 
-2019-03-03 20:06:59 INFO  SecurityManager:54 - Changing modify acls groups to: 
-2019-03-03 20:06:59 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
-2019-03-03 20:06:59 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 35593.
-2019-03-03 20:06:59 INFO  SparkEnv:54 - Registering MapOutputTracker
-2019-03-03 20:06:59 INFO  SparkEnv:54 - Registering BlockManagerMaster
-2019-03-03 20:06:59 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
-2019-03-03 20:06:59 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
-2019-03-03 20:06:59 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-63dc2eaa-4f74-49f9-97d0-9ad1491b4ee9
-2019-03-03 20:06:59 INFO  MemoryStore:54 - MemoryStore started with capacity 34.0 GB
-2019-03-03 20:07:00 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
-2019-03-03 20:07:00 INFO  log:192 - Logging initialized @4792ms
-2019-03-03 20:07:00 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
-2019-03-03 20:07:00 INFO  Server:414 - Started @4890ms
-2019-03-03 20:07:00 INFO  AbstractConnector:278 - Started ServerConnector@316ff4b0{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
-2019-03-03 20:07:00 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@127d7908{/jobs,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4c060c8f{/jobs/json,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@40620d8e{/jobs/job,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@49b07ee3{/jobs/job/json,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/stages,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65f00478{/stages/json,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2424686b{/stages/stage,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d7e7435{/stages/stage/json,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/stages/pool,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/stages/pool/json,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/storage,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage/json,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/storage/rdd,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/storage/rdd/json,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/environment,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/environment/json,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/executors,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors/json,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/executors/threadDump,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bc9e6ab{/executors/threadDump/json,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5488b5c5{/static,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@433e536f{/,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@89c65d5{/api,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@62515a47{/jobs/job/kill,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3c5a54b7{/stages/stage/kill,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid00776:4040
-2019-03-03 20:07:00 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid00776:35593/jars/Taskbench-assembly-1.0.jar with timestamp 1551672420385
-2019-03-03 20:07:00 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid00776:35593/files/libcore_c.so with timestamp 1551672420388
-2019-03-03 20:07:00 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-777bbe53-5447-433c-a017-39800fb56058/userFiles-8907aa51-afcc-4c28-916f-27166cf16524/libcore_c.so
-2019-03-03 20:07:00 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid00776:7077...
-2019-03-03 20:07:00 INFO  TransportClientFactory:267 - Successfully created connection to nid00776/10.128.3.15:7077 after 48 ms (0 ms spent in bootstraps)
-2019-03-03 20:07:00 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190303200700-0010
-2019-03-03 20:07:00 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303200700-0010/0 on worker-20190303170842-10.128.3.16-38775 (10.128.3.16:38775) with 16 core(s)
-2019-03-03 20:07:00 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303200700-0010/0 on hostPort 10.128.3.16:38775 with 16 core(s), 64.0 GB RAM
-2019-03-03 20:07:00 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303200700-0010/1 on worker-20190303170842-10.128.3.35-34996 (10.128.3.35:34996) with 16 core(s)
-2019-03-03 20:07:00 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303200700-0010/1 on hostPort 10.128.3.35:34996 with 16 core(s), 64.0 GB RAM
-2019-03-03 20:07:00 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303200700-0010/2 on worker-20190303170842-10.128.3.16-42580 (10.128.3.16:42580) with 16 core(s)
-2019-03-03 20:07:00 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303200700-0010/2 on hostPort 10.128.3.16:42580 with 16 core(s), 64.0 GB RAM
-2019-03-03 20:07:00 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303200700-0010/3 on worker-20190303170842-10.128.3.35-35735 (10.128.3.35:35735) with 16 core(s)
-2019-03-03 20:07:00 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303200700-0010/3 on hostPort 10.128.3.35:35735 with 16 core(s), 64.0 GB RAM
-2019-03-03 20:07:00 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 35345.
-2019-03-03 20:07:00 INFO  NettyBlockTransferService:54 - Server created on nid00776:35345
-2019-03-03 20:07:00 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
-2019-03-03 20:07:00 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid00776, 35345, None)
-2019-03-03 20:07:00 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid00776:35345 with 34.0 GB RAM, BlockManagerId(driver, nid00776, 35345, None)
-2019-03-03 20:07:00 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid00776, 35345, None)
-2019-03-03 20:07:00 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid00776, 35345, None)
-2019-03-03 20:07:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@58294867{/metrics/json,null,AVAILABLE,@Spark}
-2019-03-03 20:07:00 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
 Num partitions: 60
 Starting preprocessing
 Starting warmup
@@ -1036,79 +270,9 @@ Total Tasks 64000
 Total Dependencies 64000
 Total FLOPs 137438957568000
 Total Bytes 0
-Elapsed Time 1.268471e+02 seconds
-FLOP/s 1.083501e+12
+Elapsed Time 1.207757e+02 seconds
+FLOP/s 1.137968e+12
 B/s 0.000000e+00
-2019-03-03 20:11:40 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2019-03-03 20:11:40 INFO  SparkContext:54 - Running Spark version 2.3.0
-2019-03-03 20:11:40 INFO  SparkContext:54 - Submitted application: SimpleApplication
-2019-03-03 20:11:40 INFO  SecurityManager:54 - Changing view acls to: slaughte
-2019-03-03 20:11:40 INFO  SecurityManager:54 - Changing modify acls to: slaughte
-2019-03-03 20:11:40 INFO  SecurityManager:54 - Changing view acls groups to: 
-2019-03-03 20:11:40 INFO  SecurityManager:54 - Changing modify acls groups to: 
-2019-03-03 20:11:40 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
-2019-03-03 20:11:41 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 43542.
-2019-03-03 20:11:41 INFO  SparkEnv:54 - Registering MapOutputTracker
-2019-03-03 20:11:41 INFO  SparkEnv:54 - Registering BlockManagerMaster
-2019-03-03 20:11:41 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
-2019-03-03 20:11:41 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
-2019-03-03 20:11:41 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-0beb7cb5-ea54-4df3-84e8-7bb8e547d63b
-2019-03-03 20:11:41 INFO  MemoryStore:54 - MemoryStore started with capacity 34.0 GB
-2019-03-03 20:11:41 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
-2019-03-03 20:11:41 INFO  log:192 - Logging initialized @4960ms
-2019-03-03 20:11:41 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
-2019-03-03 20:11:41 INFO  Server:414 - Started @5065ms
-2019-03-03 20:11:41 INFO  AbstractConnector:278 - Started ServerConnector@779dfe55{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
-2019-03-03 20:11:41 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5f212d84{/jobs,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@27ead29e{/jobs/json,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4c060c8f{/jobs/job,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@383f3558{/jobs/job/json,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@49b07ee3{/stages,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/stages/json,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65f00478{/stages/stage,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@28486680{/stages/stage/json,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d7e7435{/stages/pool,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/stages/pool/json,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/storage,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/storage/json,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage/rdd,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/storage/rdd/json,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/environment,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/environment/json,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/executors,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/executors/json,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors/threadDump,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/executors/threadDump/json,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bc9e6ab{/static,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@37d00a23{/,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@433e536f{/api,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@988246e{/jobs/job/kill,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@62515a47{/stages/stage/kill,null,AVAILABLE,@Spark}
-2019-03-03 20:11:41 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid00776:4040
-2019-03-03 20:11:41 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid00776:43542/jars/Taskbench-assembly-1.0.jar with timestamp 1551672701620
-2019-03-03 20:11:41 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid00776:43542/files/libcore_c.so with timestamp 1551672701623
-2019-03-03 20:11:41 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-374d4384-8ef6-4d4e-9879-780bce4aba0d/userFiles-f153a1d7-5b7f-403a-9d4f-66ac65f6e96a/libcore_c.so
-2019-03-03 20:11:41 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid00776:7077...
-2019-03-03 20:11:41 INFO  TransportClientFactory:267 - Successfully created connection to nid00776/10.128.3.15:7077 after 47 ms (0 ms spent in bootstraps)
-2019-03-03 20:11:41 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190303201141-0011
-2019-03-03 20:11:41 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303201141-0011/0 on worker-20190303170842-10.128.3.16-38775 (10.128.3.16:38775) with 16 core(s)
-2019-03-03 20:11:41 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303201141-0011/0 on hostPort 10.128.3.16:38775 with 16 core(s), 64.0 GB RAM
-2019-03-03 20:11:41 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303201141-0011/1 on worker-20190303170842-10.128.3.35-34996 (10.128.3.35:34996) with 16 core(s)
-2019-03-03 20:11:41 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303201141-0011/1 on hostPort 10.128.3.35:34996 with 16 core(s), 64.0 GB RAM
-2019-03-03 20:11:41 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303201141-0011/2 on worker-20190303170842-10.128.3.16-42580 (10.128.3.16:42580) with 16 core(s)
-2019-03-03 20:11:41 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303201141-0011/2 on hostPort 10.128.3.16:42580 with 16 core(s), 64.0 GB RAM
-2019-03-03 20:11:41 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303201141-0011/3 on worker-20190303170842-10.128.3.35-35735 (10.128.3.35:35735) with 16 core(s)
-2019-03-03 20:11:41 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303201141-0011/3 on hostPort 10.128.3.35:35735 with 16 core(s), 64.0 GB RAM
-2019-03-03 20:11:41 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44681.
-2019-03-03 20:11:41 INFO  NettyBlockTransferService:54 - Server created on nid00776:44681
-2019-03-03 20:11:41 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
-2019-03-03 20:11:41 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid00776, 44681, None)
-2019-03-03 20:11:41 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid00776:44681 with 34.0 GB RAM, BlockManagerId(driver, nid00776, 44681, None)
-2019-03-03 20:11:41 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid00776, 44681, None)
-2019-03-03 20:11:41 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid00776, 44681, None)
-2019-03-03 20:11:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@57d0fc89{/metrics/json,null,AVAILABLE,@Spark}
-2019-03-03 20:11:42 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
 Num partitions: 60
 Starting preprocessing
 Starting warmup
@@ -1131,80 +295,1831 @@ Total Tasks 64000
 Total Dependencies 64000
 Total FLOPs 137438957568000
 Total Bytes 0
-Elapsed Time 1.229427e+02 seconds
-FLOP/s 1.117911e+12
+Elapsed Time 1.226659e+02 seconds
+FLOP/s 1.120433e+12
 B/s 0.000000e+00
-2019-03-03 20:16:30 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2019-03-03 20:16:30 INFO  SparkContext:54 - Running Spark version 2.3.0
-2019-03-03 20:16:31 INFO  SparkContext:54 - Submitted application: SimpleApplication
-2019-03-03 20:16:31 INFO  SecurityManager:54 - Changing view acls to: slaughte
-2019-03-03 20:16:31 INFO  SecurityManager:54 - Changing modify acls to: slaughte
-2019-03-03 20:16:31 INFO  SecurityManager:54 - Changing view acls groups to: 
-2019-03-03 20:16:31 INFO  SecurityManager:54 - Changing modify acls groups to: 
-2019-03-03 20:16:31 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(slaughte); groups with view permissions: Set(); users  with modify permissions: Set(slaughte); groups with modify permissions: Set()
-2019-03-03 20:16:31 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 40773.
-2019-03-03 20:16:31 INFO  SparkEnv:54 - Registering MapOutputTracker
-2019-03-03 20:16:31 INFO  SparkEnv:54 - Registering BlockManagerMaster
-2019-03-03 20:16:31 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
-2019-03-03 20:16:31 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
-2019-03-03 20:16:31 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark/blockmgr-220f3a86-0aae-435c-bc2b-e0d8684df066
-2019-03-03 20:16:31 INFO  MemoryStore:54 - MemoryStore started with capacity 34.0 GB
-2019-03-03 20:16:31 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
-2019-03-03 20:16:31 INFO  log:192 - Logging initialized @5384ms
-2019-03-03 20:16:31 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
-2019-03-03 20:16:31 INFO  Server:414 - Started @5495ms
-2019-03-03 20:16:32 INFO  AbstractConnector:278 - Started ServerConnector@1144a55a{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
-2019-03-03 20:16:32 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6b9c69a9{/jobs,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@40620d8e{/jobs/json,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@383f3558{/jobs/job,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@352e612e{/jobs/job/json,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65f00478{/stages,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2424686b{/stages/json,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6ea94d6a{/stages/stage,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a1e3ac1{/stages/stage/json,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e78fcf5{/stages/pool,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56febdc{/stages/pool/json,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3b8ee898{/storage,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d151a{/storage/json,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@294bdeb4{/storage/rdd,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5300f14a{/storage/rdd/json,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f86099a{/environment,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77bb0ab5{/environment/json,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2c488{/executors,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54acff7d{/executors/json,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bc9e6ab{/executors/threadDump,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5488b5c5{/executors/threadDump/json,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4248ed58{/static,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@89c65d5{/,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@faa3fed{/api,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3c5a54b7{/jobs/job/kill,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@61f2c3f0{/stages/stage/kill,null,AVAILABLE,@Spark}
-2019-03-03 20:16:32 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://nid00776:4040
-2019-03-03 20:16:32 INFO  SparkContext:54 - Added JAR file:/global/homes/s/slaughte/task-bench/experiments/cori_metg_compute/../../spark/target/scala-2.11/Taskbench-assembly-1.0.jar at spark://nid00776:40773/jars/Taskbench-assembly-1.0.jar with timestamp 1551672992188
-2019-03-03 20:16:32 INFO  SparkContext:54 - Added file file:///global/homes/s/slaughte/task-bench/spark/libcore_c.so at spark://nid00776:40773/files/libcore_c.so with timestamp 1551672992192
-2019-03-03 20:16:32 INFO  Utils:54 - Copying /global/homes/s/slaughte/task-bench/spark/libcore_c.so to /tmp/spark/spark-5e4eadbb-c623-4d92-813b-9a3e78711ee3/userFiles-d9472dc6-7431-480e-ad50-3696674323c0/libcore_c.so
-2019-03-03 20:16:32 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://nid00776:7077...
-2019-03-03 20:16:32 INFO  TransportClientFactory:267 - Successfully created connection to nid00776/10.128.3.15:7077 after 67 ms (0 ms spent in bootstraps)
-2019-03-03 20:16:32 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190303201632-0012
-2019-03-03 20:16:32 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303201632-0012/0 on worker-20190303170842-10.128.3.16-38775 (10.128.3.16:38775) with 16 core(s)
-2019-03-03 20:16:32 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303201632-0012/0 on hostPort 10.128.3.16:38775 with 16 core(s), 64.0 GB RAM
-2019-03-03 20:16:32 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303201632-0012/1 on worker-20190303170842-10.128.3.35-34996 (10.128.3.35:34996) with 16 core(s)
-2019-03-03 20:16:32 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303201632-0012/1 on hostPort 10.128.3.35:34996 with 16 core(s), 64.0 GB RAM
-2019-03-03 20:16:32 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303201632-0012/2 on worker-20190303170842-10.128.3.16-42580 (10.128.3.16:42580) with 16 core(s)
-2019-03-03 20:16:32 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303201632-0012/2 on hostPort 10.128.3.16:42580 with 16 core(s), 64.0 GB RAM
-2019-03-03 20:16:32 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190303201632-0012/3 on worker-20190303170842-10.128.3.35-35735 (10.128.3.35:35735) with 16 core(s)
-2019-03-03 20:16:32 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190303201632-0012/3 on hostPort 10.128.3.35:35735 with 16 core(s), 64.0 GB RAM
-2019-03-03 20:16:32 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 33792.
-2019-03-03 20:16:32 INFO  NettyBlockTransferService:54 - Server created on nid00776:33792
-2019-03-03 20:16:32 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
-2019-03-03 20:16:32 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, nid00776, 33792, None)
-2019-03-03 20:16:32 INFO  BlockManagerMasterEndpoint:54 - Registering block manager nid00776:33792 with 34.0 GB RAM, BlockManagerId(driver, nid00776, 33792, None)
-2019-03-03 20:16:32 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, nid00776, 33792, None)
-2019-03-03 20:16:32 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, nid00776, 33792, None)
-2019-03-03 20:16:33 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@67c277a0{/metrics/json,null,AVAILABLE,@Spark}
-2019-03-03 20:16:33 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
 Num partitions: 60
 Starting preprocessing
 Starting warmup
 Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 137438957568000
+Total Bytes 0
+Elapsed Time 1.256884e+02 seconds
+FLOP/s 1.093490e+12
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 137438957568000
+Total Bytes 0
+Elapsed Time 1.233615e+02 seconds
+FLOP/s 1.114116e+12
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 137438957568000
+Total Bytes 0
+Elapsed Time 1.263554e+02 seconds
+FLOP/s 1.087718e+12
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 68719480832000
+Total Bytes 0
+Elapsed Time 1.002835e+02 seconds
+FLOP/s 6.852518e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 68719480832000
+Total Bytes 0
+Elapsed Time 8.638246e+01 seconds
+FLOP/s 7.955259e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 68719480832000
+Total Bytes 0
+Elapsed Time 8.566286e+01 seconds
+FLOP/s 8.022086e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 68719480832000
+Total Bytes 0
+Elapsed Time 6.484821e+01 seconds
+FLOP/s 1.059697e+12
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 68719480832000
+Total Bytes 0
+Elapsed Time 9.194882e+01 seconds
+FLOP/s 7.473666e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 34359742464000
+Total Bytes 0
+Elapsed Time 5.245715e+01 seconds
+FLOP/s 6.550059e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 34359742464000
+Total Bytes 0
+Elapsed Time 4.882455e+01 seconds
+FLOP/s 7.037391e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 34359742464000
+Total Bytes 0
+Elapsed Time 4.737687e+01 seconds
+FLOP/s 7.252429e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 34359742464000
+Total Bytes 0
+Elapsed Time 4.669770e+01 seconds
+FLOP/s 7.357909e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 34359742464000
+Total Bytes 0
+Elapsed Time 5.088113e+01 seconds
+FLOP/s 6.752944e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 17179873280000
+Total Bytes 0
+Elapsed Time 3.286929e+01 seconds
+FLOP/s 5.226725e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 17179873280000
+Total Bytes 0
+Elapsed Time 3.213522e+01 seconds
+FLOP/s 5.346119e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 17179873280000
+Total Bytes 0
+Elapsed Time 3.213532e+01 seconds
+FLOP/s 5.346104e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 17179873280000
+Total Bytes 0
+Elapsed Time 2.992675e+01 seconds
+FLOP/s 5.740642e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 17179873280000
+Total Bytes 0
+Elapsed Time 3.276001e+01 seconds
+FLOP/s 5.244161e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 8589938688000
+Total Bytes 0
+Elapsed Time 2.558003e+01 seconds
+FLOP/s 3.358065e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 8589938688000
+Total Bytes 0
+Elapsed Time 4.586195e+01 seconds
+FLOP/s 1.872999e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 8589938688000
+Total Bytes 0
+Elapsed Time 2.482118e+01 seconds
+FLOP/s 3.460730e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 8589938688000
+Total Bytes 0
+Elapsed Time 2.442774e+01 seconds
+FLOP/s 3.516469e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 8589938688000
+Total Bytes 0
+Elapsed Time 2.388481e+01 seconds
+FLOP/s 3.596402e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 4294971392000
+Total Bytes 0
+Elapsed Time 2.220829e+01 seconds
+FLOP/s 1.933950e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 4294971392000
+Total Bytes 0
+Elapsed Time 2.549475e+01 seconds
+FLOP/s 1.684650e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 4294971392000
+Total Bytes 0
+Elapsed Time 2.693397e+01 seconds
+FLOP/s 1.594630e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 4294971392000
+Total Bytes 0
+Elapsed Time 2.583414e+01 seconds
+FLOP/s 1.662518e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 4294971392000
+Total Bytes 0
+Elapsed Time 2.759022e+01 seconds
+FLOP/s 1.556701e+11
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 2147487744000
+Total Bytes 0
+Elapsed Time 2.240067e+01 seconds
+FLOP/s 9.586713e+10
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 2147487744000
+Total Bytes 0
+Elapsed Time 2.933753e+01 seconds
+FLOP/s 7.319933e+10
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 2147487744000
+Total Bytes 0
+Elapsed Time 2.291383e+01 seconds
+FLOP/s 9.372017e+10
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 2147487744000
+Total Bytes 0
+Elapsed Time 3.190655e+01 seconds
+FLOP/s 6.730554e+10
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 2147487744000
+Total Bytes 0
+Elapsed Time 2.653586e+01 seconds
+FLOP/s 8.092777e+10
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 1073745920000
+Total Bytes 0
+Elapsed Time 2.513224e+01 seconds
+FLOP/s 4.272384e+10
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 1073745920000
+Total Bytes 0
+Elapsed Time 2.718108e+01 seconds
+FLOP/s 3.950343e+10
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 1073745920000
+Total Bytes 0
+Elapsed Time 2.820802e+01 seconds
+FLOP/s 3.806527e+10
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 1073745920000
+Total Bytes 0
+Elapsed Time 2.164996e+01 seconds
+FLOP/s 4.959575e+10
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 1073745920000
+Total Bytes 0
+Elapsed Time 2.488247e+01 seconds
+FLOP/s 4.315270e+10
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 536875008000
+Total Bytes 0
+Elapsed Time 2.221207e+01 seconds
+FLOP/s 2.417042e+10
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 536875008000
+Total Bytes 0
+Elapsed Time 2.125472e+01 seconds
+FLOP/s 2.525910e+10
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 536875008000
+Total Bytes 0
+Elapsed Time 2.123576e+01 seconds
+FLOP/s 2.528165e+10
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 536875008000
+Total Bytes 0
+Elapsed Time 2.030802e+01 seconds
+FLOP/s 2.643659e+10
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 536875008000
+Total Bytes 0
+Elapsed Time 2.244725e+01 seconds
+FLOP/s 2.391719e+10
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 268439552000
+Total Bytes 0
+Elapsed Time 2.280160e+01 seconds
+FLOP/s 1.177284e+10
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 268439552000
+Total Bytes 0
+Elapsed Time 2.760094e+01 seconds
+FLOP/s 9.725738e+09
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 268439552000
+Total Bytes 0
+Elapsed Time 1.840140e+01 seconds
+FLOP/s 1.458800e+10
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 268439552000
+Total Bytes 0
+Elapsed Time 1.532261e+01 seconds
+FLOP/s 1.751917e+10
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 268439552000
+Total Bytes 0
+Elapsed Time 2.502956e+01 seconds
+FLOP/s 1.072490e+10
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 134221824000
+Total Bytes 0
+Elapsed Time 2.073195e+01 seconds
+FLOP/s 6.474152e+09
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 134221824000
+Total Bytes 0
+Elapsed Time 2.488734e+01 seconds
+FLOP/s 5.393176e+09
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 134221824000
+Total Bytes 0
+Elapsed Time 3.104560e+01 seconds
+FLOP/s 4.323377e+09
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 134221824000
+Total Bytes 0
+Elapsed Time 2.599221e+01 seconds
+FLOP/s 5.163924e+09
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 134221824000
+Total Bytes 0
+Elapsed Time 2.363059e+01 seconds
+FLOP/s 5.680004e+09
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 67112960000
+Total Bytes 0
+Elapsed Time 1.588061e+01 seconds
+FLOP/s 4.226094e+09
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 67112960000
+Total Bytes 0
+Elapsed Time 1.677347e+01 seconds
+FLOP/s 4.001138e+09
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 67112960000
+Total Bytes 0
+Elapsed Time 1.918724e+01 seconds
+FLOP/s 3.497791e+09
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 67112960000
+Total Bytes 0
+Elapsed Time 2.100042e+01 seconds
+FLOP/s 3.195791e+09
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 67112960000
+Total Bytes 0
+Elapsed Time 2.298175e+01 seconds
+FLOP/s 2.920272e+09
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 33558528000
+Total Bytes 0
+Elapsed Time 2.802176e+01 seconds
+FLOP/s 1.197588e+09
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 33558528000
+Total Bytes 0
+Elapsed Time 1.896073e+01 seconds
+FLOP/s 1.769897e+09
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 33558528000
+Total Bytes 0
+Elapsed Time 2.101859e+01 seconds
+FLOP/s 1.596612e+09
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 33558528000
+Total Bytes 0
+Elapsed Time 1.532666e+01 seconds
+FLOP/s 2.189553e+09
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 33558528000
+Total Bytes 0
+Elapsed Time 1.716837e+01 seconds
+FLOP/s 1.954672e+09
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 16781312000
+Total Bytes 0
+Elapsed Time 3.040751e+01 seconds
+FLOP/s 5.518805e+08
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 16781312000
+Total Bytes 0
+Elapsed Time 1.824179e+01 seconds
+FLOP/s 9.199376e+08
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 16781312000
+Total Bytes 0
+Elapsed Time 2.249971e+01 seconds
+FLOP/s 7.458458e+08
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 16781312000
+Total Bytes 0
+Elapsed Time 2.947871e+01 seconds
+FLOP/s 5.692689e+08
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 16781312000
+Total Bytes 0
+Elapsed Time 1.484904e+01 seconds
+FLOP/s 1.130128e+09
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 8392704000
+Total Bytes 0
+Elapsed Time 2.146514e+01 seconds
+FLOP/s 3.909922e+08
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 8392704000
+Total Bytes 0
+Elapsed Time 2.136940e+01 seconds
+FLOP/s 3.927440e+08
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 8392704000
+Total Bytes 0
+Elapsed Time 1.870410e+01 seconds
+FLOP/s 4.487093e+08
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 8392704000
+Total Bytes 0
+Elapsed Time 2.679656e+01 seconds
+FLOP/s 3.132008e+08
+B/s 0.000000e+00
+Num partitions: 60
+Starting preprocessing
+Starting warmup
+Starting timing
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 64
+      Dependence Type: no_comm
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 64000
+Total Dependencies 64000
+Total FLOPs 8392704000
+Total Bytes 0
+Elapsed Time 1.733257e+01 seconds
+FLOP/s 4.842157e+08
+B/s 0.000000e+00

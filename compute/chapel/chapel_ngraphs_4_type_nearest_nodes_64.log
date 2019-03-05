@@ -1,18 +1,8 @@
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -24,7 +14,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -36,7 +26,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -48,7 +38,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -58,31 +48,18 @@ Running Task Benchmark
         Iterations: 67108864
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.170423e+02
-Time for last run: 2.170685e+02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 549755817984000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 17592186175488000
 Total Bytes 0
-Elapsed Time 2.170685e+02 seconds
-FLOP/s 2.532637e+12
+Elapsed Time 2.397270e+02 seconds
+FLOP/s 7.338426e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -94,7 +71,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -106,7 +83,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -118,7 +95,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -128,31 +105,18 @@ Running Task Benchmark
         Iterations: 33554432
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.084529e+02
-Time for last run: 1.088835e+02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 274877911040000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 8796093153280000
 Total Bytes 0
-Elapsed Time 1.088835e+02 seconds
-FLOP/s 2.524514e+12
+Elapsed Time 1.199195e+02 seconds
+FLOP/s 7.335000e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -164,7 +128,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -176,7 +140,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -188,7 +152,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -198,31 +162,18 @@ Running Task Benchmark
         Iterations: 33554432
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.090097e+02
-Time for last run: 1.085229e+02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 274877911040000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 8796093153280000
 Total Bytes 0
-Elapsed Time 1.085229e+02 seconds
-FLOP/s 2.532902e+12
+Elapsed Time 1.202524e+02 seconds
+FLOP/s 7.314694e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -234,7 +185,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -246,7 +197,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -258,7 +209,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -268,31 +219,18 @@ Running Task Benchmark
         Iterations: 16777216
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 5.434534e+01
-Time for last run: 5.433182e+01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 137438957568000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 4398046642176000
 Total Bytes 0
-Elapsed Time 5.433182e+01 seconds
-FLOP/s 2.529622e+12
+Elapsed Time 5.981619e+01 seconds
+FLOP/s 7.352602e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -304,7 +242,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -316,7 +254,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -328,7 +266,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -338,31 +276,18 @@ Running Task Benchmark
         Iterations: 16777216
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 5.438135e+01
-Time for last run: 5.428177e+01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 137438957568000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 4398046642176000
 Total Bytes 0
-Elapsed Time 5.428177e+01 seconds
-FLOP/s 2.531954e+12
+Elapsed Time 6.007045e+01 seconds
+FLOP/s 7.321481e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -374,7 +299,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -386,7 +311,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -398,7 +323,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -408,31 +333,18 @@ Running Task Benchmark
         Iterations: 16777216
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 5.420486e+01
-Time for last run: 5.428493e+01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 137438957568000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 4398046642176000
 Total Bytes 0
-Elapsed Time 5.428493e+01 seconds
-FLOP/s 2.531807e+12
+Elapsed Time 6.014195e+01 seconds
+FLOP/s 7.312777e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -444,7 +356,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -456,7 +368,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -468,7 +380,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -478,31 +390,18 @@ Running Task Benchmark
         Iterations: 8388608
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.709385e+01
-Time for last run: 2.708487e+01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 68719480832000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 2199023386624000
 Total Bytes 0
-Elapsed Time 2.708487e+01 seconds
-FLOP/s 2.537191e+12
+Elapsed Time 2.981217e+01 seconds
+FLOP/s 7.376262e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -514,7 +413,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -526,7 +425,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -538,7 +437,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -548,31 +447,18 @@ Running Task Benchmark
         Iterations: 8388608
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.711533e+01
-Time for last run: 2.710474e+01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 68719480832000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 2199023386624000
 Total Bytes 0
-Elapsed Time 2.710474e+01 seconds
-FLOP/s 2.535331e+12
+Elapsed Time 2.987765e+01 seconds
+FLOP/s 7.360095e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -584,7 +470,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -596,7 +482,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -608,7 +494,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -618,31 +504,18 @@ Running Task Benchmark
         Iterations: 8388608
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.710162e+01
-Time for last run: 2.714229e+01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 68719480832000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 2199023386624000
 Total Bytes 0
-Elapsed Time 2.714229e+01 seconds
-FLOP/s 2.531823e+12
+Elapsed Time 2.993887e+01 seconds
+FLOP/s 7.345044e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -654,7 +527,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -666,7 +539,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -678,7 +551,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -688,31 +561,18 @@ Running Task Benchmark
         Iterations: 8388608
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.716493e+01
-Time for last run: 2.718795e+01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 68719480832000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 2199023386624000
 Total Bytes 0
-Elapsed Time 2.718795e+01 seconds
-FLOP/s 2.527571e+12
+Elapsed Time 2.998741e+01 seconds
+FLOP/s 7.333155e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -724,7 +584,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -736,7 +596,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -748,7 +608,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -758,31 +618,18 @@ Running Task Benchmark
         Iterations: 4194304
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.365160e+01
-Time for last run: 1.360312e+01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 34359742464000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 1099511758848000
 Total Bytes 0
-Elapsed Time 1.360312e+01 seconds
-FLOP/s 2.525873e+12
+Elapsed Time 1.502641e+01 seconds
+FLOP/s 7.317197e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -794,7 +641,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -806,7 +653,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -818,7 +665,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -828,31 +675,18 @@ Running Task Benchmark
         Iterations: 4194304
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.355919e+01
-Time for last run: 1.357937e+01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 34359742464000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 1099511758848000
 Total Bytes 0
-Elapsed Time 1.357937e+01 seconds
-FLOP/s 2.530290e+12
+Elapsed Time 1.496636e+01 seconds
+FLOP/s 7.346552e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -864,7 +698,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -876,7 +710,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -888,7 +722,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -898,31 +732,18 @@ Running Task Benchmark
         Iterations: 4194304
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.361416e+01
-Time for last run: 1.359091e+01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 34359742464000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 1099511758848000
 Total Bytes 0
-Elapsed Time 1.359091e+01 seconds
-FLOP/s 2.528142e+12
+Elapsed Time 1.502513e+01 seconds
+FLOP/s 7.317820e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -934,7 +755,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -946,7 +767,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -958,7 +779,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -968,31 +789,18 @@ Running Task Benchmark
         Iterations: 4194304
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.360355e+01
-Time for last run: 1.357639e+01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 34359742464000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 1099511758848000
 Total Bytes 0
-Elapsed Time 1.357639e+01 seconds
-FLOP/s 2.530846e+12
+Elapsed Time 1.497680e+01 seconds
+FLOP/s 7.341432e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1004,7 +812,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1016,7 +824,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1028,7 +836,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1038,31 +846,18 @@ Running Task Benchmark
         Iterations: 4194304
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.360184e+01
-Time for last run: 1.359779e+01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 34359742464000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 1099511758848000
 Total Bytes 0
-Elapsed Time 1.359779e+01 seconds
-FLOP/s 2.526862e+12
+Elapsed Time 1.499472e+01 seconds
+FLOP/s 7.332659e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1074,7 +869,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1086,7 +881,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1098,7 +893,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1108,31 +903,18 @@ Running Task Benchmark
         Iterations: 2097152
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 6.787013e+00
-Time for last run: 6.783255e+00
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 17179873280000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 549755944960000
 Total Bytes 0
-Elapsed Time 6.783255e+00 seconds
-FLOP/s 2.532689e+12
+Elapsed Time 7.516813e+00 seconds
+FLOP/s 7.313684e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1144,7 +926,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1156,7 +938,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1168,7 +950,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1178,31 +960,18 @@ Running Task Benchmark
         Iterations: 2097152
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 6.835379e+00
-Time for last run: 6.785547e+00
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 17179873280000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 549755944960000
 Total Bytes 0
-Elapsed Time 6.785547e+00 seconds
-FLOP/s 2.531833e+12
+Elapsed Time 7.506319e+00 seconds
+FLOP/s 7.323909e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1214,7 +983,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1226,7 +995,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1238,7 +1007,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1248,31 +1017,18 @@ Running Task Benchmark
         Iterations: 2097152
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 6.829785e+00
-Time for last run: 6.793877e+00
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 17179873280000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 549755944960000
 Total Bytes 0
-Elapsed Time 6.793877e+00 seconds
-FLOP/s 2.528729e+12
+Elapsed Time 7.514075e+00 seconds
+FLOP/s 7.316349e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1284,7 +1040,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1296,7 +1052,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1308,7 +1064,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1318,31 +1074,18 @@ Running Task Benchmark
         Iterations: 2097152
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 6.817633e+00
-Time for last run: 6.782242e+00
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 17179873280000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 549755944960000
 Total Bytes 0
-Elapsed Time 6.782242e+00 seconds
-FLOP/s 2.533067e+12
+Elapsed Time 7.500782e+00 seconds
+FLOP/s 7.329315e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1354,7 +1097,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1366,7 +1109,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1378,7 +1121,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1388,31 +1131,18 @@ Running Task Benchmark
         Iterations: 2097152
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 6.824485e+00
-Time for last run: 6.807687e+00
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 17179873280000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 549755944960000
 Total Bytes 0
-Elapsed Time 6.807687e+00 seconds
-FLOP/s 2.523599e+12
+Elapsed Time 7.482930e+00 seconds
+FLOP/s 7.346801e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1424,7 +1154,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1436,7 +1166,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1448,7 +1178,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1458,31 +1188,18 @@ Running Task Benchmark
         Iterations: 1048576
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.455056e+00
-Time for last run: 3.401985e+00
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 8589938688000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 274878038016000
 Total Bytes 0
-Elapsed Time 3.401985e+00 seconds
-FLOP/s 2.524978e+12
+Elapsed Time 3.752816e+00 seconds
+FLOP/s 7.324581e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1494,7 +1211,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1506,7 +1223,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1518,7 +1235,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1528,31 +1245,18 @@ Running Task Benchmark
         Iterations: 1048576
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.442771e+00
-Time for last run: 3.405721e+00
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 8589938688000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 274878038016000
 Total Bytes 0
-Elapsed Time 3.405721e+00 seconds
-FLOP/s 2.522209e+12
+Elapsed Time 3.765258e+00 seconds
+FLOP/s 7.300377e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1564,7 +1268,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1576,7 +1280,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1588,7 +1292,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1598,31 +1302,18 @@ Running Task Benchmark
         Iterations: 1048576
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.438781e+00
-Time for last run: 3.398738e+00
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 8589938688000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 274878038016000
 Total Bytes 0
-Elapsed Time 3.398738e+00 seconds
-FLOP/s 2.527391e+12
+Elapsed Time 3.754797e+00 seconds
+FLOP/s 7.320716e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1634,7 +1325,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1646,7 +1337,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1658,7 +1349,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1668,31 +1359,18 @@ Running Task Benchmark
         Iterations: 1048576
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.453185e+00
-Time for last run: 3.401478e+00
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 8589938688000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 274878038016000
 Total Bytes 0
-Elapsed Time 3.401478e+00 seconds
-FLOP/s 2.525355e+12
+Elapsed Time 3.772479e+00 seconds
+FLOP/s 7.286403e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1704,7 +1382,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1716,7 +1394,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1728,7 +1406,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1738,31 +1416,18 @@ Running Task Benchmark
         Iterations: 1048576
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.444111e+00
-Time for last run: 3.395913e+00
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 8589938688000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 274878038016000
 Total Bytes 0
-Elapsed Time 3.395913e+00 seconds
-FLOP/s 2.529493e+12
+Elapsed Time 3.763820e+00 seconds
+FLOP/s 7.303166e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1774,7 +1439,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1786,7 +1451,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1798,7 +1463,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1808,31 +1473,18 @@ Running Task Benchmark
         Iterations: 524288
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.746953e+00
-Time for last run: 1.706210e+00
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 4294971392000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 137439084544000
 Total Bytes 0
-Elapsed Time 1.706210e+00 seconds
-FLOP/s 2.517259e+12
+Elapsed Time 1.895309e+00 seconds
+FLOP/s 7.251540e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1844,7 +1496,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1856,7 +1508,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1868,7 +1520,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1878,31 +1530,18 @@ Running Task Benchmark
         Iterations: 524288
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.750434e+00
-Time for last run: 1.709269e+00
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 4294971392000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 137439084544000
 Total Bytes 0
-Elapsed Time 1.709269e+00 seconds
-FLOP/s 2.512753e+12
+Elapsed Time 1.890389e+00 seconds
+FLOP/s 7.270413e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1914,7 +1553,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1926,7 +1565,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1938,7 +1577,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1948,31 +1587,18 @@ Running Task Benchmark
         Iterations: 524288
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.756921e+00
-Time for last run: 1.711521e+00
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 4294971392000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 137439084544000
 Total Bytes 0
-Elapsed Time 1.711521e+00 seconds
-FLOP/s 2.509447e+12
+Elapsed Time 1.885288e+00 seconds
+FLOP/s 7.290084e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1984,7 +1610,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -1996,7 +1622,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2008,7 +1634,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2018,31 +1644,18 @@ Running Task Benchmark
         Iterations: 524288
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.749103e+00
-Time for last run: 1.712821e+00
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 4294971392000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 137439084544000
 Total Bytes 0
-Elapsed Time 1.712821e+00 seconds
-FLOP/s 2.507542e+12
+Elapsed Time 1.890657e+00 seconds
+FLOP/s 7.269382e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2054,7 +1667,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2066,7 +1679,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2078,7 +1691,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2088,31 +1701,18 @@ Running Task Benchmark
         Iterations: 524288
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.747052e+00
-Time for last run: 1.710910e+00
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 4294971392000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 137439084544000
 Total Bytes 0
-Elapsed Time 1.710910e+00 seconds
-FLOP/s 2.510343e+12
+Elapsed Time 1.893616e+00 seconds
+FLOP/s 7.258023e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2124,7 +1724,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2136,7 +1736,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2148,7 +1748,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2158,31 +1758,18 @@ Running Task Benchmark
         Iterations: 262144
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 8.555920e-01
-Time for last run: 9.026589e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 2147487744000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 68719607808000
 Total Bytes 0
-Elapsed Time 9.026589e-01 seconds
-FLOP/s 2.379069e+12
+Elapsed Time 9.460860e-01 seconds
+FLOP/s 7.263569e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2194,7 +1781,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2206,7 +1793,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2218,7 +1805,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2228,31 +1815,18 @@ Running Task Benchmark
         Iterations: 262144
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 8.575971e-01
-Time for last run: 9.071441e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 2147487744000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 68719607808000
 Total Bytes 0
-Elapsed Time 9.071441e-01 seconds
-FLOP/s 2.367306e+12
+Elapsed Time 9.469910e-01 seconds
+FLOP/s 7.256627e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2264,7 +1838,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2276,7 +1850,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2288,7 +1862,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2298,31 +1872,18 @@ Running Task Benchmark
         Iterations: 262144
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 8.552799e-01
-Time for last run: 9.054050e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 2147487744000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 68719607808000
 Total Bytes 0
-Elapsed Time 9.054050e-01 seconds
-FLOP/s 2.371853e+12
+Elapsed Time 9.447880e-01 seconds
+FLOP/s 7.273548e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2334,7 +1895,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2346,7 +1907,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2358,7 +1919,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2368,31 +1929,18 @@ Running Task Benchmark
         Iterations: 262144
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 8.549640e-01
-Time for last run: 9.032130e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 2147487744000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 68719607808000
 Total Bytes 0
-Elapsed Time 9.032130e-01 seconds
-FLOP/s 2.377609e+12
+Elapsed Time 9.445620e-01 seconds
+FLOP/s 7.275288e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2404,7 +1952,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2416,7 +1964,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2428,7 +1976,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2438,31 +1986,18 @@ Running Task Benchmark
         Iterations: 262144
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 8.548329e-01
-Time for last run: 9.049721e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 2147487744000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 68719607808000
 Total Bytes 0
-Elapsed Time 9.049721e-01 seconds
-FLOP/s 2.372988e+12
+Elapsed Time 9.876260e-01 seconds
+FLOP/s 6.958060e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2474,7 +2009,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2486,7 +2021,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2498,7 +2033,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2508,31 +2043,18 @@ Running Task Benchmark
         Iterations: 131072
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 4.317920e-01
-Time for last run: 4.317770e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 1073745920000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 34359869440000
 Total Bytes 0
-Elapsed Time 4.317770e-01 seconds
-FLOP/s 2.486807e+12
+Elapsed Time 4.806230e-01 seconds
+FLOP/s 7.149027e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2544,7 +2066,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2556,7 +2078,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2568,7 +2090,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2578,31 +2100,18 @@ Running Task Benchmark
         Iterations: 131072
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 4.314930e-01
-Time for last run: 4.312131e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 1073745920000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 34359869440000
 Total Bytes 0
-Elapsed Time 4.312131e-01 seconds
-FLOP/s 2.490058e+12
+Elapsed Time 5.069910e-01 seconds
+FLOP/s 6.777215e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2614,7 +2123,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2626,7 +2135,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2638,7 +2147,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2648,31 +2157,18 @@ Running Task Benchmark
         Iterations: 131072
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 4.312830e-01
-Time for last run: 4.310520e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 1073745920000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 34359869440000
 Total Bytes 0
-Elapsed Time 4.310520e-01 seconds
-FLOP/s 2.490989e+12
+Elapsed Time 4.836220e-01 seconds
+FLOP/s 7.104695e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2684,7 +2180,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2696,7 +2192,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2708,7 +2204,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2718,31 +2214,18 @@ Running Task Benchmark
         Iterations: 131072
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 4.319770e-01
-Time for last run: 4.324560e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 1073745920000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 34359869440000
 Total Bytes 0
-Elapsed Time 4.324560e-01 seconds
-FLOP/s 2.482902e+12
+Elapsed Time 5.014050e-01 seconds
+FLOP/s 6.852718e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2754,7 +2237,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2766,7 +2249,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2778,7 +2261,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2788,31 +2271,18 @@ Running Task Benchmark
         Iterations: 131072
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 4.819479e-01
-Time for last run: 4.305000e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 1073745920000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 34359869440000
 Total Bytes 0
-Elapsed Time 4.305000e-01 seconds
-FLOP/s 2.494183e+12
+Elapsed Time 4.803450e-01 seconds
+FLOP/s 7.153165e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2824,7 +2294,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2836,7 +2306,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2848,7 +2318,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2858,31 +2328,18 @@ Running Task Benchmark
         Iterations: 65536
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.207599e-01
-Time for last run: 2.208278e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 536875008000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 17180000256000
 Total Bytes 0
-Elapsed Time 2.208278e-01 seconds
-FLOP/s 2.431193e+12
+Elapsed Time 2.520980e-01 seconds
+FLOP/s 6.814810e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2894,7 +2351,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2906,7 +2363,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2918,7 +2375,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2928,31 +2385,18 @@ Running Task Benchmark
         Iterations: 65536
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.197011e-01
-Time for last run: 2.202501e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 536875008000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 17180000256000
 Total Bytes 0
-Elapsed Time 2.202501e-01 seconds
-FLOP/s 2.437570e+12
+Elapsed Time 2.506670e-01 seconds
+FLOP/s 6.853714e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2964,7 +2408,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2976,7 +2420,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2988,7 +2432,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -2998,31 +2442,18 @@ Running Task Benchmark
         Iterations: 65536
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.197871e-01
-Time for last run: 2.201719e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 536875008000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 17180000256000
 Total Bytes 0
-Elapsed Time 2.201719e-01 seconds
-FLOP/s 2.438435e+12
+Elapsed Time 2.505340e-01 seconds
+FLOP/s 6.857353e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3034,7 +2465,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3046,7 +2477,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3058,7 +2489,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3068,31 +2499,18 @@ Running Task Benchmark
         Iterations: 65536
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.210629e-01
-Time for last run: 2.211030e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 536875008000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 17180000256000
 Total Bytes 0
-Elapsed Time 2.211030e-01 seconds
-FLOP/s 2.428168e+12
+Elapsed Time 2.506360e-01 seconds
+FLOP/s 6.854562e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3104,7 +2522,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3116,7 +2534,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3128,7 +2546,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3138,31 +2556,18 @@ Running Task Benchmark
         Iterations: 65536
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.214520e-01
-Time for last run: 2.204988e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 536875008000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 17180000256000
 Total Bytes 0
-Elapsed Time 2.204988e-01 seconds
-FLOP/s 2.434821e+12
+Elapsed Time 2.502260e-01 seconds
+FLOP/s 6.865793e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3174,7 +2579,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3186,7 +2591,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3198,7 +2603,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3208,31 +2613,18 @@ Running Task Benchmark
         Iterations: 32768
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.144960e-01
-Time for last run: 1.152642e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 268439552000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 8590065664000
 Total Bytes 0
-Elapsed Time 1.152642e-01 seconds
-FLOP/s 2.328907e+12
+Elapsed Time 1.367220e-01 seconds
+FLOP/s 6.282870e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3244,7 +2636,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3256,7 +2648,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3268,7 +2660,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3278,31 +2670,18 @@ Running Task Benchmark
         Iterations: 32768
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.142561e-01
-Time for last run: 1.153152e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 268439552000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 8590065664000
 Total Bytes 0
-Elapsed Time 1.153152e-01 seconds
-FLOP/s 2.327877e+12
+Elapsed Time 1.360710e-01 seconds
+FLOP/s 6.312929e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3314,7 +2693,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3326,7 +2705,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3338,7 +2717,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3348,31 +2727,18 @@ Running Task Benchmark
         Iterations: 32768
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.149869e-01
-Time for last run: 1.170261e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 268439552000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 8590065664000
 Total Bytes 0
-Elapsed Time 1.170261e-01 seconds
-FLOP/s 2.293844e+12
+Elapsed Time 1.364240e-01 seconds
+FLOP/s 6.296594e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3384,7 +2750,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3396,7 +2762,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3408,7 +2774,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3418,31 +2784,18 @@ Running Task Benchmark
         Iterations: 32768
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.148632e-01
-Time for last run: 1.149261e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 268439552000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 8590065664000
 Total Bytes 0
-Elapsed Time 1.149261e-01 seconds
-FLOP/s 2.335758e+12
+Elapsed Time 1.356300e-01 seconds
+FLOP/s 6.333455e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3454,7 +2807,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3466,7 +2819,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3478,7 +2831,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3488,31 +2841,18 @@ Running Task Benchmark
         Iterations: 32768
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.147749e-01
-Time for last run: 1.157720e-01
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 268439552000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 8590065664000
 Total Bytes 0
-Elapsed Time 1.157720e-01 seconds
-FLOP/s 2.318691e+12
+Elapsed Time 1.407400e-01 seconds
+FLOP/s 6.103500e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3524,7 +2864,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3536,7 +2876,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3548,7 +2888,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3558,31 +2898,18 @@ Running Task Benchmark
         Iterations: 16384
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 6.409407e-02
-Time for last run: 6.249905e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 134221824000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 4295098368000
 Total Bytes 0
-Elapsed Time 6.249905e-02 seconds
-FLOP/s 2.147582e+12
+Elapsed Time 1.416340e-01 seconds
+FLOP/s 3.032533e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3594,7 +2921,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3606,7 +2933,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3618,7 +2945,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3628,31 +2955,18 @@ Running Task Benchmark
         Iterations: 16384
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 6.180000e-02
-Time for last run: 6.287885e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 134221824000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 4295098368000
 Total Bytes 0
-Elapsed Time 6.287885e-02 seconds
-FLOP/s 2.134610e+12
+Elapsed Time 8.009400e-02 seconds
+FLOP/s 5.362572e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3664,7 +2978,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3676,7 +2990,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3688,7 +3002,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3698,31 +3012,18 @@ Running Task Benchmark
         Iterations: 16384
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 7.108879e-02
-Time for last run: 6.352186e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 134221824000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 4295098368000
 Total Bytes 0
-Elapsed Time 6.352186e-02 seconds
-FLOP/s 2.113002e+12
+Elapsed Time 9.082600e-02 seconds
+FLOP/s 4.728930e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3734,7 +3035,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3746,7 +3047,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3758,7 +3059,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3768,31 +3069,18 @@ Running Task Benchmark
         Iterations: 16384
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 6.192613e-02
-Time for last run: 6.233811e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 134221824000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 4295098368000
 Total Bytes 0
-Elapsed Time 6.233811e-02 seconds
-FLOP/s 2.153126e+12
+Elapsed Time 1.116240e-01 seconds
+FLOP/s 3.847827e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3804,7 +3092,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3816,7 +3104,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3828,7 +3116,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3838,31 +3126,18 @@ Running Task Benchmark
         Iterations: 16384
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 6.202388e-02
-Time for last run: 6.369495e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 134221824000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 4295098368000
 Total Bytes 0
-Elapsed Time 6.369495e-02 seconds
-FLOP/s 2.107260e+12
+Elapsed Time 8.043000e-02 seconds
+FLOP/s 5.340170e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3874,7 +3149,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3886,7 +3161,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3898,7 +3173,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3908,31 +3183,18 @@ Running Task Benchmark
         Iterations: 8192
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.611398e-02
-Time for last run: 3.743196e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 67112960000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 2147614720000
 Total Bytes 0
-Elapsed Time 3.743196e-02 seconds
-FLOP/s 1.792932e+12
+Elapsed Time 6.721500e-02 seconds
+FLOP/s 3.195142e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3944,7 +3206,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3956,7 +3218,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3968,7 +3230,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -3978,31 +3240,18 @@ Running Task Benchmark
         Iterations: 8192
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.557706e-02
-Time for last run: 3.670907e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 67112960000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 2147614720000
 Total Bytes 0
-Elapsed Time 3.670907e-02 seconds
-FLOP/s 1.828239e+12
+Elapsed Time 5.549700e-02 seconds
+FLOP/s 3.869785e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4014,7 +3263,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4026,7 +3275,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4038,7 +3287,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4048,31 +3297,18 @@ Running Task Benchmark
         Iterations: 8192
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.575301e-02
-Time for last run: 3.673100e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 67112960000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 2147614720000
 Total Bytes 0
-Elapsed Time 3.673100e-02 seconds
-FLOP/s 1.827147e+12
+Elapsed Time 1.228240e-01 seconds
+FLOP/s 1.748530e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4084,7 +3320,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4096,7 +3332,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4108,7 +3344,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4118,31 +3354,18 @@ Running Task Benchmark
         Iterations: 8192
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.600883e-02
-Time for last run: 3.665209e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 67112960000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 2147614720000
 Total Bytes 0
-Elapsed Time 3.665209e-02 seconds
-FLOP/s 1.831081e+12
+Elapsed Time 5.536700e-02 seconds
+FLOP/s 3.878871e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4154,7 +3377,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4166,7 +3389,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4178,7 +3401,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4188,31 +3411,18 @@ Running Task Benchmark
         Iterations: 8192
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.578186e-02
-Time for last run: 3.674507e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 67112960000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 2147614720000
 Total Bytes 0
-Elapsed Time 3.674507e-02 seconds
-FLOP/s 1.826448e+12
+Elapsed Time 5.278500e-02 seconds
+FLOP/s 4.068608e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4224,7 +3434,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4236,7 +3446,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4248,7 +3458,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4258,31 +3468,18 @@ Running Task Benchmark
         Iterations: 4096
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.305102e-02
-Time for last run: 2.317190e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 33558528000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 1073872896000
 Total Bytes 0
-Elapsed Time 2.317190e-02 seconds
-FLOP/s 1.448242e+12
+Elapsed Time 6.102100e-02 seconds
+FLOP/s 1.759842e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4294,7 +3491,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4306,7 +3503,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4318,7 +3515,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4328,31 +3525,18 @@ Running Task Benchmark
         Iterations: 4096
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.228880e-02
-Time for last run: 2.307606e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 33558528000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 1073872896000
 Total Bytes 0
-Elapsed Time 2.307606e-02 seconds
-FLOP/s 1.454257e+12
+Elapsed Time 5.556700e-02 seconds
+FLOP/s 1.932573e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4364,7 +3548,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4376,7 +3560,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4388,7 +3572,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4398,31 +3582,18 @@ Running Task Benchmark
         Iterations: 4096
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.242589e-02
-Time for last run: 2.280211e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 33558528000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 1073872896000
 Total Bytes 0
-Elapsed Time 2.280211e-02 seconds
-FLOP/s 1.471729e+12
+Elapsed Time 5.298400e-02 seconds
+FLOP/s 2.026787e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4434,7 +3605,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4446,7 +3617,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4458,7 +3629,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4468,31 +3639,18 @@ Running Task Benchmark
         Iterations: 4096
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.237391e-02
-Time for last run: 2.323079e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 33558528000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 1073872896000
 Total Bytes 0
-Elapsed Time 2.323079e-02 seconds
-FLOP/s 1.444571e+12
+Elapsed Time 4.304900e-02 seconds
+FLOP/s 2.494536e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4504,7 +3662,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4516,7 +3674,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4528,7 +3686,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4538,31 +3696,18 @@ Running Task Benchmark
         Iterations: 4096
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.245617e-02
-Time for last run: 2.318907e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 33558528000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 1073872896000
 Total Bytes 0
-Elapsed Time 2.318907e-02 seconds
-FLOP/s 1.447170e+12
+Elapsed Time 1.111280e-01 seconds
+FLOP/s 9.663387e+12
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4574,7 +3719,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4586,7 +3731,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4598,7 +3743,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4608,31 +3753,18 @@ Running Task Benchmark
         Iterations: 2048
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.597619e-02
-Time for last run: 1.697516e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 16781312000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 537001984000
 Total Bytes 0
-Elapsed Time 1.697516e-02 seconds
-FLOP/s 9.885802e+11
+Elapsed Time 3.803800e-02 seconds
+FLOP/s 1.411751e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4644,7 +3776,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4656,7 +3788,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4668,7 +3800,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4678,31 +3810,18 @@ Running Task Benchmark
         Iterations: 2048
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.596212e-02
-Time for last run: 1.666093e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 16781312000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 537001984000
 Total Bytes 0
-Elapsed Time 1.666093e-02 seconds
-FLOP/s 1.007225e+12
+Elapsed Time 4.346100e-02 seconds
+FLOP/s 1.235595e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4714,7 +3833,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4726,7 +3845,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4738,7 +3857,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4748,31 +3867,18 @@ Running Task Benchmark
         Iterations: 2048
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.596403e-02
-Time for last run: 1.729107e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 16781312000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 537001984000
 Total Bytes 0
-Elapsed Time 1.729107e-02 seconds
-FLOP/s 9.705191e+11
+Elapsed Time 3.438700e-02 seconds
+FLOP/s 1.561642e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4784,7 +3890,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4796,7 +3902,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4808,7 +3914,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4818,31 +3924,18 @@ Running Task Benchmark
         Iterations: 2048
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.651216e-02
-Time for last run: 1.646686e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 16781312000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 537001984000
 Total Bytes 0
-Elapsed Time 1.646686e-02 seconds
-FLOP/s 1.019096e+12
+Elapsed Time 3.447800e-02 seconds
+FLOP/s 1.557521e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4854,7 +3947,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4866,7 +3959,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4878,7 +3971,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4888,31 +3981,18 @@ Running Task Benchmark
         Iterations: 2048
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.608300e-02
-Time for last run: 1.751208e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 16781312000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 537001984000
 Total Bytes 0
-Elapsed Time 1.751208e-02 seconds
-FLOP/s 9.582705e+11
+Elapsed Time 4.105700e-02 seconds
+FLOP/s 1.307943e+13
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4924,7 +4004,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4936,7 +4016,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4948,7 +4028,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4958,31 +4038,18 @@ Running Task Benchmark
         Iterations: 1024
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.270294e-02
-Time for last run: 1.360011e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 8392704000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 268566528000
 Total Bytes 0
-Elapsed Time 1.360011e-02 seconds
-FLOP/s 6.171056e+11
+Elapsed Time 3.121700e-02 seconds
+FLOP/s 8.603214e+12
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -4994,7 +4061,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5006,7 +4073,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5018,7 +4085,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5028,31 +4095,18 @@ Running Task Benchmark
         Iterations: 1024
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.415706e-02
-Time for last run: 1.574111e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 8392704000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 268566528000
 Total Bytes 0
-Elapsed Time 1.574111e-02 seconds
-FLOP/s 5.331710e+11
+Elapsed Time 3.233300e-02 seconds
+FLOP/s 8.306267e+12
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5064,7 +4118,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5076,7 +4130,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5088,7 +4142,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5098,31 +4152,18 @@ Running Task Benchmark
         Iterations: 1024
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.525593e-02
-Time for last run: 1.602101e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 8392704000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 268566528000
 Total Bytes 0
-Elapsed Time 1.602101e-02 seconds
-FLOP/s 5.238560e+11
+Elapsed Time 4.101800e-02 seconds
+FLOP/s 6.547529e+12
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5134,7 +4175,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5146,7 +4187,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5158,7 +4199,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5168,31 +4209,18 @@ Running Task Benchmark
         Iterations: 1024
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.587486e-02
-Time for last run: 1.543713e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 8392704000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 268566528000
 Total Bytes 0
-Elapsed Time 1.543713e-02 seconds
-FLOP/s 5.436701e+11
+Elapsed Time 3.280300e-02 seconds
+FLOP/s 8.187255e+12
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5204,7 +4232,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5216,7 +4244,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5228,7 +4256,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5238,31 +4266,18 @@ Running Task Benchmark
         Iterations: 1024
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.358199e-02
-Time for last run: 1.572990e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 8392704000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 268566528000
 Total Bytes 0
-Elapsed Time 1.572990e-02 seconds
-FLOP/s 5.335509e+11
+Elapsed Time 3.184200e-02 seconds
+FLOP/s 8.434349e+12
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5274,7 +4289,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5286,7 +4301,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5298,7 +4313,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5308,31 +4323,18 @@ Running Task Benchmark
         Iterations: 512
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.365685e-02
-Time for last run: 1.373601e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 4198400000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 134348800000
 Total Bytes 0
-Elapsed Time 1.373601e-02 seconds
-FLOP/s 3.056492e+11
+Elapsed Time 2.912200e-02 seconds
+FLOP/s 4.613310e+12
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5344,7 +4346,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5356,7 +4358,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5368,7 +4370,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5378,31 +4380,18 @@ Running Task Benchmark
         Iterations: 512
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.220393e-02
-Time for last run: 1.253700e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 4198400000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 134348800000
 Total Bytes 0
-Elapsed Time 1.253700e-02 seconds
-FLOP/s 3.348807e+11
+Elapsed Time 5.605200e-02 seconds
+FLOP/s 2.396860e+12
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5414,7 +4403,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5426,7 +4415,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5438,7 +4427,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5448,31 +4437,18 @@ Running Task Benchmark
         Iterations: 512
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.131701e-02
-Time for last run: 1.163197e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 4198400000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 134348800000
 Total Bytes 0
-Elapsed Time 1.163197e-02 seconds
-FLOP/s 3.609364e+11
+Elapsed Time 3.046000e-02 seconds
+FLOP/s 4.410663e+12
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5484,7 +4460,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5496,7 +4472,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5508,7 +4484,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5518,31 +4494,18 @@ Running Task Benchmark
         Iterations: 512
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.311493e-02
-Time for last run: 1.361823e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 4198400000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 134348800000
 Total Bytes 0
-Elapsed Time 1.361823e-02 seconds
-FLOP/s 3.082926e+11
+Elapsed Time 3.085700e-02 seconds
+FLOP/s 4.353916e+12
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5554,7 +4517,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5566,7 +4529,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5578,7 +4541,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5588,31 +4551,18 @@ Running Task Benchmark
         Iterations: 512
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.329303e-02
-Time for last run: 1.339102e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 4198400000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 134348800000
 Total Bytes 0
-Elapsed Time 1.339102e-02 seconds
-FLOP/s 3.135236e+11
+Elapsed Time 3.546300e-02 seconds
+FLOP/s 3.788422e+12
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5624,7 +4574,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5636,7 +4586,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5648,7 +4598,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5658,31 +4608,18 @@ Running Task Benchmark
         Iterations: 256
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.368594e-02
-Time for last run: 1.469398e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 2101248000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 67239936000
 Total Bytes 0
-Elapsed Time 1.469398e-02 seconds
-FLOP/s 1.430006e+11
+Elapsed Time 2.985100e-02 seconds
+FLOP/s 2.252519e+12
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5694,7 +4631,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5706,7 +4643,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5718,7 +4655,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5728,31 +4665,18 @@ Running Task Benchmark
         Iterations: 256
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.291895e-02
-Time for last run: 1.608300e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 2101248000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 67239936000
 Total Bytes 0
-Elapsed Time 1.608300e-02 seconds
-FLOP/s 1.306502e+11
+Elapsed Time 2.863500e-02 seconds
+FLOP/s 2.348173e+12
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5764,7 +4688,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5776,7 +4700,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5788,7 +4712,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5798,31 +4722,18 @@ Running Task Benchmark
         Iterations: 256
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.203895e-02
-Time for last run: 1.470208e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 2101248000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 67239936000
 Total Bytes 0
-Elapsed Time 1.470208e-02 seconds
-FLOP/s 1.429218e+11
+Elapsed Time 3.843500e-02 seconds
+FLOP/s 1.749445e+12
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5834,7 +4745,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5846,7 +4757,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5858,7 +4769,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5868,31 +4779,18 @@ Running Task Benchmark
         Iterations: 256
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.541424e-02
-Time for last run: 1.693392e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 2101248000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 67239936000
 Total Bytes 0
-Elapsed Time 1.693392e-02 seconds
-FLOP/s 1.240852e+11
+Elapsed Time 2.842600e-02 seconds
+FLOP/s 2.365438e+12
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 64 processes
-Charm++> static SMSG
-Charm++> SMSG memory: 316.0KB
-Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
-Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
-Charm++> Cray TLB page size: 8192K
-Charm++> Running in non-SMP mode: 64 processes (PEs)
-Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
-CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 2 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5904,7 +4802,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 2:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5916,7 +4814,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 3:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5928,7 +4826,7 @@ Running Task Benchmark
       Scratch Bytes: 0
     Task Graph 4:
       Time Steps: 250
-      Max Width: 64
+      Max Width: 2048
       Dependence Type: nearest
       Radix: 5
       Period: 0
@@ -5938,13 +4836,10 @@ Running Task Benchmark
         Iterations: 256
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.529884e-02
-Time for last run: 1.299000e-02
-Total Tasks 64000
-Total Dependencies 314000
-Total FLOPs 2101248000
+Total Tasks 2048000
+Total Dependencies 10234000
+Total FLOPs 67239936000
 Total Bytes 0
-Elapsed Time 1.299000e-02 seconds
-FLOP/s 1.617589e+11
+Elapsed Time 2.943200e-02 seconds
+FLOP/s 2.284586e+12
 B/s 0.000000e+00
-[Partition 0][Node 0] End of program

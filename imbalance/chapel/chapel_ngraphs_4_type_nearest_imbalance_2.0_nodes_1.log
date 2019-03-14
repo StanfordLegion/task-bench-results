@@ -11,7 +11,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 67108864
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -25,7 +25,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 67108864
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -39,7 +39,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 67108864
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -53,15 +53,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 67108864
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 274853195219072
+Total FLOPs 274603316943744
 Total Bytes 0
-Elapsed Time 2.369147e+02 seconds
-FLOP/s 1.160135e+12
+Elapsed Time 2.839654e+02 seconds
+FLOP/s 9.670309e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -76,7 +76,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 33554432
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -90,7 +90,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 33554432
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -104,7 +104,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 33554432
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -118,15 +118,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 33554432
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 137426597607808
+Total FLOPs 137301659498496
 Total Bytes 0
-Elapsed Time 1.185689e+02 seconds
-FLOP/s 1.159045e+12
+Elapsed Time 1.439482e+02 seconds
+FLOP/s 9.538272e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -141,7 +141,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 33554432
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -155,7 +155,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 33554432
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -169,7 +169,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 33554432
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -183,15 +183,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 33554432
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 137426597607808
+Total FLOPs 137301659498496
 Total Bytes 0
-Elapsed Time 1.186118e+02 seconds
-FLOP/s 1.158625e+12
+Elapsed Time 1.424362e+02 seconds
+FLOP/s 9.639518e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -206,7 +206,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16777216
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -220,7 +220,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16777216
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -234,7 +234,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16777216
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -248,80 +248,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16777216
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 68713298808960
+Total FLOPs 68650830767744
 Total Bytes 0
-Elapsed Time 5.912172e+01 seconds
-FLOP/s 1.162234e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 68713298808960
-Total Bytes 0
-Elapsed Time 5.915895e+01 seconds
-FLOP/s 1.161503e+12
+Elapsed Time 7.094559e+01 seconds
+FLOP/s 9.676546e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -336,7 +271,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16777216
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -350,7 +285,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16777216
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -364,7 +299,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16777216
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -378,15 +313,80 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16777216
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 68713298808960
+Total FLOPs 68650830767744
 Total Bytes 0
-Elapsed Time 5.944633e+01 seconds
-FLOP/s 1.155888e+12
+Elapsed Time 7.112458e+01 seconds
+FLOP/s 9.652195e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 68650830767744
+Total Bytes 0
+Elapsed Time 7.079435e+01 seconds
+FLOP/s 9.697220e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -401,7 +401,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8388608
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -415,7 +415,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8388608
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -429,7 +429,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8388608
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -443,80 +443,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8388608
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 34356649403008
+Total FLOPs 34325416409216
 Total Bytes 0
-Elapsed Time 2.961994e+01 seconds
-FLOP/s 1.159916e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 8388608
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 8388608
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 8388608
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 8388608
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 34356649403008
-Total Bytes 0
-Elapsed Time 2.962194e+01 seconds
-FLOP/s 1.159838e+12
+Elapsed Time 3.563216e+01 seconds
+FLOP/s 9.633269e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -531,7 +466,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8388608
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -545,7 +480,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8388608
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -559,7 +494,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8388608
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -573,15 +508,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8388608
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 34356649403008
+Total FLOPs 34325416409216
 Total Bytes 0
-Elapsed Time 2.966956e+01 seconds
-FLOP/s 1.157976e+12
+Elapsed Time 3.558830e+01 seconds
+FLOP/s 9.645142e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -596,7 +531,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8388608
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -610,7 +545,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8388608
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -624,7 +559,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8388608
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -638,15 +573,80 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8388608
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 34356649403008
+Total FLOPs 34325416409216
 Total Bytes 0
-Elapsed Time 2.966618e+01 seconds
-FLOP/s 1.158108e+12
+Elapsed Time 3.565294e+01 seconds
+FLOP/s 9.627654e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 34325416409216
+Total Bytes 0
+Elapsed Time 3.540334e+01 seconds
+FLOP/s 9.695530e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -661,7 +661,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4194304
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -675,7 +675,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4194304
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -689,7 +689,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4194304
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -703,80 +703,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4194304
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 17178324695808
+Total FLOPs 17162709242752
 Total Bytes 0
-Elapsed Time 1.478415e+01 seconds
-FLOP/s 1.161942e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4194304
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4194304
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4194304
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4194304
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 17178324695808
-Total Bytes 0
-Elapsed Time 1.479023e+01 seconds
-FLOP/s 1.161464e+12
+Elapsed Time 1.777026e+01 seconds
+FLOP/s 9.658106e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -791,7 +726,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4194304
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -805,7 +740,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4194304
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -819,7 +754,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4194304
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -833,80 +768,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4194304
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 17178324695808
+Total FLOPs 17162709242752
 Total Bytes 0
-Elapsed Time 1.485313e+01 seconds
-FLOP/s 1.156546e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4194304
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4194304
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4194304
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4194304
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 17178324695808
-Total Bytes 0
-Elapsed Time 1.473393e+01 seconds
-FLOP/s 1.165902e+12
+Elapsed Time 1.777434e+01 seconds
+FLOP/s 9.655890e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -921,7 +791,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4194304
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -935,7 +805,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4194304
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -949,7 +819,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4194304
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -963,15 +833,145 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4194304
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 17178324695808
+Total FLOPs 17162709242752
 Total Bytes 0
-Elapsed Time 1.477991e+01 seconds
-FLOP/s 1.162275e+12
+Elapsed Time 1.786441e+01 seconds
+FLOP/s 9.607208e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 17162709242752
+Total Bytes 0
+Elapsed Time 1.790420e+01 seconds
+FLOP/s 9.585859e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 17162709242752
+Total Bytes 0
+Elapsed Time 1.790688e+01 seconds
+FLOP/s 9.584421e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -986,7 +986,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 2097152
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -1000,7 +1000,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 2097152
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -1014,7 +1014,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 2097152
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -1028,80 +1028,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 2097152
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 8589162349184
+Total FLOPs 8581355638528
 Total Bytes 0
-Elapsed Time 7.404939e+00 seconds
-FLOP/s 1.159923e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 8589162349184
-Total Bytes 0
-Elapsed Time 7.398062e+00 seconds
-FLOP/s 1.161002e+12
+Elapsed Time 8.948557e+00 seconds
+FLOP/s 9.589653e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1116,7 +1051,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 2097152
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -1130,7 +1065,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 2097152
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -1144,7 +1079,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 2097152
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -1158,80 +1093,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 2097152
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 8589162349184
+Total FLOPs 8581355638528
 Total Bytes 0
-Elapsed Time 7.431721e+00 seconds
-FLOP/s 1.155743e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 8589162349184
-Total Bytes 0
-Elapsed Time 7.418808e+00 seconds
-FLOP/s 1.157755e+12
+Elapsed Time 8.923609e+00 seconds
+FLOP/s 9.616463e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1246,7 +1116,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 2097152
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -1260,7 +1130,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 2097152
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -1274,7 +1144,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 2097152
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -1288,15 +1158,145 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 2097152
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 8589162349184
+Total FLOPs 8581355638528
 Total Bytes 0
-Elapsed Time 7.382613e+00 seconds
-FLOP/s 1.163431e+12
+Elapsed Time 8.950479e+00 seconds
+FLOP/s 9.587594e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 8581355638528
+Total Bytes 0
+Elapsed Time 8.887033e+00 seconds
+FLOP/s 9.656041e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 8581355638528
+Total Bytes 0
+Elapsed Time 8.905352e+00 seconds
+FLOP/s 9.636178e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1311,7 +1311,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 1048576
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -1325,7 +1325,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 1048576
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -1339,7 +1339,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 1048576
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -1353,80 +1353,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 1048576
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 4294581169792
+Total FLOPs 4290678844672
 Total Bytes 0
-Elapsed Time 3.716713e+00 seconds
-FLOP/s 1.155478e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1048576
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1048576
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1048576
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1048576
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 4294581169792
-Total Bytes 0
-Elapsed Time 3.707030e+00 seconds
-FLOP/s 1.158496e+12
+Elapsed Time 4.462854e+00 seconds
+FLOP/s 9.614204e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1441,7 +1376,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 1048576
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -1455,7 +1390,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 1048576
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -1469,7 +1404,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 1048576
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -1483,80 +1418,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 1048576
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 4294581169792
+Total FLOPs 4290678844672
 Total Bytes 0
-Elapsed Time 3.697553e+00 seconds
-FLOP/s 1.161466e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1048576
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1048576
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1048576
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1048576
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 4294581169792
-Total Bytes 0
-Elapsed Time 3.707386e+00 seconds
-FLOP/s 1.158385e+12
+Elapsed Time 4.444793e+00 seconds
+FLOP/s 9.653270e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1571,7 +1441,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 1048576
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -1585,7 +1455,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 1048576
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -1599,7 +1469,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 1048576
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -1613,15 +1483,145 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 1048576
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 4294581169792
+Total FLOPs 4290678844672
 Total Bytes 0
-Elapsed Time 3.716768e+00 seconds
-FLOP/s 1.155461e+12
+Elapsed Time 4.467445e+00 seconds
+FLOP/s 9.604324e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 4290678844672
+Total Bytes 0
+Elapsed Time 4.460864e+00 seconds
+FLOP/s 9.618493e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 4290678844672
+Total Bytes 0
+Elapsed Time 4.450203e+00 seconds
+FLOP/s 9.641535e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1636,7 +1636,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 524288
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -1650,7 +1650,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 524288
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -1664,7 +1664,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 524288
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -1678,80 +1678,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 524288
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 2147290587904
+Total FLOPs 2145340449664
 Total Bytes 0
-Elapsed Time 1.846874e+00 seconds
-FLOP/s 1.162662e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 524288
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 524288
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 524288
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 524288
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 2147290587904
-Total Bytes 0
-Elapsed Time 1.861810e+00 seconds
-FLOP/s 1.153335e+12
+Elapsed Time 2.235135e+00 seconds
+FLOP/s 9.598259e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1766,7 +1701,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 524288
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -1780,7 +1715,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 524288
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -1794,7 +1729,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 524288
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -1808,80 +1743,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 524288
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 2147290587904
+Total FLOPs 2145340449664
 Total Bytes 0
-Elapsed Time 1.852820e+00 seconds
-FLOP/s 1.158931e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 524288
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 524288
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 524288
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 524288
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 2147290587904
-Total Bytes 0
-Elapsed Time 1.849295e+00 seconds
-FLOP/s 1.161140e+12
+Elapsed Time 2.239033e+00 seconds
+FLOP/s 9.581549e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1896,7 +1766,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 524288
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -1910,7 +1780,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 524288
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -1924,7 +1794,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 524288
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -1938,15 +1808,145 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 524288
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 2147290587904
+Total FLOPs 2145340449664
 Total Bytes 0
-Elapsed Time 1.851243e+00 seconds
-FLOP/s 1.159918e+12
+Elapsed Time 2.236595e+00 seconds
+FLOP/s 9.591993e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 2145340449664
+Total Bytes 0
+Elapsed Time 2.224641e+00 seconds
+FLOP/s 9.643536e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 2145340449664
+Total Bytes 0
+Elapsed Time 2.227157e+00 seconds
+FLOP/s 9.632641e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1961,7 +1961,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 262144
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -1975,7 +1975,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 262144
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -1989,7 +1989,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 262144
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -2003,80 +2003,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 262144
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 1073645293184
+Total FLOPs 1072671228928
 Total Bytes 0
-Elapsed Time 9.332540e-01 seconds
-FLOP/s 1.150432e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 262144
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 262144
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 262144
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 262144
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 1073645293184
-Total Bytes 0
-Elapsed Time 9.315840e-01 seconds
-FLOP/s 1.152494e+12
+Elapsed Time 1.109409e+00 seconds
+FLOP/s 9.668853e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -2091,7 +2026,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 262144
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -2105,7 +2040,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 262144
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -2119,7 +2054,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 262144
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -2133,80 +2068,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 262144
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 1073645293184
+Total FLOPs 1072671228928
 Total Bytes 0
-Elapsed Time 9.304230e-01 seconds
-FLOP/s 1.153932e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 262144
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 262144
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 262144
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 262144
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 1073645293184
-Total Bytes 0
-Elapsed Time 9.318790e-01 seconds
-FLOP/s 1.152130e+12
+Elapsed Time 1.114382e+00 seconds
+FLOP/s 9.625705e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -2221,7 +2091,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 262144
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -2235,7 +2105,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 262144
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -2249,7 +2119,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 262144
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -2263,15 +2133,145 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 262144
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 1073645293184
+Total FLOPs 1072671228928
 Total Bytes 0
-Elapsed Time 9.279290e-01 seconds
-FLOP/s 1.157034e+12
+Elapsed Time 1.110160e+00 seconds
+FLOP/s 9.662312e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 1072671228928
+Total Bytes 0
+Elapsed Time 1.116377e+00 seconds
+FLOP/s 9.608503e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 1072671228928
+Total Bytes 0
+Elapsed Time 1.102624e+00 seconds
+FLOP/s 9.728350e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -2286,7 +2286,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 131072
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -2300,7 +2300,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 131072
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -2314,7 +2314,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 131072
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -2328,80 +2328,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 131072
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 536822649728
+Total FLOPs 536336650496
 Total Bytes 0
-Elapsed Time 4.638960e-01 seconds
-FLOP/s 1.157205e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 131072
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 131072
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 131072
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 131072
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 536822649728
-Total Bytes 0
-Elapsed Time 4.648850e-01 seconds
-FLOP/s 1.154743e+12
+Elapsed Time 5.594350e-01 seconds
+FLOP/s 9.587113e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -2416,7 +2351,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 131072
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -2430,7 +2365,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 131072
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -2444,7 +2379,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 131072
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -2458,80 +2393,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 131072
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 536822649728
+Total FLOPs 536336650496
 Total Bytes 0
-Elapsed Time 4.660770e-01 seconds
-FLOP/s 1.151790e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 131072
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 131072
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 131072
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 131072
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 536822649728
-Total Bytes 0
-Elapsed Time 4.683920e-01 seconds
-FLOP/s 1.146097e+12
+Elapsed Time 5.542570e-01 seconds
+FLOP/s 9.676678e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -2546,7 +2416,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 131072
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -2560,7 +2430,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 131072
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -2574,7 +2444,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 131072
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -2588,15 +2458,145 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 131072
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 536822649728
+Total FLOPs 536336650496
 Total Bytes 0
-Elapsed Time 4.649170e-01 seconds
-FLOP/s 1.154663e+12
+Elapsed Time 5.628250e-01 seconds
+FLOP/s 9.529368e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 536336650496
+Total Bytes 0
+Elapsed Time 5.590680e-01 seconds
+FLOP/s 9.593406e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 536336650496
+Total Bytes 0
+Elapsed Time 5.531390e-01 seconds
+FLOP/s 9.696236e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -2611,7 +2611,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 65536
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -2625,7 +2625,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 65536
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -2639,7 +2639,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 65536
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -2653,80 +2653,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 65536
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 268411329152
+Total FLOPs 268169355008
 Total Bytes 0
-Elapsed Time 2.339330e-01 seconds
-FLOP/s 1.147385e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 65536
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 65536
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 65536
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 65536
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 268411329152
-Total Bytes 0
-Elapsed Time 2.426490e-01 seconds
-FLOP/s 1.106171e+12
+Elapsed Time 2.802010e-01 seconds
+FLOP/s 9.570607e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -2741,7 +2676,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 65536
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -2755,7 +2690,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 65536
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -2769,7 +2704,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 65536
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -2783,80 +2718,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 65536
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 268411329152
+Total FLOPs 268169355008
 Total Bytes 0
-Elapsed Time 2.349270e-01 seconds
-FLOP/s 1.142531e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 65536
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 65536
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 65536
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 65536
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 268411329152
-Total Bytes 0
-Elapsed Time 2.353630e-01 seconds
-FLOP/s 1.140414e+12
+Elapsed Time 2.801620e-01 seconds
+FLOP/s 9.571939e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -2871,7 +2741,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 65536
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -2885,7 +2755,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 65536
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -2899,7 +2769,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 65536
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -2913,15 +2783,145 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 65536
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 268411329152
+Total FLOPs 268169355008
 Total Bytes 0
-Elapsed Time 2.328790e-01 seconds
-FLOP/s 1.152579e+12
+Elapsed Time 2.796550e-01 seconds
+FLOP/s 9.589292e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 268169355008
+Total Bytes 0
+Elapsed Time 2.807380e-01 seconds
+FLOP/s 9.552300e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 268169355008
+Total Bytes 0
+Elapsed Time 2.824770e-01 seconds
+FLOP/s 9.493493e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -2936,7 +2936,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 32768
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -2950,7 +2950,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 32768
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -2964,7 +2964,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 32768
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -2978,80 +2978,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 32768
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 134205659648
+Total FLOPs 134085696896
 Total Bytes 0
-Elapsed Time 1.178830e-01 seconds
-FLOP/s 1.138465e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 134205659648
-Total Bytes 0
-Elapsed Time 1.175000e-01 seconds
-FLOP/s 1.142176e+12
+Elapsed Time 1.414040e-01 seconds
+FLOP/s 9.482454e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -3066,7 +3001,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 32768
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -3080,7 +3015,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 32768
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -3094,7 +3029,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 32768
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -3108,80 +3043,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 32768
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 134205659648
+Total FLOPs 134085696896
 Total Bytes 0
-Elapsed Time 1.175420e-01 seconds
-FLOP/s 1.141768e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 134205659648
-Total Bytes 0
-Elapsed Time 1.174920e-01 seconds
-FLOP/s 1.142254e+12
+Elapsed Time 1.425180e-01 seconds
+FLOP/s 9.408334e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -3196,7 +3066,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 32768
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -3210,7 +3080,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 32768
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -3224,7 +3094,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 32768
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -3238,15 +3108,145 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 32768
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 134205659648
+Total FLOPs 134085696896
 Total Bytes 0
-Elapsed Time 1.175270e-01 seconds
-FLOP/s 1.141913e+12
+Elapsed Time 1.403290e-01 seconds
+FLOP/s 9.555095e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 134085696896
+Total Bytes 0
+Elapsed Time 1.412480e-01 seconds
+FLOP/s 9.492927e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 134085696896
+Total Bytes 0
+Elapsed Time 1.408060e-01 seconds
+FLOP/s 9.522726e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -3261,7 +3261,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16384
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -3275,7 +3275,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16384
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -3289,7 +3289,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16384
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -3303,80 +3303,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16384
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 67102826112
+Total FLOPs 67043872896
 Total Bytes 0
-Elapsed Time 6.038200e-02 seconds
-FLOP/s 1.111305e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 67102826112
-Total Bytes 0
-Elapsed Time 5.997900e-02 seconds
-FLOP/s 1.118772e+12
+Elapsed Time 7.122300e-02 seconds
+FLOP/s 9.413233e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -3391,7 +3326,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16384
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -3405,7 +3340,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16384
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -3419,7 +3354,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16384
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -3433,80 +3368,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16384
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 67102826112
+Total FLOPs 67043872896
 Total Bytes 0
-Elapsed Time 6.007200e-02 seconds
-FLOP/s 1.117040e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 67102826112
-Total Bytes 0
-Elapsed Time 5.966500e-02 seconds
-FLOP/s 1.124660e+12
+Elapsed Time 7.137700e-02 seconds
+FLOP/s 9.392924e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -3521,7 +3391,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16384
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -3535,7 +3405,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16384
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -3549,7 +3419,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16384
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -3563,15 +3433,145 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 16384
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 67102826112
+Total FLOPs 67043872896
 Total Bytes 0
-Elapsed Time 5.988100e-02 seconds
-FLOP/s 1.120603e+12
+Elapsed Time 7.180500e-02 seconds
+FLOP/s 9.336937e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 67043872896
+Total Bytes 0
+Elapsed Time 7.125700e-02 seconds
+FLOP/s 9.408742e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 67043872896
+Total Bytes 0
+Elapsed Time 7.183700e-02 seconds
+FLOP/s 9.332777e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -3586,7 +3586,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8192
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -3600,7 +3600,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8192
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -3614,7 +3614,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8192
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -3628,80 +3628,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8192
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 33551411968
+Total FLOPs 33522970496
 Total Bytes 0
-Elapsed Time 3.110800e-02 seconds
-FLOP/s 1.078546e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 33551411968
-Total Bytes 0
-Elapsed Time 3.109300e-02 seconds
-FLOP/s 1.079066e+12
+Elapsed Time 3.719300e-02 seconds
+FLOP/s 9.013247e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -3716,7 +3651,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8192
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -3730,7 +3665,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8192
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -3744,7 +3679,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8192
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -3758,80 +3693,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8192
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 33551411968
+Total FLOPs 33522970496
 Total Bytes 0
-Elapsed Time 3.274100e-02 seconds
-FLOP/s 1.024752e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 33551411968
-Total Bytes 0
-Elapsed Time 3.113400e-02 seconds
-FLOP/s 1.077645e+12
+Elapsed Time 3.677200e-02 seconds
+FLOP/s 9.116439e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -3846,7 +3716,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8192
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -3860,7 +3730,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8192
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -3874,7 +3744,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8192
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -3888,15 +3758,145 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 8192
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 33551411968
+Total FLOPs 33522970496
 Total Bytes 0
-Elapsed Time 3.107100e-02 seconds
-FLOP/s 1.079830e+12
+Elapsed Time 3.671200e-02 seconds
+FLOP/s 9.131339e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 33522970496
+Total Bytes 0
+Elapsed Time 3.751700e-02 seconds
+FLOP/s 8.935408e+11
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 33522970496
+Total Bytes 0
+Elapsed Time 3.689500e-02 seconds
+FLOP/s 9.086047e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -3911,7 +3911,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -3925,7 +3925,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -3939,7 +3939,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -3953,80 +3953,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 16775704448
+Total FLOPs 16762487168
 Total Bytes 0
-Elapsed Time 1.666700e-02 seconds
-FLOP/s 1.006522e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 16775704448
-Total Bytes 0
-Elapsed Time 1.657800e-02 seconds
-FLOP/s 1.011926e+12
+Elapsed Time 1.959100e-02 seconds
+FLOP/s 8.556218e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -4041,7 +3976,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -4055,7 +3990,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -4069,7 +4004,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -4083,80 +4018,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 16775704448
+Total FLOPs 16762487168
 Total Bytes 0
-Elapsed Time 1.664100e-02 seconds
-FLOP/s 1.008095e+12
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 16775704448
-Total Bytes 0
-Elapsed Time 1.669200e-02 seconds
-FLOP/s 1.005015e+12
+Elapsed Time 1.958900e-02 seconds
+FLOP/s 8.557092e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -4171,7 +4041,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -4185,7 +4055,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -4199,7 +4069,7 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -4213,15 +4083,15 @@ Running Task Benchmark
         Type: load_imbalance
         Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 16775704448
+Total FLOPs 16762487168
 Total Bytes 0
-Elapsed Time 1.668700e-02 seconds
-FLOP/s 1.005316e+12
+Elapsed Time 1.958300e-02 seconds
+FLOP/s 8.559714e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -4234,9 +4104,9 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: load_imbalance
-        Iterations: 2048
+        Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -4248,9 +4118,9 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: load_imbalance
-        Iterations: 2048
+        Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -4262,9 +4132,9 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: load_imbalance
-        Iterations: 2048
+        Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -4276,17 +4146,17 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: load_imbalance
-        Iterations: 2048
+        Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 8387848704
+Total FLOPs 16762487168
 Total Bytes 0
-Elapsed Time 9.583000e-03 seconds
-FLOP/s 8.752842e+11
+Elapsed Time 1.963400e-02 seconds
+FLOP/s 8.537479e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -4299,9 +4169,9 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: load_imbalance
-        Iterations: 2048
+        Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 2:
@@ -4313,9 +4183,9 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: load_imbalance
-        Iterations: 2048
+        Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 3:
@@ -4327,9 +4197,9 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: load_imbalance
-        Iterations: 2048
+        Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
     Task Graph 4:
@@ -4341,1185 +4211,15 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: load_imbalance
-        Iterations: 2048
+        Iterations: 4096
         Samples: 16
-        Imbalance: 0.600000
+        Imbalance: 2.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
 Total Dependencies 154000
-Total FLOPs 8387848704
+Total FLOPs 16762487168
 Total Bytes 0
-Elapsed Time 9.639000e-03 seconds
-FLOP/s 8.701991e+11
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 8387848704
-Total Bytes 0
-Elapsed Time 9.565000e-03 seconds
-FLOP/s 8.769314e+11
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 8387848704
-Total Bytes 0
-Elapsed Time 9.635000e-03 seconds
-FLOP/s 8.705603e+11
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 8387848704
-Total Bytes 0
-Elapsed Time 9.626000e-03 seconds
-FLOP/s 8.713743e+11
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 4193920128
-Total Bytes 0
-Elapsed Time 6.225000e-03 seconds
-FLOP/s 6.737221e+11
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 4193920128
-Total Bytes 0
-Elapsed Time 6.233000e-03 seconds
-FLOP/s 6.728574e+11
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 4193920128
-Total Bytes 0
-Elapsed Time 6.189000e-03 seconds
-FLOP/s 6.776410e+11
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 4193920128
-Total Bytes 0
-Elapsed Time 6.233000e-03 seconds
-FLOP/s 6.728574e+11
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 4193920128
-Total Bytes 0
-Elapsed Time 6.261000e-03 seconds
-FLOP/s 6.698483e+11
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 2096960896
-Total Bytes 0
-Elapsed Time 4.545000e-03 seconds
-FLOP/s 4.613775e+11
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 2096960896
-Total Bytes 0
-Elapsed Time 4.573000e-03 seconds
-FLOP/s 4.585526e+11
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 2096960896
-Total Bytes 0
-Elapsed Time 4.555000e-03 seconds
-FLOP/s 4.603646e+11
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 2096960896
-Total Bytes 0
-Elapsed Time 4.556000e-03 seconds
-FLOP/s 4.602636e+11
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 512
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 2096960896
-Total Bytes 0
-Elapsed Time 4.527000e-03 seconds
-FLOP/s 4.632120e+11
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 1048475520
-Total Bytes 0
-Elapsed Time 3.817000e-03 seconds
-FLOP/s 2.746858e+11
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 1048475520
-Total Bytes 0
-Elapsed Time 3.825000e-03 seconds
-FLOP/s 2.741112e+11
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 1048475520
-Total Bytes 0
-Elapsed Time 3.785000e-03 seconds
-FLOP/s 2.770081e+11
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 1048475520
-Total Bytes 0
-Elapsed Time 3.753000e-03 seconds
-FLOP/s 2.793700e+11
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 256
-        Samples: 16
-        Imbalance: 0.600000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 1048475520
-Total Bytes 0
-Elapsed Time 3.850000e-03 seconds
-FLOP/s 2.723313e+11
+Elapsed Time 1.957200e-02 seconds
+FLOP/s 8.564524e+11
 B/s 0.000000e+00

@@ -1,10 +1,11 @@
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+init parsec, pid 1344
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -16,20 +17,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 4398046543872000
+rank 0, pid 1344, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 17592186175488000
 Total Bytes 0
-Elapsed Time 2.386329e+02 seconds
-FLOP/s 1.843018e+13
+Elapsed Time 2.530197e+02 seconds
+FLOP/s 6.952892e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)    253.01969 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 1628
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -41,20 +46,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 2199023288320000
+rank 0, pid 1628, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 8796093153280000
 Total Bytes 0
-Elapsed Time 1.192862e+02 seconds
-FLOP/s 1.843486e+13
+Elapsed Time 1.269088e+02 seconds
+FLOP/s 6.931036e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)    126.90877 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 1830
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -66,20 +75,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 2199023288320000
+rank 0, pid 1830, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 8796093153280000
 Total Bytes 0
-Elapsed Time 1.191836e+02 seconds
-FLOP/s 1.845072e+13
+Elapsed Time 1.268929e+02 seconds
+FLOP/s 6.931904e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)    126.89288 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 2056
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -91,20 +104,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 1099511660544000
+rank 0, pid 2056, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 4398046642176000
 Total Bytes 0
-Elapsed Time 5.985090e+01 seconds
-FLOP/s 1.837085e+13
+Elapsed Time 6.359560e+01 seconds
+FLOP/s 6.915647e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)     63.59560 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 2226
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -116,20 +133,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 1099511660544000
+rank 0, pid 2226, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 4398046642176000
 Total Bytes 0
-Elapsed Time 5.977655e+01 seconds
-FLOP/s 1.839369e+13
+Elapsed Time 6.360383e+01 seconds
+FLOP/s 6.914751e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)     63.60383 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 2368
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -141,20 +162,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 1099511660544000
+rank 0, pid 2368, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 4398046642176000
 Total Bytes 0
-Elapsed Time 5.983640e+01 seconds
-FLOP/s 1.837530e+13
+Elapsed Time 6.354776e+01 seconds
+FLOP/s 6.920852e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)     63.54776 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 2518
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -166,20 +191,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 549755846656000
+rank 0, pid 2518, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 2199023386624000
 Total Bytes 0
-Elapsed Time 3.011210e+01 seconds
-FLOP/s 1.825697e+13
+Elapsed Time 3.187169e+01 seconds
+FLOP/s 6.899613e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)     31.87169 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 2673
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -191,20 +220,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 549755846656000
+rank 0, pid 2673, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 2199023386624000
 Total Bytes 0
-Elapsed Time 3.011737e+01 seconds
-FLOP/s 1.825378e+13
+Elapsed Time 3.183066e+01 seconds
+FLOP/s 6.908507e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)     31.83066 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 2801
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -216,20 +249,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 549755846656000
+rank 0, pid 2801, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 2199023386624000
 Total Bytes 0
-Elapsed Time 3.010026e+01 seconds
-FLOP/s 1.826415e+13
+Elapsed Time 3.183899e+01 seconds
+FLOP/s 6.906699e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)     31.83899 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 2930
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -241,20 +278,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 549755846656000
+rank 0, pid 2930, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 2199023386624000
 Total Bytes 0
-Elapsed Time 3.008923e+01 seconds
-FLOP/s 1.827085e+13
+Elapsed Time 3.183964e+01 seconds
+FLOP/s 6.906558e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)     31.83964 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 3075
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -266,20 +307,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 274877939712000
+rank 0, pid 3075, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 1099511758848000
 Total Bytes 0
-Elapsed Time 1.511775e+01 seconds
-FLOP/s 1.818246e+13
+Elapsed Time 1.595262e+01 seconds
+FLOP/s 6.892358e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)     15.95262 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 3216
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -291,20 +336,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 274877939712000
+rank 0, pid 3216, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 1099511758848000
 Total Bytes 0
-Elapsed Time 1.513625e+01 seconds
-FLOP/s 1.816024e+13
+Elapsed Time 1.595486e+01 seconds
+FLOP/s 6.891390e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)     15.95486 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 3349
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -316,20 +365,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 274877939712000
+rank 0, pid 3349, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 1099511758848000
 Total Bytes 0
-Elapsed Time 1.513684e+01 seconds
-FLOP/s 1.815954e+13
+Elapsed Time 1.596963e+01 seconds
+FLOP/s 6.885015e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)     15.96963 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 3469
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -341,20 +394,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 274877939712000
+rank 0, pid 3469, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 1099511758848000
 Total Bytes 0
-Elapsed Time 1.513560e+01 seconds
-FLOP/s 1.816102e+13
+Elapsed Time 1.594806e+01 seconds
+FLOP/s 6.894331e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)     15.94806 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 3590
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -366,20 +423,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 274877939712000
+rank 0, pid 3590, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 1099511758848000
 Total Bytes 0
-Elapsed Time 1.514000e+01 seconds
-FLOP/s 1.815574e+13
+Elapsed Time 1.595144e+01 seconds
+FLOP/s 6.892866e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)     15.95144 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 3708
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -391,20 +452,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 137438986240000
+rank 0, pid 3708, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 549755944960000
 Total Bytes 0
-Elapsed Time 7.725582e+00 seconds
-FLOP/s 1.779011e+13
+Elapsed Time 7.982284e+00 seconds
+FLOP/s 6.887201e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      7.98228 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 3822
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -416,20 +481,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 137438986240000
+rank 0, pid 3822, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 549755944960000
 Total Bytes 0
-Elapsed Time 7.712232e+00 seconds
-FLOP/s 1.782091e+13
+Elapsed Time 7.985992e+00 seconds
+FLOP/s 6.884003e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      7.98599 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 3944
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -441,20 +510,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 137438986240000
+rank 0, pid 3944, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 549755944960000
 Total Bytes 0
-Elapsed Time 7.713154e+00 seconds
-FLOP/s 1.781878e+13
+Elapsed Time 7.992594e+00 seconds
+FLOP/s 6.878317e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      7.99259 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 4059
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -466,20 +539,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 137438986240000
+rank 0, pid 4059, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 549755944960000
 Total Bytes 0
-Elapsed Time 7.708339e+00 seconds
-FLOP/s 1.782991e+13
+Elapsed Time 7.989904e+00 seconds
+FLOP/s 6.880633e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      7.98990 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 4198
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -491,20 +568,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 137438986240000
+rank 0, pid 4198, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 549755944960000
 Total Bytes 0
-Elapsed Time 7.730307e+00 seconds
-FLOP/s 1.777924e+13
+Elapsed Time 7.982332e+00 seconds
+FLOP/s 6.887160e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      7.98233 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 4313
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -516,20 +597,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 68719509504000
+rank 0, pid 4313, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 274878038016000
 Total Bytes 0
-Elapsed Time 4.227629e+00 seconds
-FLOP/s 1.625486e+13
+Elapsed Time 4.015666e+00 seconds
+FLOP/s 6.845142e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      4.01567 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 4435
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -541,20 +626,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 68719509504000
+rank 0, pid 4435, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 274878038016000
 Total Bytes 0
-Elapsed Time 4.245725e+00 seconds
-FLOP/s 1.618558e+13
+Elapsed Time 4.042888e+00 seconds
+FLOP/s 6.799052e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      4.04289 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 4563
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -566,20 +655,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 68719509504000
+rank 0, pid 4563, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 274878038016000
 Total Bytes 0
-Elapsed Time 4.231827e+00 seconds
-FLOP/s 1.623873e+13
+Elapsed Time 4.033473e+00 seconds
+FLOP/s 6.814922e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      4.03347 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 4679
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -591,20 +684,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 68719509504000
+rank 0, pid 4679, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 274878038016000
 Total Bytes 0
-Elapsed Time 4.243587e+00 seconds
-FLOP/s 1.619373e+13
+Elapsed Time 4.022687e+00 seconds
+FLOP/s 6.833195e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      4.02269 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 4794
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -616,20 +713,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 68719509504000
+rank 0, pid 4794, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 274878038016000
 Total Bytes 0
-Elapsed Time 4.252495e+00 seconds
-FLOP/s 1.615981e+13
+Elapsed Time 4.055631e+00 seconds
+FLOP/s 6.777689e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      4.05563 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 4908
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -641,20 +742,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 34359771136000
+rank 0, pid 4908, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 137439084544000
 Total Bytes 0
-Elapsed Time 2.720286e+00 seconds
-FLOP/s 1.263094e+13
+Elapsed Time 2.050485e+00 seconds
+FLOP/s 6.702760e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      2.05048 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 5022
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -666,20 +771,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 34359771136000
+rank 0, pid 5022, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 137439084544000
 Total Bytes 0
-Elapsed Time 2.671692e+00 seconds
-FLOP/s 1.286068e+13
+Elapsed Time 2.047195e+00 seconds
+FLOP/s 6.713532e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      2.04719 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 5142
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -691,20 +800,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 34359771136000
+rank 0, pid 5142, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 137439084544000
 Total Bytes 0
-Elapsed Time 2.695647e+00 seconds
-FLOP/s 1.274639e+13
+Elapsed Time 2.044361e+00 seconds
+FLOP/s 6.722839e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      2.04436 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 5293
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -716,20 +829,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 34359771136000
+rank 0, pid 5293, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 137439084544000
 Total Bytes 0
-Elapsed Time 2.677708e+00 seconds
-FLOP/s 1.283178e+13
+Elapsed Time 2.065147e+00 seconds
+FLOP/s 6.655171e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      2.06515 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 5407
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -741,20 +858,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 34359771136000
+rank 0, pid 5407, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 137439084544000
 Total Bytes 0
-Elapsed Time 2.719749e+00 seconds
-FLOP/s 1.263343e+13
+Elapsed Time 2.065673e+00 seconds
+FLOP/s 6.653477e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      2.06567 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 5526
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -766,20 +887,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 17179901952000
+rank 0, pid 5526, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 68719607808000
 Total Bytes 0
-Elapsed Time 2.274980e+00 seconds
-FLOP/s 7.551671e+12
+Elapsed Time 1.074347e+00 seconds
+FLOP/s 6.396407e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      1.07435 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 5638
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -791,20 +916,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 17179901952000
+rank 0, pid 5638, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 68719607808000
 Total Bytes 0
-Elapsed Time 2.281549e+00 seconds
-FLOP/s 7.529929e+12
+Elapsed Time 1.352056e+00 seconds
+FLOP/s 5.082601e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      1.35206 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 5749
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -816,20 +945,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 17179901952000
+rank 0, pid 5749, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 68719607808000
 Total Bytes 0
-Elapsed Time 2.287473e+00 seconds
-FLOP/s 7.510428e+12
+Elapsed Time 1.080529e+00 seconds
+FLOP/s 6.359812e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      1.08053 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 5861
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -841,20 +974,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 17179901952000
+rank 0, pid 5861, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 68719607808000
 Total Bytes 0
-Elapsed Time 2.299952e+00 seconds
-FLOP/s 7.469679e+12
+Elapsed Time 1.077866e+00 seconds
+FLOP/s 6.375525e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      1.07787 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 5972
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -866,20 +1003,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 17179901952000
+rank 0, pid 5972, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 68719607808000
 Total Bytes 0
-Elapsed Time 2.300945e+00 seconds
-FLOP/s 7.466455e+12
+Elapsed Time 1.075292e+00 seconds
+FLOP/s 6.390785e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      1.07529 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 6087
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -891,20 +1032,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 8589967360000
+rank 0, pid 6087, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 34359869440000
 Total Bytes 0
-Elapsed Time 2.286115e+00 seconds
-FLOP/s 3.757452e+12
+Elapsed Time 6.394720e-01 seconds
+FLOP/s 5.373162e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.63947 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 6198
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -916,20 +1061,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 8589967360000
+rank 0, pid 6198, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 34359869440000
 Total Bytes 0
-Elapsed Time 2.238949e+00 seconds
-FLOP/s 3.836607e+12
+Elapsed Time 6.320739e-01 seconds
+FLOP/s 5.436053e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.63207 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 6307
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -941,20 +1090,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 8589967360000
+rank 0, pid 6307, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 34359869440000
 Total Bytes 0
-Elapsed Time 2.233096e+00 seconds
-FLOP/s 3.846663e+12
+Elapsed Time 6.389339e-01 seconds
+FLOP/s 5.377688e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.63893 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 6419
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -966,20 +1119,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 8589967360000
+rank 0, pid 6419, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 34359869440000
 Total Bytes 0
-Elapsed Time 2.221414e+00 seconds
-FLOP/s 3.866892e+12
+Elapsed Time 6.357000e-01 seconds
+FLOP/s 5.405045e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.63570 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 6530
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -991,20 +1148,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 8589967360000
+rank 0, pid 6530, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 34359869440000
 Total Bytes 0
-Elapsed Time 2.240826e+00 seconds
-FLOP/s 3.833393e+12
+Elapsed Time 6.512642e-01 seconds
+FLOP/s 5.275873e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.65126 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 6639
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1016,20 +1177,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 4295000064000
+rank 0, pid 6639, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 17180000256000
 Total Bytes 0
-Elapsed Time 2.348044e+00 seconds
-FLOP/s 1.829182e+12
+Elapsed Time 4.605861e-01 seconds
+FLOP/s 3.730030e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.46059 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 6749
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1041,20 +1206,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 4295000064000
+rank 0, pid 6749, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 17180000256000
 Total Bytes 0
-Elapsed Time 2.251557e+00 seconds
-FLOP/s 1.907569e+12
+Elapsed Time 4.369290e-01 seconds
+FLOP/s 3.931989e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.43693 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 6870
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1066,20 +1235,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 4295000064000
+rank 0, pid 6870, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 17180000256000
 Total Bytes 0
-Elapsed Time 2.330493e+00 seconds
-FLOP/s 1.842958e+12
+Elapsed Time 4.517210e-01 seconds
+FLOP/s 3.803233e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.45172 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 6980
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1091,20 +1264,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 4295000064000
+rank 0, pid 6980, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 17180000256000
 Total Bytes 0
-Elapsed Time 2.258822e+00 seconds
-FLOP/s 1.901434e+12
+Elapsed Time 4.561400e-01 seconds
+FLOP/s 3.766387e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.45614 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 7090
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1116,20 +1293,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 4295000064000
+rank 0, pid 7090, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 17180000256000
 Total Bytes 0
-Elapsed Time 2.363858e+00 seconds
-FLOP/s 1.816945e+12
+Elapsed Time 4.550290e-01 seconds
+FLOP/s 3.775584e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.45503 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 7201
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1141,20 +1322,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 2147516416000
+rank 0, pid 7201, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 8590065664000
 Total Bytes 0
-Elapsed Time 2.430086e+00 seconds
-FLOP/s 8.837204e+11
+Elapsed Time 5.591888e-01 seconds
+FLOP/s 1.536165e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.55919 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 7310
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1166,20 +1351,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 2147516416000
+rank 0, pid 7310, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 8590065664000
 Total Bytes 0
-Elapsed Time 2.428949e+00 seconds
-FLOP/s 8.841340e+11
+Elapsed Time 3.859131e-01 seconds
+FLOP/s 2.225907e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.38591 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 7424
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1191,20 +1380,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 2147516416000
+rank 0, pid 7424, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 8590065664000
 Total Bytes 0
-Elapsed Time 2.485059e+00 seconds
-FLOP/s 8.641712e+11
+Elapsed Time 4.034779e-01 seconds
+FLOP/s 2.129005e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.40348 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 7535
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1216,20 +1409,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 2147516416000
+rank 0, pid 7535, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 8590065664000
 Total Bytes 0
-Elapsed Time 2.461285e+00 seconds
-FLOP/s 8.725184e+11
+Elapsed Time 3.928578e-01 seconds
+FLOP/s 2.186559e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.39286 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 7667
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1241,20 +1438,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 2147516416000
+rank 0, pid 7667, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 8590065664000
 Total Bytes 0
-Elapsed Time 2.347454e+00 seconds
-FLOP/s 9.148279e+11
+Elapsed Time 3.748949e-01 seconds
+FLOP/s 2.291327e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.37489 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 7776
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1266,20 +1467,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 1073774592000
+rank 0, pid 7776, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 4295098368000
 Total Bytes 0
-Elapsed Time 2.426066e+00 seconds
-FLOP/s 4.425991e+11
+Elapsed Time 4.362988e-01 seconds
+FLOP/s 9.844395e+12
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.43630 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 7889
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1291,20 +1496,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 1073774592000
+rank 0, pid 7889, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 4295098368000
 Total Bytes 0
-Elapsed Time 2.602521e+00 seconds
-FLOP/s 4.125902e+11
+Elapsed Time 3.873501e-01 seconds
+FLOP/s 1.108841e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.38735 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 7998
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1316,20 +1525,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 1073774592000
+rank 0, pid 7998, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 4295098368000
 Total Bytes 0
-Elapsed Time 2.555773e+00 seconds
-FLOP/s 4.201369e+11
+Elapsed Time 4.103229e-01 seconds
+FLOP/s 1.046761e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.41032 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 8118
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1341,20 +1554,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 1073774592000
+rank 0, pid 8118, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 4295098368000
 Total Bytes 0
-Elapsed Time 2.526106e+00 seconds
-FLOP/s 4.250711e+11
+Elapsed Time 4.466412e-01 seconds
+FLOP/s 9.616440e+12
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.44664 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 8244
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1366,20 +1583,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 1073774592000
+rank 0, pid 8244, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 4295098368000
 Total Bytes 0
-Elapsed Time 2.528750e+00 seconds
-FLOP/s 4.246266e+11
+Elapsed Time 3.699679e-01 seconds
+FLOP/s 1.160938e+13
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.36997 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 8358
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1391,20 +1612,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 536903680000
+rank 0, pid 8358, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 2147614720000
 Total Bytes 0
-Elapsed Time 2.531516e+00 seconds
-FLOP/s 2.120878e+11
+Elapsed Time 8.062971e-01 seconds
+FLOP/s 2.663553e+12
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.80630 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 8472
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1416,20 +1641,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 536903680000
+rank 0, pid 8472, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 2147614720000
 Total Bytes 0
-Elapsed Time 2.600094e+00 seconds
-FLOP/s 2.064939e+11
+Elapsed Time 3.941219e-01 seconds
+FLOP/s 5.449113e+12
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.39412 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 8580
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1441,20 +1670,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 536903680000
+rank 0, pid 8580, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 2147614720000
 Total Bytes 0
-Elapsed Time 2.563429e+00 seconds
-FLOP/s 2.094475e+11
+Elapsed Time 4.566760e-01 seconds
+FLOP/s 4.702710e+12
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.45668 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 8690
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1466,20 +1699,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 536903680000
+rank 0, pid 8690, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 2147614720000
 Total Bytes 0
-Elapsed Time 2.538970e+00 seconds
-FLOP/s 2.114652e+11
+Elapsed Time 3.571310e-01 seconds
+FLOP/s 6.013521e+12
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.35713 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 8802
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1491,20 +1728,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 536903680000
+rank 0, pid 8802, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 2147614720000
 Total Bytes 0
-Elapsed Time 2.571169e+00 seconds
-FLOP/s 2.088170e+11
+Elapsed Time 4.351079e-01 seconds
+FLOP/s 4.935820e+12
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.43511 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 8913
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1516,20 +1757,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 268468224000
+rank 0, pid 8913, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 1073872896000
 Total Bytes 0
-Elapsed Time 2.380659e+00 seconds
-FLOP/s 1.127705e+11
+Elapsed Time 4.082801e-01 seconds
+FLOP/s 2.630235e+12
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.40828 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 9023
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1541,20 +1786,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 268468224000
+rank 0, pid 9023, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 1073872896000
 Total Bytes 0
-Elapsed Time 2.526139e+00 seconds
-FLOP/s 1.062761e+11
+Elapsed Time 4.236159e-01 seconds
+FLOP/s 2.535015e+12
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.42362 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 9132
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1566,20 +1815,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 268468224000
+rank 0, pid 9132, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 1073872896000
 Total Bytes 0
-Elapsed Time 2.584323e+00 seconds
-FLOP/s 1.038834e+11
+Elapsed Time 3.836811e-01 seconds
+FLOP/s 2.798869e+12
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.38368 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 9253
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1591,20 +1844,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 268468224000
+rank 0, pid 9253, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 1073872896000
 Total Bytes 0
-Elapsed Time 2.536533e+00 seconds
-FLOP/s 1.058406e+11
+Elapsed Time 3.655760e-01 seconds
+FLOP/s 2.937482e+12
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.36558 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 9365
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1616,20 +1873,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 268468224000
+rank 0, pid 9365, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 1073872896000
 Total Bytes 0
-Elapsed Time 2.516452e+00 seconds
-FLOP/s 1.066852e+11
+Elapsed Time 3.963220e-01 seconds
+FLOP/s 2.709597e+12
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.39632 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 9478
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1641,20 +1902,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 134250496000
+rank 0, pid 9478, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 537001984000
 Total Bytes 0
-Elapsed Time 2.687325e+00 seconds
-FLOP/s 4.995693e+10
+Elapsed Time 3.652420e-01 seconds
+FLOP/s 1.470263e+12
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.36524 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 9587
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1666,20 +1931,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 134250496000
+rank 0, pid 9587, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 537001984000
 Total Bytes 0
-Elapsed Time 2.649741e+00 seconds
-FLOP/s 5.066551e+10
+Elapsed Time 4.031191e-01 seconds
+FLOP/s 1.332117e+12
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.40312 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 9699
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1691,20 +1960,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 134250496000
+rank 0, pid 9699, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 537001984000
 Total Bytes 0
-Elapsed Time 2.573685e+00 seconds
-FLOP/s 5.216275e+10
+Elapsed Time 3.899882e-01 seconds
+FLOP/s 1.376970e+12
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.38999 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 9816
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1716,20 +1989,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 134250496000
+rank 0, pid 9816, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 537001984000
 Total Bytes 0
-Elapsed Time 2.531473e+00 seconds
-FLOP/s 5.303256e+10
+Elapsed Time 3.687580e-01 seconds
+FLOP/s 1.456245e+12
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.36876 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 9926
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1741,20 +2018,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 134250496000
+rank 0, pid 9926, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 537001984000
 Total Bytes 0
-Elapsed Time 2.580030e+00 seconds
-FLOP/s 5.203447e+10
+Elapsed Time 3.874691e-01 seconds
+FLOP/s 1.385922e+12
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.38747 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 10036
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1766,20 +2047,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 67141632000
+rank 0, pid 10036, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 268566528000
 Total Bytes 0
-Elapsed Time 2.505770e+00 seconds
-FLOP/s 2.679481e+10
+Elapsed Time 4.276340e-01 seconds
+FLOP/s 6.280289e+11
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.42763 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 10147
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1791,20 +2076,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 67141632000
+rank 0, pid 10147, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 268566528000
 Total Bytes 0
-Elapsed Time 2.398921e+00 seconds
-FLOP/s 2.798826e+10
+Elapsed Time 4.047959e-01 seconds
+FLOP/s 6.634616e+11
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.40480 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 10263
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1816,20 +2105,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 67141632000
+rank 0, pid 10263, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 268566528000
 Total Bytes 0
-Elapsed Time 2.638918e+00 seconds
-FLOP/s 2.544286e+10
+Elapsed Time 3.956940e-01 seconds
+FLOP/s 6.787227e+11
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.39569 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 10380
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1841,20 +2134,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 67141632000
+rank 0, pid 10380, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 268566528000
 Total Bytes 0
-Elapsed Time 2.598498e+00 seconds
-FLOP/s 2.583863e+10
+Elapsed Time 3.707600e-01 seconds
+FLOP/s 7.243677e+11
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.37076 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 10513
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1866,20 +2163,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 67141632000
+rank 0, pid 10513, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 268566528000
 Total Bytes 0
-Elapsed Time 2.502014e+00 seconds
-FLOP/s 2.683503e+10
+Elapsed Time 4.360430e-01 seconds
+FLOP/s 6.159175e+11
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.43604 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 10623
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1891,20 +2192,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 33587200000
+rank 0, pid 10623, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 134348800000
 Total Bytes 0
-Elapsed Time 2.646629e+00 seconds
-FLOP/s 1.269056e+10
+Elapsed Time 3.780639e-01 seconds
+FLOP/s 3.553600e+11
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.37806 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 10732
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1916,20 +2221,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 33587200000
+rank 0, pid 10732, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 134348800000
 Total Bytes 0
-Elapsed Time 2.489573e+00 seconds
-FLOP/s 1.349115e+10
+Elapsed Time 3.809721e-01 seconds
+FLOP/s 3.526473e+11
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.38097 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 10841
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1941,20 +2250,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 33587200000
+rank 0, pid 10841, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 134348800000
 Total Bytes 0
-Elapsed Time 2.636091e+00 seconds
-FLOP/s 1.274129e+10
+Elapsed Time 3.947279e-01 seconds
+FLOP/s 3.403580e+11
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.39473 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 10952
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1966,20 +2279,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 33587200000
+rank 0, pid 10952, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 134348800000
 Total Bytes 0
-Elapsed Time 2.610689e+00 seconds
-FLOP/s 1.286526e+10
+Elapsed Time 4.050801e-01 seconds
+FLOP/s 3.316599e+11
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.40508 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 11061
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -1991,20 +2308,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 33587200000
+rank 0, pid 11061, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 134348800000
 Total Bytes 0
-Elapsed Time 2.614335e+00 seconds
-FLOP/s 1.284732e+10
+Elapsed Time 4.116440e-01 seconds
+FLOP/s 3.263713e+11
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.41164 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 11173
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -2016,20 +2337,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 16809984000
+rank 0, pid 11173, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 67239936000
 Total Bytes 0
-Elapsed Time 2.574935e+00 seconds
-FLOP/s 6.528314e+09
+Elapsed Time 4.294620e-01 seconds
+FLOP/s 1.565679e+11
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.42946 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 11282
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -2041,20 +2366,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 16809984000
+rank 0, pid 11282, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 67239936000
 Total Bytes 0
-Elapsed Time 2.568167e+00 seconds
-FLOP/s 6.545518e+09
+Elapsed Time 4.384689e-01 seconds
+FLOP/s 1.533517e+11
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.43847 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 11400
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -2066,20 +2395,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 16809984000
+rank 0, pid 11400, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 67239936000
 Total Bytes 0
-Elapsed Time 2.538048e+00 seconds
-FLOP/s 6.623194e+09
+Elapsed Time 3.953750e-01 seconds
+FLOP/s 1.700662e+11
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.39538 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 11515
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -2091,20 +2424,24 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 16809984000
+rank 0, pid 11515, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 67239936000
 Total Bytes 0
-Elapsed Time 2.647362e+00 seconds
-FLOP/s 6.349711e+09
+Elapsed Time 4.024761e-01 seconds
+FLOP/s 1.670657e+11
 B/s 0.000000e+00
-mb 2, mt 4, nt 512, timesteps 1000, enable_supertiling 1, nb_fields 4
+[****] TIME(s)      0.40248 : 	nb_tasks 69637
+clean up parsec
+init parsec, pid 11626
+output_bytes_per_task 16, mb 2, nb 2
 max_scratch_bytes_per_task 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 512
+      Max Width: 2048
       Dependence Type: fft
       Radix: 5
       Period: 0
@@ -2116,10 +2453,13 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Total Tasks 512000
-Total Dependencies 1422046
-Total FLOPs 16809984000
+rank 0, pid 11626, M 4, N 4096, MT 2, NT 2048, nb_fields 2, timesteps 1000
+Total Tasks 2048000
+Total Dependencies 5772470
+Total FLOPs 67239936000
 Total Bytes 0
-Elapsed Time 2.633122e+00 seconds
-FLOP/s 6.384051e+09
+Elapsed Time 4.223931e-01 seconds
+FLOP/s 1.591881e+11
 B/s 0.000000e+00
+[****] TIME(s)      0.42239 : 	nb_tasks 69637
+clean up parsec

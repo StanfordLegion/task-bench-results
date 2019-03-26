@@ -1,6 +1,6 @@
-init parsec, pid 61359
+init parsec, pid 25959
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -16,20 +16,49 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 61359, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 25959, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 8589934592000
+Elapsed Time 7.825277e+01 seconds
+FLOP/s 0.000000e+00
+B/s 1.097716e+11
+[****] TIME(s)     78.25277 : 	nb_tasks 32000
+clean up parsec
+init parsec, pid 26059
+output_bytes_per_task 16, mb 2, nb 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 8192
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+rank 0, pid 26059, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 4294967296000
-Elapsed Time 3.180881e+01 seconds
+Elapsed Time 3.886558e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.350245e+11
-[****] TIME(s)     31.80881 : 	nb_tasks 32000
+B/s 1.105083e+11
+[****] TIME(s)     38.86558 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 61435
+init parsec, pid 26139
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -45,20 +74,49 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 61435, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 26139, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 4294967296000
+Elapsed Time 3.848976e+01 seconds
+FLOP/s 0.000000e+00
+B/s 1.115873e+11
+[****] TIME(s)     38.48976 : 	nb_tasks 32000
+clean up parsec
+init parsec, pid 26218
+output_bytes_per_task 16, mb 2, nb 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 4096
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+rank 0, pid 26218, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 2147483648000
-Elapsed Time 1.655768e+01 seconds
+Elapsed Time 1.957758e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.296972e+11
-[****] TIME(s)     16.55768 : 	nb_tasks 32000
+B/s 1.096909e+11
+[****] TIME(s)     19.57758 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 61505
+init parsec, pid 26287
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -70,24 +128,24 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 8192
+        Iterations: 4096
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 61505, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 26287, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 2147483648000
-Elapsed Time 1.669740e+01 seconds
+Elapsed Time 1.944516e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.286119e+11
-[****] TIME(s)     16.69740 : 	nb_tasks 32000
+B/s 1.104379e+11
+[****] TIME(s)     19.44516 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 61573
+init parsec, pid 26356
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -103,20 +161,49 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 61573, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 26356, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 2147483648000
+Elapsed Time 1.954319e+01 seconds
+FLOP/s 0.000000e+00
+B/s 1.098840e+11
+[****] TIME(s)     19.54319 : 	nb_tasks 32000
+clean up parsec
+init parsec, pid 26431
+output_bytes_per_task 16, mb 2, nb 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 2048
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+rank 0, pid 26431, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 1073741824000
-Elapsed Time 8.327632e+00 seconds
+Elapsed Time 9.913080e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.289372e+11
-[****] TIME(s)      8.32763 : 	nb_tasks 32000
+B/s 1.083157e+11
+[****] TIME(s)      9.91308 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 61638
+init parsec, pid 26495
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -128,24 +215,24 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 4096
+        Iterations: 2048
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 61638, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 26495, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 1073741824000
-Elapsed Time 8.078706e+00 seconds
+Elapsed Time 9.973091e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.329101e+11
-[****] TIME(s)      8.07871 : 	nb_tasks 32000
+B/s 1.076639e+11
+[****] TIME(s)      9.97309 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 61703
+init parsec, pid 26558
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -157,24 +244,24 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 4096
+        Iterations: 2048
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 61703, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 26558, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 1073741824000
-Elapsed Time 8.265347e+00 seconds
+Elapsed Time 9.841850e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.299089e+11
-[****] TIME(s)      8.26535 : 	nb_tasks 32000
+B/s 1.090996e+11
+[****] TIME(s)      9.84185 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 61766
+init parsec, pid 26623
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -190,20 +277,49 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 61766, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 26623, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 1073741824000
+Elapsed Time 9.970182e+00 seconds
+FLOP/s 0.000000e+00
+B/s 1.076953e+11
+[****] TIME(s)      9.97018 : 	nb_tasks 32000
+clean up parsec
+init parsec, pid 26686
+output_bytes_per_task 16, mb 2, nb 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 1024
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+rank 0, pid 26686, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 536870912000
-Elapsed Time 3.976148e+00 seconds
+Elapsed Time 5.034727e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.350229e+11
-[****] TIME(s)      3.97615 : 	nb_tasks 32000
+B/s 1.066336e+11
+[****] TIME(s)      5.03473 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 61827
+init parsec, pid 26746
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -215,24 +331,24 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 2048
+        Iterations: 1024
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 61827, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 26746, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 536870912000
-Elapsed Time 4.003195e+00 seconds
+Elapsed Time 5.032956e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.341106e+11
-[****] TIME(s)      4.00320 : 	nb_tasks 32000
+B/s 1.066711e+11
+[****] TIME(s)      5.03296 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 61888
+init parsec, pid 26809
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -244,24 +360,24 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 2048
+        Iterations: 1024
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 61888, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 26809, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 536870912000
-Elapsed Time 4.015991e+00 seconds
+Elapsed Time 5.032301e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.336833e+11
-[****] TIME(s)      4.01599 : 	nb_tasks 32000
+B/s 1.066850e+11
+[****] TIME(s)      5.03230 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 61950
+init parsec, pid 26872
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -273,24 +389,24 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 2048
+        Iterations: 1024
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 61950, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 26872, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 536870912000
-Elapsed Time 4.018349e+00 seconds
+Elapsed Time 5.031899e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.336048e+11
-[****] TIME(s)      4.01835 : 	nb_tasks 32000
+B/s 1.066935e+11
+[****] TIME(s)      5.03190 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 62013
+init parsec, pid 26935
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -306,136 +422,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 62013, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 26935, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 268435456000
-Elapsed Time 2.017472e+00 seconds
+Total Bytes 536870912000
+Elapsed Time 5.032975e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.330554e+11
-[****] TIME(s)      2.01747 : 	nb_tasks 32000
+B/s 1.066707e+11
+[****] TIME(s)      5.03297 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 62073
+init parsec, pid 26999
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 1024
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 62073, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 268435456000
-Elapsed Time 2.027516e+00 seconds
-FLOP/s 0.000000e+00
-B/s 1.323962e+11
-[****] TIME(s)      2.02752 : 	nb_tasks 32000
-clean up parsec
-init parsec, pid 62134
-output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 1024
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 62134, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 268435456000
-Elapsed Time 2.035880e+00 seconds
-FLOP/s 0.000000e+00
-B/s 1.318523e+11
-[****] TIME(s)      2.03588 : 	nb_tasks 32000
-clean up parsec
-init parsec, pid 62195
-output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 1024
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 62195, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 268435456000
-Elapsed Time 2.026740e+00 seconds
-FLOP/s 0.000000e+00
-B/s 1.324469e+11
-[****] TIME(s)      2.02674 : 	nb_tasks 32000
-clean up parsec
-init parsec, pid 62256
-output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 1024
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 62256, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 268435456000
-Elapsed Time 1.991468e+00 seconds
-FLOP/s 0.000000e+00
-B/s 1.347928e+11
-[****] TIME(s)      1.99147 : 	nb_tasks 32000
-clean up parsec
-init parsec, pid 62317
-output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -451,20 +451,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 62317, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 26999, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 134217728000
-Elapsed Time 1.017343e+00 seconds
+Total Bytes 268435456000
+Elapsed Time 2.461876e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.319297e+11
-[****] TIME(s)      1.01734 : 	nb_tasks 32000
+B/s 1.090370e+11
+[****] TIME(s)      2.46188 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 62380
+init parsec, pid 27059
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -480,20 +480,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 62380, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 27059, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 134217728000
-Elapsed Time 1.013267e+00 seconds
+Total Bytes 268435456000
+Elapsed Time 2.443998e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.324604e+11
-[****] TIME(s)      1.01327 : 	nb_tasks 32000
+B/s 1.098346e+11
+[****] TIME(s)      2.44400 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 62439
+init parsec, pid 27120
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -509,20 +509,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 62439, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 27120, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 134217728000
-Elapsed Time 1.019019e+00 seconds
+Total Bytes 268435456000
+Elapsed Time 2.474381e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.317127e+11
-[****] TIME(s)      1.01902 : 	nb_tasks 32000
+B/s 1.084859e+11
+[****] TIME(s)      2.47438 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 62498
+init parsec, pid 27181
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -538,20 +538,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 62498, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 27181, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 134217728000
-Elapsed Time 9.958069e-01 seconds
+Total Bytes 268435456000
+Elapsed Time 2.470440e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.347829e+11
-[****] TIME(s)      0.99581 : 	nb_tasks 32000
+B/s 1.086590e+11
+[****] TIME(s)      2.47044 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 62557
+init parsec, pid 27240
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -567,20 +567,49 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 62557, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 27240, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 268435456000
+Elapsed Time 2.473799e+00 seconds
+FLOP/s 0.000000e+00
+B/s 1.085114e+11
+[****] TIME(s)      2.47380 : 	nb_tasks 32000
+clean up parsec
+init parsec, pid 27300
+output_bytes_per_task 16, mb 2, nb 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 256
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+rank 0, pid 27300, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 134217728000
-Elapsed Time 1.014003e+00 seconds
+Elapsed Time 1.213572e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.323643e+11
-[****] TIME(s)      1.01400 : 	nb_tasks 32000
+B/s 1.105972e+11
+[****] TIME(s)      1.21357 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 62617
+init parsec, pid 27364
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -596,20 +625,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 62617, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 27364, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 67108864000
-Elapsed Time 4.911699e-01 seconds
+Total Bytes 134217728000
+Elapsed Time 1.209607e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.366306e+11
-[****] TIME(s)      0.49117 : 	nb_tasks 32000
+B/s 1.109598e+11
+[****] TIME(s)      1.20961 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 62675
+init parsec, pid 27423
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -625,20 +654,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 62675, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 27423, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 67108864000
-Elapsed Time 4.967320e-01 seconds
+Total Bytes 134217728000
+Elapsed Time 1.203804e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.351007e+11
-[****] TIME(s)      0.49673 : 	nb_tasks 32000
+B/s 1.114947e+11
+[****] TIME(s)      1.20380 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 62736
+init parsec, pid 27483
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -654,20 +683,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 62736, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 27483, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 67108864000
-Elapsed Time 4.872391e-01 seconds
+Total Bytes 134217728000
+Elapsed Time 1.212617e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.377329e+11
-[****] TIME(s)      0.48724 : 	nb_tasks 32000
+B/s 1.106844e+11
+[****] TIME(s)      1.21262 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 62795
+init parsec, pid 27545
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -683,20 +712,49 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 62795, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 27545, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 134217728000
+Elapsed Time 1.210129e+00 seconds
+FLOP/s 0.000000e+00
+B/s 1.109119e+11
+[****] TIME(s)      1.21013 : 	nb_tasks 32000
+clean up parsec
+init parsec, pid 27605
+output_bytes_per_task 16, mb 2, nb 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 128
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+rank 0, pid 27605, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 67108864000
-Elapsed Time 4.891379e-01 seconds
+Elapsed Time 6.010299e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.371983e+11
-[****] TIME(s)      0.48914 : 	nb_tasks 32000
+B/s 1.116565e+11
+[****] TIME(s)      0.60103 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 62853
+init parsec, pid 27664
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -708,24 +766,24 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 256
+        Iterations: 128
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 62853, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 27664, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 67108864000
-Elapsed Time 4.992599e-01 seconds
+Elapsed Time 6.055081e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.344167e+11
-[****] TIME(s)      0.49926 : 	nb_tasks 32000
+B/s 1.108307e+11
+[****] TIME(s)      0.60551 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 62913
+init parsec, pid 27724
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -741,20 +799,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 62913, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 27724, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 33554432000
-Elapsed Time 2.413080e-01 seconds
+Total Bytes 67108864000
+Elapsed Time 6.050220e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.390523e+11
-[****] TIME(s)      0.24131 : 	nb_tasks 32000
+B/s 1.109197e+11
+[****] TIME(s)      0.60502 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 62971
+init parsec, pid 27782
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -770,20 +828,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 62971, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 27782, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 33554432000
-Elapsed Time 2.393010e-01 seconds
+Total Bytes 67108864000
+Elapsed Time 6.054990e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.402185e+11
-[****] TIME(s)      0.23930 : 	nb_tasks 32000
+B/s 1.108323e+11
+[****] TIME(s)      0.60550 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 63030
+init parsec, pid 27842
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -799,20 +857,49 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 63030, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 27842, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 67108864000
+Elapsed Time 6.072581e-01 seconds
+FLOP/s 0.000000e+00
+B/s 1.105113e+11
+[****] TIME(s)      0.60726 : 	nb_tasks 32000
+clean up parsec
+init parsec, pid 27902
+output_bytes_per_task 16, mb 2, nb 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 64
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+rank 0, pid 27902, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 33554432000
-Elapsed Time 2.447050e-01 seconds
+Elapsed Time 3.145859e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.371220e+11
-[****] TIME(s)      0.24470 : 	nb_tasks 32000
+B/s 1.066622e+11
+[****] TIME(s)      0.31459 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 63091
+init parsec, pid 27960
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -824,24 +911,24 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 128
+        Iterations: 64
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 63091, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 27960, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 33554432000
-Elapsed Time 2.406728e-01 seconds
+Elapsed Time 3.154919e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.394193e+11
-[****] TIME(s)      0.24067 : 	nb_tasks 32000
+B/s 1.063559e+11
+[****] TIME(s)      0.31549 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 63153
+init parsec, pid 28020
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -853,24 +940,24 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 128
+        Iterations: 64
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 63153, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 28020, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 33554432000
-Elapsed Time 2.446928e-01 seconds
+Elapsed Time 3.142760e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.371288e+11
-[****] TIME(s)      0.24469 : 	nb_tasks 32000
+B/s 1.067674e+11
+[****] TIME(s)      0.31428 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 63211
+init parsec, pid 28079
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -886,20 +973,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 63211, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 28079, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 16777216000
-Elapsed Time 1.336520e-01 seconds
+Total Bytes 33554432000
+Elapsed Time 3.120930e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.255291e+11
-[****] TIME(s)      0.13365 : 	nb_tasks 32000
+B/s 1.075142e+11
+[****] TIME(s)      0.31209 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 63271
+init parsec, pid 28137
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -915,20 +1002,49 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 63271, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 28137, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 33554432000
+Elapsed Time 3.120611e-01 seconds
+FLOP/s 0.000000e+00
+B/s 1.075252e+11
+[****] TIME(s)      0.31206 : 	nb_tasks 32000
+clean up parsec
+init parsec, pid 28195
+output_bytes_per_task 16, mb 2, nb 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 32
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+rank 0, pid 28195, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 16777216000
-Elapsed Time 1.333730e-01 seconds
+Elapsed Time 1.757519e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.257917e+11
-[****] TIME(s)      0.13337 : 	nb_tasks 32000
+B/s 9.545964e+10
+[****] TIME(s)      0.17575 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 63329
+init parsec, pid 28256
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -940,24 +1056,24 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 64
+        Iterations: 32
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 63329, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 28256, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 16777216000
-Elapsed Time 1.358290e-01 seconds
+Elapsed Time 1.706040e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.235172e+11
-[****] TIME(s)      0.13583 : 	nb_tasks 32000
+B/s 9.834011e+10
+[****] TIME(s)      0.17060 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 63388
+init parsec, pid 28315
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -969,24 +1085,24 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 64
+        Iterations: 32
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 63388, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 28315, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 16777216000
-Elapsed Time 1.309452e-01 seconds
+Elapsed Time 1.759520e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.281239e+11
-[****] TIME(s)      0.13095 : 	nb_tasks 32000
+B/s 9.535112e+10
+[****] TIME(s)      0.17595 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 63447
+init parsec, pid 28376
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -998,24 +1114,24 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 64
+        Iterations: 32
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 63447, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 28376, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 16777216000
-Elapsed Time 1.330831e-01 seconds
+Elapsed Time 1.685910e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.260657e+11
-[****] TIME(s)      0.13308 : 	nb_tasks 32000
+B/s 9.951429e+10
+[****] TIME(s)      0.16859 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 63505
+init parsec, pid 28436
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1031,136 +1147,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 63505, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 28436, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 8388608000
-Elapsed Time 9.762311e-02 seconds
+Total Bytes 16777216000
+Elapsed Time 1.743340e-01 seconds
 FLOP/s 0.000000e+00
-B/s 8.592851e+10
-[****] TIME(s)      0.09762 : 	nb_tasks 32000
+B/s 9.623603e+10
+[****] TIME(s)      0.17433 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 63564
+init parsec, pid 28495
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 32
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 63564, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 8388608000
-Elapsed Time 9.621787e-02 seconds
-FLOP/s 0.000000e+00
-B/s 8.718347e+10
-[****] TIME(s)      0.09622 : 	nb_tasks 32000
-clean up parsec
-init parsec, pid 63624
-output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 32
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 63624, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 8388608000
-Elapsed Time 9.591413e-02 seconds
-FLOP/s 0.000000e+00
-B/s 8.745957e+10
-[****] TIME(s)      0.09591 : 	nb_tasks 32000
-clean up parsec
-init parsec, pid 63684
-output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 32
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 63684, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 8388608000
-Elapsed Time 9.866786e-02 seconds
-FLOP/s 0.000000e+00
-B/s 8.501865e+10
-[****] TIME(s)      0.09867 : 	nb_tasks 32000
-clean up parsec
-init parsec, pid 63743
-output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 32
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 63743, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 8388608000
-Elapsed Time 8.993983e-02 seconds
-FLOP/s 0.000000e+00
-B/s 9.326911e+10
-[****] TIME(s)      0.08994 : 	nb_tasks 32000
-clean up parsec
-init parsec, pid 63802
-output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1176,20 +1176,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 63802, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 28495, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 4194304000
-Elapsed Time 9.436011e-02 seconds
+Total Bytes 8388608000
+Elapsed Time 1.016309e-01 seconds
 FLOP/s 0.000000e+00
-B/s 4.444997e+10
-[****] TIME(s)      0.09436 : 	nb_tasks 32000
+B/s 8.253991e+10
+[****] TIME(s)      0.10163 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 63863
+init parsec, pid 28553
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1205,20 +1205,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 63863, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 28553, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 4194304000
-Elapsed Time 9.360814e-02 seconds
+Total Bytes 8388608000
+Elapsed Time 1.084239e-01 seconds
 FLOP/s 0.000000e+00
-B/s 4.480704e+10
-[****] TIME(s)      0.09361 : 	nb_tasks 32000
+B/s 7.736859e+10
+[****] TIME(s)      0.10842 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 63923
+init parsec, pid 28612
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1234,20 +1234,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 63923, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 28612, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 4194304000
-Elapsed Time 9.612393e-02 seconds
+Total Bytes 8388608000
+Elapsed Time 1.033649e-01 seconds
 FLOP/s 0.000000e+00
-B/s 4.363434e+10
-[****] TIME(s)      0.09612 : 	nb_tasks 32000
+B/s 8.115525e+10
+[****] TIME(s)      0.10336 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 63982
+init parsec, pid 28672
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1263,20 +1263,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 63982, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 28672, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 4194304000
-Elapsed Time 9.465599e-02 seconds
+Total Bytes 8388608000
+Elapsed Time 1.028361e-01 seconds
 FLOP/s 0.000000e+00
-B/s 4.431103e+10
-[****] TIME(s)      0.09466 : 	nb_tasks 32000
+B/s 8.157257e+10
+[****] TIME(s)      0.10284 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 64040
+init parsec, pid 28730
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1292,20 +1292,49 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 64040, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 28730, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 8388608000
+Elapsed Time 1.035511e-01 seconds
+FLOP/s 0.000000e+00
+B/s 8.100932e+10
+[****] TIME(s)      0.10355 : 	nb_tasks 32000
+clean up parsec
+init parsec, pid 28789
+output_bytes_per_task 16, mb 2, nb 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 8
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+rank 0, pid 28789, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 4194304000
-Elapsed Time 9.559894e-02 seconds
+Elapsed Time 9.853101e-02 seconds
 FLOP/s 0.000000e+00
-B/s 4.387396e+10
-[****] TIME(s)      0.09560 : 	nb_tasks 32000
+B/s 4.256837e+10
+[****] TIME(s)      0.09853 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 64099
+init parsec, pid 28848
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1321,20 +1350,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 64099, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 28848, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 2097152000
-Elapsed Time 9.403610e-02 seconds
+Total Bytes 4194304000
+Elapsed Time 9.772205e-02 seconds
 FLOP/s 0.000000e+00
-B/s 2.230156e+10
-[****] TIME(s)      0.09404 : 	nb_tasks 32000
+B/s 4.292075e+10
+[****] TIME(s)      0.09772 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 64159
+init parsec, pid 28908
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1350,20 +1379,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 64159, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 28908, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 2097152000
-Elapsed Time 9.167600e-02 seconds
+Total Bytes 4194304000
+Elapsed Time 9.710002e-02 seconds
 FLOP/s 0.000000e+00
-B/s 2.287569e+10
-[****] TIME(s)      0.09168 : 	nb_tasks 32000
+B/s 4.319571e+10
+[****] TIME(s)      0.09710 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 64219
+init parsec, pid 28969
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1379,20 +1408,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 64219, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 28969, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 2097152000
-Elapsed Time 9.361601e-02 seconds
+Total Bytes 4194304000
+Elapsed Time 9.975815e-02 seconds
 FLOP/s 0.000000e+00
-B/s 2.240164e+10
-[****] TIME(s)      0.09362 : 	nb_tasks 32000
+B/s 4.204473e+10
+[****] TIME(s)      0.09976 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 64280
+init parsec, pid 29029
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1408,20 +1437,49 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 64280, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 29029, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 4194304000
+Elapsed Time 9.722090e-02 seconds
+FLOP/s 0.000000e+00
+B/s 4.314200e+10
+[****] TIME(s)      0.09722 : 	nb_tasks 32000
+clean up parsec
+init parsec, pid 29088
+output_bytes_per_task 16, mb 2, nb 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 4
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+rank 0, pid 29088, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 2097152000
-Elapsed Time 9.383011e-02 seconds
+Elapsed Time 9.191990e-02 seconds
 FLOP/s 0.000000e+00
-B/s 2.235052e+10
-[****] TIME(s)      0.09383 : 	nb_tasks 32000
+B/s 2.281499e+10
+[****] TIME(s)      0.09192 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 64340
+init parsec, pid 29175
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1433,24 +1491,24 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 8
+        Iterations: 4
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 64340, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 29175, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 2097152000
-Elapsed Time 9.125686e-02 seconds
+Elapsed Time 9.290218e-02 seconds
 FLOP/s 0.000000e+00
-B/s 2.298076e+10
-[****] TIME(s)      0.09126 : 	nb_tasks 32000
+B/s 2.257376e+10
+[****] TIME(s)      0.09290 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 64398
+init parsec, pid 29235
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1466,20 +1524,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 64398, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 29235, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 1048576000
-Elapsed Time 8.531713e-02 seconds
+Total Bytes 2097152000
+Elapsed Time 8.701587e-02 seconds
 FLOP/s 0.000000e+00
-B/s 1.229033e+10
-[****] TIME(s)      0.08532 : 	nb_tasks 32000
+B/s 2.410080e+10
+[****] TIME(s)      0.08702 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 64457
+init parsec, pid 29296
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1495,20 +1553,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 64457, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 29296, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 1048576000
-Elapsed Time 8.474684e-02 seconds
+Total Bytes 2097152000
+Elapsed Time 8.519888e-02 seconds
 FLOP/s 0.000000e+00
-B/s 1.237304e+10
-[****] TIME(s)      0.08475 : 	nb_tasks 32000
+B/s 2.461478e+10
+[****] TIME(s)      0.08520 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 64515
+init parsec, pid 29380
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1524,20 +1582,49 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 64515, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 29380, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 2097152000
+Elapsed Time 9.109211e-02 seconds
+FLOP/s 0.000000e+00
+B/s 2.302232e+10
+[****] TIME(s)      0.09109 : 	nb_tasks 32000
+clean up parsec
+init parsec, pid 29439
+output_bytes_per_task 16, mb 2, nb 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 2
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+rank 0, pid 29439, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 1048576000
-Elapsed Time 8.435392e-02 seconds
+Elapsed Time 8.887315e-02 seconds
 FLOP/s 0.000000e+00
-B/s 1.243067e+10
-[****] TIME(s)      0.08435 : 	nb_tasks 32000
+B/s 1.179857e+10
+[****] TIME(s)      0.08887 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 64574
+init parsec, pid 29498
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1549,24 +1636,24 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 4
+        Iterations: 2
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 64574, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 29498, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 1048576000
-Elapsed Time 8.663583e-02 seconds
+Elapsed Time 8.176899e-02 seconds
 FLOP/s 0.000000e+00
-B/s 1.210326e+10
-[****] TIME(s)      0.08664 : 	nb_tasks 32000
+B/s 1.282364e+10
+[****] TIME(s)      0.08177 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 64632
+init parsec, pid 29560
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1578,24 +1665,24 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 4
+        Iterations: 2
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 64632, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 29560, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 1048576000
-Elapsed Time 8.474517e-02 seconds
+Elapsed Time 8.416891e-02 seconds
 FLOP/s 0.000000e+00
-B/s 1.237328e+10
-[****] TIME(s)      0.08475 : 	nb_tasks 32000
+B/s 1.245800e+10
+[****] TIME(s)      0.08417 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 64691
+init parsec, pid 29618
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1611,20 +1698,20 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 64691, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 29618, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 524288000
-Elapsed Time 8.584285e-02 seconds
+Total Bytes 1048576000
+Elapsed Time 7.975197e-02 seconds
 FLOP/s 0.000000e+00
-B/s 6.107533e+09
-[****] TIME(s)      0.08584 : 	nb_tasks 32000
+B/s 1.314796e+10
+[****] TIME(s)      0.07975 : 	nb_tasks 32000
 clean up parsec
-init parsec, pid 64749
+init parsec, pid 29677
 output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1640,101 +1727,14 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 64749, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
+      Scratch Bytes: 16777216
+rank 0, pid 29677, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 524288000
-Elapsed Time 8.814001e-02 seconds
+Total Bytes 1048576000
+Elapsed Time 8.202600e-02 seconds
 FLOP/s 0.000000e+00
-B/s 5.948354e+09
-[****] TIME(s)      0.08814 : 	nb_tasks 32000
-clean up parsec
-init parsec, pid 64808
-output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 2
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 64808, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 524288000
-Elapsed Time 8.831692e-02 seconds
-FLOP/s 0.000000e+00
-B/s 5.936439e+09
-[****] TIME(s)      0.08832 : 	nb_tasks 32000
-clean up parsec
-init parsec, pid 64868
-output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 2
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 64868, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 524288000
-Elapsed Time 8.654785e-02 seconds
-FLOP/s 0.000000e+00
-B/s 6.057782e+09
-[****] TIME(s)      0.08655 : 	nb_tasks 32000
-clean up parsec
-init parsec, pid 64926
-output_bytes_per_task 16, mb 2, nb 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 2
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-rank 0, pid 64926, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 1000
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 524288000
-Elapsed Time 8.629298e-02 seconds
-FLOP/s 0.000000e+00
-B/s 6.075674e+09
-[****] TIME(s)      0.08629 : 	nb_tasks 32000
+B/s 1.278346e+10
+[****] TIME(s)      0.08203 : 	nb_tasks 32000
 clean up parsec

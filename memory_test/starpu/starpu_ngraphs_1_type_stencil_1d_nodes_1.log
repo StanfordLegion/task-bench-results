@@ -1,5 +1,5 @@
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -15,16 +15,41 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 8589934592000
+Elapsed Time 8.028966e+01 seconds
+FLOP/s 0.000000e+00
+B/s 1.069868e+11
+mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 8192
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 4294967296000
-Elapsed Time 2.842321e+01 seconds
+Elapsed Time 4.017933e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.511077e+11
+B/s 1.068950e+11
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -40,16 +65,41 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 4294967296000
+Elapsed Time 4.022835e+01 seconds
+FLOP/s 0.000000e+00
+B/s 1.067647e+11
+mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 4096
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 2147483648000
-Elapsed Time 1.493005e+01 seconds
+Elapsed Time 2.013532e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.438363e+11
+B/s 1.066526e+11
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -61,20 +111,20 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 8192
+        Iterations: 4096
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 2147483648000
-Elapsed Time 1.533080e+01 seconds
+Elapsed Time 2.014226e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.400765e+11
+B/s 1.066158e+11
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -90,16 +140,41 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 2147483648000
+Elapsed Time 2.013546e+01 seconds
+FLOP/s 0.000000e+00
+B/s 1.066518e+11
+mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 2048
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 1073741824000
-Elapsed Time 8.991852e+00 seconds
+Elapsed Time 1.008244e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.194128e+11
+B/s 1.064962e+11
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -111,20 +186,20 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 4096
+        Iterations: 2048
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 1073741824000
-Elapsed Time 9.001242e+00 seconds
+Elapsed Time 1.008291e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.192882e+11
+B/s 1.064913e+11
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -136,20 +211,20 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 4096
+        Iterations: 2048
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 1073741824000
-Elapsed Time 8.894313e+00 seconds
+Elapsed Time 1.008822e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.207223e+11
+B/s 1.064352e+11
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -165,16 +240,41 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 1073741824000
+Elapsed Time 1.010817e+01 seconds
+FLOP/s 0.000000e+00
+B/s 1.062251e+11
+mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 1024
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 536870912000
-Elapsed Time 4.713027e+00 seconds
+Elapsed Time 5.058679e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.139121e+11
+B/s 1.061287e+11
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -186,20 +286,20 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 2048
+        Iterations: 1024
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 536870912000
-Elapsed Time 4.680689e+00 seconds
+Elapsed Time 5.056104e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.146991e+11
+B/s 1.061827e+11
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -211,20 +311,20 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 2048
+        Iterations: 1024
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 536870912000
-Elapsed Time 4.713687e+00 seconds
+Elapsed Time 5.050492e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.138962e+11
+B/s 1.063007e+11
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -236,20 +336,20 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 2048
+        Iterations: 1024
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 536870912000
-Elapsed Time 4.697897e+00 seconds
+Elapsed Time 5.054229e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.142790e+11
+B/s 1.062221e+11
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -265,116 +365,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 268435456000
-Elapsed Time 2.376308e+00 seconds
+Total Bytes 536870912000
+Elapsed Time 5.049397e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.129632e+11
+B/s 1.063238e+11
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 1024
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 268435456000
-Elapsed Time 2.379571e+00 seconds
-FLOP/s 0.000000e+00
-B/s 1.128083e+11
-mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 1024
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 268435456000
-Elapsed Time 2.384984e+00 seconds
-FLOP/s 0.000000e+00
-B/s 1.125523e+11
-mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 1024
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 268435456000
-Elapsed Time 2.393068e+00 seconds
-FLOP/s 0.000000e+00
-B/s 1.121721e+11
-mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 1024
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 268435456000
-Elapsed Time 2.458398e+00 seconds
-FLOP/s 0.000000e+00
-B/s 1.091912e+11
-mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -390,16 +390,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 134217728000
-Elapsed Time 1.050096e+00 seconds
+Total Bytes 268435456000
+Elapsed Time 2.540895e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.278147e+11
+B/s 1.056460e+11
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -415,16 +415,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 134217728000
-Elapsed Time 1.059982e+00 seconds
+Total Bytes 268435456000
+Elapsed Time 2.542947e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.266226e+11
+B/s 1.055608e+11
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -440,16 +440,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 134217728000
-Elapsed Time 1.052359e+00 seconds
+Total Bytes 268435456000
+Elapsed Time 2.555812e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.275399e+11
+B/s 1.050294e+11
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -465,16 +465,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 134217728000
-Elapsed Time 1.036629e+00 seconds
+Total Bytes 268435456000
+Elapsed Time 2.541632e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.294752e+11
+B/s 1.056154e+11
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -490,16 +490,41 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 268435456000
+Elapsed Time 2.552376e+00 seconds
+FLOP/s 0.000000e+00
+B/s 1.051708e+11
+mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 256
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 134217728000
-Elapsed Time 1.045263e+00 seconds
+Elapsed Time 1.281345e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.284057e+11
+B/s 1.047475e+11
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -515,16 +540,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 67108864000
-Elapsed Time 6.336470e-01 seconds
+Total Bytes 134217728000
+Elapsed Time 1.271054e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.059089e+11
+B/s 1.055956e+11
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -540,16 +565,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 67108864000
-Elapsed Time 6.345510e-01 seconds
+Total Bytes 134217728000
+Elapsed Time 1.276156e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.057580e+11
+B/s 1.051735e+11
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -565,16 +590,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 67108864000
-Elapsed Time 7.015901e-01 seconds
+Total Bytes 134217728000
+Elapsed Time 1.276978e+00 seconds
 FLOP/s 0.000000e+00
-B/s 9.565253e+10
+B/s 1.051057e+11
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -590,16 +615,41 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 134217728000
+Elapsed Time 1.271369e+00 seconds
+FLOP/s 0.000000e+00
+B/s 1.055695e+11
+mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 128
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 67108864000
-Elapsed Time 6.302738e-01 seconds
+Elapsed Time 6.785650e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.064757e+11
+B/s 9.889821e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -611,20 +661,20 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 256
+        Iterations: 128
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 67108864000
-Elapsed Time 6.215751e-01 seconds
+Elapsed Time 6.852031e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.079658e+11
+B/s 9.794011e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -640,16 +690,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 33554432000
-Elapsed Time 4.144940e-01 seconds
+Total Bytes 67108864000
+Elapsed Time 6.926479e-01 seconds
 FLOP/s 0.000000e+00
-B/s 8.095275e+10
+B/s 9.688741e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -665,16 +715,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 33554432000
-Elapsed Time 4.305739e-01 seconds
+Total Bytes 67108864000
+Elapsed Time 7.509670e-01 seconds
 FLOP/s 0.000000e+00
-B/s 7.792955e+10
+B/s 8.936326e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -690,16 +740,41 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 67108864000
+Elapsed Time 7.627430e-01 seconds
+FLOP/s 0.000000e+00
+B/s 8.798359e+10
+mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 64
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 33554432000
-Elapsed Time 4.117942e-01 seconds
+Elapsed Time 4.353528e-01 seconds
 FLOP/s 0.000000e+00
-B/s 8.148350e+10
+B/s 7.707412e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -711,20 +786,20 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 128
+        Iterations: 64
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 33554432000
-Elapsed Time 4.696600e-01 seconds
+Elapsed Time 4.440169e-01 seconds
 FLOP/s 0.000000e+00
-B/s 7.144408e+10
+B/s 7.557016e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -736,20 +811,20 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 128
+        Iterations: 64
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 33554432000
-Elapsed Time 4.145501e-01 seconds
+Elapsed Time 4.971511e-01 seconds
 FLOP/s 0.000000e+00
-B/s 8.094181e+10
+B/s 6.749342e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -765,16 +840,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 16777216000
-Elapsed Time 3.968430e-01 seconds
+Total Bytes 33554432000
+Elapsed Time 4.387021e-01 seconds
 FLOP/s 0.000000e+00
-B/s 4.227671e+10
+B/s 7.648569e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -790,16 +865,41 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 33554432000
+Elapsed Time 4.678030e-01 seconds
+FLOP/s 0.000000e+00
+B/s 7.172770e+10
+mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 32
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 16777216000
-Elapsed Time 4.177790e-01 seconds
+Elapsed Time 4.081471e-01 seconds
 FLOP/s 0.000000e+00
-B/s 4.015812e+10
+B/s 4.110581e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -811,20 +911,20 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 64
+        Iterations: 32
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 16777216000
-Elapsed Time 3.955841e-01 seconds
+Elapsed Time 4.003811e-01 seconds
 FLOP/s 0.000000e+00
-B/s 4.241125e+10
+B/s 4.190312e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -836,20 +936,20 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 64
+        Iterations: 32
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 16777216000
-Elapsed Time 3.711019e-01 seconds
+Elapsed Time 4.415600e-01 seconds
 FLOP/s 0.000000e+00
-B/s 4.520919e+10
+B/s 3.799532e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -861,20 +961,20 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 64
+        Iterations: 32
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 16777216000
-Elapsed Time 3.940380e-01 seconds
+Elapsed Time 4.259422e-01 seconds
 FLOP/s 0.000000e+00
-B/s 4.257766e+10
+B/s 3.938848e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -890,116 +990,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 8388608000
-Elapsed Time 3.900340e-01 seconds
+Total Bytes 16777216000
+Elapsed Time 4.254658e-01 seconds
 FLOP/s 0.000000e+00
-B/s 2.150738e+10
+B/s 3.943258e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 32
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 8388608000
-Elapsed Time 3.948090e-01 seconds
-FLOP/s 0.000000e+00
-B/s 2.124726e+10
-mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 32
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 8388608000
-Elapsed Time 4.048820e-01 seconds
-FLOP/s 0.000000e+00
-B/s 2.071865e+10
-mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 32
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 8388608000
-Elapsed Time 3.650701e-01 seconds
-FLOP/s 0.000000e+00
-B/s 2.297807e+10
-mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 32
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 8388608000
-Elapsed Time 3.930609e-01 seconds
-FLOP/s 0.000000e+00
-B/s 2.134175e+10
-mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1015,16 +1015,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 4194304000
-Elapsed Time 3.471470e-01 seconds
+Total Bytes 8388608000
+Elapsed Time 4.196110e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.208221e+10
+B/s 1.999139e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1040,16 +1040,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 4194304000
-Elapsed Time 3.324120e-01 seconds
+Total Bytes 8388608000
+Elapsed Time 4.359879e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.261779e+10
+B/s 1.924046e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1065,16 +1065,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 4194304000
-Elapsed Time 3.446100e-01 seconds
+Total Bytes 8388608000
+Elapsed Time 4.277141e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.217116e+10
+B/s 1.961265e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1090,16 +1090,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 4194304000
-Elapsed Time 3.500669e-01 seconds
+Total Bytes 8388608000
+Elapsed Time 4.050660e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.198144e+10
+B/s 2.070924e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1115,16 +1115,41 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 8388608000
+Elapsed Time 4.319601e-01 seconds
+FLOP/s 0.000000e+00
+B/s 1.941987e+10
+mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 8
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 4194304000
-Elapsed Time 3.652661e-01 seconds
+Elapsed Time 3.951261e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.148287e+10
+B/s 1.061510e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1140,16 +1165,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 2097152000
-Elapsed Time 3.411748e-01 seconds
+Total Bytes 4194304000
+Elapsed Time 3.871710e-01 seconds
 FLOP/s 0.000000e+00
-B/s 6.146854e+09
+B/s 1.083321e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1165,16 +1190,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 2097152000
-Elapsed Time 3.447950e-01 seconds
+Total Bytes 4194304000
+Elapsed Time 3.717179e-01 seconds
 FLOP/s 0.000000e+00
-B/s 6.082316e+09
+B/s 1.128357e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1190,16 +1215,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 2097152000
-Elapsed Time 3.398821e-01 seconds
+Total Bytes 4194304000
+Elapsed Time 3.917921e-01 seconds
 FLOP/s 0.000000e+00
-B/s 6.170233e+09
+B/s 1.070543e+10
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1215,16 +1240,41 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 4194304000
+Elapsed Time 4.139609e-01 seconds
+FLOP/s 0.000000e+00
+B/s 1.013213e+10
+mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 4
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 2097152000
-Elapsed Time 3.400791e-01 seconds
+Elapsed Time 4.056358e-01 seconds
 FLOP/s 0.000000e+00
-B/s 6.166660e+09
+B/s 5.170036e+09
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1236,20 +1286,20 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 8
+        Iterations: 4
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 2097152000
-Elapsed Time 3.435481e-01 seconds
+Elapsed Time 4.035802e-01 seconds
 FLOP/s 0.000000e+00
-B/s 6.104392e+09
+B/s 5.196370e+09
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1265,16 +1315,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 1048576000
-Elapsed Time 3.785269e-01 seconds
+Total Bytes 2097152000
+Elapsed Time 4.159942e-01 seconds
 FLOP/s 0.000000e+00
-B/s 2.770149e+09
+B/s 5.041301e+09
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1290,16 +1340,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 1048576000
-Elapsed Time 3.434401e-01 seconds
+Total Bytes 2097152000
+Elapsed Time 3.967381e-01 seconds
 FLOP/s 0.000000e+00
-B/s 3.053156e+09
+B/s 5.285987e+09
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1315,16 +1365,41 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
+Total Tasks 32000
+Total Dependencies 94000
+Total FLOPs 0
+Total Bytes 2097152000
+Elapsed Time 3.976700e-01 seconds
+FLOP/s 0.000000e+00
+B/s 5.273598e+09
+mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
+max_scratch_bytes_per_task 16777216
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 2
+        Samples: 1024
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 1048576000
-Elapsed Time 3.512421e-01 seconds
+Elapsed Time 4.170759e-01 seconds
 FLOP/s 0.000000e+00
-B/s 2.985337e+09
+B/s 2.514113e+09
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1336,20 +1411,20 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 4
+        Iterations: 2
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 1048576000
-Elapsed Time 4.498510e-01 seconds
+Elapsed Time 4.095180e-01 seconds
 FLOP/s 0.000000e+00
-B/s 2.330941e+09
+B/s 2.560513e+09
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1361,20 +1436,20 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 4
+        Iterations: 2
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
 Total Bytes 1048576000
-Elapsed Time 3.551710e-01 seconds
+Elapsed Time 4.388890e-01 seconds
 FLOP/s 0.000000e+00
-B/s 2.952313e+09
+B/s 2.389160e+09
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1390,16 +1465,16 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 524288000
-Elapsed Time 3.662059e-01 seconds
+Total Bytes 1048576000
+Elapsed Time 4.159400e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.431675e+09
+B/s 2.520979e+09
 mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
+max_scratch_bytes_per_task 16777216
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -1415,86 +1490,11 @@ Running Task Benchmark
         Samples: 1024
         Imbalance: 0.000000
       Output Bytes: 16
-      Scratch Bytes: 8388608
+      Scratch Bytes: 16777216
 Total Tasks 32000
 Total Dependencies 94000
 Total FLOPs 0
-Total Bytes 524288000
-Elapsed Time 3.386950e-01 seconds
+Total Bytes 1048576000
+Elapsed Time 4.116378e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.547965e+09
-mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 2
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 524288000
-Elapsed Time 3.500400e-01 seconds
-FLOP/s 0.000000e+00
-B/s 1.497795e+09
-mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 2
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 524288000
-Elapsed Time 4.780550e-01 seconds
-FLOP/s 0.000000e+00
-B/s 1.096711e+09
-mb 2, mt 2, nt 32, timesteps 1000, enable_supertiling 1, nb_fields 2
-max_scratch_bytes_per_task 8388608
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 1000
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 3
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 2
-        Samples: 1024
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 8388608
-Total Tasks 32000
-Total Dependencies 94000
-Total FLOPs 0
-Total Bytes 524288000
-Elapsed Time 3.480308e-01 seconds
-FLOP/s 0.000000e+00
-B/s 1.506441e+09
+B/s 2.547327e+09

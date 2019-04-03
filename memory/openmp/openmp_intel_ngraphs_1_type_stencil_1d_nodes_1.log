@@ -19,9 +19,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 35184372088832
-Elapsed Time 3.281179e+02 seconds
+Elapsed Time 3.281013e+02 seconds
 FLOP/s 0.000000e+00
-B/s 1.072309e+11
+B/s 1.072363e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -43,9 +43,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 17592186044416
-Elapsed Time 1.642609e+02 seconds
+Elapsed Time 1.640923e+02 seconds
 FLOP/s 0.000000e+00
-B/s 1.070990e+11
+B/s 1.072091e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -67,9 +67,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 17592186044416
-Elapsed Time 1.643378e+02 seconds
+Elapsed Time 1.641898e+02 seconds
 FLOP/s 0.000000e+00
-B/s 1.070489e+11
+B/s 1.071454e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -91,9 +91,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 8796093022208
-Elapsed Time 8.223850e+01 seconds
+Elapsed Time 8.221307e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.069583e+11
+B/s 1.069914e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -115,9 +115,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 8796093022208
-Elapsed Time 8.231922e+01 seconds
+Elapsed Time 8.219548e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.068535e+11
+B/s 1.070143e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -139,9 +139,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 8796093022208
-Elapsed Time 8.231688e+01 seconds
+Elapsed Time 8.218263e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.068565e+11
+B/s 1.070311e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -149,7 +149,7 @@ Running Task Benchmark
       Time Steps: 8192
       Max Width: 32
       Dependence Type: stencil_1d
-      Radix: 5
+      Radix: 3
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
@@ -163,9 +163,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 4398046511104
-Elapsed Time 4.127458e+01 seconds
+Elapsed Time 4.128384e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.065558e+11
+B/s 1.065319e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -173,7 +173,7 @@ Running Task Benchmark
       Time Steps: 8192
       Max Width: 32
       Dependence Type: stencil_1d
-      Radix: 5
+      Radix: 3
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
@@ -187,9 +187,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 4398046511104
-Elapsed Time 4.124066e+01 seconds
+Elapsed Time 4.126198e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.066435e+11
+B/s 1.065883e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -197,7 +197,7 @@ Running Task Benchmark
       Time Steps: 8192
       Max Width: 32
       Dependence Type: stencil_1d
-      Radix: 5
+      Radix: 3
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
@@ -211,9 +211,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 4398046511104
-Elapsed Time 4.124907e+01 seconds
+Elapsed Time 4.126612e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.066217e+11
+B/s 1.065777e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -221,7 +221,7 @@ Running Task Benchmark
       Time Steps: 8192
       Max Width: 32
       Dependence Type: stencil_1d
-      Radix: 5
+      Radix: 3
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
@@ -235,9 +235,57 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 4398046511104
-Elapsed Time 4.116969e+01 seconds
+Elapsed Time 4.127455e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.068273e+11
+B/s 1.065559e+11
+graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 8192
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 4398046511104
+Elapsed Time 4.130381e+01 seconds
+FLOP/s 0.000000e+00
+B/s 1.064804e+11
+graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 3
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 4096
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 2199023255552
+Elapsed Time 2.074151e+01 seconds
+FLOP/s 0.000000e+00
+B/s 1.060204e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -259,9 +307,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 2199023255552
-Elapsed Time 2.062578e+01 seconds
+Elapsed Time 2.078553e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.066153e+11
+B/s 1.057959e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -283,9 +331,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 2199023255552
-Elapsed Time 2.062361e+01 seconds
+Elapsed Time 2.074861e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.066265e+11
+B/s 1.059841e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -307,57 +355,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 2199023255552
-Elapsed Time 2.063050e+01 seconds
+Elapsed Time 2.079849e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.065909e+11
-graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 8192
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 4096
-        Samples: 8192
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 16777216
-Total Tasks 262144
-Total Dependencies 770048
-Total FLOPs 0
-Total Bytes 2199023255552
-Elapsed Time 2.062216e+01 seconds
-FLOP/s 0.000000e+00
-B/s 1.066340e+11
-graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 8192
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 4096
-        Samples: 8192
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 16777216
-Total Tasks 262144
-Total Dependencies 770048
-Total FLOPs 0
-Total Bytes 2199023255552
-Elapsed Time 2.065488e+01 seconds
-FLOP/s 0.000000e+00
-B/s 1.064651e+11
+B/s 1.057299e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -379,9 +379,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 1099511627776
-Elapsed Time 9.941642e+00 seconds
+Elapsed Time 1.053260e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.105966e+11
+B/s 1.043912e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -403,9 +403,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 1099511627776
-Elapsed Time 9.912531e+00 seconds
+Elapsed Time 1.048639e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.109214e+11
+B/s 1.048513e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -427,9 +427,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 1099511627776
-Elapsed Time 9.932340e+00 seconds
+Elapsed Time 1.050975e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.107002e+11
+B/s 1.046183e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -451,9 +451,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 1099511627776
-Elapsed Time 9.949459e+00 seconds
+Elapsed Time 1.054323e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.105097e+11
+B/s 1.042861e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -475,9 +475,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 1099511627776
-Elapsed Time 1.000590e+01 seconds
+Elapsed Time 1.050270e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.098863e+11
+B/s 1.046885e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -499,9 +499,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 549755813888
-Elapsed Time 4.921162e+00 seconds
+Elapsed Time 5.356183e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.117126e+11
+B/s 1.026395e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -523,9 +523,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 549755813888
-Elapsed Time 4.937561e+00 seconds
+Elapsed Time 5.370269e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.113416e+11
+B/s 1.023703e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -547,9 +547,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 549755813888
-Elapsed Time 4.914005e+00 seconds
+Elapsed Time 5.352969e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.118753e+11
+B/s 1.027011e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -571,9 +571,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 549755813888
-Elapsed Time 4.946674e+00 seconds
+Elapsed Time 5.388445e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.111365e+11
+B/s 1.020249e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -595,9 +595,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 549755813888
-Elapsed Time 4.925552e+00 seconds
+Elapsed Time 5.388830e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.116130e+11
+B/s 1.020177e+11
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -619,9 +619,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 274877906944
-Elapsed Time 2.481934e+00 seconds
+Elapsed Time 2.784954e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.107515e+11
+B/s 9.870106e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -643,9 +643,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 274877906944
-Elapsed Time 2.484056e+00 seconds
+Elapsed Time 2.844230e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.106569e+11
+B/s 9.664405e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -667,9 +667,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 274877906944
-Elapsed Time 2.477759e+00 seconds
+Elapsed Time 2.831749e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.109381e+11
+B/s 9.707001e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -691,9 +691,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 274877906944
-Elapsed Time 2.462290e+00 seconds
+Elapsed Time 2.799120e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.116351e+11
+B/s 9.820154e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -715,9 +715,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 274877906944
-Elapsed Time 2.481045e+00 seconds
+Elapsed Time 2.837881e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.107912e+11
+B/s 9.686027e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -739,9 +739,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 137438953472
-Elapsed Time 1.261885e+00 seconds
+Elapsed Time 1.522457e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.089156e+11
+B/s 9.027445e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -763,9 +763,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 137438953472
-Elapsed Time 1.262242e+00 seconds
+Elapsed Time 1.521544e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.088848e+11
+B/s 9.032860e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -787,9 +787,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 137438953472
-Elapsed Time 1.250966e+00 seconds
+Elapsed Time 1.515080e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.098663e+11
+B/s 9.071399e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -811,9 +811,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 137438953472
-Elapsed Time 1.266082e+00 seconds
+Elapsed Time 1.516351e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.085545e+11
+B/s 9.063796e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -835,9 +835,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 137438953472
-Elapsed Time 1.264992e+00 seconds
+Elapsed Time 1.529642e+00 seconds
 FLOP/s 0.000000e+00
-B/s 1.086481e+11
+B/s 8.985040e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -859,9 +859,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 68719476736
-Elapsed Time 7.716110e-01 seconds
+Elapsed Time 8.916421e-01 seconds
 FLOP/s 0.000000e+00
-B/s 8.905975e+10
+B/s 7.707070e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -883,9 +883,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 68719476736
-Elapsed Time 6.482680e-01 seconds
+Elapsed Time 8.806548e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.060047e+11
+B/s 7.803225e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -907,9 +907,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 68719476736
-Elapsed Time 6.494510e-01 seconds
+Elapsed Time 8.782930e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.058116e+11
+B/s 7.824208e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -931,9 +931,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 68719476736
-Elapsed Time 7.360160e-01 seconds
+Elapsed Time 8.831840e-01 seconds
 FLOP/s 0.000000e+00
-B/s 9.336682e+10
+B/s 7.780879e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -955,9 +955,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 68719476736
-Elapsed Time 7.139680e-01 seconds
+Elapsed Time 8.869829e-01 seconds
 FLOP/s 0.000000e+00
-B/s 9.625007e+10
+B/s 7.747554e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -979,9 +979,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 34359738368
-Elapsed Time 7.787049e-01 seconds
+Elapsed Time 7.860949e-01 seconds
 FLOP/s 0.000000e+00
-B/s 4.412421e+10
+B/s 4.370940e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1003,9 +1003,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 34359738368
-Elapsed Time 7.053370e-01 seconds
+Elapsed Time 8.045671e-01 seconds
 FLOP/s 0.000000e+00
-B/s 4.871393e+10
+B/s 4.270587e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1027,9 +1027,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 34359738368
-Elapsed Time 7.400420e-01 seconds
+Elapsed Time 7.751579e-01 seconds
 FLOP/s 0.000000e+00
-B/s 4.642945e+10
+B/s 4.432611e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1051,9 +1051,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 34359738368
-Elapsed Time 7.701540e-01 seconds
+Elapsed Time 7.526479e-01 seconds
 FLOP/s 0.000000e+00
-B/s 4.461411e+10
+B/s 4.565181e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1075,9 +1075,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 34359738368
-Elapsed Time 7.580810e-01 seconds
+Elapsed Time 7.844660e-01 seconds
 FLOP/s 0.000000e+00
-B/s 4.532463e+10
+B/s 4.380016e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1099,9 +1099,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 17179869184
-Elapsed Time 7.292330e-01 seconds
+Elapsed Time 7.124121e-01 seconds
 FLOP/s 0.000000e+00
-B/s 2.355882e+10
+B/s 2.411507e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1123,9 +1123,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 17179869184
-Elapsed Time 7.534921e-01 seconds
+Elapsed Time 6.936729e-01 seconds
 FLOP/s 0.000000e+00
-B/s 2.280033e+10
+B/s 2.476653e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1147,9 +1147,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 17179869184
-Elapsed Time 7.585289e-01 seconds
+Elapsed Time 7.220352e-01 seconds
 FLOP/s 0.000000e+00
-B/s 2.264893e+10
+B/s 2.379367e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1171,9 +1171,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 17179869184
-Elapsed Time 8.006570e-01 seconds
+Elapsed Time 6.996081e-01 seconds
 FLOP/s 0.000000e+00
-B/s 2.145721e+10
+B/s 2.455642e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1195,9 +1195,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 17179869184
-Elapsed Time 6.796370e-01 seconds
+Elapsed Time 7.055411e-01 seconds
 FLOP/s 0.000000e+00
-B/s 2.527801e+10
+B/s 2.434992e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1219,9 +1219,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 8589934592
-Elapsed Time 7.160490e-01 seconds
+Elapsed Time 6.725869e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.199630e+10
+B/s 1.277149e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1243,9 +1243,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 8589934592
-Elapsed Time 7.250330e-01 seconds
+Elapsed Time 7.138910e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.184765e+10
+B/s 1.203256e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1267,9 +1267,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 8589934592
-Elapsed Time 7.371099e-01 seconds
+Elapsed Time 6.819959e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.165353e+10
+B/s 1.259529e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1291,9 +1291,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 8589934592
-Elapsed Time 7.562201e-01 seconds
+Elapsed Time 7.083850e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.135904e+10
+B/s 1.212608e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1315,9 +1315,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 8589934592
-Elapsed Time 7.573762e-01 seconds
+Elapsed Time 6.987109e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.134170e+10
+B/s 1.229398e+10
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1339,9 +1339,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 4294967296
-Elapsed Time 7.005041e-01 seconds
+Elapsed Time 7.497120e-01 seconds
 FLOP/s 0.000000e+00
-B/s 6.131252e+09
+B/s 5.728823e+09
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1363,9 +1363,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 4294967296
-Elapsed Time 6.914999e-01 seconds
+Elapsed Time 7.892201e-01 seconds
 FLOP/s 0.000000e+00
-B/s 6.211088e+09
+B/s 5.442040e+09
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1387,9 +1387,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 4294967296
-Elapsed Time 7.305448e-01 seconds
+Elapsed Time 7.560160e-01 seconds
 FLOP/s 0.000000e+00
-B/s 5.879129e+09
+B/s 5.681053e+09
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1411,9 +1411,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 4294967296
-Elapsed Time 7.484848e-01 seconds
+Elapsed Time 7.714181e-01 seconds
 FLOP/s 0.000000e+00
-B/s 5.738215e+09
+B/s 5.567626e+09
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1435,9 +1435,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 4294967296
-Elapsed Time 7.579269e-01 seconds
+Elapsed Time 7.894490e-01 seconds
 FLOP/s 0.000000e+00
-B/s 5.666730e+09
+B/s 5.440462e+09
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1459,9 +1459,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 2147483648
-Elapsed Time 8.072391e-01 seconds
+Elapsed Time 8.036840e-01 seconds
 FLOP/s 0.000000e+00
-B/s 2.660282e+09
+B/s 2.672050e+09
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1483,9 +1483,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 2147483648
-Elapsed Time 7.519960e-01 seconds
+Elapsed Time 8.125191e-01 seconds
 FLOP/s 0.000000e+00
-B/s 2.855711e+09
+B/s 2.642995e+09
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1507,9 +1507,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 2147483648
-Elapsed Time 7.451310e-01 seconds
+Elapsed Time 7.974751e-01 seconds
 FLOP/s 0.000000e+00
-B/s 2.882022e+09
+B/s 2.692854e+09
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1531,9 +1531,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 2147483648
-Elapsed Time 8.039639e-01 seconds
+Elapsed Time 8.053291e-01 seconds
 FLOP/s 0.000000e+00
-B/s 2.671119e+09
+B/s 2.666591e+09
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1555,9 +1555,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 2147483648
-Elapsed Time 7.722080e-01 seconds
+Elapsed Time 8.388600e-01 seconds
 FLOP/s 0.000000e+00
-B/s 2.780965e+09
+B/s 2.560002e+09
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1579,9 +1579,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 1073741824
-Elapsed Time 7.268832e-01 seconds
+Elapsed Time 8.970342e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.477186e+09
+B/s 1.196991e+09
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1603,9 +1603,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 1073741824
-Elapsed Time 7.484341e-01 seconds
+Elapsed Time 8.992431e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.434651e+09
+B/s 1.194051e+09
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1627,9 +1627,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 1073741824
-Elapsed Time 6.972530e-01 seconds
+Elapsed Time 9.218068e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.539960e+09
+B/s 1.164823e+09
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1651,9 +1651,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 1073741824
-Elapsed Time 7.443771e-01 seconds
+Elapsed Time 9.010911e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.442470e+09
+B/s 1.191602e+09
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1661,7 +1661,7 @@ Running Task Benchmark
       Time Steps: 8192
       Max Width: 32
       Dependence Type: stencil_1d
-      Radix: 5
+      Radix: 3
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
@@ -1675,9 +1675,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 1073741824
-Elapsed Time 7.549162e-01 seconds
+Elapsed Time 8.664179e-01 seconds
 FLOP/s 0.000000e+00
-B/s 1.422332e+09
+B/s 1.239289e+09
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1685,7 +1685,7 @@ Running Task Benchmark
       Time Steps: 8192
       Max Width: 32
       Dependence Type: stencil_1d
-      Radix: 5
+      Radix: 3
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
@@ -1699,9 +1699,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 536870912
-Elapsed Time 7.156990e-01 seconds
+Elapsed Time 9.326940e-01 seconds
 FLOP/s 0.000000e+00
-B/s 7.501351e+08
+B/s 5.756132e+08
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1709,7 +1709,7 @@ Running Task Benchmark
       Time Steps: 8192
       Max Width: 32
       Dependence Type: stencil_1d
-      Radix: 5
+      Radix: 3
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
@@ -1723,9 +1723,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 536870912
-Elapsed Time 7.952569e-01 seconds
+Elapsed Time 9.452238e-01 seconds
 FLOP/s 0.000000e+00
-B/s 6.750912e+08
+B/s 5.679828e+08
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1733,7 +1733,7 @@ Running Task Benchmark
       Time Steps: 8192
       Max Width: 32
       Dependence Type: stencil_1d
-      Radix: 5
+      Radix: 3
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
@@ -1747,9 +1747,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 536870912
-Elapsed Time 7.643189e-01 seconds
+Elapsed Time 9.055109e-01 seconds
 FLOP/s 0.000000e+00
-B/s 7.024174e+08
+B/s 5.928928e+08
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1757,7 +1757,7 @@ Running Task Benchmark
       Time Steps: 8192
       Max Width: 32
       Dependence Type: stencil_1d
-      Radix: 5
+      Radix: 3
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
@@ -1771,9 +1771,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 536870912
-Elapsed Time 6.910920e-01 seconds
+Elapsed Time 9.330690e-01 seconds
 FLOP/s 0.000000e+00
-B/s 7.768443e+08
+B/s 5.753818e+08
 graph id 0, M = 2, N = 32, data 0x63f980, nb_fields 2
 Running Task Benchmark
   Configuration:
@@ -1781,7 +1781,7 @@ Running Task Benchmark
       Time Steps: 8192
       Max Width: 32
       Dependence Type: stencil_1d
-      Radix: 5
+      Radix: 3
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
@@ -1795,6 +1795,6 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 536870912
-Elapsed Time 7.499290e-01 seconds
+Elapsed Time 9.391401e-01 seconds
 FLOP/s 0.000000e+00
-B/s 7.158957e+08
+B/s 5.716622e+08

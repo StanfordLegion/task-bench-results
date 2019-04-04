@@ -1,0 +1,77 @@
+init parsec, pid 51388
+output_bytes_per_task 16, mb 2, nb 2
+output_bytes_per_task 16, mb 2, nb 2
+output_bytes_per_task 16, mb 2, nb 2
+output_bytes_per_task 16, mb 2, nb 2
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 67108864
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 67108864
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 67108864
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 32
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: load_imbalance
+        Iterations: 67108864
+        Samples: 16
+        Imbalance: 2.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+rank 0, pid 51388, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 250
+rank 0, pid 51388, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 250
+rank 0, pid 51388, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 250
+rank 0, pid 51388, M 4, N 64, MT 2, NT 32, nb_fields 2, timesteps 250
+Total Tasks 32000
+Total Dependencies 154000
+Total FLOPs 274603316943744
+Total Bytes 0
+Elapsed Time 2.160764e+02 seconds
+FLOP/s 1.270862e+12
+B/s 0.000000e+00
+[****] TIME(s)    216.07640 : 	nb_tasks 0
+clean up parsec

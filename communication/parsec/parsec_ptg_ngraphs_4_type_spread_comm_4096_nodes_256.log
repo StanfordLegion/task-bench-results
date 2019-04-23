@@ -1,4 +1,4 @@
-init parsec, pid 13729
+init parsec, pid 3561
 output_bytes_per_task 4096, mb 32, nb 32
 output_bytes_per_task 4096, mb 32, nb 32
 output_bytes_per_task 4096, mb 32, nb 32
@@ -15,7 +15,7 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
-        Iterations: 256
+        Iterations: 67108864
         Samples: 16
         Imbalance: 0.000000
       Output Bytes: 4096
@@ -29,7 +29,7 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
-        Iterations: 256
+        Iterations: 67108864
         Samples: 16
         Imbalance: 0.000000
       Output Bytes: 4096
@@ -43,7 +43,7 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
-        Iterations: 256
+        Iterations: 67108864
         Samples: 16
         Imbalance: 0.000000
       Output Bytes: 4096
@@ -57,25 +57,25 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
-        Iterations: 256
+        Iterations: 67108864
         Samples: 16
         Imbalance: 0.000000
       Output Bytes: 4096
       Scratch Bytes: 0
-rank 0, pid 13729, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
-rank 0, pid 13729, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
-rank 0, pid 13729, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
-rank 0, pid 13729, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 3561, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 3561, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 3561, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 3561, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
 Total Tasks 8192000
 Total Dependencies 40960000
-Total FLOPs 268959744000
+Total FLOPs 70368744701952000
 Total Bytes 0
-Elapsed Time 5.715959e+00 seconds
-FLOP/s 4.705418e+10
+Elapsed Time 2.270390e+02 seconds
+FLOP/s 3.099412e+14
 B/s 0.000000e+00
-[****] TIME(s)      5.71596 : 	nb_tasks 0
+[****] TIME(s)    227.03901 : 	nb_tasks 0
 clean up parsec
-init parsec, pid 13846
+init parsec, pid 3787
 output_bytes_per_task 4096, mb 32, nb 32
 output_bytes_per_task 4096, mb 32, nb 32
 output_bytes_per_task 4096, mb 32, nb 32
@@ -92,7 +92,7 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
-        Iterations: 256
+        Iterations: 33554432
         Samples: 16
         Imbalance: 0.000000
       Output Bytes: 4096
@@ -106,7 +106,7 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
-        Iterations: 256
+        Iterations: 33554432
         Samples: 16
         Imbalance: 0.000000
       Output Bytes: 4096
@@ -120,7 +120,7 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
-        Iterations: 256
+        Iterations: 33554432
         Samples: 16
         Imbalance: 0.000000
       Output Bytes: 4096
@@ -134,25 +134,25 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
-        Iterations: 256
+        Iterations: 33554432
         Samples: 16
         Imbalance: 0.000000
       Output Bytes: 4096
       Scratch Bytes: 0
-rank 0, pid 13846, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
-rank 0, pid 13846, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
-rank 0, pid 13846, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
-rank 0, pid 13846, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 3787, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 3787, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 3787, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 3787, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
 Total Tasks 8192000
 Total Dependencies 40960000
-Total FLOPs 268959744000
+Total FLOPs 35184372613120000
 Total Bytes 0
-Elapsed Time 5.316822e+00 seconds
-FLOP/s 5.058656e+10
+Elapsed Time 1.133857e+02 seconds
+FLOP/s 3.103069e+14
 B/s 0.000000e+00
-[****] TIME(s)      5.31682 : 	nb_tasks 0
+[****] TIME(s)    113.38574 : 	nb_tasks 0
 clean up parsec
-init parsec, pid 13962
+init parsec, pid 3969
 output_bytes_per_task 4096, mb 32, nb 32
 output_bytes_per_task 4096, mb 32, nb 32
 output_bytes_per_task 4096, mb 32, nb 32
@@ -169,7 +169,7 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
-        Iterations: 256
+        Iterations: 16777216
         Samples: 16
         Imbalance: 0.000000
       Output Bytes: 4096
@@ -183,7 +183,7 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
-        Iterations: 256
+        Iterations: 16777216
         Samples: 16
         Imbalance: 0.000000
       Output Bytes: 4096
@@ -197,7 +197,7 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
-        Iterations: 256
+        Iterations: 16777216
         Samples: 16
         Imbalance: 0.000000
       Output Bytes: 4096
@@ -211,25 +211,25 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
-        Iterations: 256
+        Iterations: 16777216
         Samples: 16
         Imbalance: 0.000000
       Output Bytes: 4096
       Scratch Bytes: 0
-rank 0, pid 13962, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
-rank 0, pid 13962, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
-rank 0, pid 13962, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
-rank 0, pid 13962, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 3969, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 3969, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 3969, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 3969, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
 Total Tasks 8192000
 Total Dependencies 40960000
-Total FLOPs 268959744000
+Total FLOPs 17592186568704000
 Total Bytes 0
-Elapsed Time 5.529715e+00 seconds
-FLOP/s 4.863899e+10
+Elapsed Time 5.729442e+01 seconds
+FLOP/s 3.070489e+14
 B/s 0.000000e+00
-[****] TIME(s)      5.52972 : 	nb_tasks 0
+[****] TIME(s)     57.29442 : 	nb_tasks 0
 clean up parsec
-init parsec, pid 14078
+init parsec, pid 4123
 output_bytes_per_task 4096, mb 32, nb 32
 output_bytes_per_task 4096, mb 32, nb 32
 output_bytes_per_task 4096, mb 32, nb 32
@@ -246,7 +246,7 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
-        Iterations: 256
+        Iterations: 8388608
         Samples: 16
         Imbalance: 0.000000
       Output Bytes: 4096
@@ -260,7 +260,7 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
-        Iterations: 256
+        Iterations: 8388608
         Samples: 16
         Imbalance: 0.000000
       Output Bytes: 4096
@@ -274,7 +274,7 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
-        Iterations: 256
+        Iterations: 8388608
         Samples: 16
         Imbalance: 0.000000
       Output Bytes: 4096
@@ -288,25 +288,1103 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
-        Iterations: 256
+        Iterations: 8388608
         Samples: 16
         Imbalance: 0.000000
       Output Bytes: 4096
       Scratch Bytes: 0
-rank 0, pid 14078, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
-rank 0, pid 14078, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
-rank 0, pid 14078, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
-rank 0, pid 14078, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4123, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4123, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4123, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4123, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
 Total Tasks 8192000
 Total Dependencies 40960000
-Total FLOPs 268959744000
+Total FLOPs 8796093546496000
 Total Bytes 0
-Elapsed Time 7.215974e+00 seconds
-FLOP/s 3.727283e+10
+Elapsed Time 2.909692e+01 seconds
+FLOP/s 3.023033e+14
 B/s 0.000000e+00
-[****] TIME(s)      7.21597 : 	nb_tasks 0
+[****] TIME(s)     29.09692 : 	nb_tasks 0
 clean up parsec
-init parsec, pid 14199
+init parsec, pid 4266
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 4266, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4266, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4266, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4266, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 4398047035392000
+Total Bytes 0
+Elapsed Time 1.478002e+01 seconds
+FLOP/s 2.975671e+14
+B/s 0.000000e+00
+[****] TIME(s)     14.78002 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 4394
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 4394, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4394, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4394, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4394, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 2199023779840000
+Total Bytes 0
+Elapsed Time 7.842994e+00 seconds
+FLOP/s 2.803807e+14
+B/s 0.000000e+00
+[****] TIME(s)      7.84299 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 4524
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 4524, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4524, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4524, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4524, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 1099512152064000
+Total Bytes 0
+Elapsed Time 5.646155e+00 seconds
+FLOP/s 1.947364e+14
+B/s 0.000000e+00
+[****] TIME(s)      5.64615 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 4650
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 4650, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4650, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4650, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4650, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 549756338176000
+Total Bytes 0
+Elapsed Time 5.591123e+00 seconds
+FLOP/s 9.832664e+13
+B/s 0.000000e+00
+[****] TIME(s)      5.59112 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 4778
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 4778, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4778, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4778, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4778, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 274878431232000
+Total Bytes 0
+Elapsed Time 6.129651e+00 seconds
+FLOP/s 4.484406e+13
+B/s 0.000000e+00
+[****] TIME(s)      6.12965 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 4907
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 4907, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4907, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4907, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 4907, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 137439477760000
+Total Bytes 0
+Elapsed Time 5.829588e+00 seconds
+FLOP/s 2.357619e+13
+B/s 0.000000e+00
+[****] TIME(s)      5.82959 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 5032
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 5032, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5032, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5032, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5032, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 68720001024000
+Total Bytes 0
+Elapsed Time 5.692546e+00 seconds
+FLOP/s 1.207193e+13
+B/s 0.000000e+00
+[****] TIME(s)      5.69255 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 5164
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 5164, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5164, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5164, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5164, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 34360262656000
+Total Bytes 0
+Elapsed Time 5.270777e+00 seconds
+FLOP/s 6.519013e+12
+B/s 0.000000e+00
+[****] TIME(s)      5.27078 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 5291
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 5291, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5291, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5291, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5291, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 17180393472000
+Total Bytes 0
+Elapsed Time 5.342081e+00 seconds
+FLOP/s 3.216049e+12
+B/s 0.000000e+00
+[****] TIME(s)      5.34208 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 5420
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 5420, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5420, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5420, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5420, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 8590458880000
+Total Bytes 0
+Elapsed Time 5.518175e+00 seconds
+FLOP/s 1.556757e+12
+B/s 0.000000e+00
+[****] TIME(s)      5.51818 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 5550
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 5550, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5550, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5550, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5550, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 4295491584000
+Total Bytes 0
+Elapsed Time 5.289236e+00 seconds
+FLOP/s 8.121195e+11
+B/s 0.000000e+00
+[****] TIME(s)      5.28924 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 5676
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 5676, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5676, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5676, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5676, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 2148007936000
+Total Bytes 0
+Elapsed Time 5.132365e+00 seconds
+FLOP/s 4.185221e+11
+B/s 0.000000e+00
+[****] TIME(s)      5.13236 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 5802
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 5802, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5802, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5802, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5802, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 1074266112000
+Total Bytes 0
+Elapsed Time 5.224035e+00 seconds
+FLOP/s 2.056391e+11
+B/s 0.000000e+00
+[****] TIME(s)      5.22404 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 5952
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 5952, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5952, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5952, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 5952, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 537395200000
+Total Bytes 0
+Elapsed Time 5.305110e+00 seconds
+FLOP/s 1.012977e+11
+B/s 0.000000e+00
+[****] TIME(s)      5.30511 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 6066
 output_bytes_per_task 4096, mb 32, nb 32
 output_bytes_per_task 4096, mb 32, nb 32
 output_bytes_per_task 4096, mb 32, nb 32
@@ -370,16 +1448,5098 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 4096
       Scratch Bytes: 0
-rank 0, pid 14199, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
-rank 0, pid 14199, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
-rank 0, pid 14199, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
-rank 0, pid 14199, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6066, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6066, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6066, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6066, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
 Total Tasks 8192000
 Total Dependencies 40960000
 Total FLOPs 268959744000
 Total Bytes 0
-Elapsed Time 5.505086e+00 seconds
-FLOP/s 4.885659e+10
+Elapsed Time 5.322513e+00 seconds
+FLOP/s 5.053247e+10
 B/s 0.000000e+00
-[****] TIME(s)      5.50509 : 	nb_tasks 0
+[****] TIME(s)      5.32251 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 6197
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 33554432
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 33554432
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 33554432
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 33554432
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 6197, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6197, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6197, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6197, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 35184372613120000
+Total Bytes 0
+Elapsed Time 1.135351e+02 seconds
+FLOP/s 3.098987e+14
+B/s 0.000000e+00
+[****] TIME(s)    113.53509 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 6375
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 6375, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6375, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6375, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6375, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 17592186568704000
+Total Bytes 0
+Elapsed Time 5.717816e+01 seconds
+FLOP/s 3.076732e+14
+B/s 0.000000e+00
+[****] TIME(s)     57.17816 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 6529
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 6529, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6529, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6529, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6529, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 8796093546496000
+Total Bytes 0
+Elapsed Time 2.900315e+01 seconds
+FLOP/s 3.032806e+14
+B/s 0.000000e+00
+[****] TIME(s)     29.00315 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 6667
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 6667, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6667, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6667, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6667, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 4398047035392000
+Total Bytes 0
+Elapsed Time 1.460556e+01 seconds
+FLOP/s 3.011214e+14
+B/s 0.000000e+00
+[****] TIME(s)     14.60556 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 6798
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 6798, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6798, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6798, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6798, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 2199023779840000
+Total Bytes 0
+Elapsed Time 8.386230e+00 seconds
+FLOP/s 2.622184e+14
+B/s 0.000000e+00
+[****] TIME(s)      8.38623 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 6928
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 6928, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6928, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6928, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 6928, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 1099512152064000
+Total Bytes 0
+Elapsed Time 5.648683e+00 seconds
+FLOP/s 1.946493e+14
+B/s 0.000000e+00
+[****] TIME(s)      5.64868 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 7056
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 7056, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7056, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7056, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7056, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 549756338176000
+Total Bytes 0
+Elapsed Time 5.617004e+00 seconds
+FLOP/s 9.787359e+13
+B/s 0.000000e+00
+[****] TIME(s)      5.61700 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 7183
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 7183, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7183, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7183, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7183, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 274878431232000
+Total Bytes 0
+Elapsed Time 5.431681e+00 seconds
+FLOP/s 5.060651e+13
+B/s 0.000000e+00
+[****] TIME(s)      5.43168 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 7309
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 7309, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7309, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7309, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7309, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 137439477760000
+Total Bytes 0
+Elapsed Time 4.002749e+01 seconds
+FLOP/s 3.433627e+12
+B/s 0.000000e+00
+[****] TIME(s)     40.02749 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 7456
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 7456, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7456, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7456, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7456, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 68720001024000
+Total Bytes 0
+Elapsed Time 3.622016e+01 seconds
+FLOP/s 1.897286e+12
+B/s 0.000000e+00
+[****] TIME(s)     36.22016 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 7597
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 7597, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7597, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7597, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7597, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 34360262656000
+Total Bytes 0
+Elapsed Time 2.850401e+01 seconds
+FLOP/s 1.205454e+12
+B/s 0.000000e+00
+[****] TIME(s)     28.50401 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 7749
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 7749, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7749, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7749, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7749, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 17180393472000
+Total Bytes 0
+Elapsed Time 2.368127e+01 seconds
+FLOP/s 7.254845e+11
+B/s 0.000000e+00
+[****] TIME(s)     23.68127 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 7887
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 7887, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7887, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7887, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 7887, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 8590458880000
+Total Bytes 0
+Elapsed Time 2.807463e+01 seconds
+FLOP/s 3.059865e+11
+B/s 0.000000e+00
+[****] TIME(s)     28.07463 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 8033
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 8033, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8033, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8033, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8033, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 4295491584000
+Total Bytes 0
+Elapsed Time 4.209918e+01 seconds
+FLOP/s 1.020327e+11
+B/s 0.000000e+00
+[****] TIME(s)     42.09918 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 8180
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 8180, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8180, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8180, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8180, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 2148007936000
+Total Bytes 0
+Elapsed Time 3.652714e+01 seconds
+FLOP/s 5.880581e+10
+B/s 0.000000e+00
+[****] TIME(s)     36.52714 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 8337
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 8337, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8337, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8337, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8337, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 1074266112000
+Total Bytes 0
+Elapsed Time 1.405315e+01 seconds
+FLOP/s 7.644309e+10
+B/s 0.000000e+00
+[****] TIME(s)     14.05315 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 8469
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 8469, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8469, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8469, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8469, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 537395200000
+Total Bytes 0
+Elapsed Time 6.138957e+00 seconds
+FLOP/s 8.753852e+10
+B/s 0.000000e+00
+[****] TIME(s)      6.13896 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 8597
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 8597, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8597, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8597, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8597, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 268959744000
+Total Bytes 0
+Elapsed Time 6.278085e+00 seconds
+FLOP/s 4.284105e+10
+B/s 0.000000e+00
+[****] TIME(s)      6.27808 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 8724
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 8724, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8724, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8724, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8724, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 17592186568704000
+Total Bytes 0
+Elapsed Time 5.689278e+01 seconds
+FLOP/s 3.092165e+14
+B/s 0.000000e+00
+[****] TIME(s)     56.89278 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 8877
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 8877, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8877, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8877, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 8877, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 8796093546496000
+Total Bytes 0
+Elapsed Time 5.922322e+01 seconds
+FLOP/s 1.485244e+14
+B/s 0.000000e+00
+[****] TIME(s)     59.22322 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 9035
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 9035, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9035, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9035, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9035, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 4398047035392000
+Total Bytes 0
+Elapsed Time 4.473607e+01 seconds
+FLOP/s 9.831099e+13
+B/s 0.000000e+00
+[****] TIME(s)     44.73607 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 9182
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 9182, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9182, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9182, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9182, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 2199023779840000
+Total Bytes 0
+Elapsed Time 4.418474e+01 seconds
+FLOP/s 4.976885e+13
+B/s 0.000000e+00
+[****] TIME(s)     44.18474 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 9332
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 9332, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9332, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9332, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9332, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 1099512152064000
+Total Bytes 0
+Elapsed Time 4.323924e+01 seconds
+FLOP/s 2.542857e+13
+B/s 0.000000e+00
+[****] TIME(s)     43.23924 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 9475
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 9475, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9475, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9475, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9475, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 549756338176000
+Total Bytes 0
+Elapsed Time 3.913590e+01 seconds
+FLOP/s 1.404737e+13
+B/s 0.000000e+00
+[****] TIME(s)     39.13590 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 9620
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 9620, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9620, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9620, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9620, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 274878431232000
+Total Bytes 0
+Elapsed Time 6.453765e+00 seconds
+FLOP/s 4.259195e+13
+B/s 0.000000e+00
+[****] TIME(s)      6.45377 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 9749
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 9749, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9749, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9749, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9749, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 137439477760000
+Total Bytes 0
+Elapsed Time 6.291355e+00 seconds
+FLOP/s 2.184577e+13
+B/s 0.000000e+00
+[****] TIME(s)      6.29136 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 9880
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 9880, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9880, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9880, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 9880, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 68720001024000
+Total Bytes 0
+Elapsed Time 6.281352e+00 seconds
+FLOP/s 1.094032e+13
+B/s 0.000000e+00
+[****] TIME(s)      6.28135 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 10010
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 10010, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10010, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10010, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10010, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 34360262656000
+Total Bytes 0
+Elapsed Time 6.234704e+00 seconds
+FLOP/s 5.511130e+12
+B/s 0.000000e+00
+[****] TIME(s)      6.23470 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 10140
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 10140, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10140, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10140, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10140, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 17180393472000
+Total Bytes 0
+Elapsed Time 6.148505e+00 seconds
+FLOP/s 2.794239e+12
+B/s 0.000000e+00
+[****] TIME(s)      6.14850 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 10268
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 10268, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10268, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10268, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10268, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 8590458880000
+Total Bytes 0
+Elapsed Time 6.308857e+00 seconds
+FLOP/s 1.361651e+12
+B/s 0.000000e+00
+[****] TIME(s)      6.30886 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 10403
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 10403, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10403, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10403, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10403, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 4295491584000
+Total Bytes 0
+Elapsed Time 5.932555e+00 seconds
+FLOP/s 7.240542e+11
+B/s 0.000000e+00
+[****] TIME(s)      5.93255 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 10529
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 10529, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10529, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10529, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10529, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 2148007936000
+Total Bytes 0
+Elapsed Time 6.053524e+00 seconds
+FLOP/s 3.548359e+11
+B/s 0.000000e+00
+[****] TIME(s)      6.05352 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 10655
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 10655, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10655, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10655, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10655, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 1074266112000
+Total Bytes 0
+Elapsed Time 6.467090e+00 seconds
+FLOP/s 1.661127e+11
+B/s 0.000000e+00
+[****] TIME(s)      6.46709 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 10782
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 10782, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10782, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10782, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10782, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 537395200000
+Total Bytes 0
+Elapsed Time 5.942680e+00 seconds
+FLOP/s 9.042977e+10
+B/s 0.000000e+00
+[****] TIME(s)      5.94268 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 10906
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 10906, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10906, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10906, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 10906, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 268959744000
+Total Bytes 0
+Elapsed Time 1.484267e+01 seconds
+FLOP/s 1.812071e+10
+B/s 0.000000e+00
+[****] TIME(s)     14.84267 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 11039
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 11039, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11039, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11039, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11039, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 8796093546496000
+Total Bytes 0
+Elapsed Time 2.916905e+01 seconds
+FLOP/s 3.015557e+14
+B/s 0.000000e+00
+[****] TIME(s)     29.16905 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 11177
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 11177, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11177, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11177, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11177, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 4398047035392000
+Total Bytes 0
+Elapsed Time 1.490581e+01 seconds
+FLOP/s 2.950560e+14
+B/s 0.000000e+00
+[****] TIME(s)     14.90581 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 11310
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 11310, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11310, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11310, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11310, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 2199023779840000
+Total Bytes 0
+Elapsed Time 2.309315e+01 seconds
+FLOP/s 9.522408e+13
+B/s 0.000000e+00
+[****] TIME(s)     23.09315 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 11448
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 11448, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11448, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11448, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11448, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 1099512152064000
+Total Bytes 0
+Elapsed Time 2.228371e+01 seconds
+FLOP/s 4.934153e+13
+B/s 0.000000e+00
+[****] TIME(s)     22.28371 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 11583
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 11583, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11583, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11583, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11583, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 549756338176000
+Total Bytes 0
+Elapsed Time 2.246587e+01 seconds
+FLOP/s 2.447073e+13
+B/s 0.000000e+00
+[****] TIME(s)     22.46587 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 11832
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 11832, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11832, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11832, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11832, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 274878431232000
+Total Bytes 0
+Elapsed Time 2.251616e+01 seconds
+FLOP/s 1.220805e+13
+B/s 0.000000e+00
+[****] TIME(s)     22.51616 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 11967
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 11967, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11967, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11967, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 11967, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 137439477760000
+Total Bytes 0
+Elapsed Time 2.072306e+01 seconds
+FLOP/s 6.632200e+12
+B/s 0.000000e+00
+[****] TIME(s)     20.72306 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 12108
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 12108, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12108, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12108, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12108, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 68720001024000
+Total Bytes 0
+Elapsed Time 1.928477e+01 seconds
+FLOP/s 3.563435e+12
+B/s 0.000000e+00
+[****] TIME(s)     19.28477 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 12240
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 12240, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12240, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12240, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12240, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 34360262656000
+Total Bytes 0
+Elapsed Time 1.870249e+01 seconds
+FLOP/s 1.837203e+12
+B/s 0.000000e+00
+[****] TIME(s)     18.70249 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 12374
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 12374, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12374, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12374, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12374, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 17180393472000
+Total Bytes 0
+Elapsed Time 2.021597e+01 seconds
+FLOP/s 8.498427e+11
+B/s 0.000000e+00
+[****] TIME(s)     20.21597 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 12511
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 12511, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12511, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12511, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12511, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 8590458880000
+Total Bytes 0
+Elapsed Time 1.845272e+01 seconds
+FLOP/s 4.655388e+11
+B/s 0.000000e+00
+[****] TIME(s)     18.45272 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 12646
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 12646, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12646, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12646, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12646, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 4295491584000
+Total Bytes 0
+Elapsed Time 1.833891e+01 seconds
+FLOP/s 2.342283e+11
+B/s 0.000000e+00
+[****] TIME(s)     18.33891 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 12781
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 12781, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12781, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12781, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12781, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 2148007936000
+Total Bytes 0
+Elapsed Time 1.900067e+01 seconds
+FLOP/s 1.130491e+11
+B/s 0.000000e+00
+[****] TIME(s)     19.00067 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 12913
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 12913, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12913, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12913, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 12913, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 1074266112000
+Total Bytes 0
+Elapsed Time 1.870792e+01 seconds
+FLOP/s 5.742306e+10
+B/s 0.000000e+00
+[****] TIME(s)     18.70792 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 13048
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 13048, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13048, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13048, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13048, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 537395200000
+Total Bytes 0
+Elapsed Time 1.843117e+01 seconds
+FLOP/s 2.915687e+10
+B/s 0.000000e+00
+[****] TIME(s)     18.43117 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 13191
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 13191, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13191, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13191, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13191, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 268959744000
+Total Bytes 0
+Elapsed Time 1.937854e+01 seconds
+FLOP/s 1.387926e+10
+B/s 0.000000e+00
+[****] TIME(s)     19.37854 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 13349
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 13349, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13349, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13349, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13349, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 4398047035392000
+Total Bytes 0
+Elapsed Time 1.897777e+01 seconds
+FLOP/s 2.317473e+14
+B/s 0.000000e+00
+[****] TIME(s)     18.97777 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 13507
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 13507, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13507, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13507, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13507, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 2199023779840000
+Total Bytes 0
+Elapsed Time 8.000145e+00 seconds
+FLOP/s 2.748730e+14
+B/s 0.000000e+00
+[****] TIME(s)      8.00014 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 13630
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 13630, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13630, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13630, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13630, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 1099512152064000
+Total Bytes 0
+Elapsed Time 6.001630e+00 seconds
+FLOP/s 1.832023e+14
+B/s 0.000000e+00
+[****] TIME(s)      6.00163 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 13758
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 13758, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13758, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13758, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13758, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 549756338176000
+Total Bytes 0
+Elapsed Time 5.392656e+00 seconds
+FLOP/s 1.019454e+14
+B/s 0.000000e+00
+[****] TIME(s)      5.39266 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 13882
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 13882, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13882, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13882, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 13882, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 274878431232000
+Total Bytes 0
+Elapsed Time 6.192771e+00 seconds
+FLOP/s 4.438698e+13
+B/s 0.000000e+00
+[****] TIME(s)      6.19277 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 14009
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 14009, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14009, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14009, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14009, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 137439477760000
+Total Bytes 0
+Elapsed Time 5.674935e+00 seconds
+FLOP/s 2.421869e+13
+B/s 0.000000e+00
+[****] TIME(s)      5.67493 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 14136
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 14136, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14136, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14136, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14136, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 68720001024000
+Total Bytes 0
+Elapsed Time 5.283295e+00 seconds
+FLOP/s 1.300703e+13
+B/s 0.000000e+00
+[****] TIME(s)      5.28329 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 14260
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 14260, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14260, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14260, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14260, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 34360262656000
+Total Bytes 0
+Elapsed Time 5.977320e+00 seconds
+FLOP/s 5.748440e+12
+B/s 0.000000e+00
+[****] TIME(s)      5.97732 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 14388
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 14388, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14388, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14388, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14388, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 17180393472000
+Total Bytes 0
+Elapsed Time 5.892414e+00 seconds
+FLOP/s 2.915680e+12
+B/s 0.000000e+00
+[****] TIME(s)      5.89241 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 14524
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 14524, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14524, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14524, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14524, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 8590458880000
+Total Bytes 0
+Elapsed Time 5.481795e+00 seconds
+FLOP/s 1.567089e+12
+B/s 0.000000e+00
+[****] TIME(s)      5.48180 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 14647
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 14647, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14647, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14647, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14647, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 4295491584000
+Total Bytes 0
+Elapsed Time 5.502923e+00 seconds
+FLOP/s 7.805836e+11
+B/s 0.000000e+00
+[****] TIME(s)      5.50292 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 14776
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 14776, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14776, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14776, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14776, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 2148007936000
+Total Bytes 0
+Elapsed Time 5.004900e+01 seconds
+FLOP/s 4.291810e+10
+B/s 0.000000e+00
+[****] TIME(s)     50.04900 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 14921
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 14921, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14921, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14921, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 14921, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 1074266112000
+Total Bytes 0
+Elapsed Time 4.485900e+01 seconds
+FLOP/s 2.394762e+10
+B/s 0.000000e+00
+[****] TIME(s)     44.85900 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 15064
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 15064, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 15064, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 15064, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 15064, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 537395200000
+Total Bytes 0
+Elapsed Time 2.926998e+01 seconds
+FLOP/s 1.835994e+10
+B/s 0.000000e+00
+[****] TIME(s)     29.26998 : 	nb_tasks 0
+clean up parsec
+init parsec, pid 15203
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+output_bytes_per_task 4096, mb 32, nb 32
+max_scratch_bytes_per_task 0
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 8192
+      Dependence Type: spread
+      Radix: 5
+      Period: 3
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 4096
+      Scratch Bytes: 0
+rank 0, pid 15203, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 15203, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 15203, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+rank 0, pid 15203, M 256, N 262144, MT 8, NT 8192, nb_fields 8, timesteps 250
+Total Tasks 8192000
+Total Dependencies 40960000
+Total FLOPs 268959744000
+Total Bytes 0
+Elapsed Time 2.769873e+01 seconds
+FLOP/s 9.710182e+09
+B/s 0.000000e+00
+[****] TIME(s)     27.69873 : 	nb_tasks 0
 clean up parsec

@@ -2,6 +2,7 @@ Client waiting for workers (have 0 expect 1)
 Client waiting for workers (have 0 expect 1)
 Client waiting for workers (have 0 expect 1)
 Client waiting for workers (have 0 expect 1)
+Client waiting for workers (have 0 expect 1)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -22,9 +23,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 281474976710656
-Elapsed Time 7.073418e+03 seconds
+Elapsed Time 4.139011e+03 seconds
 FLOP/s 0.000000e+00
-B/s 3.979335e+10
+B/s 6.800536e+10
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -45,9 +46,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 281474976710656
-Elapsed Time 3.826596e+03 seconds
+Elapsed Time 3.601524e+03 seconds
 FLOP/s 0.000000e+00
-B/s 7.355754e+10
+B/s 7.815440e+10
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -68,9 +69,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 140737488355328
-Elapsed Time 1.866034e+03 seconds
+Elapsed Time 2.184450e+03 seconds
 FLOP/s 0.000000e+00
-B/s 7.542064e+10
+B/s 6.442698e+10
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -91,9 +92,32 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 140737488355328
-Elapsed Time 1.853248e+03 seconds
+Elapsed Time 1.820714e+03 seconds
 FLOP/s 0.000000e+00
-B/s 7.594099e+10
+B/s 7.729796e+10
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 262144
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 140737488355328
+Elapsed Time 1.945171e+03 seconds
+FLOP/s 0.000000e+00
+B/s 7.235225e+10
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -114,9 +138,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 70368744177664
-Elapsed Time 9.595654e+02 seconds
+Elapsed Time 1.478143e+03 seconds
 FLOP/s 0.000000e+00
-B/s 7.333397e+10
+B/s 4.760618e+10
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -137,9 +161,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 70368744177664
-Elapsed Time 9.809068e+02 seconds
+Elapsed Time 1.391605e+03 seconds
 FLOP/s 0.000000e+00
-B/s 7.173846e+10
+B/s 5.056660e+10
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -160,9 +184,32 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 70368744177664
-Elapsed Time 9.482079e+02 seconds
+Elapsed Time 1.461073e+03 seconds
 FLOP/s 0.000000e+00
-B/s 7.421236e+10
+B/s 4.816236e+10
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 131072
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 70368744177664
+Elapsed Time 1.450781e+03 seconds
+FLOP/s 0.000000e+00
+B/s 4.850404e+10
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -183,121 +230,6 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 35184372088832
-Elapsed Time 6.595020e+02 seconds
+Elapsed Time 1.010268e+03 seconds
 FLOP/s 0.000000e+00
-B/s 5.334991e+10
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 8192
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 65536
-        Samples: 8192
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 16777216
-Total Tasks 262144
-Total Dependencies 770048
-Total FLOPs 0
-Total Bytes 35184372088832
-Elapsed Time 6.492366e+02 seconds
-FLOP/s 0.000000e+00
-B/s 5.419345e+10
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 8192
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 65536
-        Samples: 8192
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 16777216
-Total Tasks 262144
-Total Dependencies 770048
-Total FLOPs 0
-Total Bytes 35184372088832
-Elapsed Time 6.498697e+02 seconds
-FLOP/s 0.000000e+00
-B/s 5.414066e+10
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 8192
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 32768
-        Samples: 8192
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 16777216
-Total Tasks 262144
-Total Dependencies 770048
-Total FLOPs 0
-Total Bytes 17592186044416
-Elapsed Time 6.124115e+02 seconds
-FLOP/s 0.000000e+00
-B/s 2.872609e+10
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 8192
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 32768
-        Samples: 8192
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 16777216
-Total Tasks 262144
-Total Dependencies 770048
-Total FLOPs 0
-Total Bytes 17592186044416
-Elapsed Time 6.238952e+02 seconds
-FLOP/s 0.000000e+00
-B/s 2.819734e+10
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 8192
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 32768
-        Samples: 8192
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 16777216
-Total Tasks 262144
-Total Dependencies 770048
-Total FLOPs 0
-Total Bytes 17592186044416
-Elapsed Time 6.209002e+02 seconds
-FLOP/s 0.000000e+00
-B/s 2.833335e+10
+B/s 3.482678e+10

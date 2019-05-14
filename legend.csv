@@ -3,7 +3,8 @@ chapel,Chapel,True
 charm,Charm++,True
 dask,Dask,False
 dask_core,Dask,True
-mpi_nonblock,MPI,True
+mpi_nonblock,MPI p2p,True
+mpi_bulk_synchronous,MPI bulk sync,True
 ompss,OmpSs,True
 openmp_gnu,OpenMP GOMP,False
 openmp_gnukmp,OpenMP KMP GCC,False
@@ -32,6 +33,5 @@ swift,Swift/T,True
 tensorflow,TensorFlow,True
 x10,X10 node,False
 x10_socket,X10 socket,False
-x10_core,X10 core,False
-x10_core_local_meta,X10,True
+x10_core,X10,True
 chapel_distrib,Chapel distrib,True

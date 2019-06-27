@@ -11,6 +11,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 67108864
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 2.171810e+02
+Time for last run: 2.172354e+02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 206158431744000
+Total Bytes 0
+Elapsed Time 2.172354e+02 seconds
+FLOP/s 9.490094e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -24,6 +50,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 33554432
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.086522e+02
+Time for last run: 1.086530e+02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 103079216640000
+Total Bytes 0
+Elapsed Time 1.086530e+02 seconds
+FLOP/s 9.487011e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -37,6 +89,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 33554432
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.086064e+02
+Time for last run: 1.085800e+02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 103079216640000
+Total Bytes 0
+Elapsed Time 1.085800e+02 seconds
+FLOP/s 9.493393e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -50,6 +128,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 5.432851e+01
+Time for last run: 5.432816e+01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 51539609088000
+Total Bytes 0
+Elapsed Time 5.432816e+01 seconds
+FLOP/s 9.486721e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -63,6 +167,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 5.430281e+01
+Time for last run: 5.433276e+01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 51539609088000
+Total Bytes 0
+Elapsed Time 5.433276e+01 seconds
+FLOP/s 9.485918e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -76,6 +206,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 5.428750e+01
+Time for last run: 5.429802e+01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 51539609088000
+Total Bytes 0
+Elapsed Time 5.429802e+01 seconds
+FLOP/s 9.491986e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -89,6 +245,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 2.712762e+01
+Time for last run: 2.715065e+01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 25769805312000
+Total Bytes 0
+Elapsed Time 2.715065e+01 seconds
+FLOP/s 9.491415e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -102,6 +284,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 2.713630e+01
+Time for last run: 2.716748e+01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 25769805312000
+Total Bytes 0
+Elapsed Time 2.716748e+01 seconds
+FLOP/s 9.485535e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -115,6 +323,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 2.710611e+01
+Time for last run: 2.710320e+01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 25769805312000
+Total Bytes 0
+Elapsed Time 2.710320e+01 seconds
+FLOP/s 9.508031e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -128,6 +362,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 2.711140e+01
+Time for last run: 2.709321e+01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 25769805312000
+Total Bytes 0
+Elapsed Time 2.709321e+01 seconds
+FLOP/s 9.511536e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -141,6 +401,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.356502e+01
+Time for last run: 1.355534e+01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 12884903424000
+Total Bytes 0
+Elapsed Time 1.355534e+01 seconds
+FLOP/s 9.505408e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -154,6 +440,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.356192e+01
+Time for last run: 1.356238e+01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 12884903424000
+Total Bytes 0
+Elapsed Time 1.356238e+01 seconds
+FLOP/s 9.500474e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -167,6 +479,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.357772e+01
+Time for last run: 1.356789e+01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 12884903424000
+Total Bytes 0
+Elapsed Time 1.356789e+01 seconds
+FLOP/s 9.496619e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -180,6 +518,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.357313e+01
+Time for last run: 1.356545e+01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 12884903424000
+Total Bytes 0
+Elapsed Time 1.356545e+01 seconds
+FLOP/s 9.498326e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -193,6 +557,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.358195e+01
+Time for last run: 1.357656e+01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 12884903424000
+Total Bytes 0
+Elapsed Time 1.357656e+01 seconds
+FLOP/s 9.490553e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -206,6 +596,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 6.786800e+00
+Time for last run: 6.792693e+00
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 6442452480000
+Total Bytes 0
+Elapsed Time 6.792693e+00 seconds
+FLOP/s 9.484386e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -219,6 +635,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 6.790837e+00
+Time for last run: 6.786037e+00
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 6442452480000
+Total Bytes 0
+Elapsed Time 6.786037e+00 seconds
+FLOP/s 9.493689e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -232,6 +674,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 6.790546e+00
+Time for last run: 6.786691e+00
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 6442452480000
+Total Bytes 0
+Elapsed Time 6.786691e+00 seconds
+FLOP/s 9.492774e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -245,6 +713,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 6.808135e+00
+Time for last run: 6.794578e+00
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 6442452480000
+Total Bytes 0
+Elapsed Time 6.794578e+00 seconds
+FLOP/s 9.481755e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -258,6 +752,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 6.804909e+00
+Time for last run: 6.797263e+00
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 6442452480000
+Total Bytes 0
+Elapsed Time 6.797263e+00 seconds
+FLOP/s 9.478010e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -271,6 +791,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 3.404808e+00
+Time for last run: 3.410928e+00
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 3221227008000
+Total Bytes 0
+Elapsed Time 3.410928e+00 seconds
+FLOP/s 9.443843e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -284,6 +830,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 3.397696e+00
+Time for last run: 3.396218e+00
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 3221227008000
+Total Bytes 0
+Elapsed Time 3.396218e+00 seconds
+FLOP/s 9.484747e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -297,6 +869,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 3.403985e+00
+Time for last run: 3.394947e+00
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 3221227008000
+Total Bytes 0
+Elapsed Time 3.394947e+00 seconds
+FLOP/s 9.488298e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -310,6 +908,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 3.398325e+00
+Time for last run: 3.397123e+00
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 3221227008000
+Total Bytes 0
+Elapsed Time 3.397123e+00 seconds
+FLOP/s 9.482221e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -323,6 +947,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 3.402333e+00
+Time for last run: 3.402024e+00
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 3221227008000
+Total Bytes 0
+Elapsed Time 3.402024e+00 seconds
+FLOP/s 9.468560e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -336,6 +986,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.701682e+00
+Time for last run: 1.702393e+00
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 1610614272000
+Total Bytes 0
+Elapsed Time 1.702393e+00 seconds
+FLOP/s 9.460885e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -349,6 +1025,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.705111e+00
+Time for last run: 1.702244e+00
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 1610614272000
+Total Bytes 0
+Elapsed Time 1.702244e+00 seconds
+FLOP/s 9.461712e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -362,6 +1064,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.706200e+00
+Time for last run: 1.704509e+00
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 1610614272000
+Total Bytes 0
+Elapsed Time 1.704509e+00 seconds
+FLOP/s 9.449139e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -375,6 +1103,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.702863e+00
+Time for last run: 1.703932e+00
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 1610614272000
+Total Bytes 0
+Elapsed Time 1.703932e+00 seconds
+FLOP/s 9.452339e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -388,6 +1142,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.706329e+00
+Time for last run: 1.704818e+00
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 1610614272000
+Total Bytes 0
+Elapsed Time 1.704818e+00 seconds
+FLOP/s 9.447426e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -401,6 +1181,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 8.547461e-01
+Time for last run: 8.541119e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 805307904000
+Total Bytes 0
+Elapsed Time 8.541119e-01 seconds
+FLOP/s 9.428599e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -414,6 +1220,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 8.547449e-01
+Time for last run: 8.550909e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 805307904000
+Total Bytes 0
+Elapsed Time 8.550909e-01 seconds
+FLOP/s 9.417805e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -427,6 +1259,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 8.557279e-01
+Time for last run: 8.544960e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 805307904000
+Total Bytes 0
+Elapsed Time 8.544960e-01 seconds
+FLOP/s 9.424361e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -440,6 +1298,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 8.621008e-01
+Time for last run: 8.544888e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 805307904000
+Total Bytes 0
+Elapsed Time 8.544888e-01 seconds
+FLOP/s 9.424440e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -453,6 +1337,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 8.535061e-01
+Time for last run: 8.559868e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 805307904000
+Total Bytes 0
+Elapsed Time 8.559868e-01 seconds
+FLOP/s 9.407947e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -466,6 +1376,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 4.297340e-01
+Time for last run: 4.327099e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 402654720000
+Total Bytes 0
+Elapsed Time 4.327099e-01 seconds
+FLOP/s 9.305419e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -479,6 +1415,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 4.314880e-01
+Time for last run: 4.295778e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 402654720000
+Total Bytes 0
+Elapsed Time 4.295778e-01 seconds
+FLOP/s 9.373266e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -492,6 +1454,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 4.317050e-01
+Time for last run: 4.297941e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 402654720000
+Total Bytes 0
+Elapsed Time 4.297941e-01 seconds
+FLOP/s 9.368550e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -505,6 +1493,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 4.299078e-01
+Time for last run: 4.295189e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 402654720000
+Total Bytes 0
+Elapsed Time 4.295189e-01 seconds
+FLOP/s 9.374551e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -518,6 +1532,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 4.295549e-01
+Time for last run: 4.302080e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 402654720000
+Total Bytes 0
+Elapsed Time 4.302080e-01 seconds
+FLOP/s 9.359537e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -531,6 +1571,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 2.182760e-01
+Time for last run: 2.179389e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 201328128000
+Total Bytes 0
+Elapsed Time 2.179389e-01 seconds
+FLOP/s 9.237824e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -544,6 +1610,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 2.182169e-01
+Time for last run: 2.179968e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 201328128000
+Total Bytes 0
+Elapsed Time 2.179968e-01 seconds
+FLOP/s 9.235369e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -557,6 +1649,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 2.180719e-01
+Time for last run: 2.180970e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 201328128000
+Total Bytes 0
+Elapsed Time 2.180970e-01 seconds
+FLOP/s 9.231129e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -570,6 +1688,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 2.184870e-01
+Time for last run: 2.181799e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 201328128000
+Total Bytes 0
+Elapsed Time 2.181799e-01 seconds
+FLOP/s 9.227619e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -583,6 +1727,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 2.181139e-01
+Time for last run: 2.206092e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 201328128000
+Total Bytes 0
+Elapsed Time 2.206092e-01 seconds
+FLOP/s 9.126008e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -596,6 +1766,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.124871e-01
+Time for last run: 1.126950e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 100664832000
+Total Bytes 0
+Elapsed Time 1.126950e-01 seconds
+FLOP/s 8.932504e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -609,6 +1805,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.126671e-01
+Time for last run: 1.125090e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 100664832000
+Total Bytes 0
+Elapsed Time 1.125090e-01 seconds
+FLOP/s 8.947268e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -622,6 +1844,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.147292e-01
+Time for last run: 1.132751e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 100664832000
+Total Bytes 0
+Elapsed Time 1.132751e-01 seconds
+FLOP/s 8.886761e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -635,6 +1883,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.142540e-01
+Time for last run: 1.124620e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 100664832000
+Total Bytes 0
+Elapsed Time 1.124620e-01 seconds
+FLOP/s 8.951005e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -648,6 +1922,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.128690e-01
+Time for last run: 1.127429e-01
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 100664832000
+Total Bytes 0
+Elapsed Time 1.127429e-01 seconds
+FLOP/s 8.928707e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -661,6 +1961,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 5.995083e-02
+Time for last run: 5.988908e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 50333184000
+Total Bytes 0
+Elapsed Time 5.988908e-02 seconds
+FLOP/s 8.404401e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -674,6 +2000,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 6.014299e-02
+Time for last run: 6.012297e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 50333184000
+Total Bytes 0
+Elapsed Time 6.012297e-02 seconds
+FLOP/s 8.371707e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -687,6 +2039,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 6.008410e-02
+Time for last run: 5.989599e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 50333184000
+Total Bytes 0
+Elapsed Time 5.989599e-02 seconds
+FLOP/s 8.403431e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -700,6 +2078,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 6.008101e-02
+Time for last run: 5.992794e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 50333184000
+Total Bytes 0
+Elapsed Time 5.992794e-02 seconds
+FLOP/s 8.398951e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -713,6 +2117,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 6.001496e-02
+Time for last run: 6.033301e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 50333184000
+Total Bytes 0
+Elapsed Time 6.033301e-02 seconds
+FLOP/s 8.342561e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -726,6 +2156,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 3.372002e-02
+Time for last run: 3.391314e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 25167360000
+Total Bytes 0
+Elapsed Time 3.391314e-02 seconds
+FLOP/s 7.421124e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -739,6 +2195,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 3.354096e-02
+Time for last run: 3.397894e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 25167360000
+Total Bytes 0
+Elapsed Time 3.397894e-02 seconds
+FLOP/s 7.406753e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -752,6 +2234,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 3.407311e-02
+Time for last run: 3.362989e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 25167360000
+Total Bytes 0
+Elapsed Time 3.362989e-02 seconds
+FLOP/s 7.483627e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -765,6 +2273,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 3.403807e-02
+Time for last run: 3.338122e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 25167360000
+Total Bytes 0
+Elapsed Time 3.338122e-02 seconds
+FLOP/s 7.539376e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -778,6 +2312,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 3.355885e-02
+Time for last run: 3.399205e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 25167360000
+Total Bytes 0
+Elapsed Time 3.399205e-02 seconds
+FLOP/s 7.403895e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -791,6 +2351,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 2.080202e-02
+Time for last run: 2.072906e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 12584448000
+Total Bytes 0
+Elapsed Time 2.072906e-02 seconds
+FLOP/s 6.070919e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -804,6 +2390,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 2.065802e-02
+Time for last run: 2.065110e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 12584448000
+Total Bytes 0
+Elapsed Time 2.065110e-02 seconds
+FLOP/s 6.093838e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -817,6 +2429,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 2.119589e-02
+Time for last run: 2.046704e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 12584448000
+Total Bytes 0
+Elapsed Time 2.046704e-02 seconds
+FLOP/s 6.148640e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -830,6 +2468,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 2.052093e-02
+Time for last run: 2.086496e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 12584448000
+Total Bytes 0
+Elapsed Time 2.086496e-02 seconds
+FLOP/s 6.031378e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -843,6 +2507,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 2.082896e-02
+Time for last run: 2.070498e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 12584448000
+Total Bytes 0
+Elapsed Time 2.070498e-02 seconds
+FLOP/s 6.077980e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -856,6 +2546,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.382184e-02
+Time for last run: 1.452398e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 6292992000
+Total Bytes 0
+Elapsed Time 1.452398e-02 seconds
+FLOP/s 4.332828e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -869,6 +2585,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.425886e-02
+Time for last run: 1.401401e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 6292992000
+Total Bytes 0
+Elapsed Time 1.401401e-02 seconds
+FLOP/s 4.490502e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -882,6 +2624,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.425505e-02
+Time for last run: 1.417994e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 6292992000
+Total Bytes 0
+Elapsed Time 1.417994e-02 seconds
+FLOP/s 4.437952e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -895,6 +2663,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.396894e-02
+Time for last run: 1.448298e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 6292992000
+Total Bytes 0
+Elapsed Time 1.448298e-02 seconds
+FLOP/s 4.345096e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -908,6 +2702,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.381302e-02
+Time for last run: 1.428008e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 6292992000
+Total Bytes 0
+Elapsed Time 1.428008e-02 seconds
+FLOP/s 4.406832e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -921,6 +2741,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.116490e-02
+Time for last run: 1.152897e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 3147264000
+Total Bytes 0
+Elapsed Time 1.152897e-02 seconds
+FLOP/s 2.729875e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -934,6 +2780,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.124096e-02
+Time for last run: 1.141596e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 3147264000
+Total Bytes 0
+Elapsed Time 1.141596e-02 seconds
+FLOP/s 2.756899e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -947,6 +2819,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.118588e-02
+Time for last run: 1.144505e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 3147264000
+Total Bytes 0
+Elapsed Time 1.144505e-02 seconds
+FLOP/s 2.749892e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -960,6 +2858,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.122403e-02
+Time for last run: 1.130915e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 3147264000
+Total Bytes 0
+Elapsed Time 1.130915e-02 seconds
+FLOP/s 2.782937e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -973,6 +2897,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.106215e-02
+Time for last run: 1.149011e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 3147264000
+Total Bytes 0
+Elapsed Time 1.149011e-02 seconds
+FLOP/s 2.739108e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -986,6 +2936,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 9.907961e-03
+Time for last run: 1.037312e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 1574400000
+Total Bytes 0
+Elapsed Time 1.037312e-02 seconds
+FLOP/s 1.517770e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -999,6 +2975,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.035500e-02
+Time for last run: 1.002502e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 1574400000
+Total Bytes 0
+Elapsed Time 1.002502e-02 seconds
+FLOP/s 1.570470e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -1012,6 +3014,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 9.953022e-03
+Time for last run: 1.021004e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 1574400000
+Total Bytes 0
+Elapsed Time 1.021004e-02 seconds
+FLOP/s 1.542012e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -1025,6 +3053,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.015687e-02
+Time for last run: 9.999990e-03
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 1574400000
+Total Bytes 0
+Elapsed Time 9.999990e-03 seconds
+FLOP/s 1.574402e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -1038,6 +3092,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 1.002383e-02
+Time for last run: 1.006508e-02
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 1574400000
+Total Bytes 0
+Elapsed Time 1.006508e-02 seconds
+FLOP/s 1.564220e+11
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -1051,6 +3131,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 9.562016e-03
+Time for last run: 9.643078e-03
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 787968000
+Total Bytes 0
+Elapsed Time 9.643078e-03 seconds
+FLOP/s 8.171333e+10
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -1064,6 +3170,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 9.357929e-03
+Time for last run: 9.719133e-03
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 787968000
+Total Bytes 0
+Elapsed Time 9.719133e-03 seconds
+FLOP/s 8.107390e+10
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -1077,6 +3209,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 9.662151e-03
+Time for last run: 9.981871e-03
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 787968000
+Total Bytes 0
+Elapsed Time 9.981871e-03 seconds
+FLOP/s 7.893991e+10
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -1090,6 +3248,32 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 9.590149e-03
+Time for last run: 9.548903e-03
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 787968000
+Total Bytes 0
+Elapsed Time 9.548903e-03 seconds
+FLOP/s 8.251922e+10
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program
 Charm++> Running on Gemini (GNI) with 8 processes
 Charm++> static SMSG
 Charm++> SMSG memory: 39.5KB
@@ -1103,3 +3287,29 @@ Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
 Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 1000
+      Max Width: 24
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+Time for last run: 9.515047e-03
+Time for last run: 9.528160e-03
+Total Tasks 24000
+Total Dependencies 70000
+Total FLOPs 787968000
+Total Bytes 0
+Elapsed Time 9.528160e-03 seconds
+FLOP/s 8.269886e+10
+B/s 0.000000e+00
+[Partition 0][Node 0] End of program

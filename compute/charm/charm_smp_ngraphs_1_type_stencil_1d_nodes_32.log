@@ -1,21 +1,21 @@
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -27,34 +27,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.172156e+02
-Time for last run: 2.171970e+02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 240518170368000
+Time for last run: 2.179662e+02
+Time for last run: 2.172313e+02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 8521215178752000
 Total Bytes 0
-Elapsed Time 2.171970e+02 seconds
-FLOP/s 1.107373e+12
+Elapsed Time 2.172313e+02 seconds
+FLOP/s 3.922647e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -66,34 +66,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.085982e+02
-Time for last run: 1.086233e+02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 120259086080000
+Time for last run: 1.086381e+02
+Time for last run: 1.086557e+02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 4260607621120000
 Total Bytes 0
-Elapsed Time 1.086233e+02 seconds
-FLOP/s 1.107121e+12
+Elapsed Time 1.086557e+02 seconds
+FLOP/s 3.921200e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -105,34 +105,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.085604e+02
-Time for last run: 1.085813e+02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 120259086080000
+Time for last run: 1.086329e+02
+Time for last run: 1.086117e+02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 4260607621120000
 Total Bytes 0
-Elapsed Time 1.085813e+02 seconds
-FLOP/s 1.107549e+12
+Elapsed Time 1.086117e+02 seconds
+FLOP/s 3.922788e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -144,34 +144,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 5.427790e+01
-Time for last run: 5.427321e+01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 60129543936000
+Time for last run: 5.431000e+01
+Time for last run: 5.429309e+01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 2130303842304000
 Total Bytes 0
-Elapsed Time 5.427321e+01 seconds
-FLOP/s 1.107905e+12
+Elapsed Time 5.429309e+01 seconds
+FLOP/s 3.923711e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -183,34 +183,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 5.426257e+01
-Time for last run: 5.426537e+01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 60129543936000
+Time for last run: 5.425371e+01
+Time for last run: 5.424382e+01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 2130303842304000
 Total Bytes 0
-Elapsed Time 5.426537e+01 seconds
-FLOP/s 1.108065e+12
+Elapsed Time 5.424382e+01 seconds
+FLOP/s 3.927275e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -222,34 +222,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 5.426532e+01
-Time for last run: 5.428161e+01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 60129543936000
+Time for last run: 5.432134e+01
+Time for last run: 5.432919e+01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 2130303842304000
 Total Bytes 0
-Elapsed Time 5.428161e+01 seconds
-FLOP/s 1.107733e+12
+Elapsed Time 5.432919e+01 seconds
+FLOP/s 3.921104e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -261,34 +261,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.714414e+01
-Time for last run: 2.714257e+01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 30064772864000
+Time for last run: 2.715645e+01
+Time for last run: 2.715417e+01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 1065151952896000
 Total Bytes 0
-Elapsed Time 2.714257e+01 seconds
-FLOP/s 1.107661e+12
+Elapsed Time 2.715417e+01 seconds
+FLOP/s 3.922610e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -300,34 +300,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.713436e+01
-Time for last run: 2.712557e+01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 30064772864000
+Time for last run: 2.711674e+01
+Time for last run: 2.711156e+01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 1065151952896000
 Total Bytes 0
-Elapsed Time 2.712557e+01 seconds
-FLOP/s 1.108356e+12
+Elapsed Time 2.711156e+01 seconds
+FLOP/s 3.928774e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -339,34 +339,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.714989e+01
-Time for last run: 2.714391e+01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 30064772864000
+Time for last run: 2.714141e+01
+Time for last run: 2.714289e+01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 1065151952896000
 Total Bytes 0
-Elapsed Time 2.714391e+01 seconds
-FLOP/s 1.107607e+12
+Elapsed Time 2.714289e+01 seconds
+FLOP/s 3.924240e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -378,34 +378,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.714458e+01
-Time for last run: 2.714112e+01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 30064772864000
+Time for last run: 2.714853e+01
+Time for last run: 2.714249e+01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 1065151952896000
 Total Bytes 0
-Elapsed Time 2.714112e+01 seconds
-FLOP/s 1.107721e+12
+Elapsed Time 2.714249e+01 seconds
+FLOP/s 3.924297e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -417,34 +417,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.357486e+01
-Time for last run: 1.356738e+01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 15032387328000
+Time for last run: 1.357019e+01
+Time for last run: 1.357210e+01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 532576008192000
 Total Bytes 0
-Elapsed Time 1.356738e+01 seconds
-FLOP/s 1.107980e+12
+Elapsed Time 1.357210e+01 seconds
+FLOP/s 3.924050e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -456,34 +456,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.357347e+01
-Time for last run: 1.357366e+01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 15032387328000
+Time for last run: 1.356471e+01
+Time for last run: 1.357445e+01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 532576008192000
 Total Bytes 0
-Elapsed Time 1.357366e+01 seconds
-FLOP/s 1.107468e+12
+Elapsed Time 1.357445e+01 seconds
+FLOP/s 3.923371e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -495,34 +495,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.356940e+01
-Time for last run: 1.356997e+01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 15032387328000
+Time for last run: 1.355508e+01
+Time for last run: 1.357014e+01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 532576008192000
 Total Bytes 0
-Elapsed Time 1.356997e+01 seconds
-FLOP/s 1.107768e+12
+Elapsed Time 1.357014e+01 seconds
+FLOP/s 3.924617e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -534,34 +534,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.358000e+01
-Time for last run: 1.356221e+01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 15032387328000
+Time for last run: 1.357315e+01
+Time for last run: 1.356409e+01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 532576008192000
 Total Bytes 0
-Elapsed Time 1.356221e+01 seconds
-FLOP/s 1.108403e+12
+Elapsed Time 1.356409e+01 seconds
+FLOP/s 3.926367e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -573,34 +573,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.357152e+01
-Time for last run: 1.357183e+01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 15032387328000
+Time for last run: 1.356587e+01
+Time for last run: 1.355792e+01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 532576008192000
 Total Bytes 0
-Elapsed Time 1.357183e+01 seconds
-FLOP/s 1.107617e+12
+Elapsed Time 1.355792e+01 seconds
+FLOP/s 3.928155e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -612,34 +612,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 6.793326e+00
-Time for last run: 6.799656e+00
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 7516194560000
+Time for last run: 6.796147e+00
+Time for last run: 6.790643e+00
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 266288035840000
 Total Bytes 0
-Elapsed Time 6.799656e+00 seconds
-FLOP/s 1.105379e+12
+Elapsed Time 6.790643e+00 seconds
+FLOP/s 3.921396e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -651,34 +651,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 6.790766e+00
-Time for last run: 6.789810e+00
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 7516194560000
+Time for last run: 6.805573e+00
+Time for last run: 6.800064e+00
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 266288035840000
 Total Bytes 0
-Elapsed Time 6.789810e+00 seconds
-FLOP/s 1.106982e+12
+Elapsed Time 6.800064e+00 seconds
+FLOP/s 3.915964e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -690,34 +690,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 6.796102e+00
-Time for last run: 6.783506e+00
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 7516194560000
+Time for last run: 6.794403e+00
+Time for last run: 6.789988e+00
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 266288035840000
 Total Bytes 0
-Elapsed Time 6.783506e+00 seconds
-FLOP/s 1.108010e+12
+Elapsed Time 6.789988e+00 seconds
+FLOP/s 3.921775e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -729,34 +729,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 6.789461e+00
-Time for last run: 6.793088e+00
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 7516194560000
+Time for last run: 6.793415e+00
+Time for last run: 6.789666e+00
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 266288035840000
 Total Bytes 0
-Elapsed Time 6.793088e+00 seconds
-FLOP/s 1.106447e+12
+Elapsed Time 6.789666e+00 seconds
+FLOP/s 3.921961e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -768,34 +768,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 6.785523e+00
-Time for last run: 6.782286e+00
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 7516194560000
+Time for last run: 7.006908e+00
+Time for last run: 6.794399e+00
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 266288035840000
 Total Bytes 0
-Elapsed Time 6.782286e+00 seconds
-FLOP/s 1.108210e+12
+Elapsed Time 6.794399e+00 seconds
+FLOP/s 3.919229e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -807,34 +807,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.405284e+00
-Time for last run: 3.395945e+00
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 3758098176000
+Time for last run: 3.437070e+00
+Time for last run: 3.399470e+00
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 133144049664000
 Total Bytes 0
-Elapsed Time 3.395945e+00 seconds
-FLOP/s 1.106643e+12
+Elapsed Time 3.399470e+00 seconds
+FLOP/s 3.916612e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -846,34 +846,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.400351e+00
-Time for last run: 3.400004e+00
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 3758098176000
+Time for last run: 3.421495e+00
+Time for last run: 3.397488e+00
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 133144049664000
 Total Bytes 0
-Elapsed Time 3.400004e+00 seconds
-FLOP/s 1.105322e+12
+Elapsed Time 3.397488e+00 seconds
+FLOP/s 3.918897e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -885,34 +885,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.400481e+00
-Time for last run: 3.408074e+00
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 3758098176000
+Time for last run: 3.426133e+00
+Time for last run: 3.401687e+00
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 133144049664000
 Total Bytes 0
-Elapsed Time 3.408074e+00 seconds
-FLOP/s 1.102704e+12
+Elapsed Time 3.401687e+00 seconds
+FLOP/s 3.914060e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -924,34 +924,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.400319e+00
-Time for last run: 3.398238e+00
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 3758098176000
+Time for last run: 3.417213e+00
+Time for last run: 3.398785e+00
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 133144049664000
 Total Bytes 0
-Elapsed Time 3.398238e+00 seconds
-FLOP/s 1.105896e+12
+Elapsed Time 3.398785e+00 seconds
+FLOP/s 3.917401e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -963,34 +963,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.411722e+00
-Time for last run: 3.402810e+00
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 3758098176000
+Time for last run: 3.418630e+00
+Time for last run: 3.400067e+00
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 133144049664000
 Total Bytes 0
-Elapsed Time 3.402810e+00 seconds
-FLOP/s 1.104410e+12
+Elapsed Time 3.400067e+00 seconds
+FLOP/s 3.915924e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1002,34 +1002,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.703533e+00
-Time for last run: 1.704593e+00
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 1879049984000
+Time for last run: 1.707277e+00
+Time for last run: 1.711156e+00
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 66572056576000
 Total Bytes 0
-Elapsed Time 1.704593e+00 seconds
-FLOP/s 1.102345e+12
+Elapsed Time 1.711156e+00 seconds
+FLOP/s 3.890473e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1041,34 +1041,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.702101e+00
-Time for last run: 1.710016e+00
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 1879049984000
+Time for last run: 1.715589e+00
+Time for last run: 1.704170e+00
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 66572056576000
 Total Bytes 0
-Elapsed Time 1.710016e+00 seconds
-FLOP/s 1.098849e+12
+Elapsed Time 1.704170e+00 seconds
+FLOP/s 3.906421e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1080,34 +1080,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.706825e+00
-Time for last run: 1.700777e+00
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 1879049984000
+Time for last run: 1.720862e+00
+Time for last run: 1.707481e+00
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 66572056576000
 Total Bytes 0
-Elapsed Time 1.700777e+00 seconds
-FLOP/s 1.104819e+12
+Elapsed Time 1.707481e+00 seconds
+FLOP/s 3.898846e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1119,34 +1119,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.700464e+00
-Time for last run: 1.700923e+00
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 1879049984000
+Time for last run: 1.744963e+00
+Time for last run: 1.703429e+00
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 66572056576000
 Total Bytes 0
-Elapsed Time 1.700923e+00 seconds
-FLOP/s 1.104724e+12
+Elapsed Time 1.703429e+00 seconds
+FLOP/s 3.908120e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1158,34 +1158,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.748518e+00
-Time for last run: 1.703484e+00
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 1879049984000
+Time for last run: 1.760793e+00
+Time for last run: 1.762484e+00
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 66572056576000
 Total Bytes 0
-Elapsed Time 1.703484e+00 seconds
-FLOP/s 1.103063e+12
+Elapsed Time 1.762484e+00 seconds
+FLOP/s 3.777172e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1197,34 +1197,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 8.527470e-01
-Time for last run: 8.533251e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 939525888000
+Time for last run: 8.860269e-01
+Time for last run: 8.856559e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 33286060032000
 Total Bytes 0
-Elapsed Time 8.533251e-01 seconds
-FLOP/s 1.101017e+12
+Elapsed Time 8.856559e-01 seconds
+FLOP/s 3.758351e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1236,34 +1236,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 8.528631e-01
-Time for last run: 8.529370e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 939525888000
+Time for last run: 8.858001e-01
+Time for last run: 8.857300e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 33286060032000
 Total Bytes 0
-Elapsed Time 8.529370e-01 seconds
-FLOP/s 1.101519e+12
+Elapsed Time 8.857300e-01 seconds
+FLOP/s 3.758037e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1275,34 +1275,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 8.555541e-01
-Time for last run: 8.534999e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 939525888000
+Time for last run: 8.853261e-01
+Time for last run: 8.844011e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 33286060032000
 Total Bytes 0
-Elapsed Time 8.534999e-01 seconds
-FLOP/s 1.100792e+12
+Elapsed Time 8.844011e-01 seconds
+FLOP/s 3.763684e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1314,34 +1314,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 8.554559e-01
-Time for last run: 8.633330e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 939525888000
+Time for last run: 8.867419e-01
+Time for last run: 8.839540e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 33286060032000
 Total Bytes 0
-Elapsed Time 8.633330e-01 seconds
-FLOP/s 1.088254e+12
+Elapsed Time 8.839540e-01 seconds
+FLOP/s 3.765587e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1353,34 +1353,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 8.547981e-01
-Time for last run: 8.547931e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 939525888000
+Time for last run: 8.849442e-01
+Time for last run: 8.837600e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 33286060032000
 Total Bytes 0
-Elapsed Time 8.547931e-01 seconds
-FLOP/s 1.099127e+12
+Elapsed Time 8.837600e-01 seconds
+FLOP/s 3.766414e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1392,34 +1392,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 4.294372e-01
-Time for last run: 4.316292e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 469763840000
+Time for last run: 4.481759e-01
+Time for last run: 4.468610e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 16643061760000
 Total Bytes 0
-Elapsed Time 4.316292e-01 seconds
-FLOP/s 1.088351e+12
+Elapsed Time 4.468610e-01 seconds
+FLOP/s 3.724438e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1431,34 +1431,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 4.308031e-01
-Time for last run: 4.304020e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 469763840000
+Time for last run: 4.471569e-01
+Time for last run: 4.446442e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 16643061760000
 Total Bytes 0
-Elapsed Time 4.304020e-01 seconds
-FLOP/s 1.091454e+12
+Elapsed Time 4.446442e-01 seconds
+FLOP/s 3.743006e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1470,34 +1470,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 4.309208e-01
-Time for last run: 4.305859e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 469763840000
+Time for last run: 4.558570e-01
+Time for last run: 4.461770e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 16643061760000
 Total Bytes 0
-Elapsed Time 4.305859e-01 seconds
-FLOP/s 1.090988e+12
+Elapsed Time 4.461770e-01 seconds
+FLOP/s 3.730148e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1509,34 +1509,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 4.308801e-01
-Time for last run: 4.309990e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 469763840000
+Time for last run: 4.474468e-01
+Time for last run: 4.448969e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 16643061760000
 Total Bytes 0
-Elapsed Time 4.309990e-01 seconds
-FLOP/s 1.089942e+12
+Elapsed Time 4.448969e-01 seconds
+FLOP/s 3.740880e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1548,34 +1548,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 4.299459e-01
-Time for last run: 4.304368e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 469763840000
+Time for last run: 4.467680e-01
+Time for last run: 4.453170e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 16643061760000
 Total Bytes 0
-Elapsed Time 4.304368e-01 seconds
-FLOP/s 1.091365e+12
+Elapsed Time 4.453170e-01 seconds
+FLOP/s 3.737351e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1587,34 +1587,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.194040e-01
-Time for last run: 2.175200e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 234882816000
+Time for last run: 2.370870e-01
+Time for last run: 2.330909e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 8321562624000
 Total Bytes 0
-Elapsed Time 2.175200e-01 seconds
-FLOP/s 1.079822e+12
+Elapsed Time 2.330909e-01 seconds
+FLOP/s 3.570094e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1626,34 +1626,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.178769e-01
-Time for last run: 2.182310e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 234882816000
+Time for last run: 2.356031e-01
+Time for last run: 2.336030e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 8321562624000
 Total Bytes 0
-Elapsed Time 2.182310e-01 seconds
-FLOP/s 1.076304e+12
+Elapsed Time 2.336030e-01 seconds
+FLOP/s 3.562267e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1665,34 +1665,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.178960e-01
-Time for last run: 2.194650e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 234882816000
+Time for last run: 3.510559e-01
+Time for last run: 2.926121e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 8321562624000
 Total Bytes 0
-Elapsed Time 2.194650e-01 seconds
-FLOP/s 1.070252e+12
+Elapsed Time 2.926121e-01 seconds
+FLOP/s 2.843889e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1704,34 +1704,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.193532e-01
-Time for last run: 2.175231e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 234882816000
+Time for last run: 2.313900e-01
+Time for last run: 2.305729e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 8321562624000
 Total Bytes 0
-Elapsed Time 2.175231e-01 seconds
-FLOP/s 1.079806e+12
+Elapsed Time 2.305729e-01 seconds
+FLOP/s 3.609080e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1743,34 +1743,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.186449e-01
-Time for last run: 2.195680e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 234882816000
+Time for last run: 2.320211e-01
+Time for last run: 2.388420e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 8321562624000
 Total Bytes 0
-Elapsed Time 2.195680e-01 seconds
-FLOP/s 1.069750e+12
+Elapsed Time 2.388420e-01 seconds
+FLOP/s 3.484129e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1782,34 +1782,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.123600e-01
-Time for last run: 1.126621e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 117442304000
+Time for last run: 1.458452e-01
+Time for last run: 1.525819e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 4160813056000
 Total Bytes 0
-Elapsed Time 1.126621e-01 seconds
-FLOP/s 1.042430e+12
+Elapsed Time 1.525819e-01 seconds
+FLOP/s 2.726937e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1821,34 +1821,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.125550e-01
-Time for last run: 1.127639e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 117442304000
+Time for last run: 1.240611e-01
+Time for last run: 1.259501e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 4160813056000
 Total Bytes 0
-Elapsed Time 1.127639e-01 seconds
-FLOP/s 1.041489e+12
+Elapsed Time 1.259501e-01 seconds
+FLOP/s 3.303541e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1860,34 +1860,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.121559e-01
-Time for last run: 1.122069e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 117442304000
+Time for last run: 1.409619e-01
+Time for last run: 1.394901e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 4160813056000
 Total Bytes 0
-Elapsed Time 1.122069e-01 seconds
-FLOP/s 1.046658e+12
+Elapsed Time 1.394901e-01 seconds
+FLOP/s 2.982873e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1899,34 +1899,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.119621e-01
-Time for last run: 1.120470e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 117442304000
+Time for last run: 1.306388e-01
+Time for last run: 1.271451e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 4160813056000
 Total Bytes 0
-Elapsed Time 1.120470e-01 seconds
-FLOP/s 1.048153e+12
+Elapsed Time 1.271451e-01 seconds
+FLOP/s 3.272493e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1938,34 +1938,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.136880e-01
-Time for last run: 1.122000e-01
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 117442304000
+Time for last run: 1.283288e-01
+Time for last run: 1.249371e-01
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 4160813056000
 Total Bytes 0
-Elapsed Time 1.122000e-01 seconds
-FLOP/s 1.046723e+12
+Elapsed Time 1.249371e-01 seconds
+FLOP/s 3.330327e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -1977,34 +1977,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 5.910087e-02
-Time for last run: 5.955291e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 58722048000
+Time for last run: 6.947899e-02
+Time for last run: 7.321000e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 2080438272000
 Total Bytes 0
-Elapsed Time 5.955291e-02 seconds
-FLOP/s 9.860484e+11
+Elapsed Time 7.321000e-02 seconds
+FLOP/s 2.841741e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2016,34 +2016,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 6.036806e-02
-Time for last run: 6.138802e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 58722048000
+Time for last run: 6.783700e-02
+Time for last run: 6.958294e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 2080438272000
 Total Bytes 0
-Elapsed Time 6.138802e-02 seconds
-FLOP/s 9.565719e+11
+Elapsed Time 6.958294e-02 seconds
+FLOP/s 2.989868e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2055,34 +2055,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 5.969906e-02
-Time for last run: 6.104112e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 58722048000
+Time for last run: 6.849289e-02
+Time for last run: 6.912088e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 2080438272000
 Total Bytes 0
-Elapsed Time 6.104112e-02 seconds
-FLOP/s 9.620081e+11
+Elapsed Time 6.912088e-02 seconds
+FLOP/s 3.009855e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2094,34 +2094,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 5.964899e-02
-Time for last run: 5.959892e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 58722048000
+Time for last run: 7.191110e-02
+Time for last run: 6.898189e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 2080438272000
 Total Bytes 0
-Elapsed Time 5.959892e-02 seconds
-FLOP/s 9.852871e+11
+Elapsed Time 6.898189e-02 seconds
+FLOP/s 3.015920e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2133,34 +2133,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 5.970812e-02
-Time for last run: 5.950308e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 58722048000
+Time for last run: 6.732392e-02
+Time for last run: 7.035899e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 2080438272000
 Total Bytes 0
-Elapsed Time 5.950308e-02 seconds
-FLOP/s 9.868741e+11
+Elapsed Time 7.035899e-02 seconds
+FLOP/s 2.956890e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2172,34 +2172,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.318906e-02
-Time for last run: 3.313422e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 29361920000
+Time for last run: 4.168892e-02
+Time for last run: 4.025388e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 1040250880000
 Total Bytes 0
-Elapsed Time 3.313422e-02 seconds
-FLOP/s 8.861509e+11
+Elapsed Time 4.025388e-02 seconds
+FLOP/s 2.584225e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2211,34 +2211,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.353286e-02
-Time for last run: 3.313494e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 29361920000
+Time for last run: 4.007721e-02
+Time for last run: 4.737186e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 1040250880000
 Total Bytes 0
-Elapsed Time 3.313494e-02 seconds
-FLOP/s 8.861318e+11
+Elapsed Time 4.737186e-02 seconds
+FLOP/s 2.195926e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2250,34 +2250,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.307986e-02
-Time for last run: 3.317904e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 29361920000
+Time for last run: 4.294610e-02
+Time for last run: 4.585505e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 1040250880000
 Total Bytes 0
-Elapsed Time 3.317904e-02 seconds
-FLOP/s 8.849537e+11
+Elapsed Time 4.585505e-02 seconds
+FLOP/s 2.268564e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2289,34 +2289,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.355694e-02
-Time for last run: 3.335190e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 29361920000
+Time for last run: 4.258394e-02
+Time for last run: 3.936601e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 1040250880000
 Total Bytes 0
-Elapsed Time 3.335190e-02 seconds
-FLOP/s 8.803673e+11
+Elapsed Time 3.936601e-02 seconds
+FLOP/s 2.642511e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2328,34 +2328,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 3.318095e-02
-Time for last run: 3.310895e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 29361920000
+Time for last run: 4.287696e-02
+Time for last run: 4.553103e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 1040250880000
 Total Bytes 0
-Elapsed Time 3.310895e-02 seconds
-FLOP/s 8.868273e+11
+Elapsed Time 4.553103e-02 seconds
+FLOP/s 2.284707e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2367,34 +2367,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.038407e-02
-Time for last run: 2.066612e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 14681856000
+Time for last run: 2.699089e-02
+Time for last run: 2.758503e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 520157184000
 Total Bytes 0
-Elapsed Time 2.066612e-02 seconds
-FLOP/s 7.104311e+11
+Elapsed Time 2.758503e-02 seconds
+FLOP/s 1.885650e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2406,34 +2406,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.036595e-02
-Time for last run: 1.991606e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 14681856000
+Time for last run: 3.542614e-02
+Time for last run: 3.196597e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 520157184000
 Total Bytes 0
-Elapsed Time 1.991606e-02 seconds
-FLOP/s 7.371869e+11
+Elapsed Time 3.196597e-02 seconds
+FLOP/s 1.627222e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2445,34 +2445,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.026916e-02
-Time for last run: 2.048087e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 14681856000
+Time for last run: 2.673507e-02
+Time for last run: 3.418016e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 520157184000
 Total Bytes 0
-Elapsed Time 2.048087e-02 seconds
-FLOP/s 7.168570e+11
+Elapsed Time 3.418016e-02 seconds
+FLOP/s 1.521810e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2484,34 +2484,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.037787e-02
-Time for last run: 2.031302e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 14681856000
+Time for last run: 2.945399e-02
+Time for last run: 2.807212e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 520157184000
 Total Bytes 0
-Elapsed Time 2.031302e-02 seconds
-FLOP/s 7.227804e+11
+Elapsed Time 2.807212e-02 seconds
+FLOP/s 1.852932e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2523,34 +2523,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 2.031493e-02
-Time for last run: 2.054095e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 14681856000
+Time for last run: 3.424311e-02
+Time for last run: 3.393102e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 520157184000
 Total Bytes 0
-Elapsed Time 2.054095e-02 seconds
-FLOP/s 7.147602e+11
+Elapsed Time 3.393102e-02 seconds
+FLOP/s 1.532984e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2562,34 +2562,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.367497e-02
-Time for last run: 1.505494e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 7341824000
+Time for last run: 2.651501e-02
+Time for last run: 2.371502e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 260110336000
 Total Bytes 0
-Elapsed Time 1.505494e-02 seconds
-FLOP/s 4.876687e+11
+Elapsed Time 2.371502e-02 seconds
+FLOP/s 1.096817e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2601,34 +2601,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.396704e-02
-Time for last run: 1.370502e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 7341824000
+Time for last run: 2.390599e-02
+Time for last run: 2.105904e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 260110336000
 Total Bytes 0
-Elapsed Time 1.370502e-02 seconds
-FLOP/s 5.357035e+11
+Elapsed Time 2.105904e-02 seconds
+FLOP/s 1.235148e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2640,34 +2640,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.359296e-02
-Time for last run: 1.380205e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 7341824000
+Time for last run: 2.149582e-02
+Time for last run: 2.465510e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 260110336000
 Total Bytes 0
-Elapsed Time 1.380205e-02 seconds
-FLOP/s 5.319372e+11
+Elapsed Time 2.465510e-02 seconds
+FLOP/s 1.054996e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2679,34 +2679,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.386189e-02
-Time for last run: 1.387000e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 7341824000
+Time for last run: 2.604198e-02
+Time for last run: 2.307796e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 260110336000
 Total Bytes 0
-Elapsed Time 1.387000e-02 seconds
-FLOP/s 5.293312e+11
+Elapsed Time 2.307796e-02 seconds
+FLOP/s 1.127094e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2718,34 +2718,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.431108e-02
-Time for last run: 1.457787e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 7341824000
+Time for last run: 3.506899e-02
+Time for last run: 2.484107e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 260110336000
 Total Bytes 0
-Elapsed Time 1.457787e-02 seconds
-FLOP/s 5.036282e+11
+Elapsed Time 2.484107e-02 seconds
+FLOP/s 1.047098e+13
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2757,34 +2757,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.085711e-02
-Time for last run: 1.093698e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 3671808000
+Time for last run: 1.836419e-02
+Time for last run: 2.217197e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 130086912000
 Total Bytes 0
-Elapsed Time 1.093698e-02 seconds
-FLOP/s 3.357243e+11
+Elapsed Time 2.217197e-02 seconds
+FLOP/s 5.867178e+12
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2796,34 +2796,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.097512e-02
-Time for last run: 1.089382e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 3671808000
+Time for last run: 2.142501e-02
+Time for last run: 1.857090e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 130086912000
 Total Bytes 0
-Elapsed Time 1.089382e-02 seconds
-FLOP/s 3.370542e+11
+Elapsed Time 1.857090e-02 seconds
+FLOP/s 7.004879e+12
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2835,34 +2835,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.093817e-02
-Time for last run: 1.100683e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 3671808000
+Time for last run: 1.943207e-02
+Time for last run: 1.923609e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 130086912000
 Total Bytes 0
-Elapsed Time 1.100683e-02 seconds
-FLOP/s 3.335935e+11
+Elapsed Time 1.923609e-02 seconds
+FLOP/s 6.762649e+12
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2874,34 +2874,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.092386e-02
-Time for last run: 1.061702e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 3671808000
+Time for last run: 2.188802e-02
+Time for last run: 2.349091e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 130086912000
 Total Bytes 0
-Elapsed Time 1.061702e-02 seconds
-FLOP/s 3.458418e+11
+Elapsed Time 2.349091e-02 seconds
+FLOP/s 5.537756e+12
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2913,34 +2913,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 1.089096e-02
-Time for last run: 1.082110e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 3671808000
+Time for last run: 2.132893e-02
+Time for last run: 1.829410e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 130086912000
 Total Bytes 0
-Elapsed Time 1.082110e-02 seconds
-FLOP/s 3.393192e+11
+Elapsed Time 1.829410e-02 seconds
+FLOP/s 7.110869e+12
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2952,34 +2952,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 9.618044e-03
-Time for last run: 9.793043e-03
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 1836800000
+Time for last run: 1.700592e-02
+Time for last run: 1.818609e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 65075200000
 Total Bytes 0
-Elapsed Time 9.793043e-03 seconds
-FLOP/s 1.875617e+11
+Elapsed Time 1.818609e-02 seconds
+FLOP/s 3.578295e+12
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -2991,34 +2991,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 9.860992e-03
-Time for last run: 9.892941e-03
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 1836800000
+Time for last run: 2.232003e-02
+Time for last run: 1.648402e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 65075200000
 Total Bytes 0
-Elapsed Time 9.892941e-03 seconds
-FLOP/s 1.856677e+11
+Elapsed Time 1.648402e-02 seconds
+FLOP/s 3.947774e+12
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -3030,34 +3030,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 9.761095e-03
-Time for last run: 9.895086e-03
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 1836800000
+Time for last run: 1.915193e-02
+Time for last run: 2.040100e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 65075200000
 Total Bytes 0
-Elapsed Time 9.895086e-03 seconds
-FLOP/s 1.856275e+11
+Elapsed Time 2.040100e-02 seconds
+FLOP/s 3.189804e+12
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -3069,34 +3069,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 9.754896e-03
-Time for last run: 1.034093e-02
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 1836800000
+Time for last run: 2.804685e-02
+Time for last run: 1.983905e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 65075200000
 Total Bytes 0
-Elapsed Time 1.034093e-02 seconds
-FLOP/s 1.776243e+11
+Elapsed Time 1.983905e-02 seconds
+FLOP/s 3.280157e+12
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -3108,34 +3108,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 9.931087e-03
-Time for last run: 9.939909e-03
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 1836800000
+Time for last run: 2.261305e-02
+Time for last run: 1.758003e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 65075200000
 Total Bytes 0
-Elapsed Time 9.939909e-03 seconds
-FLOP/s 1.847904e+11
+Elapsed Time 1.758003e-02 seconds
+FLOP/s 3.701654e+12
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -3147,34 +3147,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 8.857012e-03
-Time for last run: 9.503126e-03
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 919296000
+Time for last run: 2.132988e-02
+Time for last run: 1.842093e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 32569344000
 Total Bytes 0
-Elapsed Time 9.503126e-03 seconds
-FLOP/s 9.673617e+10
+Elapsed Time 1.842093e-02 seconds
+FLOP/s 1.768061e+12
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -3186,34 +3186,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 9.104967e-03
-Time for last run: 9.374857e-03
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 919296000
+Time for last run: 1.849508e-02
+Time for last run: 1.719689e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 32569344000
 Total Bytes 0
-Elapsed Time 9.374857e-03 seconds
-FLOP/s 9.805974e+10
+Elapsed Time 1.719689e-02 seconds
+FLOP/s 1.893909e+12
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -3225,34 +3225,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 9.428978e-03
-Time for last run: 8.957148e-03
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 919296000
+Time for last run: 1.723909e-02
+Time for last run: 1.830316e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 32569344000
 Total Bytes 0
-Elapsed Time 8.957148e-03 seconds
-FLOP/s 1.026327e+11
+Elapsed Time 1.830316e-02 seconds
+FLOP/s 1.779439e+12
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -3264,34 +3264,34 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 9.613037e-03
-Time for last run: 9.740114e-03
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 919296000
+Time for last run: 1.981306e-02
+Time for last run: 1.703095e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 32569344000
 Total Bytes 0
-Elapsed Time 9.740114e-03 seconds
-FLOP/s 9.438247e+10
+Elapsed Time 1.703095e-02 seconds
+FLOP/s 1.912362e+12
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program
-Charm++> Running on Gemini (GNI) with 4 processes
+Charm++> Running on Gemini (GNI) with 32 processes
 Charm++> static SMSG
-Charm++> SMSG memory: 19.8KB
+Charm++> SMSG memory: 158.0KB
 Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
 Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
 Charm++> only comm thread send/recv messages
 Charm++> Cray TLB page size: 8192K
-Charm++> Running in SMP mode: 4 processes, 7 worker threads (PEs) + 1 comm threads per process, 28 PEs total
+Charm++> Running in SMP mode: 32 processes, 31 worker threads (PEs) + 1 comm threads per process, 992 PEs total
 Charm++> The comm. thread both sends and receives messages
 Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
 CharmLB> Load balancer assumes all CPUs are same.
 Charm++> cpu affinity enabled. 
-Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Charm++> Running on 32 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
 Running Task Benchmark
   Configuration:
     Task Graph 1:
       Time Steps: 1000
-      Max Width: 28
+      Max Width: 992
       Dependence Type: stencil_1d
       Radix: 5
       Period: 0
@@ -3303,13 +3303,13 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-Time for last run: 8.925915e-03
-Time for last run: 9.126902e-03
-Total Tasks 28000
-Total Dependencies 82000
-Total FLOPs 919296000
+Time for last run: 2.028608e-02
+Time for last run: 1.874804e-02
+Total Tasks 992000
+Total Dependencies 2974000
+Total FLOPs 32569344000
 Total Bytes 0
-Elapsed Time 9.126902e-03 seconds
-FLOP/s 1.007238e+11
+Elapsed Time 1.874804e-02 seconds
+FLOP/s 1.737213e+12
 B/s 0.000000e+00
 [Partition 0][Node 0] End of program

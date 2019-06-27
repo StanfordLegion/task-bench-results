@@ -1,0 +1,24 @@
+Charm++> Running on Gemini (GNI) with 32 processes
+Charm++> static SMSG
+Charm++> SMSG memory: 158.0KB
+Charm++> memory pool init block size: 8MB, total memory pool limit 0MB (0 means no limit)
+Charm++> memory pool registered memory limit: 200000MB, send limit: 100000MB
+Charm++> Cray TLB page size: 8192K
+Charm++> Running in non-SMP mode: 32 processes (PEs)
+Converse/Charm++ Commit ID: v6.9.0-0-gc3d50efa1
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 1 hosts (2 sockets x 16 cores x 2 PUs = 64-way SMP)
+Abort: Unknown load balancer: 'GreedyRefineLB'!
+
+Available load balancers:
+
+[0] Stack Traceback:
+  [0:0] _Z14CmiAbortHelperPKcS0_S0_ii+0x56  [0x2013f516]
+  [0:1]   [0x2013f57b]
+  [0:2]   [0x20102fe6]
+  [0:3] _ZN8LBDBInitC1EP8CkArgMsg+0x40  [0x20105390]
+  [0:4] _Z10_initCharmiPPc+0xd35  [0x20099f55]
+  [0:5] ConverseInit+0x4c6  [0x20148ba6]
+  [0:6] charm_main+0x27  [0x20098597]
+  [0:7] __libc_start_main+0xf5  [0x2aaaac8d6725]
+  [0:8] _start+0x29  [0x2008c7a9]

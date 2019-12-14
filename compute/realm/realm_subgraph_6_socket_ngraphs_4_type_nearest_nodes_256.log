@@ -9,72 +9,6 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073873528 bytes, peak = 1073873528
-Total Tasks 7680000
-Total Dependencies 38394000
-Total FLOPs 65970698158080000
-Total Bytes 0
-Elapsed Time 2.153118e+02 seconds
-FLOP/s 3.063961e+14
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
         Iterations: 33554432
         Samples: 16
         Imbalance: 0.000000
@@ -122,13 +56,14 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073969016 bytes, peak = 1073969016
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073870648 bytes, peak = 1073870648
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148421784 bytes, peak = 2148421784
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 32985349324800000
 Total Bytes 0
-Elapsed Time 1.077328e+02 seconds
-FLOP/s 3.061773e+14
+Elapsed Time 1.077894e+02 seconds
+FLOP/s 3.060167e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -188,13 +123,14 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1074628480 bytes, peak = 1074628480
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073858936 bytes, peak = 1073858936
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148424760 bytes, peak = 2148424760
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 32985349324800000
 Total Bytes 0
-Elapsed Time 1.077440e+02 seconds
-FLOP/s 3.061457e+14
+Elapsed Time 1.077589e+02 seconds
+FLOP/s 3.061033e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -254,14 +190,14 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073818008 bytes, peak = 1073818008
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2147515440 bytes, peak = 2147515440
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1074645088 bytes, peak = 1074645088
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148176184 bytes, peak = 2148176184
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 16492674908160000
 Total Bytes 0
-Elapsed Time 5.395242e+01 seconds
-FLOP/s 3.056893e+14
+Elapsed Time 5.400248e+01 seconds
+FLOP/s 3.054059e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -321,13 +257,14 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1074000216 bytes, peak = 1074000216
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1074697344 bytes, peak = 1074697344
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148228024 bytes, peak = 2148228024
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 16492674908160000
 Total Bytes 0
-Elapsed Time 5.396186e+01 seconds
-FLOP/s 3.056358e+14
+Elapsed Time 5.410257e+01 seconds
+FLOP/s 3.048409e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -387,13 +324,14 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073849592 bytes, peak = 1073849592
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073911288 bytes, peak = 1073911288
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2147524528 bytes, peak = 2147524528
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 16492674908160000
 Total Bytes 0
-Elapsed Time 5.395605e+01 seconds
-FLOP/s 3.056687e+14
+Elapsed Time 5.408257e+01 seconds
+FLOP/s 3.049536e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -453,13 +391,14 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073869880 bytes, peak = 1073869880
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073831640 bytes, peak = 1073831640
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148414936 bytes, peak = 2148414936
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 8246337699840000
 Total Bytes 0
-Elapsed Time 2.705619e+01 seconds
-FLOP/s 3.047856e+14
+Elapsed Time 2.716306e+01 seconds
+FLOP/s 3.035865e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -505,7 +444,6 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[270 - 2aac157d2700] {4}{task}: missed work counter wakeup?
     Task Graph 4:
       Time Steps: 250
       Max Width: 7680
@@ -520,15 +458,16 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073892216 bytes, peak = 1073892216
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073821400 bytes, peak = 1073821400
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148389880 bytes, peak = 2148389880
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 3221883120 bytes, peak = 3221883120
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 8246337699840000
 Total Bytes 0
-Elapsed Time 2.706974e+01 seconds
-FLOP/s 3.046330e+14
+Elapsed Time 2.711286e+01 seconds
+FLOP/s 3.041486e+14
 B/s 0.000000e+00
-[169 - 2aaaebeb8700] {4}{task}: missed work counter wakeup?
 Running Task Benchmark
   Configuration:
     Task Graph 1:
@@ -587,13 +526,14 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073856504 bytes, peak = 1073856504
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073838392 bytes, peak = 1073838392
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148404152 bytes, peak = 2148404152
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 8246337699840000
 Total Bytes 0
-Elapsed Time 2.707634e+01 seconds
-FLOP/s 3.045588e+14
+Elapsed Time 2.712285e+01 seconds
+FLOP/s 3.040365e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -653,13 +593,14 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073883448 bytes, peak = 1073883448
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073837368 bytes, peak = 1073837368
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148311608 bytes, peak = 2148311608
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 8246337699840000
 Total Bytes 0
-Elapsed Time 2.706977e+01 seconds
-FLOP/s 3.046328e+14
+Elapsed Time 2.710153e+01 seconds
+FLOP/s 3.042757e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -719,13 +660,14 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073955032 bytes, peak = 1073955032
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1074701856 bytes, peak = 1074701856
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148241784 bytes, peak = 2148241784
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 4123169095680000
 Total Bytes 0
-Elapsed Time 1.363590e+01 seconds
-FLOP/s 3.023760e+14
+Elapsed Time 1.371890e+01 seconds
+FLOP/s 3.005465e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -785,14 +727,15 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073900248 bytes, peak = 1073900248
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2147534320 bytes, peak = 2147534320
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073769048 bytes, peak = 1073769048
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148286200 bytes, peak = 2148286200
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 3221774160 bytes, peak = 3221774160
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 4123169095680000
 Total Bytes 0
-Elapsed Time 1.363822e+01 seconds
-FLOP/s 3.023246e+14
+Elapsed Time 1.376405e+01 seconds
+FLOP/s 2.995607e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -852,13 +795,15 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1074692960 bytes, peak = 1074692960
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1074717408 bytes, peak = 1074717408
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148248280 bytes, peak = 2148248280
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 3221776176 bytes, peak = 3221776176
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 4123169095680000
 Total Bytes 0
-Elapsed Time 1.365788e+01 seconds
-FLOP/s 3.018895e+14
+Elapsed Time 1.369911e+01 seconds
+FLOP/s 3.009809e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -914,548 +859,487 @@ Running Task Benchmark
       Kernel:
         Type: compute_bound
         Iterations: 4194304
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073996568 bytes, peak = 1073996568
-Total Tasks 7680000
-Total Dependencies 38394000
-Total FLOPs 4123169095680000
-Total Bytes 0
-Elapsed Time 1.363399e+01 seconds
-FLOP/s 3.024184e+14
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4194304
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4194304
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4194304
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4194304
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073912088 bytes, peak = 1073912088
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2147580720 bytes, peak = 2147580720
-Total Tasks 7680000
-Total Dependencies 38394000
-Total FLOPs 4123169095680000
-Total Bytes 0
-Elapsed Time 1.360690e+01 seconds
-FLOP/s 3.030205e+14
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073912056 bytes, peak = 1073912056
-Total Tasks 7680000
-Total Dependencies 38394000
-Total FLOPs 2061584793600000
-Total Bytes 0
-Elapsed Time 6.898636e+00 seconds
-FLOP/s 2.988395e+14
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073831416 bytes, peak = 1073831416
-Total Tasks 7680000
-Total Dependencies 38394000
-Total FLOPs 2061584793600000
-Total Bytes 0
-Elapsed Time 6.891002e+00 seconds
-FLOP/s 2.991705e+14
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 7680000
-Total Dependencies 38394000
-Total FLOPs 2061584793600000
-Total Bytes 0
-Elapsed Time 6.885237e+00 seconds
-FLOP/s 2.994210e+14
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073855160 bytes, peak = 1073855160
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2147585168 bytes, peak = 2147585168
-Total Tasks 7680000
-Total Dependencies 38394000
-Total FLOPs 2061584793600000
-Total Bytes 0
-Elapsed Time 6.894264e+00 seconds
-FLOP/s 2.990290e+14
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2097152
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073885336 bytes, peak = 1073885336
-Total Tasks 7680000
-Total Dependencies 38394000
-Total FLOPs 2061584793600000
-Total Bytes 0
-Elapsed Time 6.879210e+00 seconds
-FLOP/s 2.996834e+14
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1048576
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1048576
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1048576
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1048576
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073837656 bytes, peak = 1073837656
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2147513456 bytes, peak = 2147513456
-Total Tasks 7680000
-Total Dependencies 38394000
-Total FLOPs 1030792642560000
-Total Bytes 0
-Elapsed Time 3.544897e+00 seconds
-FLOP/s 2.907821e+14
-B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1048576
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1048576
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1048576
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 7680
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1048576
         Samples: 16
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 [0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073811032 bytes, peak = 1073811032
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148445560 bytes, peak = 2148445560
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148457432 bytes, peak = 2148457432
+Total Tasks 7680000
+Total Dependencies 38394000
+Total FLOPs 4123169095680000
+Total Bytes 0
+Elapsed Time 1.377822e+01 seconds
+FLOP/s 2.992526e+14
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073816600 bytes, peak = 1073816600
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148412472 bytes, peak = 2148412472
+Total Tasks 7680000
+Total Dependencies 38394000
+Total FLOPs 4123169095680000
+Total Bytes 0
+Elapsed Time 1.370802e+01 seconds
+FLOP/s 3.007852e+14
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1074719520 bytes, peak = 1074719520
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148319640 bytes, peak = 2148319640
+Total Tasks 7680000
+Total Dependencies 38394000
+Total FLOPs 2061584793600000
+Total Bytes 0
+Elapsed Time 6.964720e+00 seconds
+FLOP/s 2.960040e+14
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073804888 bytes, peak = 1073804888
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148365176 bytes, peak = 2148365176
+Total Tasks 7680000
+Total Dependencies 38394000
+Total FLOPs 2061584793600000
+Total Bytes 0
+Elapsed Time 6.960039e+00 seconds
+FLOP/s 2.962030e+14
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073870808 bytes, peak = 1073870808
+Total Tasks 7680000
+Total Dependencies 38394000
+Total FLOPs 2061584793600000
+Total Bytes 0
+Elapsed Time 6.953479e+00 seconds
+FLOP/s 2.964825e+14
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1074695456 bytes, peak = 1074695456
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148305624 bytes, peak = 2148305624
+Total Tasks 7680000
+Total Dependencies 38394000
+Total FLOPs 2061584793600000
+Total Bytes 0
+Elapsed Time 6.969562e+00 seconds
+FLOP/s 2.957983e+14
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073791032 bytes, peak = 1073791032
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148320664 bytes, peak = 2148320664
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 3221783472 bytes, peak = 3221783472
+Total Tasks 7680000
+Total Dependencies 38394000
+Total FLOPs 2061584793600000
+Total Bytes 0
+Elapsed Time 7.013739e+00 seconds
+FLOP/s 2.939352e+14
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073853400 bytes, peak = 1073853400
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148387704 bytes, peak = 2148387704
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 1030792642560000
 Total Bytes 0
-Elapsed Time 3.553218e+00 seconds
-FLOP/s 2.901012e+14
+Elapsed Time 3.565017e+00 seconds
+FLOP/s 2.891410e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1515,13 +1399,15 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073886808 bytes, peak = 1073886808
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1074622592 bytes, peak = 1074622592
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148069752 bytes, peak = 2148069752
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 3221615728 bytes, peak = 3221615728
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 1030792642560000
 Total Bytes 0
-Elapsed Time 3.561693e+00 seconds
-FLOP/s 2.894108e+14
+Elapsed Time 3.629182e+00 seconds
+FLOP/s 2.840289e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1581,13 +1467,14 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073863352 bytes, peak = 1073863352
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073843256 bytes, peak = 1073843256
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148461016 bytes, peak = 2148461016
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 1030792642560000
 Total Bytes 0
-Elapsed Time 3.548872e+00 seconds
-FLOP/s 2.904564e+14
+Elapsed Time 3.691475e+00 seconds
+FLOP/s 2.792360e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1647,13 +1534,13 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073788696 bytes, peak = 1073788696
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073916920 bytes, peak = 1073916920
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 1030792642560000
 Total Bytes 0
-Elapsed Time 3.548427e+00 seconds
-FLOP/s 2.904929e+14
+Elapsed Time 3.659743e+00 seconds
+FLOP/s 2.816571e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1713,13 +1600,14 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073875960 bytes, peak = 1073875960
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073846264 bytes, peak = 1073846264
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2147490896 bytes, peak = 2147490896
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 515396567040000
 Total Bytes 0
-Elapsed Time 1.851531e+00 seconds
-FLOP/s 2.783624e+14
+Elapsed Time 1.909440e+00 seconds
+FLOP/s 2.699202e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1779,12 +1667,14 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073912280 bytes, peak = 1073912280
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2147628112 bytes, peak = 2147628112
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 515396567040000
 Total Bytes 0
-Elapsed Time 1.840281e+00 seconds
-FLOP/s 2.800640e+14
+Elapsed Time 1.872463e+00 seconds
+FLOP/s 2.752506e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1844,13 +1734,14 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073946520 bytes, peak = 1073946520
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073840088 bytes, peak = 1073840088
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148455256 bytes, peak = 2148455256
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 515396567040000
 Total Bytes 0
-Elapsed Time 1.840512e+00 seconds
-FLOP/s 2.800288e+14
+Elapsed Time 1.875915e+00 seconds
+FLOP/s 2.747441e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1910,12 +1801,13 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073905848 bytes, peak = 1073905848
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 515396567040000
 Total Bytes 0
-Elapsed Time 1.865891e+00 seconds
-FLOP/s 2.762201e+14
+Elapsed Time 1.850002e+00 seconds
+FLOP/s 2.785924e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1975,13 +1867,14 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073895000 bytes, peak = 1073895000
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073767320 bytes, peak = 1073767320
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148362936 bytes, peak = 2148362936
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 515396567040000
 Total Bytes 0
-Elapsed Time 1.853152e+00 seconds
-FLOP/s 2.781189e+14
+Elapsed Time 1.869271e+00 seconds
+FLOP/s 2.757207e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -2041,13 +1934,14 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073828984 bytes, peak = 1073828984
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073820376 bytes, peak = 1073820376
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148403096 bytes, peak = 2148403096
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 257698529280000
 Total Bytes 0
-Elapsed Time 1.015322e+00 seconds
-FLOP/s 2.538098e+14
+Elapsed Time 1.015926e+00 seconds
+FLOP/s 2.536587e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -2107,13 +2001,14 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073981336 bytes, peak = 1073981336
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073832824 bytes, peak = 1073832824
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2147506544 bytes, peak = 2147506544
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 257698529280000
 Total Bytes 0
-Elapsed Time 1.018445e+00 seconds
-FLOP/s 2.530313e+14
+Elapsed Time 1.038259e+00 seconds
+FLOP/s 2.482025e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -2173,12 +2068,14 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1074705248 bytes, peak = 1074705248
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148257208 bytes, peak = 2148257208
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 257698529280000
 Total Bytes 0
-Elapsed Time 1.005647e+00 seconds
-FLOP/s 2.562516e+14
+Elapsed Time 9.920025e-01 seconds
+FLOP/s 2.597761e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -2238,13 +2135,14 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073948696 bytes, peak = 1073948696
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073862712 bytes, peak = 1073862712
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2147558256 bytes, peak = 2147558256
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 257698529280000
 Total Bytes 0
-Elapsed Time 1.018897e+00 seconds
-FLOP/s 2.529191e+14
+Elapsed Time 1.033392e+00 seconds
+FLOP/s 2.493714e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -2304,13 +2202,14 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1074009912 bytes, peak = 1074009912
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073840056 bytes, peak = 1073840056
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2147570576 bytes, peak = 2147570576
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 257698529280000
 Total Bytes 0
-Elapsed Time 1.018895e+00 seconds
-FLOP/s 2.529196e+14
+Elapsed Time 1.064897e+00 seconds
+FLOP/s 2.419939e+14
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -2370,11 +2269,684 @@ Running Task Benchmark
         Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
-[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073902424 bytes, peak = 1073902424
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073963448 bytes, peak = 1073963448
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2147550416 bytes, peak = 2147550416
 Total Tasks 7680000
 Total Dependencies 38394000
 Total FLOPs 128849510400000
 Total Bytes 0
-Elapsed Time 6.218613e-01 seconds
-FLOP/s 2.071998e+14
+Elapsed Time 6.011322e-01 seconds
+FLOP/s 2.143447e+14
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073831448 bytes, peak = 1073831448
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148358456 bytes, peak = 2148358456
+Total Tasks 7680000
+Total Dependencies 38394000
+Total FLOPs 128849510400000
+Total Bytes 0
+Elapsed Time 6.039420e-01 seconds
+FLOP/s 2.133475e+14
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073802392 bytes, peak = 1073802392
+Total Tasks 7680000
+Total Dependencies 38394000
+Total FLOPs 128849510400000
+Total Bytes 0
+Elapsed Time 6.110264e-01 seconds
+FLOP/s 2.108739e+14
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073815160 bytes, peak = 1073815160
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148353624 bytes, peak = 2148353624
+Total Tasks 7680000
+Total Dependencies 38394000
+Total FLOPs 128849510400000
+Total Bytes 0
+Elapsed Time 6.084709e-01 seconds
+FLOP/s 2.117595e+14
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073845528 bytes, peak = 1073845528
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148429048 bytes, peak = 2148429048
+Total Tasks 7680000
+Total Dependencies 38394000
+Total FLOPs 128849510400000
+Total Bytes 0
+Elapsed Time 5.646157e-01 seconds
+FLOP/s 2.282075e+14
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073814968 bytes, peak = 1073814968
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148418904 bytes, peak = 2148418904
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 3221914640 bytes, peak = 3221914640
+Total Tasks 7680000
+Total Dependencies 38394000
+Total FLOPs 64425000960000
+Total Bytes 0
+Elapsed Time 4.261719e-01 seconds
+FLOP/s 1.511714e+14
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073832184 bytes, peak = 1073832184
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148441112 bytes, peak = 2148441112
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 3221927824 bytes, peak = 3221927824
+Total Tasks 7680000
+Total Dependencies 38394000
+Total FLOPs 64425000960000
+Total Bytes 0
+Elapsed Time 4.162550e-01 seconds
+FLOP/s 1.547729e+14
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073886520 bytes, peak = 1073886520
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2147491920 bytes, peak = 2147491920
+Total Tasks 7680000
+Total Dependencies 38394000
+Total FLOPs 64425000960000
+Total Bytes 0
+Elapsed Time 3.859195e-01 seconds
+FLOP/s 1.669390e+14
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+[106 - 2aac16099700] {4}{task}: missed work counter wakeup?
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073872984 bytes, peak = 1073872984
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2147497264 bytes, peak = 2147497264
+Total Tasks 7680000
+Total Dependencies 38394000
+Total FLOPs 64425000960000
+Total Bytes 0
+Elapsed Time 3.807567e-01 seconds
+FLOP/s 1.692025e+14
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073802328 bytes, peak = 1073802328
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2148272632 bytes, peak = 2148272632
+Total Tasks 7680000
+Total Dependencies 38394000
+Total FLOPs 64425000960000
+Total Bytes 0
+Elapsed Time 4.659267e-01 seconds
+FLOP/s 1.382728e+14
+B/s 0.000000e+00
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 2:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 3:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+    Task Graph 4:
+      Time Steps: 250
+      Max Width: 7680
+      Dependence Type: nearest
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: compute_bound
+        Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 0
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 1073842552 bytes, peak = 1073842552
+[0 - 2aaaaad41700] {4}{spill}: current spill usage = 2147522672 bytes, peak = 2147522672
+Total Tasks 7680000
+Total Dependencies 38394000
+Total FLOPs 32212746240000
+Total Bytes 0
+Elapsed Time 2.985432e-01 seconds
+FLOP/s 1.078998e+14
 B/s 0.000000e+00

@@ -4,9 +4,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -16,11 +16,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 1099511629824000
 Total Bytes 0
-Elapsed Time 9.883240e+02 seconds
-FLOP/s 1.112501e+12
+Elapsed Time 1.077513e+03 seconds
+FLOP/s 1.020417e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -29,9 +29,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -41,11 +41,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 549755815936000
 Total Bytes 0
-Elapsed Time 5.406382e+02 seconds
-FLOP/s 1.016864e+12
+Elapsed Time 5.900661e+02 seconds
+FLOP/s 9.316852e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -54,9 +54,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -66,11 +66,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 549755815936000
 Total Bytes 0
-Elapsed Time 5.415831e+02 seconds
-FLOP/s 1.015090e+12
+Elapsed Time 5.920383e+02 seconds
+FLOP/s 9.285815e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -79,9 +79,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -91,11 +91,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 274877908992000
 Total Bytes 0
-Elapsed Time 3.114983e+02 seconds
-FLOP/s 8.824380e+11
+Elapsed Time 3.435612e+02 seconds
+FLOP/s 8.000844e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -104,9 +104,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -116,11 +116,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 274877908992000
 Total Bytes 0
-Elapsed Time 3.139122e+02 seconds
-FLOP/s 8.756522e+11
+Elapsed Time 3.466793e+02 seconds
+FLOP/s 7.928882e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -129,9 +129,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -141,11 +141,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 274877908992000
 Total Bytes 0
-Elapsed Time 3.145915e+02 seconds
-FLOP/s 8.737615e+11
+Elapsed Time 3.440497e+02 seconds
+FLOP/s 7.989483e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -154,9 +154,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -166,11 +166,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 137438955520000
 Total Bytes 0
-Elapsed Time 1.930914e+02 seconds
-FLOP/s 7.117818e+11
+Elapsed Time 2.174864e+02 seconds
+FLOP/s 6.319427e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -179,9 +179,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -191,11 +191,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 137438955520000
 Total Bytes 0
-Elapsed Time 1.969881e+02 seconds
-FLOP/s 6.977017e+11
+Elapsed Time 2.184411e+02 seconds
+FLOP/s 6.291809e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -204,9 +204,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -216,11 +216,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 137438955520000
 Total Bytes 0
-Elapsed Time 1.947818e+02 seconds
-FLOP/s 7.056047e+11
+Elapsed Time 2.211416e+02 seconds
+FLOP/s 6.214976e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -229,9 +229,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -241,11 +241,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 137438955520000
 Total Bytes 0
-Elapsed Time 1.987197e+02 seconds
-FLOP/s 6.916220e+11
+Elapsed Time 2.198202e+02 seconds
+FLOP/s 6.252335e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -254,9 +254,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -266,11 +266,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 68719478784000
 Total Bytes 0
-Elapsed Time 1.348793e+02 seconds
-FLOP/s 5.094885e+11
+Elapsed Time 1.498662e+02 seconds
+FLOP/s 4.585387e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -279,9 +279,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -291,11 +291,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 68719478784000
 Total Bytes 0
-Elapsed Time 1.359510e+02 seconds
-FLOP/s 5.054723e+11
+Elapsed Time 1.510774e+02 seconds
+FLOP/s 4.548626e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -304,9 +304,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -316,11 +316,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 68719478784000
 Total Bytes 0
-Elapsed Time 1.348939e+02 seconds
-FLOP/s 5.094335e+11
+Elapsed Time 1.511756e+02 seconds
+FLOP/s 4.545672e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -329,9 +329,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -341,11 +341,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 68719478784000
 Total Bytes 0
-Elapsed Time 1.339128e+02 seconds
-FLOP/s 5.131660e+11
+Elapsed Time 1.468331e+02 seconds
+FLOP/s 4.680108e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -354,9 +354,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -366,11 +366,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 68719478784000
 Total Bytes 0
-Elapsed Time 1.308315e+02 seconds
-FLOP/s 5.252516e+11
+Elapsed Time 1.480862e+02 seconds
+FLOP/s 4.640506e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -379,9 +379,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -391,11 +391,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 34359740416000
 Total Bytes 0
-Elapsed Time 1.040785e+02 seconds
-FLOP/s 3.301329e+11
+Elapsed Time 1.148821e+02 seconds
+FLOP/s 2.990870e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -404,9 +404,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -416,11 +416,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 34359740416000
 Total Bytes 0
-Elapsed Time 1.041944e+02 seconds
-FLOP/s 3.297658e+11
+Elapsed Time 1.135110e+02 seconds
+FLOP/s 3.026997e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -429,9 +429,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -441,11 +441,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 34359740416000
 Total Bytes 0
-Elapsed Time 1.018250e+02 seconds
-FLOP/s 3.374391e+11
+Elapsed Time 1.156036e+02 seconds
+FLOP/s 2.972203e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -454,9 +454,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -466,11 +466,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 34359740416000
 Total Bytes 0
-Elapsed Time 1.059584e+02 seconds
-FLOP/s 3.242757e+11
+Elapsed Time 1.120517e+02 seconds
+FLOP/s 3.066419e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -479,9 +479,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -491,11 +491,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 34359740416000
 Total Bytes 0
-Elapsed Time 1.052887e+02 seconds
-FLOP/s 3.263384e+11
+Elapsed Time 1.142839e+02 seconds
+FLOP/s 3.006524e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -504,9 +504,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -516,11 +516,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 17179871232000
 Total Bytes 0
-Elapsed Time 8.473480e+01 seconds
-FLOP/s 2.027487e+11
+Elapsed Time 9.308752e+01 seconds
+FLOP/s 1.845561e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -529,9 +529,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -541,11 +541,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 17179871232000
 Total Bytes 0
-Elapsed Time 8.590967e+01 seconds
-FLOP/s 1.999760e+11
+Elapsed Time 9.296830e+01 seconds
+FLOP/s 1.847928e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -554,9 +554,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -566,11 +566,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 17179871232000
 Total Bytes 0
-Elapsed Time 8.527981e+01 seconds
-FLOP/s 2.014530e+11
+Elapsed Time 9.368219e+01 seconds
+FLOP/s 1.833846e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -579,9 +579,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -591,11 +591,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 17179871232000
 Total Bytes 0
-Elapsed Time 8.857459e+01 seconds
-FLOP/s 1.939594e+11
+Elapsed Time 9.603328e+01 seconds
+FLOP/s 1.788950e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -604,9 +604,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -616,11 +616,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 17179871232000
 Total Bytes 0
-Elapsed Time 8.720264e+01 seconds
-FLOP/s 1.970109e+11
+Elapsed Time 9.577592e+01 seconds
+FLOP/s 1.793757e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -629,9 +629,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -641,11 +641,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 8589936640000
 Total Bytes 0
-Elapsed Time 7.734159e+01 seconds
-FLOP/s 1.110649e+11
+Elapsed Time 8.487590e+01 seconds
+FLOP/s 1.012058e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -654,9 +654,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -666,11 +666,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 8589936640000
 Total Bytes 0
-Elapsed Time 7.722790e+01 seconds
-FLOP/s 1.112284e+11
+Elapsed Time 8.482864e+01 seconds
+FLOP/s 1.012622e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -679,9 +679,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -691,11 +691,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 8589936640000
 Total Bytes 0
-Elapsed Time 8.065672e+01 seconds
-FLOP/s 1.064999e+11
+Elapsed Time 8.612524e+01 seconds
+FLOP/s 9.973774e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -704,9 +704,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -716,11 +716,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 8589936640000
 Total Bytes 0
-Elapsed Time 8.006373e+01 seconds
-FLOP/s 1.072887e+11
+Elapsed Time 8.541566e+01 seconds
+FLOP/s 1.005663e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -729,9 +729,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -741,11 +741,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 8589936640000
 Total Bytes 0
-Elapsed Time 7.798029e+01 seconds
-FLOP/s 1.101552e+11
+Elapsed Time 8.533546e+01 seconds
+FLOP/s 1.006608e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -754,9 +754,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -766,11 +766,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 4294969344000
 Total Bytes 0
-Elapsed Time 7.430380e+01 seconds
-FLOP/s 5.780282e+10
+Elapsed Time 7.956234e+01 seconds
+FLOP/s 5.398244e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -779,9 +779,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -791,11 +791,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 4294969344000
 Total Bytes 0
-Elapsed Time 7.191404e+01 seconds
-FLOP/s 5.972365e+10
+Elapsed Time 7.963083e+01 seconds
+FLOP/s 5.393601e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -804,9 +804,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -816,11 +816,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 4294969344000
 Total Bytes 0
-Elapsed Time 7.480427e+01 seconds
-FLOP/s 5.741610e+10
+Elapsed Time 7.930779e+01 seconds
+FLOP/s 5.415570e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -829,9 +829,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -841,11 +841,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 4294969344000
 Total Bytes 0
-Elapsed Time 7.219309e+01 seconds
-FLOP/s 5.949280e+10
+Elapsed Time 7.624036e+01 seconds
+FLOP/s 5.633459e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -854,9 +854,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -866,11 +866,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 4294969344000
 Total Bytes 0
-Elapsed Time 7.213623e+01 seconds
-FLOP/s 5.953970e+10
+Elapsed Time 7.916554e+01 seconds
+FLOP/s 5.425301e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -879,9 +879,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -891,11 +891,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 2147485696000
 Total Bytes 0
-Elapsed Time 7.093142e+01 seconds
-FLOP/s 3.027552e+10
+Elapsed Time 7.649496e+01 seconds
+FLOP/s 2.807356e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -904,9 +904,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -916,11 +916,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 2147485696000
 Total Bytes 0
-Elapsed Time 6.892882e+01 seconds
-FLOP/s 3.115512e+10
+Elapsed Time 7.637066e+01 seconds
+FLOP/s 2.811925e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -929,9 +929,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -941,11 +941,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 2147485696000
 Total Bytes 0
-Elapsed Time 7.218699e+01 seconds
-FLOP/s 2.974893e+10
+Elapsed Time 7.344829e+01 seconds
+FLOP/s 2.923806e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -954,9 +954,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -966,11 +966,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 2147485696000
 Total Bytes 0
-Elapsed Time 7.286619e+01 seconds
-FLOP/s 2.947163e+10
+Elapsed Time 7.615479e+01 seconds
+FLOP/s 2.819896e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -979,9 +979,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -991,11 +991,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 2147485696000
 Total Bytes 0
-Elapsed Time 7.294108e+01 seconds
-FLOP/s 2.944137e+10
+Elapsed Time 7.331859e+01 seconds
+FLOP/s 2.928979e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1004,9 +1004,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1016,11 +1016,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 1073743872000
 Total Bytes 0
-Elapsed Time 7.011509e+01 seconds
-FLOP/s 1.531402e+10
+Elapsed Time 7.147986e+01 seconds
+FLOP/s 1.502163e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1029,9 +1029,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1041,11 +1041,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 1073743872000
 Total Bytes 0
-Elapsed Time 7.077950e+01 seconds
-FLOP/s 1.517027e+10
+Elapsed Time 7.357223e+01 seconds
+FLOP/s 1.459442e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1054,9 +1054,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1066,11 +1066,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 1073743872000
 Total Bytes 0
-Elapsed Time 7.093424e+01 seconds
-FLOP/s 1.513717e+10
+Elapsed Time 7.525148e+01 seconds
+FLOP/s 1.426874e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1079,9 +1079,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1091,11 +1091,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 1073743872000
 Total Bytes 0
-Elapsed Time 6.840124e+01 seconds
-FLOP/s 1.569773e+10
+Elapsed Time 7.143757e+01 seconds
+FLOP/s 1.503052e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1104,9 +1104,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1116,11 +1116,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 1073743872000
 Total Bytes 0
-Elapsed Time 6.747134e+01 seconds
-FLOP/s 1.591407e+10
+Elapsed Time 7.144409e+01 seconds
+FLOP/s 1.502915e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1129,9 +1129,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1141,11 +1141,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 536872960000
 Total Bytes 0
-Elapsed Time 6.690274e+01 seconds
-FLOP/s 8.024678e+09
+Elapsed Time 7.371627e+01 seconds
+FLOP/s 7.282964e+09
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1154,9 +1154,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1166,11 +1166,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 536872960000
 Total Bytes 0
-Elapsed Time 6.748296e+01 seconds
-FLOP/s 7.955682e+09
+Elapsed Time 7.320787e+01 seconds
+FLOP/s 7.333542e+09
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1179,9 +1179,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1191,11 +1191,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 536872960000
 Total Bytes 0
-Elapsed Time 6.938131e+01 seconds
-FLOP/s 7.738006e+09
+Elapsed Time 7.318020e+01 seconds
+FLOP/s 7.336315e+09
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1204,9 +1204,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1216,11 +1216,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 536872960000
 Total Bytes 0
-Elapsed Time 6.667564e+01 seconds
-FLOP/s 8.052010e+09
+Elapsed Time 7.296280e+01 seconds
+FLOP/s 7.358174e+09
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1229,9 +1229,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1241,11 +1241,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 536872960000
 Total Bytes 0
-Elapsed Time 6.665735e+01 seconds
-FLOP/s 8.054220e+09
+Elapsed Time 7.186686e+01 seconds
+FLOP/s 7.470383e+09
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1254,9 +1254,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1266,11 +1266,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 268437504000
 Total Bytes 0
-Elapsed Time 6.633399e+01 seconds
-FLOP/s 4.046757e+09
+Elapsed Time 7.298484e+01 seconds
+FLOP/s 3.677990e+09
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1279,9 +1279,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1291,11 +1291,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 268437504000
 Total Bytes 0
-Elapsed Time 6.667097e+01 seconds
-FLOP/s 4.026303e+09
+Elapsed Time 7.028982e+01 seconds
+FLOP/s 3.819010e+09
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1304,9 +1304,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1316,11 +1316,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 268437504000
 Total Bytes 0
-Elapsed Time 6.894679e+01 seconds
-FLOP/s 3.893401e+09
+Elapsed Time 7.291995e+01 seconds
+FLOP/s 3.681263e+09
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1329,9 +1329,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1341,11 +1341,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 268437504000
 Total Bytes 0
-Elapsed Time 6.637423e+01 seconds
-FLOP/s 4.044303e+09
+Elapsed Time 7.064125e+01 seconds
+FLOP/s 3.800011e+09
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1354,9 +1354,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1366,11 +1366,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 268437504000
 Total Bytes 0
-Elapsed Time 6.986273e+01 seconds
-FLOP/s 3.842357e+09
+Elapsed Time 7.266563e+01 seconds
+FLOP/s 3.694147e+09
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1379,9 +1379,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1391,11 +1391,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 134219776000
 Total Bytes 0
-Elapsed Time 6.712295e+01 seconds
-FLOP/s 1.999611e+09
+Elapsed Time 7.001691e+01 seconds
+FLOP/s 1.916962e+09
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1404,9 +1404,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1416,11 +1416,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 134219776000
 Total Bytes 0
-Elapsed Time 6.802428e+01 seconds
-FLOP/s 1.973116e+09
+Elapsed Time 7.026728e+01 seconds
+FLOP/s 1.910132e+09
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1429,9 +1429,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1441,11 +1441,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 134219776000
 Total Bytes 0
-Elapsed Time 6.895708e+01 seconds
-FLOP/s 1.946425e+09
+Elapsed Time 7.279554e+01 seconds
+FLOP/s 1.843791e+09
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1454,9 +1454,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1466,11 +1466,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 134219776000
 Total Bytes 0
-Elapsed Time 6.589848e+01 seconds
-FLOP/s 2.036766e+09
+Elapsed Time 7.315494e+01 seconds
+FLOP/s 1.834733e+09
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1479,9 +1479,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1491,11 +1491,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 134219776000
 Total Bytes 0
-Elapsed Time 6.690636e+01 seconds
-FLOP/s 2.006084e+09
+Elapsed Time 7.280204e+01 seconds
+FLOP/s 1.843627e+09
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1504,9 +1504,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1516,11 +1516,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 67110912000
 Total Bytes 0
-Elapsed Time 7.004764e+01 seconds
-FLOP/s 9.580753e+08
+Elapsed Time 7.265476e+01 seconds
+FLOP/s 9.236960e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1529,9 +1529,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1541,11 +1541,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 67110912000
 Total Bytes 0
-Elapsed Time 7.011908e+01 seconds
-FLOP/s 9.570992e+08
+Elapsed Time 7.231937e+01 seconds
+FLOP/s 9.279798e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1554,9 +1554,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1566,11 +1566,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 67110912000
 Total Bytes 0
-Elapsed Time 6.624270e+01 seconds
-FLOP/s 1.013106e+09
+Elapsed Time 7.599659e+01 seconds
+FLOP/s 8.830779e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1579,9 +1579,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1591,11 +1591,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 67110912000
 Total Bytes 0
-Elapsed Time 6.612262e+01 seconds
-FLOP/s 1.014946e+09
+Elapsed Time 7.295522e+01 seconds
+FLOP/s 9.198918e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1604,9 +1604,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1616,11 +1616,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 67110912000
 Total Bytes 0
-Elapsed Time 6.967588e+01 seconds
-FLOP/s 9.631872e+08
+Elapsed Time 7.318016e+01 seconds
+FLOP/s 9.170644e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1629,9 +1629,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1641,11 +1641,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 33556480000
 Total Bytes 0
-Elapsed Time 6.978009e+01 seconds
-FLOP/s 4.808890e+08
+Elapsed Time 6.999912e+01 seconds
+FLOP/s 4.793843e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1654,9 +1654,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1666,11 +1666,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 33556480000
 Total Bytes 0
-Elapsed Time 6.595594e+01 seconds
-FLOP/s 5.087711e+08
+Elapsed Time 7.052453e+01 seconds
+FLOP/s 4.758129e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1679,9 +1679,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1691,11 +1691,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 33556480000
 Total Bytes 0
-Elapsed Time 6.629147e+01 seconds
-FLOP/s 5.061960e+08
+Elapsed Time 7.292797e+01 seconds
+FLOP/s 4.601318e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1704,9 +1704,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1716,11 +1716,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 33556480000
 Total Bytes 0
-Elapsed Time 6.776425e+01 seconds
-FLOP/s 4.951944e+08
+Elapsed Time 7.090034e+01 seconds
+FLOP/s 4.732908e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1729,9 +1729,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1741,11 +1741,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 33556480000
 Total Bytes 0
-Elapsed Time 6.919261e+01 seconds
-FLOP/s 4.849720e+08
+Elapsed Time 7.234343e+01 seconds
+FLOP/s 4.638497e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1754,9 +1754,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1766,11 +1766,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 16779264000
 Total Bytes 0
-Elapsed Time 6.621510e+01 seconds
-FLOP/s 2.534054e+08
+Elapsed Time 7.416149e+01 seconds
+FLOP/s 2.262531e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1779,9 +1779,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1791,11 +1791,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 16779264000
 Total Bytes 0
-Elapsed Time 6.678674e+01 seconds
-FLOP/s 2.512365e+08
+Elapsed Time 7.038791e+01 seconds
+FLOP/s 2.383828e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1804,9 +1804,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1816,11 +1816,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 16779264000
 Total Bytes 0
-Elapsed Time 6.655245e+01 seconds
-FLOP/s 2.521209e+08
+Elapsed Time 7.279749e+01 seconds
+FLOP/s 2.304924e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1829,9 +1829,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1841,11 +1841,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 16779264000
 Total Bytes 0
-Elapsed Time 6.593457e+01 seconds
-FLOP/s 2.544836e+08
+Elapsed Time 6.968808e+01 seconds
+FLOP/s 2.407767e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1854,9 +1854,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1866,11 +1866,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 16779264000
 Total Bytes 0
-Elapsed Time 6.979054e+01 seconds
-FLOP/s 2.404232e+08
+Elapsed Time 7.244611e+01 seconds
+FLOP/s 2.316103e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1879,9 +1879,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1891,11 +1891,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 8390656000
 Total Bytes 0
-Elapsed Time 6.994191e+01 seconds
-FLOP/s 1.199661e+08
+Elapsed Time 7.278700e+01 seconds
+FLOP/s 1.152768e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1904,9 +1904,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1916,11 +1916,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 8390656000
 Total Bytes 0
-Elapsed Time 6.982942e+01 seconds
-FLOP/s 1.201593e+08
+Elapsed Time 7.000089e+01 seconds
+FLOP/s 1.198650e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1929,9 +1929,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1941,11 +1941,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 8390656000
 Total Bytes 0
-Elapsed Time 6.650730e+01 seconds
-FLOP/s 1.261614e+08
+Elapsed Time 7.382993e+01 seconds
+FLOP/s 1.136484e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1954,9 +1954,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1966,11 +1966,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 8390656000
 Total Bytes 0
-Elapsed Time 6.649941e+01 seconds
-FLOP/s 1.261764e+08
+Elapsed Time 7.309941e+01 seconds
+FLOP/s 1.147842e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1979,9 +1979,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -1991,11 +1991,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 8390656000
 Total Bytes 0
-Elapsed Time 6.923415e+01 seconds
-FLOP/s 1.211924e+08
+Elapsed Time 7.317033e+01 seconds
+FLOP/s 1.146729e+08
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2004,9 +2004,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -2016,11 +2016,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 4196352000
 Total Bytes 0
-Elapsed Time 6.812659e+01 seconds
-FLOP/s 6.159639e+07
+Elapsed Time 7.306244e+01 seconds
+FLOP/s 5.743514e+07
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2029,9 +2029,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -2041,11 +2041,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 4196352000
 Total Bytes 0
-Elapsed Time 6.636102e+01 seconds
-FLOP/s 6.323519e+07
+Elapsed Time 7.068852e+01 seconds
+FLOP/s 5.936399e+07
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2054,9 +2054,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -2066,11 +2066,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 4196352000
 Total Bytes 0
-Elapsed Time 6.684608e+01 seconds
-FLOP/s 6.277634e+07
+Elapsed Time 7.154628e+01 seconds
+FLOP/s 5.865228e+07
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2079,9 +2079,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -2091,11 +2091,11 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 4196352000
 Total Bytes 0
-Elapsed Time 6.946967e+01 seconds
-FLOP/s 6.040553e+07
+Elapsed Time 7.377884e+01 seconds
+FLOP/s 5.687745e+07
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2104,9 +2104,9 @@ Running Task Benchmark
     Task Graph 1:
       Time Steps: 1000
       Max Width: 32
-      Dependence Type: stencil_1d
+      Dependence Type: spread
       Radix: 5
-      Period: 0
+      Period: 3
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
@@ -2116,10 +2116,10 @@ Running Task Benchmark
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 32000
-Total Dependencies 94000
+Total Dependencies 160000
 Total FLOPs 4196352000
 Total Bytes 0
-Elapsed Time 6.619554e+01 seconds
-FLOP/s 6.339327e+07
+Elapsed Time 7.291503e+01 seconds
+FLOP/s 5.755126e+07
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute

@@ -10,207 +10,6 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: load_imbalance
-        Iterations: 268435456
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 268435456
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 268435456
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 268435456
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 1098413261673984
-Total Bytes 0
-Elapsed Time 1.539414e+03 seconds
-FLOP/s 7.135271e+11
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance
-~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 134217728
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 134217728
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 134217728
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 134217728
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 549206631860352
-Total Bytes 0
-Elapsed Time 8.026074e+02 seconds
-FLOP/s 6.842781e+11
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance
-~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 134217728
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 134217728
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 134217728
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 134217728
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 549206631860352
-Total Bytes 0
-Elapsed Time 8.001371e+02 seconds
-FLOP/s 6.863906e+11
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance
-~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
         Iterations: 67108864
         Samples: 16
         Imbalance: 2.000000
@@ -262,142 +61,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 274603316943744
 Total Bytes 0
-Elapsed Time 4.337976e+02 seconds
-FLOP/s 6.330218e+11
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance
-~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 274603316943744
-Total Bytes 0
-Elapsed Time 4.328264e+02 seconds
-FLOP/s 6.344422e+11
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance
-~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 274603316943744
-Total Bytes 0
-Elapsed Time 4.355789e+02 seconds
-FLOP/s 6.304331e+11
+Elapsed Time 2.162899e+02 seconds
+FLOP/s 1.269608e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -463,8 +128,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 137301659498496
 Total Bytes 0
-Elapsed Time 2.477649e+02 seconds
-FLOP/s 5.541611e+11
+Elapsed Time 1.081394e+02 seconds
+FLOP/s 1.269672e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -530,142 +195,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 137301659498496
 Total Bytes 0
-Elapsed Time 2.493000e+02 seconds
-FLOP/s 5.507488e+11
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance
-~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 33554432
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 33554432
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 33554432
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 33554432
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 137301659498496
-Total Bytes 0
-Elapsed Time 2.503230e+02 seconds
-FLOP/s 5.484981e+11
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance
-~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 33554432
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 33554432
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 33554432
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 33554432
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 137301659498496
-Total Bytes 0
-Elapsed Time 2.498167e+02 seconds
-FLOP/s 5.496095e+11
+Elapsed Time 1.084935e+02 seconds
+FLOP/s 1.265529e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -731,8 +262,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 68650830767744
 Total Bytes 0
-Elapsed Time 1.572023e+02 seconds
-FLOP/s 4.367037e+11
+Elapsed Time 5.439009e+01 seconds
+FLOP/s 1.262194e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -798,8 +329,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 68650830767744
 Total Bytes 0
-Elapsed Time 1.567676e+02 seconds
-FLOP/s 4.379146e+11
+Elapsed Time 5.444425e+01 seconds
+FLOP/s 1.260938e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -865,142 +396,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 68650830767744
 Total Bytes 0
-Elapsed Time 1.564231e+02 seconds
-FLOP/s 4.388792e+11
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance
-~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 68650830767744
-Total Bytes 0
-Elapsed Time 1.554938e+02 seconds
-FLOP/s 4.415020e+11
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance
-~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 68650830767744
-Total Bytes 0
-Elapsed Time 1.577336e+02 seconds
-FLOP/s 4.352329e+11
+Elapsed Time 5.437339e+01 seconds
+FLOP/s 1.262581e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -1066,8 +463,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 34325416409216
 Total Bytes 0
-Elapsed Time 1.132051e+02 seconds
-FLOP/s 3.032145e+11
+Elapsed Time 2.742550e+01 seconds
+FLOP/s 1.251588e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -1133,8 +530,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 34325416409216
 Total Bytes 0
-Elapsed Time 1.127224e+02 seconds
-FLOP/s 3.045128e+11
+Elapsed Time 2.755662e+01 seconds
+FLOP/s 1.245632e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -1200,8 +597,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 34325416409216
 Total Bytes 0
-Elapsed Time 1.109737e+02 seconds
-FLOP/s 3.093113e+11
+Elapsed Time 2.755444e+01 seconds
+FLOP/s 1.245731e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -1267,75 +664,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 34325416409216
 Total Bytes 0
-Elapsed Time 1.134292e+02 seconds
-FLOP/s 3.026154e+11
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance
-~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 8388608
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 8388608
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 8388608
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 8388608
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 34325416409216
-Total Bytes 0
-Elapsed Time 1.129451e+02 seconds
-FLOP/s 3.039124e+11
+Elapsed Time 2.752002e+01 seconds
+FLOP/s 1.247289e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -1401,8 +731,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 17162709242752
 Total Bytes 0
-Elapsed Time 9.019932e+01 seconds
-FLOP/s 1.902754e+11
+Elapsed Time 1.403338e+01 seconds
+FLOP/s 1.222992e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -1468,8 +798,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 17162709242752
 Total Bytes 0
-Elapsed Time 8.960113e+01 seconds
-FLOP/s 1.915457e+11
+Elapsed Time 1.396934e+01 seconds
+FLOP/s 1.228599e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -1535,8 +865,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 17162709242752
 Total Bytes 0
-Elapsed Time 8.924309e+01 seconds
-FLOP/s 1.923142e+11
+Elapsed Time 1.397067e+01 seconds
+FLOP/s 1.228482e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -1602,8 +932,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 17162709242752
 Total Bytes 0
-Elapsed Time 8.882540e+01 seconds
-FLOP/s 1.932185e+11
+Elapsed Time 1.400956e+01 seconds
+FLOP/s 1.225071e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -1669,8 +999,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 17162709242752
 Total Bytes 0
-Elapsed Time 9.053418e+01 seconds
-FLOP/s 1.895716e+11
+Elapsed Time 1.400692e+01 seconds
+FLOP/s 1.225303e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -1736,8 +1066,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 8581355638528
 Total Bytes 0
-Elapsed Time 7.902617e+01 seconds
-FLOP/s 1.085888e+11
+Elapsed Time 7.246264e+00 seconds
+FLOP/s 1.184245e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -1803,8 +1133,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 8581355638528
 Total Bytes 0
-Elapsed Time 7.848599e+01 seconds
-FLOP/s 1.093361e+11
+Elapsed Time 7.244481e+00 seconds
+FLOP/s 1.184537e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -1870,8 +1200,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 8581355638528
 Total Bytes 0
-Elapsed Time 7.699578e+01 seconds
-FLOP/s 1.114523e+11
+Elapsed Time 7.251145e+00 seconds
+FLOP/s 1.183448e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -1937,8 +1267,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 8581355638528
 Total Bytes 0
-Elapsed Time 7.681615e+01 seconds
-FLOP/s 1.117129e+11
+Elapsed Time 7.264946e+00 seconds
+FLOP/s 1.181200e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -2004,8 +1334,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 8581355638528
 Total Bytes 0
-Elapsed Time 7.797016e+01 seconds
-FLOP/s 1.100595e+11
+Elapsed Time 7.236910e+00 seconds
+FLOP/s 1.185776e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -2071,8 +1401,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 4290678844672
 Total Bytes 0
-Elapsed Time 7.118922e+01 seconds
-FLOP/s 6.027147e+10
+Elapsed Time 3.896152e+00 seconds
+FLOP/s 1.101261e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -2138,8 +1468,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 4290678844672
 Total Bytes 0
-Elapsed Time 7.206586e+01 seconds
-FLOP/s 5.953830e+10
+Elapsed Time 3.897165e+00 seconds
+FLOP/s 1.100974e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -2205,8 +1535,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 4290678844672
 Total Bytes 0
-Elapsed Time 7.079482e+01 seconds
-FLOP/s 6.060724e+10
+Elapsed Time 3.866134e+00 seconds
+FLOP/s 1.109811e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -2272,8 +1602,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 4290678844672
 Total Bytes 0
-Elapsed Time 7.178898e+01 seconds
-FLOP/s 5.976793e+10
+Elapsed Time 3.872860e+00 seconds
+FLOP/s 1.107884e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -2339,8 +1669,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 4290678844672
 Total Bytes 0
-Elapsed Time 7.242793e+01 seconds
-FLOP/s 5.924066e+10
+Elapsed Time 3.893190e+00 seconds
+FLOP/s 1.102099e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -2406,8 +1736,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 2145340449664
 Total Bytes 0
-Elapsed Time 6.708516e+01 seconds
-FLOP/s 3.197936e+10
+Elapsed Time 2.185644e+00 seconds
+FLOP/s 9.815600e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -2473,8 +1803,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 2145340449664
 Total Bytes 0
-Elapsed Time 7.041386e+01 seconds
-FLOP/s 3.046759e+10
+Elapsed Time 2.190348e+00 seconds
+FLOP/s 9.794520e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -2540,8 +1870,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 2145340449664
 Total Bytes 0
-Elapsed Time 6.668536e+01 seconds
-FLOP/s 3.217109e+10
+Elapsed Time 2.207129e+00 seconds
+FLOP/s 9.720051e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -2607,8 +1937,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 2145340449664
 Total Bytes 0
-Elapsed Time 6.974984e+01 seconds
-FLOP/s 3.075764e+10
+Elapsed Time 2.187366e+00 seconds
+FLOP/s 9.807871e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -2674,8 +2004,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 2145340449664
 Total Bytes 0
-Elapsed Time 6.702389e+01 seconds
-FLOP/s 3.200859e+10
+Elapsed Time 2.196178e+00 seconds
+FLOP/s 9.768518e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -2741,8 +2071,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 1072671228928
 Total Bytes 0
-Elapsed Time 6.821124e+01 seconds
-FLOP/s 1.572572e+10
+Elapsed Time 1.343427e+00 seconds
+FLOP/s 7.984591e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -2808,8 +2138,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 1072671228928
 Total Bytes 0
-Elapsed Time 6.654979e+01 seconds
-FLOP/s 1.611833e+10
+Elapsed Time 1.356206e+00 seconds
+FLOP/s 7.909351e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -2875,8 +2205,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 1072671228928
 Total Bytes 0
-Elapsed Time 6.821274e+01 seconds
-FLOP/s 1.572538e+10
+Elapsed Time 1.349579e+00 seconds
+FLOP/s 7.948192e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -2942,8 +2272,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 1072671228928
 Total Bytes 0
-Elapsed Time 6.734913e+01 seconds
-FLOP/s 1.592702e+10
+Elapsed Time 1.349205e+00 seconds
+FLOP/s 7.950393e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -3009,8 +2339,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 1072671228928
 Total Bytes 0
-Elapsed Time 6.698751e+01 seconds
-FLOP/s 1.601300e+10
+Elapsed Time 1.347113e+00 seconds
+FLOP/s 7.962743e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -3076,8 +2406,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 536336650496
 Total Bytes 0
-Elapsed Time 6.537886e+01 seconds
-FLOP/s 8.203518e+09
+Elapsed Time 9.293126e-01 seconds
+FLOP/s 5.771327e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -3143,8 +2473,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 536336650496
 Total Bytes 0
-Elapsed Time 6.628460e+01 seconds
-FLOP/s 8.091422e+09
+Elapsed Time 9.236151e-01 seconds
+FLOP/s 5.806928e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -3210,8 +2540,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 536336650496
 Total Bytes 0
-Elapsed Time 6.644128e+01 seconds
-FLOP/s 8.072340e+09
+Elapsed Time 9.295480e-01 seconds
+FLOP/s 5.769865e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -3277,8 +2607,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 536336650496
 Total Bytes 0
-Elapsed Time 6.579928e+01 seconds
-FLOP/s 8.151102e+09
+Elapsed Time 9.200989e-01 seconds
+FLOP/s 5.829120e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -3344,8 +2674,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 536336650496
 Total Bytes 0
-Elapsed Time 6.570617e+01 seconds
-FLOP/s 8.162653e+09
+Elapsed Time 9.236643e-01 seconds
+FLOP/s 5.806619e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -3411,8 +2741,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 268169355008
 Total Bytes 0
-Elapsed Time 6.373786e+01 seconds
-FLOP/s 4.207379e+09
+Elapsed Time 7.146655e-01 seconds
+FLOP/s 3.752376e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -3478,8 +2808,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 268169355008
 Total Bytes 0
-Elapsed Time 6.597905e+01 seconds
-FLOP/s 4.064462e+09
+Elapsed Time 7.236345e-01 seconds
+FLOP/s 3.705868e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -3545,8 +2875,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 268169355008
 Total Bytes 0
-Elapsed Time 6.363260e+01 seconds
-FLOP/s 4.214339e+09
+Elapsed Time 7.120141e-01 seconds
+FLOP/s 3.766349e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -3612,8 +2942,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 268169355008
 Total Bytes 0
-Elapsed Time 6.643117e+01 seconds
-FLOP/s 4.036800e+09
+Elapsed Time 7.187728e-01 seconds
+FLOP/s 3.730933e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -3679,8 +3009,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 268169355008
 Total Bytes 0
-Elapsed Time 6.524513e+01 seconds
-FLOP/s 4.110182e+09
+Elapsed Time 7.170013e-01 seconds
+FLOP/s 3.740152e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -3746,8 +3076,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 134085696896
 Total Bytes 0
-Elapsed Time 6.480310e+01 seconds
-FLOP/s 2.069125e+09
+Elapsed Time 6.784292e-01 seconds
+FLOP/s 1.976414e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -3813,8 +3143,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 134085696896
 Total Bytes 0
-Elapsed Time 6.541805e+01 seconds
-FLOP/s 2.049674e+09
+Elapsed Time 6.902529e-01 seconds
+FLOP/s 1.942559e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -3880,8 +3210,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 134085696896
 Total Bytes 0
-Elapsed Time 6.490824e+01 seconds
-FLOP/s 2.065773e+09
+Elapsed Time 6.729603e-01 seconds
+FLOP/s 1.992475e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -3947,8 +3277,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 134085696896
 Total Bytes 0
-Elapsed Time 6.481182e+01 seconds
-FLOP/s 2.068846e+09
+Elapsed Time 6.706780e-01 seconds
+FLOP/s 1.999256e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -4014,8 +3344,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 134085696896
 Total Bytes 0
-Elapsed Time 6.504840e+01 seconds
-FLOP/s 2.061322e+09
+Elapsed Time 6.735120e-01 seconds
+FLOP/s 1.990843e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -4081,8 +3411,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 67043872896
 Total Bytes 0
-Elapsed Time 6.602920e+01 seconds
-FLOP/s 1.015367e+09
+Elapsed Time 6.957852e-01 seconds
+FLOP/s 9.635714e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -4148,8 +3478,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 67043872896
 Total Bytes 0
-Elapsed Time 6.305681e+01 seconds
-FLOP/s 1.063230e+09
+Elapsed Time 7.066034e-01 seconds
+FLOP/s 9.488191e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -4215,8 +3545,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 67043872896
 Total Bytes 0
-Elapsed Time 6.543780e+01 seconds
-FLOP/s 1.024544e+09
+Elapsed Time 6.974843e-01 seconds
+FLOP/s 9.612241e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -4282,8 +3612,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 67043872896
 Total Bytes 0
-Elapsed Time 6.453458e+01 seconds
-FLOP/s 1.038883e+09
+Elapsed Time 7.069681e-01 seconds
+FLOP/s 9.483295e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -4349,8 +3679,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 67043872896
 Total Bytes 0
-Elapsed Time 6.486651e+01 seconds
-FLOP/s 1.033567e+09
+Elapsed Time 7.020961e-01 seconds
+FLOP/s 9.549102e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -4416,8 +3746,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 33522970496
 Total Bytes 0
-Elapsed Time 6.453095e+01 seconds
-FLOP/s 5.194867e+08
+Elapsed Time 6.435340e-01 seconds
+FLOP/s 5.209200e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -4483,8 +3813,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 33522970496
 Total Bytes 0
-Elapsed Time 6.541323e+01 seconds
-FLOP/s 5.124800e+08
+Elapsed Time 6.207776e-01 seconds
+FLOP/s 5.400158e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -4550,8 +3880,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 33522970496
 Total Bytes 0
-Elapsed Time 6.369849e+01 seconds
-FLOP/s 5.262757e+08
+Elapsed Time 7.190924e-01 seconds
+FLOP/s 4.661844e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -4617,8 +3947,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 33522970496
 Total Bytes 0
-Elapsed Time 6.470621e+01 seconds
-FLOP/s 5.180796e+08
+Elapsed Time 6.209792e-01 seconds
+FLOP/s 5.398404e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -4684,8 +4014,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 33522970496
 Total Bytes 0
-Elapsed Time 6.488828e+01 seconds
-FLOP/s 5.166260e+08
+Elapsed Time 6.115805e-01 seconds
+FLOP/s 5.481367e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
@@ -4751,945 +4081,16 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 16762487168
 Total Bytes 0
-Elapsed Time 6.613389e+01 seconds
-FLOP/s 2.534629e+08
+Elapsed Time 6.116965e-01 seconds
+FLOP/s 2.740327e+10
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 16762487168
-Total Bytes 0
-Elapsed Time 6.442277e+01 seconds
-FLOP/s 2.601951e+08
-B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 16762487168
-Total Bytes 0
-Elapsed Time 6.486103e+01 seconds
-FLOP/s 2.584369e+08
-B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 16762487168
-Total Bytes 0
-Elapsed Time 6.421996e+01 seconds
-FLOP/s 2.610168e+08
-B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 16762487168
-Total Bytes 0
-Elapsed Time 6.286852e+01 seconds
-FLOP/s 2.666277e+08
-B/s 0.000000e+00
 ~/task-bench/experiments/cori_imbalance
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 8382278400
-Total Bytes 0
-Elapsed Time 6.289899e+01 seconds
-FLOP/s 1.332657e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance
-~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 8382278400
-Total Bytes 0
-Elapsed Time 6.288037e+01 seconds
-FLOP/s 1.333052e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance
-~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 8382278400
-Total Bytes 0
-Elapsed Time 6.502810e+01 seconds
-FLOP/s 1.289024e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance
-~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 8382278400
-Total Bytes 0
-Elapsed Time 6.430916e+01 seconds
-FLOP/s 1.303435e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance
-~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 8382278400
-Total Bytes 0
-Elapsed Time 6.313663e+01 seconds
-FLOP/s 1.327641e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance
-~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 4192167680
-Total Bytes 0
-Elapsed Time 6.414452e+01 seconds
-FLOP/s 6.535504e+07
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance
-~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 4192167680
-Total Bytes 0
-Elapsed Time 6.527141e+01 seconds
-FLOP/s 6.422671e+07
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance
-~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 4192167680
-Total Bytes 0
-Elapsed Time 6.519068e+01 seconds
-FLOP/s 6.430624e+07
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance
-~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 4192167680
-Total Bytes 0
-Elapsed Time 6.500921e+01 seconds
-FLOP/s 6.448575e+07
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance
-~/task-bench/tensorflow ~/task-bench/experiments/cori_imbalance
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: load_imbalance
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 2.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 4192167680
-Total Bytes 0
-Elapsed Time 6.326548e+01 seconds
-FLOP/s 6.626311e+07
-B/s 0.000000e+00
-~/task-bench/experiments/cori_imbalance

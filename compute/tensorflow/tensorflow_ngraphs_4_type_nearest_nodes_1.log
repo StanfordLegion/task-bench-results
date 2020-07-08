@@ -10,207 +10,6 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
-        Iterations: 268435456
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 268435456
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 268435456
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 268435456
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 1099511629824000
-Total Bytes 0
-Elapsed Time 1.006656e+03 seconds
-FLOP/s 1.092242e+12
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 134217728
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 134217728
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 134217728
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 134217728
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 549755815936000
-Total Bytes 0
-Elapsed Time 5.506578e+02 seconds
-FLOP/s 9.983619e+11
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 134217728
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 134217728
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 134217728
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 134217728
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 549755815936000
-Total Bytes 0
-Elapsed Time 5.554188e+02 seconds
-FLOP/s 9.898041e+11
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
         Iterations: 67108864
         Samples: 16
         Imbalance: 0.000000
@@ -262,142 +61,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 274877908992000
 Total Bytes 0
-Elapsed Time 3.204990e+02 seconds
-FLOP/s 8.576560e+11
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 274877908992000
-Total Bytes 0
-Elapsed Time 3.210030e+02 seconds
-FLOP/s 8.563096e+11
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 67108864
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 274877908992000
-Total Bytes 0
-Elapsed Time 3.207173e+02 seconds
-FLOP/s 8.570722e+11
+Elapsed Time 2.159207e+02 seconds
+FLOP/s 1.273050e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -463,8 +128,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 137438955520000
 Total Bytes 0
-Elapsed Time 1.952169e+02 seconds
-FLOP/s 7.040319e+11
+Elapsed Time 1.083383e+02 seconds
+FLOP/s 1.268609e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -530,142 +195,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 137438955520000
 Total Bytes 0
-Elapsed Time 1.990324e+02 seconds
-FLOP/s 6.905356e+11
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 33554432
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 33554432
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 33554432
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 33554432
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 137438955520000
-Total Bytes 0
-Elapsed Time 1.999887e+02 seconds
-FLOP/s 6.872336e+11
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 33554432
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 33554432
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 33554432
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 33554432
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 137438955520000
-Total Bytes 0
-Elapsed Time 2.013001e+02 seconds
-FLOP/s 6.827564e+11
+Elapsed Time 1.083596e+02 seconds
+FLOP/s 1.268360e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -731,8 +262,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 68719478784000
 Total Bytes 0
-Elapsed Time 1.357391e+02 seconds
-FLOP/s 5.062617e+11
+Elapsed Time 5.442152e+01 seconds
+FLOP/s 1.262726e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -798,8 +329,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 68719478784000
 Total Bytes 0
-Elapsed Time 1.350163e+02 seconds
-FLOP/s 5.089717e+11
+Elapsed Time 5.442791e+01 seconds
+FLOP/s 1.262578e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -865,142 +396,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 68719478784000
 Total Bytes 0
-Elapsed Time 1.324816e+02 seconds
-FLOP/s 5.187096e+11
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 68719478784000
-Total Bytes 0
-Elapsed Time 1.335373e+02 seconds
-FLOP/s 5.146088e+11
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16777216
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 68719478784000
-Total Bytes 0
-Elapsed Time 1.345200e+02 seconds
-FLOP/s 5.108494e+11
+Elapsed Time 5.431893e+01 seconds
+FLOP/s 1.265111e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1066,8 +463,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 34359740416000
 Total Bytes 0
-Elapsed Time 1.017314e+02 seconds
-FLOP/s 3.377497e+11
+Elapsed Time 2.750639e+01 seconds
+FLOP/s 1.249155e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1133,8 +530,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 34359740416000
 Total Bytes 0
-Elapsed Time 1.002040e+02 seconds
-FLOP/s 3.428980e+11
+Elapsed Time 2.755190e+01 seconds
+FLOP/s 1.247092e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1200,8 +597,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 34359740416000
 Total Bytes 0
-Elapsed Time 1.023047e+02 seconds
-FLOP/s 3.358568e+11
+Elapsed Time 2.748052e+01 seconds
+FLOP/s 1.250331e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1267,75 +664,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 34359740416000
 Total Bytes 0
-Elapsed Time 1.000205e+02 seconds
-FLOP/s 3.435269e+11
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8388608
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8388608
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8388608
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8388608
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 34359740416000
-Total Bytes 0
-Elapsed Time 1.018254e+02 seconds
-FLOP/s 3.374377e+11
+Elapsed Time 2.751034e+01 seconds
+FLOP/s 1.248975e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1401,8 +731,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 17179871232000
 Total Bytes 0
-Elapsed Time 8.352407e+01 seconds
-FLOP/s 2.056877e+11
+Elapsed Time 1.396789e+01 seconds
+FLOP/s 1.229955e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1468,8 +798,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 17179871232000
 Total Bytes 0
-Elapsed Time 8.606482e+01 seconds
-FLOP/s 1.996155e+11
+Elapsed Time 1.399401e+01 seconds
+FLOP/s 1.227659e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1535,8 +865,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 17179871232000
 Total Bytes 0
-Elapsed Time 8.394207e+01 seconds
-FLOP/s 2.046634e+11
+Elapsed Time 1.398185e+01 seconds
+FLOP/s 1.228727e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1602,8 +932,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 17179871232000
 Total Bytes 0
-Elapsed Time 8.567682e+01 seconds
-FLOP/s 2.005195e+11
+Elapsed Time 1.403507e+01 seconds
+FLOP/s 1.224067e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1669,8 +999,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 17179871232000
 Total Bytes 0
-Elapsed Time 8.345689e+01 seconds
-FLOP/s 2.058533e+11
+Elapsed Time 1.402441e+01 seconds
+FLOP/s 1.224998e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1736,8 +1066,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 8589936640000
 Total Bytes 0
-Elapsed Time 7.667355e+01 seconds
-FLOP/s 1.120326e+11
+Elapsed Time 7.248939e+00 seconds
+FLOP/s 1.184992e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1803,8 +1133,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 8589936640000
 Total Bytes 0
-Elapsed Time 7.358808e+01 seconds
-FLOP/s 1.167300e+11
+Elapsed Time 7.266609e+00 seconds
+FLOP/s 1.182111e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1870,8 +1200,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 8589936640000
 Total Bytes 0
-Elapsed Time 7.640523e+01 seconds
-FLOP/s 1.124260e+11
+Elapsed Time 7.236894e+00 seconds
+FLOP/s 1.186965e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -1937,8 +1267,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 8589936640000
 Total Bytes 0
-Elapsed Time 7.546122e+01 seconds
-FLOP/s 1.138325e+11
+Elapsed Time 7.289107e+00 seconds
+FLOP/s 1.178462e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2004,8 +1334,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 8589936640000
 Total Bytes 0
-Elapsed Time 7.387689e+01 seconds
-FLOP/s 1.162737e+11
+Elapsed Time 7.259010e+00 seconds
+FLOP/s 1.183348e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2071,8 +1401,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 4294969344000
 Total Bytes 0
-Elapsed Time 6.844727e+01 seconds
-FLOP/s 6.274858e+10
+Elapsed Time 3.898113e+00 seconds
+FLOP/s 1.101807e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2138,8 +1468,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 4294969344000
 Total Bytes 0
-Elapsed Time 6.964446e+01 seconds
-FLOP/s 6.166993e+10
+Elapsed Time 3.908676e+00 seconds
+FLOP/s 1.098830e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2205,8 +1535,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 4294969344000
 Total Bytes 0
-Elapsed Time 7.373820e+01 seconds
-FLOP/s 5.824619e+10
+Elapsed Time 3.889245e+00 seconds
+FLOP/s 1.104319e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2272,8 +1602,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 4294969344000
 Total Bytes 0
-Elapsed Time 6.821627e+01 seconds
-FLOP/s 6.296107e+10
+Elapsed Time 3.865841e+00 seconds
+FLOP/s 1.111005e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2339,8 +1669,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 4294969344000
 Total Bytes 0
-Elapsed Time 7.103306e+01 seconds
-FLOP/s 6.046438e+10
+Elapsed Time 3.897312e+00 seconds
+FLOP/s 1.102034e+12
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2406,8 +1736,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 2147485696000
 Total Bytes 0
-Elapsed Time 6.764470e+01 seconds
-FLOP/s 3.174655e+10
+Elapsed Time 2.190193e+00 seconds
+FLOP/s 9.805008e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2473,8 +1803,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 2147485696000
 Total Bytes 0
-Elapsed Time 6.534588e+01 seconds
-FLOP/s 3.286337e+10
+Elapsed Time 2.209170e+00 seconds
+FLOP/s 9.720781e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2540,8 +1870,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 2147485696000
 Total Bytes 0
-Elapsed Time 6.804527e+01 seconds
-FLOP/s 3.155966e+10
+Elapsed Time 2.201443e+00 seconds
+FLOP/s 9.754902e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2607,8 +1937,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 2147485696000
 Total Bytes 0
-Elapsed Time 6.850547e+01 seconds
-FLOP/s 3.134765e+10
+Elapsed Time 2.188184e+00 seconds
+FLOP/s 9.814009e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2674,8 +2004,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 2147485696000
 Total Bytes 0
-Elapsed Time 6.533781e+01 seconds
-FLOP/s 3.286743e+10
+Elapsed Time 2.207783e+00 seconds
+FLOP/s 9.726889e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2741,8 +2071,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 1073743872000
 Total Bytes 0
-Elapsed Time 6.508535e+01 seconds
-FLOP/s 1.649747e+10
+Elapsed Time 1.354449e+00 seconds
+FLOP/s 7.927532e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2808,8 +2138,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 1073743872000
 Total Bytes 0
-Elapsed Time 6.639997e+01 seconds
-FLOP/s 1.617085e+10
+Elapsed Time 1.341669e+00 seconds
+FLOP/s 8.003046e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2875,8 +2205,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 1073743872000
 Total Bytes 0
-Elapsed Time 6.372521e+01 seconds
-FLOP/s 1.684959e+10
+Elapsed Time 1.344988e+00 seconds
+FLOP/s 7.983294e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -2942,8 +2272,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 1073743872000
 Total Bytes 0
-Elapsed Time 6.381017e+01 seconds
-FLOP/s 1.682716e+10
+Elapsed Time 1.345980e+00 seconds
+FLOP/s 7.977416e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -3009,8 +2339,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 1073743872000
 Total Bytes 0
-Elapsed Time 6.417541e+01 seconds
-FLOP/s 1.673139e+10
+Elapsed Time 1.350578e+00 seconds
+FLOP/s 7.950255e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -3076,8 +2406,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 536872960000
 Total Bytes 0
-Elapsed Time 6.425305e+01 seconds
-FLOP/s 8.355603e+09
+Elapsed Time 9.196640e-01 seconds
+FLOP/s 5.837708e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -3143,8 +2473,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 536872960000
 Total Bytes 0
-Elapsed Time 6.562268e+01 seconds
-FLOP/s 8.181210e+09
+Elapsed Time 9.246276e-01 seconds
+FLOP/s 5.806370e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -3210,8 +2540,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 536872960000
 Total Bytes 0
-Elapsed Time 6.502853e+01 seconds
-FLOP/s 8.255960e+09
+Elapsed Time 9.215031e-01 seconds
+FLOP/s 5.826057e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -3277,8 +2607,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 536872960000
 Total Bytes 0
-Elapsed Time 6.287064e+01 seconds
-FLOP/s 8.539327e+09
+Elapsed Time 9.287913e-01 seconds
+FLOP/s 5.780340e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -3344,8 +2674,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 536872960000
 Total Bytes 0
-Elapsed Time 6.654824e+01 seconds
-FLOP/s 8.067426e+09
+Elapsed Time 9.139306e-01 seconds
+FLOP/s 5.874329e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -3411,8 +2741,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 268437504000
 Total Bytes 0
-Elapsed Time 6.249635e+01 seconds
-FLOP/s 4.295251e+09
+Elapsed Time 7.048234e-01 seconds
+FLOP/s 3.808578e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -3478,8 +2808,8 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 268437504000
 Total Bytes 0
-Elapsed Time 6.615280e+01 seconds
-FLOP/s 4.057841e+09
+Elapsed Time 7.262495e-01 seconds
+FLOP/s 3.696216e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
@@ -3545,2151 +2875,27 @@ Total Tasks 32000
 Total Dependencies 154000
 Total FLOPs 268437504000
 Total Bytes 0
-Elapsed Time 6.246009e+01 seconds
-FLOP/s 4.297745e+09
+Elapsed Time 7.055260e-01 seconds
+FLOP/s 3.804785e+11
 B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 65536
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 65536
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 65536
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 65536
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 268437504000
-Total Bytes 0
-Elapsed Time 6.251634e+01 seconds
-FLOP/s 4.293878e+09
-B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 65536
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 65536
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 65536
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 65536
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 268437504000
-Total Bytes 0
-Elapsed Time 6.496534e+01 seconds
-FLOP/s 4.132011e+09
-B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 134219776000
-Total Bytes 0
-Elapsed Time 6.278413e+01 seconds
-FLOP/s 2.137798e+09
-B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 134219776000
-Total Bytes 0
-Elapsed Time 6.371174e+01 seconds
-FLOP/s 2.106673e+09
-B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 134219776000
-Total Bytes 0
-Elapsed Time 6.246968e+01 seconds
-FLOP/s 2.148559e+09
-B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 134219776000
-Total Bytes 0
-Elapsed Time 6.347822e+01 seconds
-FLOP/s 2.114422e+09
-B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 32768
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 134219776000
-Total Bytes 0
-Elapsed Time 6.283429e+01 seconds
-FLOP/s 2.136091e+09
-B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 67110912000
-Total Bytes 0
-Elapsed Time 6.271605e+01 seconds
-FLOP/s 1.070076e+09
-B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 67110912000
-Total Bytes 0
-Elapsed Time 6.201815e+01 seconds
-FLOP/s 1.082117e+09
-B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 67110912000
-Total Bytes 0
-Elapsed Time 6.445908e+01 seconds
-FLOP/s 1.041140e+09
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 67110912000
-Total Bytes 0
-Elapsed Time 6.519704e+01 seconds
-FLOP/s 1.029355e+09
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 16384
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 67110912000
-Total Bytes 0
-Elapsed Time 6.248363e+01 seconds
-FLOP/s 1.074056e+09
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 33556480000
-Total Bytes 0
-Elapsed Time 6.383380e+01 seconds
-FLOP/s 5.256851e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 33556480000
-Total Bytes 0
-Elapsed Time 6.499240e+01 seconds
-FLOP/s 5.163139e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 33556480000
-Total Bytes 0
-Elapsed Time 6.497789e+01 seconds
-FLOP/s 5.164292e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 33556480000
-Total Bytes 0
-Elapsed Time 6.243698e+01 seconds
-FLOP/s 5.374456e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 8192
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 33556480000
-Total Bytes 0
-Elapsed Time 6.237975e+01 seconds
-FLOP/s 5.379386e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 16779264000
-Total Bytes 0
-Elapsed Time 6.307507e+01 seconds
-FLOP/s 2.660205e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 16779264000
-Total Bytes 0
-Elapsed Time 6.482544e+01 seconds
-FLOP/s 2.588376e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 16779264000
-Total Bytes 0
-Elapsed Time 6.470714e+01 seconds
-FLOP/s 2.593109e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 16779264000
-Total Bytes 0
-Elapsed Time 6.235652e+01 seconds
-FLOP/s 2.690860e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4096
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 16779264000
-Total Bytes 0
-Elapsed Time 6.521906e+01 seconds
-FLOP/s 2.572755e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 8390656000
-Total Bytes 0
-Elapsed Time 6.595529e+01 seconds
-FLOP/s 1.272173e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 8390656000
-Total Bytes 0
-Elapsed Time 6.596105e+01 seconds
-FLOP/s 1.272062e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 8390656000
-Total Bytes 0
-Elapsed Time 6.375645e+01 seconds
-FLOP/s 1.316048e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 8390656000
-Total Bytes 0
-Elapsed Time 6.253899e+01 seconds
-FLOP/s 1.341668e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 2048
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 8390656000
-Total Bytes 0
-Elapsed Time 6.244680e+01 seconds
-FLOP/s 1.343649e+08
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 4196352000
-Total Bytes 0
-Elapsed Time 6.453895e+01 seconds
-FLOP/s 6.502046e+07
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 4196352000
-Total Bytes 0
-Elapsed Time 6.439923e+01 seconds
-FLOP/s 6.516152e+07
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 4196352000
-Total Bytes 0
-Elapsed Time 6.458852e+01 seconds
-FLOP/s 6.497056e+07
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 4196352000
-Total Bytes 0
-Elapsed Time 6.475144e+01 seconds
-FLOP/s 6.480708e+07
-B/s 0.000000e+00
-~/task-bench/experiments/cori_metg_compute
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_compute
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 32
-      Dependence Type: nearest
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 1024
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 0
-Total Tasks 32000
-Total Dependencies 154000
-Total FLOPs 4196352000
-Total Bytes 0
-Elapsed Time 6.425780e+01 seconds
-FLOP/s 6.530495e+07
-B/s 0.000000e+00
 ~/task-bench/experiments/cori_metg_compute

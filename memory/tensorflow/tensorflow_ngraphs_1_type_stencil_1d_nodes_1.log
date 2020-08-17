@@ -10,81 +10,6 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 262144
-        Samples: 8192
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 16777216
-Total Tasks 262144
-Total Dependencies 770048
-Total FLOPs 0
-Total Bytes 140737488355328
-Elapsed Time 3.367134e+03 seconds
-FLOP/s 0.000000e+00
-B/s 4.179741e+10
-~/task-bench/experiments/cori_metg_memory
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 8192
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 131072
-        Samples: 8192
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 16777216
-Total Tasks 262144
-Total Dependencies 770048
-Total FLOPs 0
-Total Bytes 70368744177664
-Elapsed Time 1.846877e+03 seconds
-FLOP/s 0.000000e+00
-B/s 3.810147e+10
-~/task-bench/experiments/cori_metg_memory
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 8192
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 131072
-        Samples: 8192
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 16777216
-Total Tasks 262144
-Total Dependencies 770048
-Total FLOPs 0
-Total Bytes 70368744177664
-Elapsed Time 1.738143e+03 seconds
-FLOP/s 0.000000e+00
-B/s 4.048501e+10
-~/task-bench/experiments/cori_metg_memory
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 8192
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
         Iterations: 65536
         Samples: 8192
         Imbalance: 0.000000
@@ -94,59 +19,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 35184372088832
-Elapsed Time 1.098583e+03 seconds
+Elapsed Time 5.860861e+02 seconds
 FLOP/s 0.000000e+00
-B/s 3.202705e+10
-~/task-bench/experiments/cori_metg_memory
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 8192
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 65536
-        Samples: 8192
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 16777216
-Total Tasks 262144
-Total Dependencies 770048
-Total FLOPs 0
-Total Bytes 35184372088832
-Elapsed Time 1.146798e+03 seconds
-FLOP/s 0.000000e+00
-B/s 3.068053e+10
-~/task-bench/experiments/cori_metg_memory
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 8192
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 65536
-        Samples: 8192
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 16777216
-Total Tasks 262144
-Total Dependencies 770048
-Total FLOPs 0
-Total Bytes 35184372088832
-Elapsed Time 1.031672e+03 seconds
-FLOP/s 0.000000e+00
-B/s 3.410421e+10
+B/s 6.003277e+10
 ~/task-bench/experiments/cori_metg_memory
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
 Running Task Benchmark
@@ -169,9 +44,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 17592186044416
-Elapsed Time 6.959718e+02 seconds
+Elapsed Time 3.057677e+02 seconds
 FLOP/s 0.000000e+00
-B/s 2.527715e+10
+B/s 5.753449e+10
 ~/task-bench/experiments/cori_metg_memory
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
 Running Task Benchmark
@@ -194,59 +69,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 17592186044416
-Elapsed Time 7.021433e+02 seconds
+Elapsed Time 3.261125e+02 seconds
 FLOP/s 0.000000e+00
-B/s 2.505498e+10
-~/task-bench/experiments/cori_metg_memory
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 8192
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 32768
-        Samples: 8192
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 16777216
-Total Tasks 262144
-Total Dependencies 770048
-Total FLOPs 0
-Total Bytes 17592186044416
-Elapsed Time 7.027329e+02 seconds
-FLOP/s 0.000000e+00
-B/s 2.503396e+10
-~/task-bench/experiments/cori_metg_memory
-~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 8192
-      Max Width: 32
-      Dependence Type: stencil_1d
-      Radix: 5
-      Period: 0
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: memory_bound
-        Iterations: 32768
-        Samples: 8192
-        Imbalance: 0.000000
-      Output Bytes: 16
-      Scratch Bytes: 16777216
-Total Tasks 262144
-Total Dependencies 770048
-Total FLOPs 0
-Total Bytes 17592186044416
-Elapsed Time 7.033746e+02 seconds
-FLOP/s 0.000000e+00
-B/s 2.501112e+10
+B/s 5.394515e+10
 ~/task-bench/experiments/cori_metg_memory
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
 Running Task Benchmark
@@ -269,9 +94,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 8796093022208
-Elapsed Time 4.881243e+02 seconds
+Elapsed Time 1.646285e+02 seconds
 FLOP/s 0.000000e+00
-B/s 1.802019e+10
+B/s 5.342996e+10
 ~/task-bench/experiments/cori_metg_memory
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
 Running Task Benchmark
@@ -294,9 +119,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 8796093022208
-Elapsed Time 4.860460e+02 seconds
+Elapsed Time 1.646227e+02 seconds
 FLOP/s 0.000000e+00
-B/s 1.809724e+10
+B/s 5.343182e+10
 ~/task-bench/experiments/cori_metg_memory
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
 Running Task Benchmark
@@ -319,9 +144,9 @@ Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
 Total Bytes 8796093022208
-Elapsed Time 4.697341e+02 seconds
+Elapsed Time 1.586144e+02 seconds
 FLOP/s 0.000000e+00
-B/s 1.872569e+10
+B/s 5.545584e+10
 ~/task-bench/experiments/cori_metg_memory
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
 Running Task Benchmark
@@ -335,7 +160,7 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: memory_bound
-        Iterations: 16384
+        Iterations: 8192
         Samples: 8192
         Imbalance: 0.000000
       Output Bytes: 16
@@ -343,9 +168,759 @@ Running Task Benchmark
 Total Tasks 262144
 Total Dependencies 770048
 Total FLOPs 0
-Total Bytes 8796093022208
-Elapsed Time 4.850402e+02 seconds
+Total Bytes 4398046511104
+Elapsed Time 8.216236e+01 seconds
 FLOP/s 0.000000e+00
-B/s 1.813477e+10
+B/s 5.352873e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 8192
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 4398046511104
+Elapsed Time 8.338856e+01 seconds
+FLOP/s 0.000000e+00
+B/s 5.274161e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 8192
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 4398046511104
+Elapsed Time 8.560755e+01 seconds
+FLOP/s 0.000000e+00
+B/s 5.137452e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 8192
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 4398046511104
+Elapsed Time 8.058174e+01 seconds
+FLOP/s 0.000000e+00
+B/s 5.457870e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 4096
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 2199023255552
+Elapsed Time 4.466444e+01 seconds
+FLOP/s 0.000000e+00
+B/s 4.923432e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 4096
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 2199023255552
+Elapsed Time 4.402390e+01 seconds
+FLOP/s 0.000000e+00
+B/s 4.995067e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 4096
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 2199023255552
+Elapsed Time 4.475741e+01 seconds
+FLOP/s 0.000000e+00
+B/s 4.913205e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 4096
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 2199023255552
+Elapsed Time 4.350010e+01 seconds
+FLOP/s 0.000000e+00
+B/s 5.055214e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 4096
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 2199023255552
+Elapsed Time 4.277672e+01 seconds
+FLOP/s 0.000000e+00
+B/s 5.140701e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 2048
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 1099511627776
+Elapsed Time 2.569728e+01 seconds
+FLOP/s 0.000000e+00
+B/s 4.278708e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 2048
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 1099511627776
+Elapsed Time 2.383051e+01 seconds
+FLOP/s 0.000000e+00
+B/s 4.613881e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 2048
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 1099511627776
+Elapsed Time 2.467189e+01 seconds
+FLOP/s 0.000000e+00
+B/s 4.456535e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 2048
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 1099511627776
+Elapsed Time 2.424650e+01 seconds
+FLOP/s 0.000000e+00
+B/s 4.534723e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 2048
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 1099511627776
+Elapsed Time 2.549037e+01 seconds
+FLOP/s 0.000000e+00
+B/s 4.313439e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 1024
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 549755813888
+Elapsed Time 1.516211e+01 seconds
+FLOP/s 0.000000e+00
+B/s 3.625853e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 1024
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 549755813888
+Elapsed Time 1.528755e+01 seconds
+FLOP/s 0.000000e+00
+B/s 3.596101e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 1024
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 549755813888
+Elapsed Time 1.501966e+01 seconds
+FLOP/s 0.000000e+00
+B/s 3.660242e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 1024
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 549755813888
+Elapsed Time 1.500873e+01 seconds
+FLOP/s 0.000000e+00
+B/s 3.662906e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 1024
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 549755813888
+Elapsed Time 1.562273e+01 seconds
+FLOP/s 0.000000e+00
+B/s 3.518948e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 512
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 274877906944
+Elapsed Time 1.052206e+01 seconds
+FLOP/s 0.000000e+00
+B/s 2.612396e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 512
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 274877906944
+Elapsed Time 1.061112e+01 seconds
+FLOP/s 0.000000e+00
+B/s 2.590471e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 512
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 274877906944
+Elapsed Time 1.046430e+01 seconds
+FLOP/s 0.000000e+00
+B/s 2.626816e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 512
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 274877906944
+Elapsed Time 1.045245e+01 seconds
+FLOP/s 0.000000e+00
+B/s 2.629794e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 512
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 274877906944
+Elapsed Time 1.130739e+01 seconds
+FLOP/s 0.000000e+00
+B/s 2.430958e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 256
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 137438953472
+Elapsed Time 8.458727e+00 seconds
+FLOP/s 0.000000e+00
+B/s 1.624818e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 256
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 137438953472
+Elapsed Time 8.359562e+00 seconds
+FLOP/s 0.000000e+00
+B/s 1.644093e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 256
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 137438953472
+Elapsed Time 8.409353e+00 seconds
+FLOP/s 0.000000e+00
+B/s 1.634358e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 256
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 137438953472
+Elapsed Time 8.412412e+00 seconds
+FLOP/s 0.000000e+00
+B/s 1.633764e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 256
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 137438953472
+Elapsed Time 8.686288e+00 seconds
+FLOP/s 0.000000e+00
+B/s 1.582252e+10
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 128
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 68719476736
+Elapsed Time 7.561844e+00 seconds
+FLOP/s 0.000000e+00
+B/s 9.087661e+09
+~/task-bench/experiments/cori_metg_memory
+~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
+Running Task Benchmark
+  Configuration:
+    Task Graph 1:
+      Time Steps: 8192
+      Max Width: 32
+      Dependence Type: stencil_1d
+      Radix: 5
+      Period: 0
+      Fraction Connected: 0.250000
+      Kernel:
+        Type: memory_bound
+        Iterations: 128
+        Samples: 8192
+        Imbalance: 0.000000
+      Output Bytes: 16
+      Scratch Bytes: 16777216
+Total Tasks 262144
+Total Dependencies 770048
+Total FLOPs 0
+Total Bytes 68719476736
+Elapsed Time 7.539344e+00 seconds
+FLOP/s 0.000000e+00
+B/s 9.114782e+09
 ~/task-bench/experiments/cori_metg_memory
 ~/task-bench/tensorflow ~/task-bench/experiments/cori_metg_memory
